@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img">
+<title>Figure 1: Source-faithfulness hallucinations in constructed QA and summarization examples, not measured model outputs. Green marks unsupported additions; magenta and blue mark value and relation contradictions. Highlights are illustrative, not an exhaustive taxonomy; world factuality is a separate criterion.</title>
+<rect width="1200" height="780" fill="white"/>
+<rect x="20" y="20" width="1160" height="426" rx="0" fill="#ffffff" stroke="#a4ad00" stroke-width="2.5" stroke-dasharray="7 5"/>
+<text x="31" y="57" font-family="Comic Sans MS" font-weight="normal" font-style="normal" font-size="27" fill="#a4ad00" text-anchor="start">Judgement Hallucination Examples</text>
+<rect x="42" y="97" width="360" height="315" rx="2" fill="#f8f5ec" stroke="#c0b9a5" stroke-width="1"/>
+<text x="58" y="127" font-family="Comic Sans MS" font-weight="bold" font-style="normal" font-size="23" fill="#555147" text-anchor="start">Source: library record</text>
+<text x="58" y="160" font-family="Comic Sans MS" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">Northbridge Library opened in</text>
+<text x="58" y="187" font-family="Comic Sans MS" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">2020.</text>
+<text x="58" y="226" font-family="Comic Sans MS" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">It holds 12,000 books.</text>
+<text x="58" y="265" font-family="Comic Sans MS" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">The archive is on the second</text>
+<text x="58" y="292" font-family="Comic Sans MS" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">floor.</text>
+<rect x="612" y="71" width="499" height="48" rx="14" fill="#fff1c5" stroke="#fff1c5" stroke-width="0"/>
+<text x="629" y="102" font-family="Arial" font-weight="normal" font-style="normal" font-size="23" fill="#000000" text-anchor="start">Is there a cafe in the library?</text>
+<circle cx="1142" cy="95" r="24" fill="#ffcf9f" stroke="#c87952" stroke-width="2"/>
+<rect x="1120" y="69" width="44" height="17" rx="8" fill="#6a3527" stroke="#4b271f" stroke-width="1.8"/>
+<circle cx="1134" cy="95" r="3" fill="#35211d" stroke="#35211d" stroke-width="1.2"/>
+<circle cx="1150" cy="95" r="3" fill="#35211d" stroke="#35211d" stroke-width="1.2"/>
+<polyline points="1135,107 1142,110 1149,107" stroke="#af4a41" stroke-width="2" fill="none"/>
+<polyline points="452,130 452,122" stroke="#007d9d" stroke-width="2" fill="none"/>
+<circle cx="452" cy="120" r="3" fill="#40cce0" stroke="#007d9d" stroke-width="1.2"/>
+<rect x="427" y="136" width="7" height="21" rx="3" fill="#9dddea" stroke="#007d9d" stroke-width="2"/>
+<rect x="470" y="136" width="7" height="21" rx="3" fill="#9dddea" stroke="#007d9d" stroke-width="2"/>
+<rect x="432" y="129" width="40" height="43" rx="12" fill="#b7e7ee" stroke="#007d9d" stroke-width="2"/>
+<rect x="437" y="141" width="30" height="17" rx="6" fill="#0d303d" stroke="#0d303d" stroke-width="1.1"/>
+<circle cx="444" cy="149" r="4" fill="#ffd658" stroke="#ffd658" stroke-width="1.2"/>
+<circle cx="460" cy="149" r="4" fill="#ffd658" stroke="#ffd658" stroke-width="1.2"/>
+<polyline points="445,165 459,165" stroke="#20596c" stroke-width="2" fill="none"/>
+<rect x="494" y="127" width="635" height="52" rx="13" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0"/>
+<text x="509" y="160" font-family="Arial" font-weight="normal" font-style="normal" font-size="23" fill="#00bd10" text-anchor="start">Yes, there is a cafe in the library.</text>
+<rect x="612" y="196" width="499" height="48" rx="14" fill="#fff1c5" stroke="#fff1c5" stroke-width="0"/>
+<text x="629" y="227" font-family="Arial" font-weight="normal" font-style="normal" font-size="23" fill="#000000" text-anchor="start">Does it hold 20,000 books?</text>
+<circle cx="1142" cy="220" r="24" fill="#ffcf9f" stroke="#c87952" stroke-width="2"/>
+<rect x="1120" y="194" width="44" height="17" rx="8" fill="#6a3527" stroke="#4b271f" stroke-width="1.8"/>
+<circle cx="1134" cy="220" r="3" fill="#35211d" stroke="#35211d" stroke-width="1.2"/>
+<circle cx="1150" cy="220" r="3" fill="#35211d" stroke="#35211d" stroke-width="1.2"/>
+<polyline points="1135,232 1142,235 1149,232" stroke="#af4a41" stroke-width="2" fill="none"/>
+<polyline points="452,255 452,247" stroke="#007d9d" stroke-width="2" fill="none"/>
+<circle cx="452" cy="245" r="3" fill="#40cce0" stroke="#007d9d" stroke-width="1.2"/>
+<rect x="427" y="261" width="7" height="21" rx="3" fill="#9dddea" stroke="#007d9d" stroke-width="2"/>
+<rect x="470" y="261" width="7" height="21" rx="3" fill="#9dddea" stroke="#007d9d" stroke-width="2"/>
+<rect x="432" y="254" width="40" height="43" rx="12" fill="#b7e7ee" stroke="#007d9d" stroke-width="2"/>
+<rect x="437" y="266" width="30" height="17" rx="6" fill="#0d303d" stroke="#0d303d" stroke-width="1.1"/>
+<circle cx="444" cy="274" r="4" fill="#ffd658" stroke="#ffd658" stroke-width="1.2"/>
+<circle cx="460" cy="274" r="4" fill="#ffd658" stroke="#ffd658" stroke-width="1.2"/>
+<polyline points="445,290 459,290" stroke="#20596c" stroke-width="2" fill="none"/>
+<rect x="494" y="252" width="635" height="52" rx="13" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0"/>
+<text x="509" y="285" font-family="Arial" font-weight="normal" font-style="normal" font-size="23" fill="#ff0098" text-anchor="start">Yes, it holds 20,000 books.</text>
+<rect x="612" y="321" width="499" height="48" rx="14" fill="#fff1c5" stroke="#fff1c5" stroke-width="0"/>
+<text x="629" y="352" font-family="Arial" font-weight="normal" font-style="normal" font-size="23" fill="#000000" text-anchor="start">Is the archive on the first floor?</text>
+<circle cx="1142" cy="345" r="24" fill="#ffcf9f" stroke="#c87952" stroke-width="2"/>
+<rect x="1120" y="319" width="44" height="17" rx="8" fill="#6a3527" stroke="#4b271f" stroke-width="1.8"/>
+<circle cx="1134" cy="345" r="3" fill="#35211d" stroke="#35211d" stroke-width="1.2"/>
+<circle cx="1150" cy="345" r="3" fill="#35211d" stroke="#35211d" stroke-width="1.2"/>
+<polyline points="1135,357 1142,360 1149,357" stroke="#af4a41" stroke-width="2" fill="none"/>
+<polyline points="452,380 452,372" stroke="#007d9d" stroke-width="2" fill="none"/>
+<circle cx="452" cy="370" r="3" fill="#40cce0" stroke="#007d9d" stroke-width="1.2"/>
+<rect x="427" y="386" width="7" height="21" rx="3" fill="#9dddea" stroke="#007d9d" stroke-width="2"/>
+<rect x="470" y="386" width="7" height="21" rx="3" fill="#9dddea" stroke="#007d9d" stroke-width="2"/>
+<rect x="432" y="379" width="40" height="43" rx="12" fill="#b7e7ee" stroke="#007d9d" stroke-width="2"/>
+<rect x="437" y="391" width="30" height="17" rx="6" fill="#0d303d" stroke="#0d303d" stroke-width="1.1"/>
+<circle cx="444" cy="399" r="4" fill="#ffd658" stroke="#ffd658" stroke-width="1.2"/>
+<circle cx="460" cy="399" r="4" fill="#ffd658" stroke="#ffd658" stroke-width="1.2"/>
+<polyline points="445,415 459,415" stroke="#20596c" stroke-width="2" fill="none"/>
+<rect x="494" y="377" width="635" height="52" rx="13" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0"/>
+<text x="509" y="410" font-family="Arial" font-weight="normal" font-style="normal" font-size="23" fill="#008eff" text-anchor="start">Yes, the archive is on the first floor.</text>
+<rect x="20" y="451" width="1160" height="282" rx="0" fill="#ffffff" stroke="#ff123b" stroke-width="2.5" stroke-dasharray="7 5"/>
+<text x="31" y="489" font-family="Comic Sans MS" font-weight="normal" font-style="normal" font-size="27" fill="#ff123b" text-anchor="start">Description Hallucination Examples</text>
+<rect x="42" y="513" width="360" height="202" rx="2" fill="#f8f5ec" stroke="#c0b9a5" stroke-width="1"/>
+<text x="58" y="543" font-family="Comic Sans MS" font-weight="bold" font-style="normal" font-size="23" fill="#555147" text-anchor="start">Source: delivery note</text>
+<text x="58" y="576" font-family="Comic Sans MS" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">200 books arrived Monday.</text>
+<text x="58" y="603" font-family="Comic Sans MS" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">Sorting: Tuesday. Cataloguing:</text>
+<text x="58" y="630" font-family="Comic Sans MS" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">Wednesday.</text>
+<rect x="610" y="507" width="501" height="48" rx="14" fill="#fff1c5" stroke="#fff1c5" stroke-width="0"/>
+<text x="626" y="539" font-family="Arial" font-weight="normal" font-style="normal" font-size="23" fill="#000000" text-anchor="start">Summarize the delivery note.</text>
+<circle cx="1142" cy="531" r="24" fill="#ffcf9f" stroke="#c87952" stroke-width="2"/>
+<rect x="1120" y="505" width="44" height="17" rx="8" fill="#6a3527" stroke="#4b271f" stroke-width="1.8"/>
+<circle cx="1134" cy="531" r="3" fill="#35211d" stroke="#35211d" stroke-width="1.2"/>
+<circle cx="1150" cy="531" r="3" fill="#35211d" stroke="#35211d" stroke-width="1.2"/>
+<polyline points="1135,543 1142,546 1149,543" stroke="#af4a41" stroke-width="2" fill="none"/>
+<polyline points="452,579 452,571" stroke="#007d9d" stroke-width="2" fill="none"/>
+<circle cx="452" cy="569" r="3" fill="#40cce0" stroke="#007d9d" stroke-width="1.2"/>
+<rect x="427" y="585" width="7" height="21" rx="3" fill="#9dddea" stroke="#007d9d" stroke-width="2"/>
+<rect x="470" y="585" width="7" height="21" rx="3" fill="#9dddea" stroke="#007d9d" stroke-width="2"/>
+<rect x="432" y="578" width="40" height="43" rx="12" fill="#b7e7ee" stroke="#007d9d" stroke-width="2"/>
+<rect x="437" y="590" width="30" height="17" rx="6" fill="#0d303d" stroke="#0d303d" stroke-width="1.1"/>
+<circle cx="444" cy="598" r="4" fill="#ffd658" stroke="#ffd658" stroke-width="1.2"/>
+<circle cx="460" cy="598" r="4" fill="#ffd658" stroke="#ffd658" stroke-width="1.2"/>
+<polyline points="445,614 459,614" stroke="#20596c" stroke-width="2" fill="none"/>
+<rect x="494" y="572" width="648" height="143" rx="14" fill="#f4f4f4" stroke="#f4f4f4" stroke-width="0"/>
+<text x="511" y="605" font-family="Arial" font-weight="normal" font-style="normal" font-size="23" fill="#000000" text-anchor="start">On </text>
+<text x="548.07177734375" y="605" font-family="Arial" font-weight="normal" font-style="normal" font-size="23" fill="#ff0098" text-anchor="start">Tuesday</text>
+<text x="636.287109375" y="605" font-family="Arial" font-weight="normal" font-style="normal" font-size="23" fill="#000000" text-anchor="start">, the library received </text>
+<text x="849.76708984375" y="605" font-family="Arial" font-weight="normal" font-style="normal" font-size="23" fill="#ff0098" text-anchor="start">500 books</text>
+<text x="955.90625" y="605" font-family="Arial" font-weight="normal" font-style="normal" font-size="23" fill="#000000" text-anchor="start">.</text>
+<text x="511" y="639" font-family="Arial" font-weight="normal" font-style="normal" font-size="23" fill="#000000" text-anchor="start">The books came </text>
+<text x="687.41943359375" y="639" font-family="Arial" font-weight="normal" font-style="normal" font-size="23" fill="#00bd10" text-anchor="start">from a university</text>
+<text x="856.134765625" y="639" font-family="Arial" font-weight="normal" font-style="normal" font-size="23" fill="#000000" text-anchor="start">.</text>
+<text x="511" y="674" font-family="Arial" font-weight="normal" font-style="normal" font-size="23" fill="#008eff" text-anchor="start">Cataloguing happened before sorting</text>
+<text x="889.51171875" y="674" font-family="Arial" font-weight="normal" font-style="normal" font-size="23" fill="#000000" text-anchor="start">.</text>
+<text x="34" y="764" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">Unsupported does not necessarily mean false in the world; the source does not establish it.</text>
+</svg>

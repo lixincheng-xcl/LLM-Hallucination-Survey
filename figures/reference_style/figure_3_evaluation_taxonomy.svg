@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="646" viewBox="0 0 1400 646" role="img">
+<title>Figure 3: Taxonomy of evaluation targets and criteria with benchmark references. Gen evaluates generated content; Dis evaluates detectors against human labels. Criteria are not shared protocols; Table 1 gives benchmark-specific details. The same benchmark may support both targets.</title>
+<rect width="1400" height="646" fill="white"/>
+<rect x="18" y="170" width="64" height="280" rx="8" fill="white" stroke="#005477" stroke-width="1.1"/>
+<text x="43" y="310" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="23" fill="#000000" text-anchor="middle" transform="rotate(-90 43 310)">LLM hallucination</text>
+<text x="68" y="310" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="23" fill="#000000" text-anchor="middle" transform="rotate(-90 68 310)">evaluation targets</text>
+<polyline points="82,310 98,310" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="98,156 98,447" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="98,156 116,156" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="98,447 116,447" stroke="#494949" stroke-width="1.9" fill="none"/>
+<rect x="116" y="120" width="265" height="72" rx="8" fill="white" stroke="#005477" stroke-width="1.1"/>
+<text x="122" y="150.825" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="23" fill="#000000" text-anchor="start">Generated content (Gen) /</text>
+<text x="122" y="176.815" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="23" fill="#000000" text-anchor="start">§4.1</text>
+<rect x="116" y="411" width="265" height="72" rx="8" fill="white" stroke="#005477" stroke-width="1.1"/>
+<text x="122" y="441.825" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="23" fill="#000000" text-anchor="start">Hallucination detectors</text>
+<text x="122" y="467.815" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="23" fill="#000000" text-anchor="start">(Dis) / §4.2</text>
+<polyline points="381,156 399,156" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="399,86 399,226" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="381,447 399,447" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="399,374 399,520" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="399,86 417,86" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="707,86 735,86" stroke="#494949" stroke-width="1.9" fill="none"/>
+<rect x="417" y="56" width="290" height="60" rx="8" fill="white" stroke="#005477" stroke-width="1.1"/>
+<text x="423" y="93.82" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="23" fill="#000000" text-anchor="start">World factuality</text>
+<rect x="735" y="16.0" width="645" height="140" rx="8" fill="#fffafb" stroke="#005477" stroke-width="1.1"/>
+<text x="746" y="41.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="21" fill="#000000" text-anchor="start">Truthfulness / factual precision / hallucination rate</text>
+<text x="746" y="67.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">TruthfulQA [Lin </text>
+<text x="899.9677734375" y="67.0" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="22" fill="#000000" text-anchor="start">et al.</text>
+<text x="943.95703125" y="67.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">, 2022]</text>
+<text x="746" y="92.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">ExpertQA [Malaviya </text>
+<text x="937.8232421875" y="92.0" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="22" fill="#000000" text-anchor="start">et al.</text>
+<text x="981.8125" y="92.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">, 2024]</text>
+<text x="746" y="117.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">HALoGEN [Ravichander </text>
+<text x="976.9248046875" y="117.0" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="22" fill="#000000" text-anchor="start">et al.</text>
+<text x="1020.9140625" y="117.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">, 2025]</text>
+<text x="746" y="142.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">FactBench [Fatahi Bayat </text>
+<text x="970.2109375" y="142.0" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="22" fill="#000000" text-anchor="start">et al.</text>
+<text x="1014.2001953125" y="142.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">, 2025]</text>
+<polyline points="399,226 417,226" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="707,226 735,226" stroke="#494949" stroke-width="1.9" fill="none"/>
+<rect x="417" y="196" width="290" height="60" rx="8" fill="white" stroke="#005477" stroke-width="1.1"/>
+<text x="423" y="233.82" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="23" fill="#000000" text-anchor="start">Source faithfulness</text>
+<rect x="735" y="170.0" width="645" height="112" rx="8" fill="#fffafb" stroke="#005477" stroke-width="1.1"/>
+<text x="746" y="195.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="21" fill="#000000" text-anchor="start">Source consistency / supported-claim rate</text>
+<text x="746" y="221.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">ExpertQA [Malaviya </text>
+<text x="937.8232421875" y="221.0" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="22" fill="#000000" text-anchor="start">et al.</text>
+<text x="981.8125" y="221.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">, 2024]</text>
+<text x="746" y="246.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">TofuEval [Tang </text>
+<text x="892.609375" y="246.0" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="22" fill="#000000" text-anchor="start">et al.</text>
+<text x="936.5986328125" y="246.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">, 2024]</text>
+<text x="746" y="271.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">FaithBench [Bao </text>
+<text x="901.1923828125" y="271.0" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="22" fill="#000000" text-anchor="start">et al.</text>
+<text x="945.181640625" y="271.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">, 2025]</text>
+<polyline points="399,374 417,374" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="707,374 735,374" stroke="#494949" stroke-width="1.9" fill="none"/>
+<rect x="417" y="344" width="290" height="60" rx="8" fill="white" stroke="#005477" stroke-width="1.1"/>
+<text x="423" y="368.825" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="23" fill="#000000" text-anchor="start">Response / sentence</text>
+<text x="423" y="394.815" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="23" fill="#000000" text-anchor="start">classification</text>
+<rect x="735" y="304.0" width="645" height="140" rx="8" fill="#fffafb" stroke="#005477" stroke-width="1.1"/>
+<text x="746" y="329.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="21" fill="#000000" text-anchor="start">Accuracy / balanced accuracy / F1</text>
+<text x="746" y="355.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">HaluEval [Li </text>
+<text x="866.95703125" y="355.0" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="22" fill="#000000" text-anchor="start">et al.</text>
+<text x="910.9462890625" y="355.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">, 2023]</text>
+<text x="746" y="380.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">ANAH [Ji </text>
+<text x="842.55078125" y="380.0" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="22" fill="#000000" text-anchor="start">et al.</text>
+<text x="886.5400390625" y="380.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">, 2024]</text>
+<text x="746" y="405.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">TofuEval [Tang </text>
+<text x="892.609375" y="405.0" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="22" fill="#000000" text-anchor="start">et al.</text>
+<text x="936.5986328125" y="405.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">, 2024]</text>
+<text x="746" y="430.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">FaithBench [Bao </text>
+<text x="901.1923828125" y="430.0" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="22" fill="#000000" text-anchor="start">et al.</text>
+<text x="945.181640625" y="430.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">, 2025]</text>
+<polyline points="399,520 417,520" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="707,520 735,520" stroke="#494949" stroke-width="1.9" fill="none"/>
+<rect x="417" y="490" width="290" height="60" rx="8" fill="white" stroke="#005477" stroke-width="1.1"/>
+<text x="423" y="527.82" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="23" fill="#000000" text-anchor="start">Error-span localization</text>
+<rect x="735" y="472.0" width="645" height="96" rx="8" fill="#fffafb" stroke="#005477" stroke-width="1.1"/>
+<text x="746" y="497.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="21" fill="#000000" text-anchor="start">Span precision / recall / F1</text>
+<text x="746" y="523.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">RAGTruth [Niu </text>
+<text x="892.65234375" y="523.0" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="22" fill="#000000" text-anchor="start">et al.</text>
+<text x="936.6416015625" y="523.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">, 2024]</text>
+<text x="746" y="549.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">(also response-level classification)</text>
+<rect x="116" y="597" width="1264" height="34" rx="6" fill="#f5f9fc" stroke="#005477" stroke-width="1.1"/>
+<text x="132" y="620" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="22" fill="#000000" text-anchor="start">Mitigation evaluation: matched settings + Gen/Dis criteria + coverage, refusal, cost and shift tests (§6).</text>
+</svg>

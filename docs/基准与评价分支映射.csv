@@ -1,0 +1,10 @@
+benchmark,evaluation,figure3_branch,caveat
+TruthfulQA,Gen / MC,World factuality,MC is not Dis
+HaluEval,Dis,Response / sentence classification,Separate subtask and sample construction
+ANAH,Dis,Response / sentence classification,Annotator architecture is not the evaluation target
+RAGTruth,Dis,Error-span localization; Response / sentence classification,Report both granularities separately
+ExpertQA,Gen,World factuality; Source faithfulness,Separate correctness and attribution
+TofuEval,Dis / Gen,Source faithfulness; Response / sentence classification,Output error rates differ from detector balanced accuracy
+HALoGEN,Gen,World factuality,Size is complete suite; text-relevant tasks only in discussion
+FaithBench,Dis / Gen,Source faithfulness; Response / sentence classification,Selected challenge corpus; not population hallucination prevalence
+FactBench,Gen,World factuality,Paper snapshot; precision is not completeness

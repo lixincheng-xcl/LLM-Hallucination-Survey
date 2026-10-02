@@ -1,0 +1,50 @@
+[
+  {
+    "file": "Fig1_hallucination_examples.drawio",
+    "vertices": 91,
+    "edges": 12,
+    "text_cells": 23,
+    "embedded_images": 0,
+    "png_size": [
+      2328,
+      1502
+    ],
+    "citations_verified": 0
+  },
+  {
+    "file": "Fig2_survey_structure.drawio",
+    "vertices": 114,
+    "edges": 40,
+    "text_cells": 55,
+    "embedded_images": 0,
+    "png_size": [
+      3134,
+      2334
+    ],
+    "citations_verified": 55
+  },
+  {
+    "file": "Fig3_evaluation_taxonomy.drawio",
+    "vertices": 52,
+    "edges": 16,
+    "text_cells": 29,
+    "embedded_images": 0,
+    "png_size": [
+      2728,
+      1234
+    ],
+    "citations_verified": 9
+  },
+  {
+    "file": "Fig4_causes_mitigation.drawio",
+    "vertices": 104,
+    "edges": 6,
+    "text_cells": 58,
+    "embedded_images": 0,
+    "png_size": [
+      2850,
+      1668
+    ],
+    "citations_verified": 13
+  }
+]

@@ -1,0 +1,541 @@
+{
+  "scope": "current figure/table citations and design sources; add final manuscript AUX when available",
+  "bibtex": "This is BibTeX, Version 0.99e (TeX Live 2026)",
+  "hashes": {
+    "bibliography/references.bib": "6c60fe3dfc2fd674fca0d1a04654d8bd56b96ba6eb9a1f500411f559b7e18ff6",
+    "bibliography/design_sources.bib": "fc1523084acffbbf71f8d896847855b73d813057423c4ba8c3b7dcc691d5722a",
+    "bibliography/acl_label_proof/acl_natbib.bst": "6fbb306202290f4b68e74ac1460a8b27398500cb6dfeb4492e74c457eae7cd1e"
+  },
+  "cited_keys": [
+    "adlakha-etal-2024-evaluating",
+    "azaria-mitchell-2023-internal",
+    "bang-etal-2025-hallulens",
+    "bao-etal-2025-faithbench",
+    "bi-etal-2025-context",
+    "cao-etal-2022-hallucinated",
+    "cattan-etal-2026-localizing",
+    "cheang-etal-2026-llms",
+    "chen-etal-2026-rethinking-evaluation",
+    "cheng-etal-2025-chain",
+    "chuang-etal-2024-lookback",
+    "cohen-etal-2023-lm",
+    "dhuliawala-etal-2024-chain",
+    "dziri-etal-2022-evaluating",
+    "dziri-etal-2022-faithdial",
+    "extcritic2024",
+    "extdola2024",
+    "extrgb2024",
+    "extselfrag2024",
+    "extsemanticentropy2024",
+    "extsemanticuncertainty2023",
+    "fabbri-etal-2022-qafacteval",
+    "fan-etal-2026-refl",
+    "fatahi-bayat-etal-2025-factbench",
+    "feng-etal-2023-factkb",
+    "feng-etal-2024-dont",
+    "gao-etal-2023-enabling",
+    "gekhman-etal-2023-trueteacher",
+    "gekhman-etal-2024-fine",
+    "gema-etal-2025-decore",
+    "godbole-jia-2025-verify",
+    "harary-etal-2026-prefixnli",
+    "honovich-etal-2022-true-evaluating",
+    "huang-chen-2024-factalign",
+    "huang-etal-2025-alleviating",
+    "huang-etal-2025-improving",
+    "janiak-etal-2025-illusion",
+    "ji-etal-2024-anah",
+    "jiang-etal-2023-active",
+    "jiang-etal-2024-large",
+    "jiang-etal-2025-core",
+    "jiang-etal-2026-benchmarks",
+    "kang-etal-2025-unfamiliar",
+    "khandelwal-etal-2025-cocoa",
+    "krishna-etal-2023-longeval",
+    "lee-etal-2026-enhancing",
+    "li-etal-2023-halueval",
+    "li-etal-2024-dawn",
+    "lin-etal-2022-truthfulqa",
+    "liu-etal-2024-lost",
+    "liu-etal-2024-lvlm-design",
+    "liu-etal-2024-universal",
+    "liu-etal-2025-logical-design",
+    "ma-etal-2023-bump",
+    "mahaut-etal-2024-factual",
+    "malaviya-etal-2024-expertqa",
+    "manakul-etal-2023-selfcheckgpt",
+    "marinescu-etal-2025-factreasoner",
+    "min-etal-2023-factscore",
+    "muhlgay-etal-2024-generating",
+    "niu-etal-2024-ragtruth",
+    "ravichander-etal-2025-halogen",
+    "samarinas-etal-2025-beyond",
+    "schuster-etal-2026-whose",
+    "scire-etal-2024-fenice",
+    "semnani-etal-2023-wikichat",
+    "servedio-etal-2025-hidden",
+    "shi-etal-2024-trusting",
+    "si-etal-2026-faithlens",
+    "song-etal-2024-veriscore",
+    "song-etal-2025-hallucination",
+    "tang-etal-2023-understanding",
+    "tang-etal-2024-tofueval",
+    "wang-etal-2024-factuality",
+    "wang-etal-2025-astute",
+    "wu-etal-2023-wecheck",
+    "wu-etal-2024-synchronous",
+    "xue-etal-2025-ualign",
+    "yu-etal-2024-reeval",
+    "zha-etal-2023-alignscore",
+    "zhang-etal-2023-enhancing-uncertainty",
+    "zhang-etal-2023-sac3",
+    "zhang-etal-2024-self",
+    "zhang-etal-2024-truthx",
+    "zhang-etal-2025-faithfulrag",
+    "zhang-etal-2026-stable",
+    "zhao-etal-2025-response",
+    "zhou-etal-2023-context"
+  ],
+  "labels": {
+    "adlakha-etal-2024-evaluating": {
+      "author": "Adlakha et al.",
+      "year_label": "2024",
+      "label": "Adlakha et al., 2024"
+    },
+    "extselfrag2024": {
+      "author": "Asai et al.",
+      "year_label": "2024",
+      "label": "Asai et al., 2024"
+    },
+    "azaria-mitchell-2023-internal": {
+      "author": "Azaria and Mitchell",
+      "year_label": "2023",
+      "label": "Azaria and Mitchell, 2023"
+    },
+    "bang-etal-2025-hallulens": {
+      "author": "Bang et al.",
+      "year_label": "2025",
+      "label": "Bang et al., 2025"
+    },
+    "bao-etal-2025-faithbench": {
+      "author": "Bao et al.",
+      "year_label": "2025",
+      "label": "Bao et al., 2025"
+    },
+    "bi-etal-2025-context": {
+      "author": "Bi et al.",
+      "year_label": "2025",
+      "label": "Bi et al., 2025"
+    },
+    "cao-etal-2022-hallucinated": {
+      "author": "Cao et al.",
+      "year_label": "2022",
+      "label": "Cao et al., 2022"
+    },
+    "cattan-etal-2026-localizing": {
+      "author": "Cattan et al.",
+      "year_label": "2026",
+      "label": "Cattan et al., 2026"
+    },
+    "cheang-etal-2026-llms": {
+      "author": "Cheang et al.",
+      "year_label": "2026",
+      "label": "Cheang et al., 2026"
+    },
+    "extrgb2024": {
+      "author": "Chen et al.",
+      "year_label": "2024",
+      "label": "Chen et al., 2024"
+    },
+    "chen-etal-2026-rethinking-evaluation": {
+      "author": "Chen et al.",
+      "year_label": "2026",
+      "label": "Chen et al., 2026"
+    },
+    "cheng-etal-2025-chain": {
+      "author": "Cheng et al.",
+      "year_label": "2025",
+      "label": "Cheng et al., 2025"
+    },
+    "chuang-etal-2024-lookback": {
+      "author": "Chuang et al.",
+      "year_label": "2024a",
+      "label": "Chuang et al., 2024a"
+    },
+    "extdola2024": {
+      "author": "Chuang et al.",
+      "year_label": "2024b",
+      "label": "Chuang et al., 2024b"
+    },
+    "cohen-etal-2023-lm": {
+      "author": "Cohen et al.",
+      "year_label": "2023",
+      "label": "Cohen et al., 2023"
+    },
+    "dhuliawala-etal-2024-chain": {
+      "author": "Dhuliawala et al.",
+      "year_label": "2024",
+      "label": "Dhuliawala et al., 2024"
+    },
+    "dziri-etal-2022-faithdial": {
+      "author": "Dziri et al.",
+      "year_label": "2022a",
+      "label": "Dziri et al., 2022a"
+    },
+    "dziri-etal-2022-evaluating": {
+      "author": "Dziri et al.",
+      "year_label": "2022b",
+      "label": "Dziri et al., 2022b"
+    },
+    "fabbri-etal-2022-qafacteval": {
+      "author": "Fabbri et al.",
+      "year_label": "2022",
+      "label": "Fabbri et al., 2022"
+    },
+    "fan-etal-2026-refl": {
+      "author": "Fan et al.",
+      "year_label": "2026",
+      "label": "Fan et al., 2026"
+    },
+    "extsemanticentropy2024": {
+      "author": "Farquhar et al.",
+      "year_label": "2024",
+      "label": "Farquhar et al., 2024"
+    },
+    "fatahi-bayat-etal-2025-factbench": {
+      "author": "Fatahi Bayat et al.",
+      "year_label": "2025",
+      "label": "Fatahi Bayat et al., 2025"
+    },
+    "feng-etal-2023-factkb": {
+      "author": "Feng et al.",
+      "year_label": "2023",
+      "label": "Feng et al., 2023"
+    },
+    "feng-etal-2024-dont": {
+      "author": "Feng et al.",
+      "year_label": "2024",
+      "label": "Feng et al., 2024"
+    },
+    "gao-etal-2023-enabling": {
+      "author": "Gao et al.",
+      "year_label": "2023",
+      "label": "Gao et al., 2023"
+    },
+    "gekhman-etal-2023-trueteacher": {
+      "author": "Gekhman et al.",
+      "year_label": "2023",
+      "label": "Gekhman et al., 2023"
+    },
+    "gekhman-etal-2024-fine": {
+      "author": "Gekhman et al.",
+      "year_label": "2024",
+      "label": "Gekhman et al., 2024"
+    },
+    "gema-etal-2025-decore": {
+      "author": "Gema et al.",
+      "year_label": "2025",
+      "label": "Gema et al., 2025"
+    },
+    "godbole-jia-2025-verify": {
+      "author": "Godbole and Jia",
+      "year_label": "2025",
+      "label": "Godbole and Jia, 2025"
+    },
+    "extcritic2024": {
+      "author": "Gou et al.",
+      "year_label": "2024",
+      "label": "Gou et al., 2024"
+    },
+    "harary-etal-2026-prefixnli": {
+      "author": "Harary et al.",
+      "year_label": "2026",
+      "label": "Harary et al., 2026"
+    },
+    "honovich-etal-2022-true-evaluating": {
+      "author": "Honovich et al.",
+      "year_label": "2022",
+      "label": "Honovich et al., 2022"
+    },
+    "huang-chen-2024-factalign": {
+      "author": "Huang and Chen",
+      "year_label": "2024",
+      "label": "Huang and Chen, 2024"
+    },
+    "huang-etal-2025-alleviating": {
+      "author": "Huang et al.",
+      "year_label": "2025a",
+      "label": "Huang et al., 2025a"
+    },
+    "huang-etal-2025-improving": {
+      "author": "Huang et al.",
+      "year_label": "2025b",
+      "label": "Huang et al., 2025b"
+    },
+    "janiak-etal-2025-illusion": {
+      "author": "Janiak et al.",
+      "year_label": "2025",
+      "label": "Janiak et al., 2025"
+    },
+    "ji-etal-2024-anah": {
+      "author": "Ji et al.",
+      "year_label": "2024",
+      "label": "Ji et al., 2024"
+    },
+    "jiang-etal-2024-large": {
+      "author": "Jiang et al.",
+      "year_label": "2024",
+      "label": "Jiang et al., 2024"
+    },
+    "jiang-etal-2026-benchmarks": {
+      "author": "Jiang et al.",
+      "year_label": "2026",
+      "label": "Jiang et al., 2026"
+    },
+    "jiang-etal-2023-active": {
+      "author": "Jiang et al.",
+      "year_label": "2023",
+      "label": "Jiang et al., 2023"
+    },
+    "jiang-etal-2025-core": {
+      "author": "Jiang et al.",
+      "year_label": "2025",
+      "label": "Jiang et al., 2025"
+    },
+    "kang-etal-2025-unfamiliar": {
+      "author": "Kang et al.",
+      "year_label": "2025",
+      "label": "Kang et al., 2025"
+    },
+    "khandelwal-etal-2025-cocoa": {
+      "author": "Khandelwal et al.",
+      "year_label": "2025",
+      "label": "Khandelwal et al., 2025"
+    },
+    "krishna-etal-2023-longeval": {
+      "author": "Krishna et al.",
+      "year_label": "2023",
+      "label": "Krishna et al., 2023"
+    },
+    "extsemanticuncertainty2023": {
+      "author": "Kuhn et al.",
+      "year_label": "2023",
+      "label": "Kuhn et al., 2023"
+    },
+    "lee-etal-2026-enhancing": {
+      "author": "Lee et al.",
+      "year_label": "2026",
+      "label": "Lee et al., 2026"
+    },
+    "li-etal-2024-dawn": {
+      "author": "Li et al.",
+      "year_label": "2024",
+      "label": "Li et al., 2024"
+    },
+    "li-etal-2023-halueval": {
+      "author": "Li et al.",
+      "year_label": "2023",
+      "label": "Li et al., 2023"
+    },
+    "lin-etal-2022-truthfulqa": {
+      "author": "Lin et al.",
+      "year_label": "2022",
+      "label": "Lin et al., 2022"
+    },
+    "liu-etal-2024-lvlm-design": {
+      "author": "Liu et al.",
+      "year_label": "2024a",
+      "label": "Liu et al., 2024a"
+    },
+    "liu-etal-2025-logical-design": {
+      "author": "Liu et al.",
+      "year_label": "2025",
+      "label": "Liu et al., 2025"
+    },
+    "liu-etal-2024-universal": {
+      "author": "Liu et al.",
+      "year_label": "2024b",
+      "label": "Liu et al., 2024b"
+    },
+    "liu-etal-2024-lost": {
+      "author": "Liu et al.",
+      "year_label": "2024c",
+      "label": "Liu et al., 2024c"
+    },
+    "ma-etal-2023-bump": {
+      "author": "Ma et al.",
+      "year_label": "2023",
+      "label": "Ma et al., 2023"
+    },
+    "mahaut-etal-2024-factual": {
+      "author": "Mahaut et al.",
+      "year_label": "2024",
+      "label": "Mahaut et al., 2024"
+    },
+    "malaviya-etal-2024-expertqa": {
+      "author": "Malaviya et al.",
+      "year_label": "2024",
+      "label": "Malaviya et al., 2024"
+    },
+    "manakul-etal-2023-selfcheckgpt": {
+      "author": "Manakul et al.",
+      "year_label": "2023",
+      "label": "Manakul et al., 2023"
+    },
+    "marinescu-etal-2025-factreasoner": {
+      "author": "Marinescu et al.",
+      "year_label": "2025",
+      "label": "Marinescu et al., 2025"
+    },
+    "min-etal-2023-factscore": {
+      "author": "Min et al.",
+      "year_label": "2023",
+      "label": "Min et al., 2023"
+    },
+    "muhlgay-etal-2024-generating": {
+      "author": "Muhlgay et al.",
+      "year_label": "2024",
+      "label": "Muhlgay et al., 2024"
+    },
+    "niu-etal-2024-ragtruth": {
+      "author": "Niu et al.",
+      "year_label": "2024",
+      "label": "Niu et al., 2024"
+    },
+    "ravichander-etal-2025-halogen": {
+      "author": "Ravichander et al.",
+      "year_label": "2025",
+      "label": "Ravichander et al., 2025"
+    },
+    "samarinas-etal-2025-beyond": {
+      "author": "Samarinas et al.",
+      "year_label": "2025",
+      "label": "Samarinas et al., 2025"
+    },
+    "schuster-etal-2026-whose": {
+      "author": "Schuster et al.",
+      "year_label": "2026",
+      "label": "Schuster et al., 2026"
+    },
+    "scire-etal-2024-fenice": {
+      "author": "Scir{\\`e} et al.",
+      "year_label": "2024",
+      "label": "Scir{\\`e} et al., 2024"
+    },
+    "semnani-etal-2023-wikichat": {
+      "author": "Semnani et al.",
+      "year_label": "2023",
+      "label": "Semnani et al., 2023"
+    },
+    "servedio-etal-2025-hidden": {
+      "author": "Servedio et al.",
+      "year_label": "2025",
+      "label": "Servedio et al., 2025"
+    },
+    "shi-etal-2024-trusting": {
+      "author": "Shi et al.",
+      "year_label": "2024",
+      "label": "Shi et al., 2024"
+    },
+    "si-etal-2026-faithlens": {
+      "author": "Si et al.",
+      "year_label": "2026",
+      "label": "Si et al., 2026"
+    },
+    "song-etal-2025-hallucination": {
+      "author": "Song et al.",
+      "year_label": "2025",
+      "label": "Song et al., 2025"
+    },
+    "song-etal-2024-veriscore": {
+      "author": "Song et al.",
+      "year_label": "2024",
+      "label": "Song et al., 2024"
+    },
+    "tang-etal-2023-understanding": {
+      "author": "Tang et al.",
+      "year_label": "2023",
+      "label": "Tang et al., 2023"
+    },
+    "tang-etal-2024-tofueval": {
+      "author": "Tang et al.",
+      "year_label": "2024",
+      "label": "Tang et al., 2024"
+    },
+    "wang-etal-2025-astute": {
+      "author": "Wang et al.",
+      "year_label": "2025",
+      "label": "Wang et al., 2025"
+    },
+    "wang-etal-2024-factuality": {
+      "author": "Wang et al.",
+      "year_label": "2024",
+      "label": "Wang et al., 2024"
+    },
+    "wu-etal-2024-synchronous": {
+      "author": "Wu et al.",
+      "year_label": "2024",
+      "label": "Wu et al., 2024"
+    },
+    "wu-etal-2023-wecheck": {
+      "author": "Wu et al.",
+      "year_label": "2023",
+      "label": "Wu et al., 2023"
+    },
+    "xue-etal-2025-ualign": {
+      "author": "Xue et al.",
+      "year_label": "2025",
+      "label": "Xue et al., 2025"
+    },
+    "yu-etal-2024-reeval": {
+      "author": "Yu et al.",
+      "year_label": "2024",
+      "label": "Yu et al., 2024"
+    },
+    "zha-etal-2023-alignscore": {
+      "author": "Zha et al.",
+      "year_label": "2023",
+      "label": "Zha et al., 2023"
+    },
+    "zhang-etal-2023-sac3": {
+      "author": "Zhang et al.",
+      "year_label": "2023a",
+      "label": "Zhang et al., 2023a"
+    },
+    "zhang-etal-2026-stable": {
+      "author": "Zhang et al.",
+      "year_label": "2026",
+      "label": "Zhang et al., 2026"
+    },
+    "zhang-etal-2025-faithfulrag": {
+      "author": "Zhang et al.",
+      "year_label": "2025",
+      "label": "Zhang et al., 2025"
+    },
+    "zhang-etal-2024-truthx": {
+      "author": "Zhang et al.",
+      "year_label": "2024a",
+      "label": "Zhang et al., 2024a"
+    },
+    "zhang-etal-2023-enhancing-uncertainty": {
+      "author": "Zhang et al.",
+      "year_label": "2023b",
+      "label": "Zhang et al., 2023b"
+    },
+    "zhang-etal-2024-self": {
+      "author": "Zhang et al.",
+      "year_label": "2024b",
+      "label": "Zhang et al., 2024b"
+    },
+    "zhao-etal-2025-response": {
+      "author": "Zhao et al.",
+      "year_label": "2025",
+      "label": "Zhao et al., 2025"
+    },
+    "zhou-etal-2023-context": {
+      "author": "Zhou et al.",
+      "year_label": "2023",
+      "label": "Zhou et al., 2023"
+    }
+  }
+}

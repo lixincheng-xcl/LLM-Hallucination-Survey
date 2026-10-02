@@ -1,0 +1,36 @@
+\documentclass[11pt]{article}
+\usepackage[preprint]{acl}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{inconsolata}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs,tabularx,array}
+\usepackage{url}
+\usepackage{placeins}
+\title{Hallucination in Large Language Models:\\A Survey of Detection, Evaluation, and Mitigation}
+\author{Xincheng Li \\ University of Auckland}
+\newcommand{\figwide}[3]{\begin{figure*}[t]\centering\includegraphics[width=\textwidth]{figures/#1}\caption{#2}\label{#3}\end{figure*}}
+\begin{document}
+\maketitle
+\begin{abstract}
+Large language models can produce fluent assertions that are false or unsupported by their evidence. Research spans detectors, benchmarks, and interventions, but their results often concern different correctness targets. This survey organizes text-based research from 2022--2026 around error definitions, detection evidence, and useful mitigation. We distinguish world factuality from source faithfulness, compare external-evidence, sampling-based, and internal-signal detectors, and connect evaluation to training, retrieval, decoding, and revision. Factual precision alone cannot establish progress: verifier dependence, selective answering, evidence quality, and distribution shift change the interpretation of gains. We develop a comparative framework pairing correctness with information coverage, independent verification, and cost, and propose tests of generalization and reliability.
+\end{abstract}
+\input{sections/01_introduction}
+\input{sections/02_background}
+\input{sections/03_detection}
+\input{sections/04_evaluation}
+\input{sections/05_mitigation}
+\input{sections/06_analysis}
+\section{Conclusion}
+Hallucination research requires explicit reference frames, detection signals, and intervention targets. External evidence enables verification but introduces retrieval and judge errors; consistency and internal signals remain conditional proxies. Training, retrieval, decoding, and revision address different failure points, often jointly. Progress requires independently verified gains in useful, supported information under matched evidence and budgets. This evaluation loop connects the survey's examples, taxonomy, benchmarks, and interventions.
+\label{sec:mainend}
+\clearpage
+\bibliography{references,design_sources}
+\clearpage
+\appendix
+\input{sections/appendix}
+\end{document}

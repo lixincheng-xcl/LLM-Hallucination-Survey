@@ -1,0 +1,52 @@
+{
+  "figure_count": 4,
+  "table_count": 1,
+  "width_mm": 160,
+  "figures": [
+    {
+      "name": "figure_1_hallucination_examples",
+      "canvas": [
+        1200,
+        780
+      ],
+      "minimum_box_font_pt": 8.69,
+      "boxes_checked": 0
+    },
+    {
+      "name": "figure_2_survey_structure",
+      "canvas": [
+        1600,
+        1197
+      ],
+      "minimum_box_font_pt": 7.09,
+      "boxes_checked": 29
+    },
+    {
+      "name": "figure_3_evaluation_taxonomy",
+      "canvas": [
+        1400,
+        646
+      ],
+      "minimum_box_font_pt": 7.45,
+      "boxes_checked": 6
+    },
+    {
+      "name": "figure_4_causes_mitigation",
+      "canvas": [
+        1450,
+        868
+      ],
+      "minimum_box_font_pt": 6.88,
+      "boxes_checked": 8
+    },
+    {
+      "name": "table_1_benchmarks",
+      "canvas": [
+        1550,
+        605
+      ],
+      "minimum_box_font_pt": 6.73,
+      "boxes_checked": 0
+    }
+  ]
+}

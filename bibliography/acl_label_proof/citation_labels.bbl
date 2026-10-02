@@ -1,0 +1,885 @@
+\begin{thebibliography}{88}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Adlakha et~al.(2024)Adlakha, BehnamGhader, Lu, Meade, and
+  Reddy}]{adlakha-etal-2024-evaluating}
+Vaibhav Adlakha, Parishad BehnamGhader, Xing~Han Lu, Nicholas Meade, and Siva
+  Reddy. 2024.
+\newblock \href {https://doi.org/10.1162/tacl_a_00667} {Evaluating correctness
+  and faithfulness of instruction-following models for question answering}.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  12:681--699.
+
+\bibitem[{Asai et~al.(2024)Asai, Wu, Wang, Sil, and
+  Hajishirzi}]{extselfrag2024}
+Akari Asai, Zeqiu Wu, Yizhong Wang, Avirup Sil, and Hannaneh Hajishirzi. 2024.
+\newblock \href {https://openreview.net/forum?id=hSyW5go0v8} {{Self-RAG:
+  Learning to Retrieve, Generate, and Critique through Self-Reflection}}.
+\newblock In \emph{The Twelfth International Conference on Learning
+  Representations}.
+
+\bibitem[{Azaria and Mitchell(2023)}]{azaria-mitchell-2023-internal}
+Amos Azaria and Tom Mitchell. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.findings-emnlp.68} {The
+  internal state of an {LLM} knows when it{'}s lying}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2023}, pages 967--976, Singapore. Association for Computational
+  Linguistics.
+
+\bibitem[{Bang et~al.(2025)Bang, Ji, Schelten, Hartshorn, Fowler, Zhang,
+  Cancedda, and Fung}]{bang-etal-2025-hallulens}
+Yejin Bang, Ziwei Ji, Alan Schelten, Anthony Hartshorn, Tara Fowler, Cheng
+  Zhang, Nicola Cancedda, and Pascale Fung. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.acl-long.1176}
+  {{H}allu{L}ens: {LLM} hallucination benchmark}.
+\newblock In \emph{Proceedings of the 63rd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 24128--24156,
+  Vienna, Austria. Association for Computational Linguistics.
+
+\bibitem[{Bao et~al.(2025)Bao, Li, Qu, Luo, Wan, Tang, Fan, Tamber, Kazi,
+  Sourabh, Qi, Tu, Xu, Gonzales, Mendelevitch, and
+  Ahmad}]{bao-etal-2025-faithbench}
+Forrest~Sheng Bao, Miaoran Li, Renyi Qu, Ge~Luo, Erana Wan, Yujia Tang, Weisi
+  Fan, Manveer~Singh Tamber, Suleman Kazi, Vivek Sourabh, Mike Qi, Ruixuan Tu,
+  Chenyu Xu, Matthew Gonzales, Ofer Mendelevitch, and Amin Ahmad. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.naacl-short.38}
+  {{F}aith{B}ench: A diverse hallucination benchmark for summarization by
+  {M}odern {LLM}s}.
+\newblock In \emph{Proceedings of the 2025 Conference of the Nations of the
+  Americas Chapter of the Association for Computational Linguistics: Human
+  Language Technologies (Volume 2: Short Papers)}, pages 448--461, Albuquerque,
+  New Mexico. Association for Computational Linguistics.
+
+\bibitem[{Bi et~al.(2025)Bi, Huang, Wang, Yang, Zhang, Huang, Mei, Fang, Li,
+  Wei, Deng, Sun, Zhang, and Liu}]{bi-etal-2025-context}
+Baolong Bi, Shaohan Huang, Yiwei Wang, Tianchi Yang, Zihan Zhang, Haizhen
+  Huang, Lingrui Mei, Junfeng Fang, Zehao Li, Furu Wei, Weiwei Deng, Feng Sun,
+  Qi~Zhang, and Shenghua Liu. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.findings-acl.536}
+  {Context-{DPO}: Aligning language models for context-faithfulness}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL 2025}, pages 10280--10300, Vienna, Austria. Association for Computational
+  Linguistics.
+
+\bibitem[{Cao et~al.(2022)Cao, Dong, and Cheung}]{cao-etal-2022-hallucinated}
+Meng Cao, Yue Dong, and Jackie Cheung. 2022.
+\newblock \href {https://doi.org/10.18653/v1/2022.acl-long.236} {Hallucinated
+  but factual! inspecting the factuality of hallucinations in abstractive
+  summarization}.
+\newblock In \emph{Proceedings of the 60th Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 3340--3354,
+  Dublin, Ireland. Association for Computational Linguistics.
+
+\bibitem[{Cattan et~al.(2026)Cattan, Roit, Zhang, Wan, Aharoni, Szpektor,
+  Bansal, and Dagan}]{cattan-etal-2026-localizing}
+Arie Cattan, Paul Roit, Shiyue Zhang, David Wan, Roee Aharoni, Idan Szpektor,
+  Mohit Bansal, and Ido Dagan. 2026.
+\newblock \href {https://doi.org/10.1162/tacl.a.598} {Localizing factual
+  inconsistencies in attributable text generation}.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  14:100--123.
+
+\bibitem[{Cheang et~al.(2026)Cheang, Chan, Zhang, and
+  Deng}]{cheang-etal-2026-llms}
+Chi~Seng Cheang, Hou~Pong Chan, Wenxuan Zhang, and Yang Deng. 2026.
+\newblock \href {https://doi.org/10.18653/v1/2026.findings-acl.34} {Do {LLM}s
+  really know what they don{'}t know? internal states mainly reflect knowledge
+  recall rather than truthfulness}.
+\newblock In \emph{Findings of the {A}ssociation for {C}omputational
+  {L}inguistics: {ACL} 2026}, pages 713--730, San Diego, California, United
+  States. Association for Computational Linguistics.
+
+\bibitem[{Chen et~al.(2024)Chen, Lin, Han, and Sun}]{extrgb2024}
+Jiawei Chen, Hongyu Lin, Xianpei Han, and Le~Sun. 2024.
+\newblock \href {https://doi.org/10.1609/aaai.v38i16.29728} {{Benchmarking
+  Large Language Models in Retrieval-Augmented Generation}}.
+\newblock In \emph{Proceedings of the AAAI Conference on Artificial
+  Intelligence}, pages 17754--17762.
+
+\bibitem[{Chen et~al.(2026)Chen, Padmanabhan, Giyahchi, Wong, and
+  Akoglu}]{chen-etal-2026-rethinking-evaluation}
+Wenbo Chen, Veena Padmanabhan, Tootiya Giyahchi, Elaine Wong, and Leman Akoglu.
+  2026.
+\newblock \href {https://doi.org/10.18653/v1/2026.acl-long.680} {Rethinking
+  evaluation for {LLM} hallucination detection: A desiderata, a new {RAG}-based
+  benchmark, new insights}.
+\newblock In \emph{Proceedings of the 64th Annual Meeting of the {A}ssociation
+  for {C}omputational {L}inguistics (Volume 1: Long Papers)}, pages
+  14912--14931, San Diego, California, United States. Association for
+  Computational Linguistics.
+
+\bibitem[{Cheng et~al.(2025)Cheng, Su, Yuan, He, Liu, Tao, Xie, and
+  Li}]{cheng-etal-2025-chain}
+Jiahao Cheng, Tiancheng Su, Jia Yuan, Guoxiu He, Jiawei Liu, Xinqi Tao, Jingwen
+  Xie, and Huaxia Li. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.findings-emnlp.67}
+  {Chain-of-thought prompting obscures hallucination cues in large language
+  models: An empirical evaluation}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2025}, pages 1272--1305, Suzhou, China. Association for Computational
+  Linguistics.
+
+\bibitem[{Chuang et~al.(2024{\natexlab{a}})Chuang, Qiu, Hsieh, Krishna, Kim,
+  and Glass}]{chuang-etal-2024-lookback}
+Yung-Sung Chuang, Linlu Qiu, Cheng-Yu Hsieh, Ranjay Krishna, Yoon Kim, and
+  James~R. Glass. 2024{\natexlab{a}}.
+\newblock \href {https://doi.org/10.18653/v1/2024.emnlp-main.84} {Lookback
+  lens: Detecting and mitigating contextual hallucinations in large language
+  models using only attention maps}.
+\newblock In \emph{Proceedings of the 2024 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1419--1436, Miami, Florida, USA.
+  Association for Computational Linguistics.
+
+\bibitem[{Chuang et~al.(2024{\natexlab{b}})Chuang, Xie, Luo, Kim, Glass, and
+  He}]{extdola2024}
+Yung-Sung Chuang, Yujia Xie, Hongyin Luo, Yoon Kim, James Glass, and Pengcheng
+  He. 2024{\natexlab{b}}.
+\newblock \href {https://openreview.net/forum?id=Th6NyL07na} {{DoLa: Decoding
+  by Contrasting Layers Improves Factuality in Large Language Models}}.
+\newblock In \emph{The Twelfth International Conference on Learning
+  Representations}.
+
+\bibitem[{Cohen et~al.(2023)Cohen, Hamri, Geva, and
+  Globerson}]{cohen-etal-2023-lm}
+Roi Cohen, May Hamri, Mor Geva, and Amir Globerson. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.emnlp-main.778} {{LM} vs
+  {LM}: Detecting factual errors via cross examination}.
+\newblock In \emph{Proceedings of the 2023 Conference on Empirical Methods in
+  Natural Language Processing}, pages 12621--12640, Singapore. Association for
+  Computational Linguistics.
+
+\bibitem[{Dhuliawala et~al.(2024)Dhuliawala, Komeili, Xu, Raileanu, Li,
+  Celikyilmaz, and Weston}]{dhuliawala-etal-2024-chain}
+Shehzaad Dhuliawala, Mojtaba Komeili, Jing Xu, Roberta Raileanu, Xian Li, Asli
+  Celikyilmaz, and Jason Weston. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.findings-acl.212}
+  {Chain-of-verification reduces hallucination in large language models}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL 2024}, pages 3563--3578, Bangkok, Thailand. Association for Computational
+  Linguistics.
+
+\bibitem[{Dziri et~al.(2022{\natexlab{a}})Dziri, Kamalloo, Milton, Zaiane, Yu,
+  Ponti, and Reddy}]{dziri-etal-2022-faithdial}
+Nouha Dziri, Ehsan Kamalloo, Sivan Milton, Osmar Zaiane, Mo~Yu, Edoardo~M.
+  Ponti, and Siva Reddy. 2022{\natexlab{a}}.
+\newblock \href {https://doi.org/10.1162/tacl_a_00529} {{F}aith{D}ial: A
+  faithful benchmark for information-seeking dialogue}.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  10:1473--1490.
+
+\bibitem[{Dziri et~al.(2022{\natexlab{b}})Dziri, Rashkin, Linzen, and
+  Reitter}]{dziri-etal-2022-evaluating}
+Nouha Dziri, Hannah Rashkin, Tal Linzen, and David Reitter. 2022{\natexlab{b}}.
+\newblock \href {https://doi.org/10.1162/tacl_a_00506} {Evaluating attribution
+  in dialogue systems: The {BEGIN} benchmark}.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  10:1066--1083.
+
+\bibitem[{Fabbri et~al.(2022)Fabbri, Wu, Liu, and
+  Xiong}]{fabbri-etal-2022-qafacteval}
+Alexander Fabbri, Chien-Sheng Wu, Wenhao Liu, and Caiming Xiong. 2022.
+\newblock \href {https://doi.org/10.18653/v1/2022.naacl-main.187}
+  {{QAF}act{E}val: Improved {QA}-based factual consistency evaluation for
+  summarization}.
+\newblock In \emph{Proceedings of the 2022 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies}, pages 2587--2601, Seattle, United States. Association for
+  Computational Linguistics.
+
+\bibitem[{Fan et~al.(2026)Fan, Zhang, Zhang, Zhang, Lv, Tao, and
+  Wen}]{fan-etal-2026-refl}
+Cunhang Fan, Jun Zhang, Xue Zhang, Shuai Zhang, Zhao Lv, Jianhua Tao, and
+  Zhengqi Wen. 2026.
+\newblock \href {https://doi.org/10.18653/v1/2026.acl-long.899} {{R}e{FL}:
+  Reflective feedback learning for hallucination detection of large language
+  models}.
+\newblock In \emph{Proceedings of the 64th Annual Meeting of the {A}ssociation
+  for {C}omputational {L}inguistics (Volume 1: Long Papers)}, pages
+  19648--19665, San Diego, California, United States. Association for
+  Computational Linguistics.
+
+\bibitem[{Farquhar et~al.(2024)Farquhar, Kossen, Kuhn, and
+  Gal}]{extsemanticentropy2024}
+Sebastian Farquhar, Jannik Kossen, Lorenz Kuhn, and Yarin Gal. 2024.
+\newblock \href {https://doi.org/10.1038/s41586-024-07421-0} {{Detecting
+  hallucinations in large language models using semantic entropy}}.
+\newblock \emph{Nature}, 630(8017):625--630.
+
+\bibitem[{Fatahi~Bayat et~al.(2025)Fatahi~Bayat, Zhang, Munir, and
+  Wang}]{fatahi-bayat-etal-2025-factbench}
+Farima Fatahi~Bayat, Lechen Zhang, Sheza Munir, and Lu~Wang. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.acl-long.1587}
+  {{F}act{B}ench: A dynamic benchmark for in-the-wild language model factuality
+  evaluation}.
+\newblock In \emph{Proceedings of the 63rd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 33090--33110,
+  Vienna, Austria. Association for Computational Linguistics.
+
+\bibitem[{Feng et~al.(2023)Feng, Balachandran, Bai, and
+  Tsvetkov}]{feng-etal-2023-factkb}
+Shangbin Feng, Vidhisha Balachandran, Yuyang Bai, and Yulia Tsvetkov. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.emnlp-main.59} {{F}act{KB}:
+  Generalizable factuality evaluation using language models enhanced with
+  factual knowledge}.
+\newblock In \emph{Proceedings of the 2023 Conference on Empirical Methods in
+  Natural Language Processing}, pages 933--952, Singapore. Association for
+  Computational Linguistics.
+
+\bibitem[{Feng et~al.(2024)Feng, Shi, Wang, Ding, Balachandran, and
+  Tsvetkov}]{feng-etal-2024-dont}
+Shangbin Feng, Weijia Shi, Yike Wang, Wenxuan Ding, Vidhisha Balachandran, and
+  Yulia Tsvetkov. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.acl-long.786} {Don{'}t
+  hallucinate, abstain: Identifying {LLM} knowledge gaps via multi-{LLM}
+  collaboration}.
+\newblock In \emph{Proceedings of the 62nd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 14664--14690,
+  Bangkok, Thailand. Association for Computational Linguistics.
+
+\bibitem[{Gao et~al.(2023)Gao, Yen, Yu, and Chen}]{gao-etal-2023-enabling}
+Tianyu Gao, Howard Yen, Jiatong Yu, and Danqi Chen. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.emnlp-main.398} {Enabling
+  large language models to generate text with citations}.
+\newblock In \emph{Proceedings of the 2023 Conference on Empirical Methods in
+  Natural Language Processing}, pages 6465--6488, Singapore. Association for
+  Computational Linguistics.
+
+\bibitem[{Gekhman et~al.(2023)Gekhman, Herzig, Aharoni, Elkind, and
+  Szpektor}]{gekhman-etal-2023-trueteacher}
+Zorik Gekhman, Jonathan Herzig, Roee Aharoni, Chen Elkind, and Idan Szpektor.
+  2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.emnlp-main.127}
+  {{T}rue{T}eacher: Learning factual consistency evaluation with large language
+  models}.
+\newblock In \emph{Proceedings of the 2023 Conference on Empirical Methods in
+  Natural Language Processing}, pages 2053--2070, Singapore. Association for
+  Computational Linguistics.
+
+\bibitem[{Gekhman et~al.(2024)Gekhman, Yona, Aharoni, Eyal, Feder, Reichart,
+  and Herzig}]{gekhman-etal-2024-fine}
+Zorik Gekhman, Gal Yona, Roee Aharoni, Matan Eyal, Amir Feder, Roi Reichart,
+  and Jonathan Herzig. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.emnlp-main.444} {Does
+  fine-tuning {LLM}s on new knowledge encourage hallucinations?}
+\newblock In \emph{Proceedings of the 2024 Conference on Empirical Methods in
+  Natural Language Processing}, pages 7765--7784, Miami, Florida, USA.
+  Association for Computational Linguistics.
+
+\bibitem[{Gema et~al.(2025)Gema, Jin, Abdulaal, Diethe, Teare, Alex, Minervini,
+  and Saseendran}]{gema-etal-2025-decore}
+Aryo~Pradipta Gema, Chen Jin, Ahmed Abdulaal, Tom Diethe, Philip~Alexander
+  Teare, Beatrice Alex, Pasquale Minervini, and Amrutha Saseendran. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.findings-emnlp.531}
+  {{D}e{C}o{R}e: Decoding by contrasting retrieval heads to mitigate
+  hallucinations}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2025}, pages 10003--10039, Suzhou, China. Association for Computational
+  Linguistics.
+
+\bibitem[{Godbole and Jia(2025)}]{godbole-jia-2025-verify}
+Ameya Godbole and Robin Jia. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.findings-acl.1175} {Verify
+  with caution: The pitfalls of relying on imperfect factuality metrics}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL 2025}, pages 22889--22912, Vienna, Austria. Association for Computational
+  Linguistics.
+
+\bibitem[{Gou et~al.(2024)Gou, Shao, Gong, Shen, Yang, Duan, and
+  Chen}]{extcritic2024}
+Zhibin Gou, Zhihong Shao, Yeyun Gong, Yelong Shen, Yujiu Yang, Nan Duan, and
+  Weizhu Chen. 2024.
+\newblock \href
+  {https://proceedings.iclr.cc/paper_files/paper/2024/hash/fef126561bbf9d4467dbb8d27334b8fe-Abstract-Conference.html}
+  {{CRITIC: Large Language Models Can Self-Correct with Tool-Interactive
+  Critiquing}}.
+\newblock In \emph{The Twelfth International Conference on Learning
+  Representations}.
+
+\bibitem[{Harary et~al.(2026)Harary, Hirsch, Slobodkin, Wan, Bansal, and
+  Dagan}]{harary-etal-2026-prefixnli}
+Sapir Harary, Eran Hirsch, Aviv Slobodkin, David Wan, Mohit Bansal, and Ido
+  Dagan. 2026.
+\newblock \href {https://doi.org/10.18653/v1/2026.acl-long.63} {{P}refix{NLI}:
+  Detecting factual inconsistencies as soon as they arise}.
+\newblock In \emph{Proceedings of the 64th Annual Meeting of the {A}ssociation
+  for {C}omputational {L}inguistics (Volume 1: Long Papers)}, pages 1414--1433,
+  San Diego, California, United States. Association for Computational
+  Linguistics.
+
+\bibitem[{Honovich et~al.(2022)Honovich, Aharoni, Herzig, Taitelbaum,
+  Kukliansy, Cohen, Scialom, Szpektor, Hassidim, and
+  Matias}]{honovich-etal-2022-true-evaluating}
+Or~Honovich, Roee Aharoni, Jonathan Herzig, Hagai Taitelbaum, Doron Kukliansy,
+  Vered Cohen, Thomas Scialom, Idan Szpektor, Avinatan Hassidim, and Yossi
+  Matias. 2022.
+\newblock \href {https://doi.org/10.18653/v1/2022.naacl-main.287} {{TRUE}:
+  Re-evaluating factual consistency evaluation}.
+\newblock In \emph{Proceedings of the 2022 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies}, pages 3905--3920, Seattle, United States. Association for
+  Computational Linguistics.
+
+\bibitem[{Huang and Chen(2024)}]{huang-chen-2024-factalign}
+Chao-Wei Huang and Yun-Nung Chen. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.findings-emnlp.955}
+  {{F}act{A}lign: Long-form factuality alignment of large language models}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2024}, pages 16363--16375, Miami, Florida, USA. Association for
+  Computational Linguistics.
+
+\bibitem[{Huang et~al.(2025{\natexlab{a}})Huang, Feng, Ma, Fan, Feng, Gu, Ye,
+  Zhao, Zhong, Wang, Wu, Hu, Kong, Xiao, Liu, and
+  Qin}]{huang-etal-2025-alleviating}
+Lei Huang, Xiaocheng Feng, Weitao Ma, Yuchun Fan, Xiachong Feng, Yuxuan Gu,
+  Yangfan Ye, Liang Zhao, Weihong Zhong, Baoxin Wang, Dayong Wu, Guoping Hu,
+  Lingpeng Kong, Tong Xiao, Ting Liu, and Bing Qin. 2025{\natexlab{a}}.
+\newblock \href {https://doi.org/10.18653/v1/2025.acl-long.1199} {Alleviating
+  hallucinations from knowledge misalignment in large language models via
+  selective abstention learning}.
+\newblock In \emph{Proceedings of the 63rd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 24564--24579,
+  Vienna, Austria. Association for Computational Linguistics.
+
+\bibitem[{Huang et~al.(2025{\natexlab{b}})Huang, Feng, Ma, Fan, Feng, Ye,
+  Zhong, Gu, Wang, Wu, Hu, and Qin}]{huang-etal-2025-improving}
+Lei Huang, Xiaocheng Feng, Weitao Ma, Yuchun Fan, Xiachong Feng, Yangfan Ye,
+  Weihong Zhong, Yuxuan Gu, Baoxin Wang, Dayong Wu, Guoping Hu, and Bing Qin.
+  2025{\natexlab{b}}.
+\newblock \href {https://doi.org/10.18653/v1/2025.acl-long.826} {Improving
+  contextual faithfulness of large language models via retrieval heads-induced
+  optimization}.
+\newblock In \emph{Proceedings of the 63rd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 16896--16913,
+  Vienna, Austria. Association for Computational Linguistics.
+
+\bibitem[{Janiak et~al.(2025)Janiak, Binkowski, Sawczyn, Gabrys, Shwartz-Ziv,
+  and Kajdanowicz}]{janiak-etal-2025-illusion}
+Denis Janiak, Jakub Binkowski, Albert Sawczyn, Bogdan Gabrys, Ravid
+  Shwartz-Ziv, and Tomasz~Jan Kajdanowicz. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.emnlp-main.1761} {The
+  illusion of progress: Re-evaluating hallucination detection in {LLM}s}.
+\newblock In \emph{Proceedings of the 2025 Conference on Empirical Methods in
+  Natural Language Processing}, pages 34728--34745, Suzhou, China. Association
+  for Computational Linguistics.
+
+\bibitem[{Ji et~al.(2024)Ji, Gu, Zhang, Lyu, Lin, and Chen}]{ji-etal-2024-anah}
+Ziwei Ji, Yuzhe Gu, Wenwei Zhang, Chengqi Lyu, Dahua Lin, and Kai Chen. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.acl-long.442} {{ANAH}:
+  Analytical annotation of hallucinations in large language models}.
+\newblock In \emph{Proceedings of the 62nd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 8135--8158,
+  Bangkok, Thailand. Association for Computational Linguistics.
+
+\bibitem[{Jiang et~al.(2024)Jiang, Qi, Hong, Fu, Cheng, Meng, Yu, Zhou, and
+  Zhou}]{jiang-etal-2024-large}
+Che Jiang, Biqing Qi, Xiangyu Hong, Dayuan Fu, Yang Cheng, Fandong Meng, Mo~Yu,
+  Bowen Zhou, and Jie Zhou. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.naacl-long.60} {On large
+  language models' hallucination with regard to known facts}.
+\newblock In \emph{Proceedings of the 2024 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies (Volume 1: Long Papers)}, pages 1041--1053, Mexico City, Mexico.
+  Association for Computational Linguistics.
+
+\bibitem[{Jiang et~al.(2026)Jiang, Chang, McAuley, and
+  Xu}]{jiang-etal-2026-benchmarks}
+Xunyi Jiang, Dingyi Chang, Julian McAuley, and Xin Xu. 2026.
+\newblock \href {https://doi.org/10.18653/v1/2026.eacl-short.37} {When
+  benchmarks age: Temporal misalignment through large language model factuality
+  evaluation}.
+\newblock In \emph{Proceedings of the 19th Conference of the {E}uropean Chapter
+  of the {A}ssociation for {C}omputational {L}inguistics (Volume 2: Short
+  Papers)}, pages 500--512, Rabat, Morocco. Association for Computational
+  Linguistics.
+
+\bibitem[{Jiang et~al.(2023)Jiang, Xu, Gao, Sun, Liu, Dwivedi-Yu, Yang, Callan,
+  and Neubig}]{jiang-etal-2023-active}
+Zhengbao Jiang, Frank Xu, Luyu Gao, Zhiqing Sun, Qian Liu, Jane Dwivedi-Yu,
+  Yiming Yang, Jamie Callan, and Graham Neubig. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.emnlp-main.495} {Active
+  retrieval augmented generation}.
+\newblock In \emph{Proceedings of the 2023 Conference on Empirical Methods in
+  Natural Language Processing}, pages 7969--7992, Singapore. Association for
+  Computational Linguistics.
+
+\bibitem[{Jiang et~al.(2025)Jiang, Zhang, Weir, Ebner, Wanner, Sanders,
+  Khashabi, Liu, and Van~Durme}]{jiang-etal-2025-core}
+Zhengping Jiang, Jingyu Zhang, Nathaniel Weir, Seth Ebner, Miriam Wanner, Kate
+  Sanders, Daniel Khashabi, Anqi Liu, and Benjamin Van~Durme. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.findings-acl.1018} {Core:
+  Robust factual precision with informative sub-claim identification}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL 2025}, pages 19833--19856, Vienna, Austria. Association for Computational
+  Linguistics.
+
+\bibitem[{Kang et~al.(2025)Kang, Wallace, Tomlin, Kumar, and
+  Levine}]{kang-etal-2025-unfamiliar}
+Katie Kang, Eric Wallace, Claire Tomlin, Aviral Kumar, and Sergey Levine. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.naacl-long.183} {Unfamiliar
+  finetuning examples control how language models hallucinate}.
+\newblock In \emph{Proceedings of the 2025 Conference of the Nations of the
+  Americas Chapter of the Association for Computational Linguistics: Human
+  Language Technologies (Volume 1: Long Papers)}, pages 3600--3612,
+  Albuquerque, New Mexico. Association for Computational Linguistics.
+
+\bibitem[{Khandelwal et~al.(2025)Khandelwal, Gupta, and
+  Agrawal}]{khandelwal-etal-2025-cocoa}
+Anant Khandelwal, Manish Gupta, and Puneet Agrawal. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.emnlp-main.348} {{C}o{C}o{A}:
+  Confidence- and context-aware adaptive decoding for resolving knowledge
+  conflicts in large language models}.
+\newblock In \emph{Proceedings of the 2025 Conference on Empirical Methods in
+  Natural Language Processing}, pages 6835--6855, Suzhou, China. Association
+  for Computational Linguistics.
+
+\bibitem[{Krishna et~al.(2023)Krishna, Bransom, Kuehl, Iyyer, Dasigi, Cohan,
+  and Lo}]{krishna-etal-2023-longeval}
+Kalpesh Krishna, Erin Bransom, Bailey Kuehl, Mohit Iyyer, Pradeep Dasigi, Arman
+  Cohan, and Kyle Lo. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.eacl-main.121} {{L}ong{E}val:
+  Guidelines for human evaluation of faithfulness in long-form summarization}.
+\newblock In \emph{Proceedings of the 17th Conference of the European Chapter
+  of the Association for Computational Linguistics}, pages 1650--1669,
+  Dubrovnik, Croatia. Association for Computational Linguistics.
+
+\bibitem[{Kuhn et~al.(2023)Kuhn, Gal, and
+  Farquhar}]{extsemanticuncertainty2023}
+Lorenz Kuhn, Yarin Gal, and Sebastian Farquhar. 2023.
+\newblock \href {https://openreview.net/forum?id=VD-AYtP0dve} {{Semantic
+  Uncertainty: Linguistic Invariances for Uncertainty Estimation in Natural
+  Language Generation}}.
+\newblock In \emph{The Eleventh International Conference on Learning
+  Representations}.
+
+\bibitem[{Lee et~al.(2026)Lee, Park, Jo, Kim, Park, and
+  Yoo}]{lee-etal-2026-enhancing}
+Joosung Lee, Cheonbok Park, Hwiyeol Jo, Jeonghoon Kim, Joonsuk Park, and
+  Kang~Min Yoo. 2026.
+\newblock \href {https://doi.org/10.18653/v1/2026.findings-acl.35} {Enhancing
+  hallucination detection via future context}.
+\newblock In \emph{Findings of the {A}ssociation for {C}omputational
+  {L}inguistics: {ACL} 2026}, pages 731--749, San Diego, California, United
+  States. Association for Computational Linguistics.
+
+\bibitem[{Li et~al.(2024)Li, Chen, Ren, Cheng, Zhao, Nie, and
+  Wen}]{li-etal-2024-dawn}
+Junyi Li, Jie Chen, Ruiyang Ren, Xiaoxue Cheng, Xin Zhao, Jian-Yun Nie, and
+  Ji-Rong Wen. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.acl-long.586} {The dawn after
+  the dark: An empirical study on factuality hallucination in large language
+  models}.
+\newblock In \emph{Proceedings of the 62nd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 10879--10899,
+  Bangkok, Thailand. Association for Computational Linguistics.
+
+\bibitem[{Li et~al.(2023)Li, Cheng, Zhao, Nie, and Wen}]{li-etal-2023-halueval}
+Junyi Li, Xiaoxue Cheng, Xin Zhao, Jian-Yun Nie, and Ji-Rong Wen. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.emnlp-main.397}
+  {{H}alu{E}val: A large-scale hallucination evaluation benchmark for large
+  language models}.
+\newblock In \emph{Proceedings of the 2023 Conference on Empirical Methods in
+  Natural Language Processing}, pages 6449--6464, Singapore. Association for
+  Computational Linguistics.
+
+\bibitem[{Lin et~al.(2022)Lin, Hilton, and Evans}]{lin-etal-2022-truthfulqa}
+Stephanie Lin, Jacob Hilton, and Owain Evans. 2022.
+\newblock \href {https://doi.org/10.18653/v1/2022.acl-long.229}
+  {{T}ruthful{QA}: Measuring how models mimic human falsehoods}.
+\newblock In \emph{Proceedings of the 60th Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 3214--3252,
+  Dublin, Ireland. Association for Computational Linguistics.
+
+\bibitem[{Liu et~al.(2024{\natexlab{a}})Liu, Xue, Chen, Chen, Zhao, Wang, Hou,
+  Li, and Peng}]{liu-etal-2024-lvlm-design}
+Hanchao Liu, Wenyuan Xue, Yifei Chen, Dapeng Chen, Xiutian Zhao, Ke~Wang,
+  Liping Hou, Rongjun Li, and Wei Peng. 2024{\natexlab{a}}.
+\newblock \href {https://arxiv.org/abs/2402.00253v2} {A survey on hallucination
+  in large vision-language models}.
+\newblock \emph{arXiv preprint arXiv:2402.00253}.
+\newblock Design reference; supplied version v2.
+
+\bibitem[{Liu et~al.(2025)Liu, Fu, Ding, Ning, Zhang, Liu, and
+  Zhang}]{liu-etal-2025-logical-design}
+Hanmeng Liu, Zhizhang Fu, Mengru Ding, Ruoxi Ning, Chaoli Zhang, Xiaozhang Liu,
+  and Yue Zhang. 2025.
+\newblock \href {https://arxiv.org/abs/2502.09100v1} {Logical reasoning in
+  large language models: A survey}.
+\newblock \emph{arXiv preprint arXiv:2502.09100}.
+\newblock Design reference; supplied version v1.
+
+\bibitem[{Liu et~al.(2024{\natexlab{b}})Liu, Chen, Cheng, and
+  He}]{liu-etal-2024-universal}
+Junteng Liu, Shiqi Chen, Yu~Cheng, and Junxian He. 2024{\natexlab{b}}.
+\newblock \href {https://doi.org/10.18653/v1/2024.emnlp-main.1012} {On the
+  universal truthfulness hyperplane inside {LLM}s}.
+\newblock In \emph{Proceedings of the 2024 Conference on Empirical Methods in
+  Natural Language Processing}, pages 18199--18224, Miami, Florida, USA.
+  Association for Computational Linguistics.
+
+\bibitem[{Liu et~al.(2024{\natexlab{c}})Liu, Lin, Hewitt, Paranjape,
+  Bevilacqua, Petroni, and Liang}]{liu-etal-2024-lost}
+Nelson~F. Liu, Kevin Lin, John Hewitt, Ashwin Paranjape, Michele Bevilacqua,
+  Fabio Petroni, and Percy Liang. 2024{\natexlab{c}}.
+\newblock \href {https://doi.org/10.1162/tacl_a_00638} {Lost in the middle: How
+  language models use long contexts}.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  12:157--173.
+
+\bibitem[{Ma et~al.(2023)Ma, Cao, Logan~IV, Lu, Ran, Zhang, Tetreault, and
+  Jaimes}]{ma-etal-2023-bump}
+Liang Ma, Shuyang Cao, Robert~L Logan~IV, Di~Lu, Shihao Ran, Ke~Zhang, Joel
+  Tetreault, and Alejandro Jaimes. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.acl-long.716} {{BUMP}: A
+  benchmark of unfaithful minimal pairs for meta-evaluation of faithfulness
+  metrics}.
+\newblock In \emph{Proceedings of the 61st Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 12788--12812,
+  Toronto, Canada. Association for Computational Linguistics.
+
+\bibitem[{Mahaut et~al.(2024)Mahaut, Aina, Czarnowska, Hardalov, M{\"u}ller,
+  and Marquez}]{mahaut-etal-2024-factual}
+Mat{\'e}o Mahaut, Laura Aina, Paula Czarnowska, Momchil Hardalov, Thomas
+  M{\"u}ller, and Lluis Marquez. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.acl-long.250} {Factual
+  confidence of {LLM}s: on reliability and robustness of current estimators}.
+\newblock In \emph{Proceedings of the 62nd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 4554--4570,
+  Bangkok, Thailand. Association for Computational Linguistics.
+
+\bibitem[{Malaviya et~al.(2024)Malaviya, Lee, Chen, Sieber, Yatskar, and
+  Roth}]{malaviya-etal-2024-expertqa}
+Chaitanya Malaviya, Subin Lee, Sihao Chen, Elizabeth Sieber, Mark Yatskar, and
+  Dan Roth. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.naacl-long.167}
+  {{E}xpert{QA}: Expert-curated questions and attributed answers}.
+\newblock In \emph{Proceedings of the 2024 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies (Volume 1: Long Papers)}, pages 3025--3045, Mexico City, Mexico.
+  Association for Computational Linguistics.
+
+\bibitem[{Manakul et~al.(2023)Manakul, Liusie, and
+  Gales}]{manakul-etal-2023-selfcheckgpt}
+Potsawee Manakul, Adian Liusie, and Mark Gales. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.emnlp-main.557}
+  {{S}elf{C}heck{GPT}: Zero-resource black-box hallucination detection for
+  generative large language models}.
+\newblock In \emph{Proceedings of the 2023 Conference on Empirical Methods in
+  Natural Language Processing}, pages 9004--9017, Singapore. Association for
+  Computational Linguistics.
+
+\bibitem[{Marinescu et~al.(2025)Marinescu, Bhattacharjya, Lee, Tchrakian,
+  Carnerero-Cano, Hou, Daly, and Pascale}]{marinescu-etal-2025-factreasoner}
+Radu Marinescu, Debarun Bhattacharjya, Junkyu Lee, Tigran~T. Tchrakian, Javier
+  Carnerero-Cano, Yufang Hou, Elizabeth~M. Daly, and Alessandra Pascale. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.findings-emnlp.785}
+  {{F}act{R}easoner: A probabilistic approach to long-form factuality
+  assessment for large language models}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2025}, pages 14547--14577, Suzhou, China. Association for Computational
+  Linguistics.
+
+\bibitem[{Min et~al.(2023)Min, Krishna, Lyu, Lewis, Yih, Koh, Iyyer,
+  Zettlemoyer, and Hajishirzi}]{min-etal-2023-factscore}
+Sewon Min, Kalpesh Krishna, Xinxi Lyu, Mike Lewis, Wen-tau Yih, Pang Koh, Mohit
+  Iyyer, Luke Zettlemoyer, and Hannaneh Hajishirzi. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.emnlp-main.741}
+  {{FA}ct{S}core: Fine-grained atomic evaluation of factual precision in long
+  form text generation}.
+\newblock In \emph{Proceedings of the 2023 Conference on Empirical Methods in
+  Natural Language Processing}, pages 12076--12100, Singapore. Association for
+  Computational Linguistics.
+
+\bibitem[{Muhlgay et~al.(2024)Muhlgay, Ram, Magar, Levine, Ratner, Belinkov,
+  Abend, Leyton-Brown, Shashua, and Shoham}]{muhlgay-etal-2024-generating}
+Dor Muhlgay, Ori Ram, Inbal Magar, Yoav Levine, Nir Ratner, Yonatan Belinkov,
+  Omri Abend, Kevin Leyton-Brown, Amnon Shashua, and Yoav Shoham. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.eacl-long.4} {Generating
+  benchmarks for factuality evaluation of language models}.
+\newblock In \emph{Proceedings of the 18th Conference of the European Chapter
+  of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages 49--66, St. Julian{'}s, Malta. Association for Computational
+  Linguistics.
+
+\bibitem[{Niu et~al.(2024)Niu, Wu, Zhu, Xu, Shum, Zhong, Song, and
+  Zhang}]{niu-etal-2024-ragtruth}
+Cheng Niu, Yuanhao Wu, Juno Zhu, Siliang Xu, KaShun Shum, Randy Zhong, Juntong
+  Song, and Tong Zhang. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.acl-long.585} {{RAGT}ruth: A
+  hallucination corpus for developing trustworthy retrieval-augmented language
+  models}.
+\newblock In \emph{Proceedings of the 62nd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 10862--10878,
+  Bangkok, Thailand. Association for Computational Linguistics.
+
+\bibitem[{Ravichander et~al.(2025)Ravichander, Ghela, Wadden, and
+  Choi}]{ravichander-etal-2025-halogen}
+Abhilasha Ravichander, Shrusti Ghela, David Wadden, and Yejin Choi. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.acl-long.71} {{HAL}o{GEN}:
+  Fantastic {LLM} hallucinations and where to find them}.
+\newblock In \emph{Proceedings of the 63rd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 1402--1425,
+  Vienna, Austria. Association for Computational Linguistics.
+
+\bibitem[{Samarinas et~al.(2025)Samarinas, Krubner, Salemi, Kim, and
+  Zamani}]{samarinas-etal-2025-beyond}
+Chris Samarinas, Alexander Krubner, Alireza Salemi, Youngwoo Kim, and Hamed
+  Zamani. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.findings-acl.693} {Beyond
+  factual accuracy: Evaluating coverage of diverse factual information in
+  long-form text generation}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL 2025}, pages 13468--13482, Vienna, Austria. Association for Computational
+  Linguistics.
+
+\bibitem[{Schuster et~al.(2026)Schuster, Gautam, and
+  Markert}]{schuster-etal-2026-whose}
+Jakob Schuster, Vagrant Gautam, and Katja Markert. 2026.
+\newblock \href {https://doi.org/10.18653/v1/2026.acl-long.1357} {Whose facts
+  win? {LLM} source preferences under knowledge conflicts}.
+\newblock In \emph{Proceedings of the 64th Annual Meeting of the {A}ssociation
+  for {C}omputational {L}inguistics (Volume 1: Long Papers)}, pages
+  29430--29459, San Diego, California, United States. Association for
+  Computational Linguistics.
+
+\bibitem[{Scir{\`e} et~al.(2024)Scir{\`e}, Ghonim, and
+  Navigli}]{scire-etal-2024-fenice}
+Alessandro Scir{\`e}, Karim Ghonim, and Roberto Navigli. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.findings-acl.841} {{FENICE}:
+  Factuality evaluation of summarization based on natural language inference
+  and claim extraction}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL 2024}, pages 14148--14161, Bangkok, Thailand. Association for
+  Computational Linguistics.
+
+\bibitem[{Semnani et~al.(2023)Semnani, Yao, Zhang, and
+  Lam}]{semnani-etal-2023-wikichat}
+Sina Semnani, Violet Yao, Heidi Zhang, and Monica Lam. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.findings-emnlp.157}
+  {{W}iki{C}hat: Stopping the hallucination of large language model chatbots by
+  few-shot grounding on {W}ikipedia}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2023}, pages 2387--2413, Singapore. Association for Computational
+  Linguistics.
+
+\bibitem[{Servedio et~al.(2025)Servedio, De~Bellis, Di~Palma, Anelli, and
+  Di~Noia}]{servedio-etal-2025-hidden}
+Giovanni Servedio, Alessandro De~Bellis, Dario Di~Palma, Vito~Walter Anelli,
+  and Tommaso Di~Noia. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.acl-long.304} {Are the hidden
+  states hiding something? testing the limits of factuality-encoding
+  capabilities in {LLM}s}.
+\newblock In \emph{Proceedings of the 63rd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 6089--6104,
+  Vienna, Austria. Association for Computational Linguistics.
+
+\bibitem[{Shi et~al.(2024)Shi, Han, Lewis, Tsvetkov, Zettlemoyer, and
+  Yih}]{shi-etal-2024-trusting}
+Weijia Shi, Xiaochuang Han, Mike Lewis, Yulia Tsvetkov, Luke Zettlemoyer, and
+  Wen-tau Yih. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.naacl-short.69} {Trusting
+  your evidence: Hallucinate less with context-aware decoding}.
+\newblock In \emph{Proceedings of the 2024 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies (Volume 2: Short Papers)}, pages 783--791, Mexico City, Mexico.
+  Association for Computational Linguistics.
+
+\bibitem[{Si et~al.(2026)Si, Wang, Zhao, Bai, Chen, Luo, Chen, Qi, Zhang,
+  Chang, and Sun}]{si-etal-2026-faithlens}
+Shuzheng Si, Qingyi Wang, Haozhe Zhao, Yuzhuo Bai, Guanqiao Chen, Kangyang Luo,
+  Gang Chen, Fanchao Qi, Minjia Zhang, Baobao Chang, and Maosong Sun. 2026.
+\newblock \href {https://doi.org/10.18653/v1/2026.findings-acl.689}
+  {{F}aith{L}ens: Detecting and explaining faithfulness hallucination}.
+\newblock In \emph{Findings of the {A}ssociation for {C}omputational
+  {L}inguistics: {ACL} 2026}, pages 14068--14099, San Diego, California, United
+  States. Association for Computational Linguistics.
+
+\bibitem[{Song et~al.(2025)Song, Shi, and Zhao}]{song-etal-2025-hallucination}
+Linxin Song, Taiwei Shi, and Jieyu Zhao. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.findings-emnlp.112} {The
+  hallucination tax of reinforcement finetuning}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2025}, pages 2105--2120, Suzhou, China. Association for Computational
+  Linguistics.
+
+\bibitem[{Song et~al.(2024)Song, Kim, and Iyyer}]{song-etal-2024-veriscore}
+Yixiao Song, Yekyung Kim, and Mohit Iyyer. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.findings-emnlp.552}
+  {{V}eri{S}core: Evaluating the factuality of verifiable claims in long-form
+  text generation}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2024}, pages 9447--9474, Miami, Florida, USA. Association for
+  Computational Linguistics.
+
+\bibitem[{Tang et~al.(2023)Tang, Goyal, Fabbri, Laban, Xu, Yavuz, Kryscinski,
+  Rousseau, and Durrett}]{tang-etal-2023-understanding}
+Liyan Tang, Tanya Goyal, Alex Fabbri, Philippe Laban, Jiacheng Xu, Semih Yavuz,
+  Wojciech Kryscinski, Justin Rousseau, and Greg Durrett. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.acl-long.650} {Understanding
+  factual errors in summarization: Errors, summarizers, datasets, error
+  detectors}.
+\newblock In \emph{Proceedings of the 61st Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 11626--11644,
+  Toronto, Canada. Association for Computational Linguistics.
+
+\bibitem[{Tang et~al.(2024)Tang, Shalyminov, Wong, Burnsky, Vincent, Yang,
+  Singh, Feng, Song, Su, Sun, Zhang, Mansour, and
+  McKeown}]{tang-etal-2024-tofueval}
+Liyan Tang, Igor Shalyminov, Amy Wong, Jon Burnsky, Jake Vincent, Yu{'}an Yang,
+  Siffi Singh, Song Feng, Hwanjun Song, Hang Su, Lijia Sun, Yi~Zhang, Saab
+  Mansour, and Kathleen McKeown. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.naacl-long.251}
+  {{T}ofu{E}val: Evaluating hallucinations of {LLM}s on topic-focused dialogue
+  summarization}.
+\newblock In \emph{Proceedings of the 2024 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies (Volume 1: Long Papers)}, pages 4455--4480, Mexico City, Mexico.
+  Association for Computational Linguistics.
+
+\bibitem[{Wang et~al.(2025)Wang, Wan, Sun, Chen, and
+  Arik}]{wang-etal-2025-astute}
+Fei Wang, Xingchen Wan, Ruoxi Sun, Jiefeng Chen, and Sercan~O Arik. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.acl-long.1476} {Astute {RAG}:
+  Overcoming imperfect retrieval augmentation and knowledge conflicts for large
+  language models}.
+\newblock In \emph{Proceedings of the 63rd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 30553--30571,
+  Vienna, Austria. Association for Computational Linguistics.
+
+\bibitem[{Wang et~al.(2024)Wang, Wang, Manzoor, Liu, Georgiev, Das, and
+  Nakov}]{wang-etal-2024-factuality}
+Yuxia Wang, Minghan Wang, Muhammad~Arslan Manzoor, Fei Liu, Georgi~Nenkov
+  Georgiev, Rocktim~Jyoti Das, and Preslav Nakov. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.emnlp-main.1088} {Factuality
+  of large language models: A survey}.
+\newblock In \emph{Proceedings of the 2024 Conference on Empirical Methods in
+  Natural Language Processing}, pages 19519--19529, Miami, Florida, USA.
+  Association for Computational Linguistics.
+
+\bibitem[{Wu et~al.(2024)Wu, Gu, Yin, Peng, and
+  Chang}]{wu-etal-2024-synchronous}
+Di~Wu, Jia-Chen Gu, Fan Yin, Nanyun Peng, and Kai-Wei Chang. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.emnlp-main.527} {Synchronous
+  faithfulness monitoring for trustworthy retrieval-augmented generation}.
+\newblock In \emph{Proceedings of the 2024 Conference on Empirical Methods in
+  Natural Language Processing}, pages 9390--9406, Miami, Florida, USA.
+  Association for Computational Linguistics.
+
+\bibitem[{Wu et~al.(2023)Wu, Li, Xiao, Liu, Li, and Lyu}]{wu-etal-2023-wecheck}
+Wenhao Wu, Wei Li, Xinyan Xiao, Jiachen Liu, Sujian Li, and Yajuan Lyu. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.acl-long.18} {{W}e{C}heck:
+  Strong factual consistency checker via weakly supervised learning}.
+\newblock In \emph{Proceedings of the 61st Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 307--321,
+  Toronto, Canada. Association for Computational Linguistics.
+
+\bibitem[{Xue et~al.(2025)Xue, Mi, Zhu, Wang, Wang, Wang, Yu, Hu, and
+  Wong}]{xue-etal-2025-ualign}
+Boyang Xue, Fei Mi, Qi~Zhu, Hongru Wang, Rui Wang, Sheng Wang, Erxin Yu, Xuming
+  Hu, and Kam-Fai Wong. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.acl-long.299} {{UA}lign:
+  Leveraging uncertainty estimations for factuality alignment on large language
+  models}.
+\newblock In \emph{Proceedings of the 63rd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 6002--6024,
+  Vienna, Austria. Association for Computational Linguistics.
+
+\bibitem[{Yu et~al.(2024)Yu, Cheng, Liu, Roth, and Gao}]{yu-etal-2024-reeval}
+Xiaodong Yu, Hao Cheng, Xiaodong Liu, Dan Roth, and Jianfeng Gao. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.findings-naacl.85}
+  {{R}e{E}val: Automatic hallucination evaluation for retrieval-augmented large
+  language models via transferable adversarial attacks}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  NAACL 2024}, pages 1333--1351, Mexico City, Mexico. Association for
+  Computational Linguistics.
+
+\bibitem[{Zha et~al.(2023)Zha, Yang, Li, and Hu}]{zha-etal-2023-alignscore}
+Yuheng Zha, Yichi Yang, Ruichen Li, and Zhiting Hu. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.acl-long.634}
+  {{A}lign{S}core: Evaluating factual consistency with a unified alignment
+  function}.
+\newblock In \emph{Proceedings of the 61st Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 11328--11348,
+  Toronto, Canada. Association for Computational Linguistics.
+
+\bibitem[{Zhang et~al.(2023{\natexlab{a}})Zhang, Li, Das, Malin, and
+  Kumar}]{zhang-etal-2023-sac3}
+Jiaxin Zhang, Zhuohang Li, Kamalika Das, Bradley Malin, and Sricharan Kumar.
+  2023{\natexlab{a}}.
+\newblock \href {https://doi.org/10.18653/v1/2023.findings-emnlp.1032}
+  {{SAC}$^3$: Reliable hallucination detection in black-box language models via
+  semantic-aware cross-check consistency}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2023}, pages 15445--15458, Singapore. Association for Computational
+  Linguistics.
+
+\bibitem[{Zhang et~al.(2026)Zhang, Zhang, Pang, Zheng, and
+  Zheng}]{zhang-etal-2026-stable}
+Qianchi Zhang, Hainan Zhang, Liang Pang, Hong-Wei Zheng, and Zhiming Zheng.
+  2026.
+\newblock \href {https://doi.org/10.18653/v1/2026.acl-long.1188} {Stable-{RAG}:
+  Mitigating retrieval-permutation-induced hallucinations in
+  retrieval-augmented generation}.
+\newblock In \emph{Proceedings of the 64th Annual Meeting of the {A}ssociation
+  for {C}omputational {L}inguistics (Volume 1: Long Papers)}, pages
+  25907--25926, San Diego, California, United States. Association for
+  Computational Linguistics.
+
+\bibitem[{Zhang et~al.(2025)Zhang, Xiang, Xiao, Wang, Li, Wang, and
+  Su}]{zhang-etal-2025-faithfulrag}
+Qinggang Zhang, Zhishang Xiang, Yilin Xiao, Le~Wang, Junhui Li, Xinrun Wang,
+  and Jinsong Su. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.acl-long.1062}
+  {{F}aithful{RAG}: Fact-level conflict modeling for context-faithful
+  retrieval-augmented generation}.
+\newblock In \emph{Proceedings of the 63rd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 21863--21882,
+  Vienna, Austria. Association for Computational Linguistics.
+
+\bibitem[{Zhang et~al.(2024{\natexlab{a}})Zhang, Yu, and
+  Feng}]{zhang-etal-2024-truthx}
+Shaolei Zhang, Tian Yu, and Yang Feng. 2024{\natexlab{a}}.
+\newblock \href {https://doi.org/10.18653/v1/2024.acl-long.483} {{T}ruth{X}:
+  Alleviating hallucinations by editing large language models in truthful
+  space}.
+\newblock In \emph{Proceedings of the 62nd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 8908--8949,
+  Bangkok, Thailand. Association for Computational Linguistics.
+
+\bibitem[{Zhang et~al.(2023{\natexlab{b}})Zhang, Qiu, Guo, Deng, Zhang, Zhang,
+  Zhou, Wang, and Fu}]{zhang-etal-2023-enhancing-uncertainty}
+Tianhang Zhang, Lin Qiu, Qipeng Guo, Cheng Deng, Yue Zhang, Zheng Zhang,
+  Chenghu Zhou, Xinbing Wang, and Luoyi Fu. 2023{\natexlab{b}}.
+\newblock \href {https://doi.org/10.18653/v1/2023.emnlp-main.58} {Enhancing
+  uncertainty-based hallucination detection with stronger focus}.
+\newblock In \emph{Proceedings of the 2023 Conference on Empirical Methods in
+  Natural Language Processing}, pages 915--932, Singapore. Association for
+  Computational Linguistics.
+
+\bibitem[{Zhang et~al.(2024{\natexlab{b}})Zhang, Peng, Tian, Zhou, Jin, Song,
+  Mi, and Meng}]{zhang-etal-2024-self}
+Xiaoying Zhang, Baolin Peng, Ye~Tian, Jingyan Zhou, Lifeng Jin, Linfeng Song,
+  Haitao Mi, and Helen Meng. 2024{\natexlab{b}}.
+\newblock \href {https://doi.org/10.18653/v1/2024.acl-long.107} {Self-alignment
+  for factuality: Mitigating hallucinations in {LLM}s via self-evaluation}.
+\newblock In \emph{Proceedings of the 62nd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 1946--1965,
+  Bangkok, Thailand. Association for Computational Linguistics.
+
+\bibitem[{Zhao et~al.(2025)Zhao, Liu, Hooi, and Ng}]{zhao-etal-2025-response}
+James~Xu Zhao, Jimmy~Z.J. Liu, Bryan Hooi, and See-Kiong Ng. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.findings-acl.161} {How does
+  response length affect long-form factuality}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL 2025}, pages 3102--3125, Vienna, Austria. Association for Computational
+  Linguistics.
+
+\bibitem[{Zhou et~al.(2023)Zhou, Zhang, Poon, and
+  Chen}]{zhou-etal-2023-context}
+Wenxuan Zhou, Sheng Zhang, Hoifung Poon, and Muhao Chen. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.findings-emnlp.968}
+  {Context-faithful prompting for large language models}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2023}, pages 14544--14556, Singapore. Association for Computational
+  Linguistics.
+
+\end{thebibliography}

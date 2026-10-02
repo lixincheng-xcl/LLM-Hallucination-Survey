@@ -4,3 +4,8 @@ __pycache__/
 local_cache/
 .venv/
 verification_local/
+
+# Reproducible manuscript intermediates and local editorial working notes
+manuscript/build/
+docs/manuscript_work/
+*.bkp

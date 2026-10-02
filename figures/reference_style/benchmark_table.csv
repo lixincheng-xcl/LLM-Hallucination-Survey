@@ -1,0 +1,10 @@
+benchmark,paper_id,evaluation,size,hallucination_focus,metrics,source_locator,counting_notes
+TruthfulQA,2022.acl-long.229,Gen / MC,817 questions,World factuality,Truthfulness; informativeness,Abstract; §2.2,"817-question test set; MC is multiple choice, not hallucination detection."
+HaluEval,2023.emnlp-main.397,Dis,"35,000 samples",Mixed-task hallucination,Recognition accuracy,§1; §2,30k task-specific samples plus 5k general user-query responses.
+ANAH,2024.acl-long.442,Dis,~12k sentences,QA support / contradiction,Type accuracy; F1,Abstract; §3.4; §4.3,About 4.3k responses. Generative and discriminative annotators both perform the Dis task of classifying hallucination labels; decoder architecture does not make this a Gen evaluation.
+RAGTruth,2024.acl-long.585,Dis,"17,790 responses",RAG source faithfulness,"Response / span P, R, F1",Table 2; §5.1,"Full corpus: 2,965 source instances times 6 generators; not a single held-out split."
+ExpertQA,2024.naacl-long.167,Gen,"2,177 questions",Correctness & attribution,Human factuality / support,Abstract; §3; §4,Questions span 32 fields; factuality and attribution are annotated separately.
+TofuEval,2024.naacl-long.251,Dis / Gen,"1,479 summaries*",Dialogue-summary consistency,Balanced accuracy; error rate,§3.3; §4; §5,"Paper reports 1,500 generated and 1,479 retained summaries (3,966 sentences); its text also says 23 removed, an arithmetic inconsistency. Retained count is quoted, not recomputed."
+HALoGEN,2025.acl-long.71,Gen,"10,923 prompts",Domain-specific factuality,Atomic hallucination rate,Abstract; §2,Full nine-domain suite includes programming; survey discussion is limited to text-relevant tasks. No invented text-only count.
+FaithBench,2025.naacl-short.38,Dis / Gen,750 summaries,Summary source faithfulness,Balanced accuracy; macro F1,§2.4; §3.3,"Final 75 source passages times 10 LLMs, selected for detector disagreement; not the earlier 800-sample intermediate set."
+FactBench,2025.acl-long.1587,Gen,"1,000 prompts",Verifiable factual claims,Hallucination score; precision,§1; §4.6; §5.2,The 2025 paper snapshot; a dynamic resource may change. 150 topics.

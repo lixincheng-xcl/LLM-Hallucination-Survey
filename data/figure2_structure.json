@@ -1,0 +1,335 @@
+{
+  "updated": "2026-10-02",
+  "note": "Curated from the existing 87-paper library; 4–5 citations per leaf. Hybrid papers may appear in more than one branch.",
+  "groups": [
+    {
+      "label": "Concepts & scope (§2)",
+      "nodes": [
+        {
+          "section": "2.1",
+          "label": "Reference frames (§2.1)",
+          "papers": [
+            {
+              "id": "2022.acl-long.236",
+              "label": ""
+            },
+            {
+              "id": "2022.tacl-1.62",
+              "label": "BEGIN"
+            },
+            {
+              "id": "2024.tacl-1.38",
+              "label": ""
+            },
+            {
+              "id": "2025.acl-long.1176",
+              "label": "HalluLens"
+            }
+          ]
+        },
+        {
+          "section": "2.2",
+          "label": "Error relations & history (§2.2)",
+          "papers": [
+            {
+              "id": "2024.emnlp-main.1088",
+              "label": "Factuality survey"
+            },
+            {
+              "id": "2024.acl-long.586",
+              "label": "HaluEval 2.0"
+            },
+            {
+              "id": "2024.acl-long.442",
+              "label": "ANAH"
+            },
+            {
+              "id": "2025.acl-long.1176",
+              "label": "HalluLens"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Detection methods (§3)",
+      "nodes": [
+        {
+          "section": "3.1",
+          "label": "External evidence (§3.1)",
+          "papers": [
+            {
+              "id": "2022.naacl-main.187",
+              "label": "QAFactEval"
+            },
+            {
+              "id": "2023.acl-long.634",
+              "label": "AlignScore"
+            },
+            {
+              "id": "2023.emnlp-main.741",
+              "label": "FActScore"
+            },
+            {
+              "id": "2024.findings-emnlp.552",
+              "label": "VeriScore"
+            },
+            {
+              "id": "2026.acl-long.63",
+              "label": "PrefixNLI"
+            }
+          ]
+        },
+        {
+          "section": "3.2",
+          "label": "Sampling & consistency (§3.2)",
+          "papers": [
+            {
+              "id": "2023.emnlp-main.557",
+              "label": "SelfCheckGPT"
+            },
+            {
+              "id": "ext-semantic-uncertainty",
+              "label": "Semantic uncertainty"
+            },
+            {
+              "id": "2023.emnlp-main.778",
+              "label": "LM vs LM"
+            },
+            {
+              "id": "2023.findings-emnlp.1032",
+              "label": "SAC3"
+            },
+            {
+              "id": "ext-semantic-entropy",
+              "label": "Semantic entropy"
+            }
+          ]
+        },
+        {
+          "section": "3.3",
+          "label": "Internal signals (§3.3)",
+          "papers": [
+            {
+              "id": "2023.emnlp-main.58",
+              "label": "FOCUS"
+            },
+            {
+              "id": "2023.findings-emnlp.68",
+              "label": "Internal-state probe"
+            },
+            {
+              "id": "2024.emnlp-main.84",
+              "label": "Lookback Lens"
+            },
+            {
+              "id": "2024.emnlp-main.1012",
+              "label": "Truthfulness hyperplane"
+            },
+            {
+              "id": "2026.acl-long.899",
+              "label": "ReFL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Evaluation (§4)",
+      "nodes": [
+        {
+          "section": "4.1",
+          "label": "Generation evaluation (§4.1)",
+          "papers": [
+            {
+              "id": "2022.acl-long.229",
+              "label": "TruthfulQA"
+            },
+            {
+              "id": "2024.naacl-long.167",
+              "label": "ExpertQA"
+            },
+            {
+              "id": "2024.naacl-long.251",
+              "label": "TofuEval"
+            },
+            {
+              "id": "2025.acl-long.71",
+              "label": "HALoGEN"
+            },
+            {
+              "id": "2025.acl-long.1587",
+              "label": "FactBench"
+            }
+          ]
+        },
+        {
+          "section": "4.2",
+          "label": "Detector evaluation (§4.2)",
+          "papers": [
+            {
+              "id": "2023.emnlp-main.397",
+              "label": "HaluEval"
+            },
+            {
+              "id": "2024.acl-long.442",
+              "label": "ANAH"
+            },
+            {
+              "id": "2024.acl-long.585",
+              "label": "RAGTruth"
+            },
+            {
+              "id": "2024.naacl-long.251",
+              "label": "TofuEval"
+            },
+            {
+              "id": "2025.naacl-short.38",
+              "label": "FaithBench"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Mitigation (§5)",
+      "nodes": [
+        {
+          "section": "5.1",
+          "label": "Training & alignment (§5.1)",
+          "papers": [
+            {
+              "id": "2022.tacl-1.84",
+              "label": "FaithDial"
+            },
+            {
+              "id": "2024.acl-long.107",
+              "label": "Self-Alignment"
+            },
+            {
+              "id": "2024.findings-emnlp.955",
+              "label": "FactAlign"
+            },
+            {
+              "id": "2025.acl-long.826",
+              "label": "RHIO"
+            },
+            {
+              "id": "2025.acl-long.299",
+              "label": "UAlign"
+            }
+          ]
+        },
+        {
+          "section": "5.2",
+          "label": "Retrieval & prompting (§5.2)",
+          "papers": [
+            {
+              "id": "2023.emnlp-main.495",
+              "label": "FLARE"
+            },
+            {
+              "id": "2023.findings-emnlp.968",
+              "label": "Context-faithful prompting"
+            },
+            {
+              "id": "ext-selfrag",
+              "label": "Self-RAG"
+            },
+            {
+              "id": "2025.acl-long.1476",
+              "label": "Astute RAG"
+            },
+            {
+              "id": "2026.acl-long.1188",
+              "label": "Stable-RAG"
+            }
+          ]
+        },
+        {
+          "section": "5.3",
+          "label": "Decoding & intervention (§5.3)",
+          "papers": [
+            {
+              "id": "2024.naacl-short.69",
+              "label": "CAD"
+            },
+            {
+              "id": "ext-dola",
+              "label": "DoLa"
+            },
+            {
+              "id": "2024.acl-long.483",
+              "label": "TruthX"
+            },
+            {
+              "id": "2024.emnlp-main.527",
+              "label": "SynCheck / FOD"
+            },
+            {
+              "id": "2025.findings-emnlp.531",
+              "label": "DeCoRe"
+            }
+          ]
+        },
+        {
+          "section": "5.4",
+          "label": "Revision & abstention (§5.4)",
+          "papers": [
+            {
+              "id": "2023.findings-emnlp.157",
+              "label": "WikiChat"
+            },
+            {
+              "id": "2024.findings-acl.212",
+              "label": "CoVe"
+            },
+            {
+              "id": "ext-critic",
+              "label": "CRITIC"
+            },
+            {
+              "id": "2024.acl-long.786",
+              "label": "Abstain collaboration"
+            },
+            {
+              "id": "2025.acl-long.1199",
+              "label": "SEAL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Analysis & directions (§6)",
+      "nodes": [
+        {
+          "section": "6",
+          "label": "Benefits, limits & next steps",
+          "papers": [
+            {
+              "id": "2025.findings-acl.1175",
+              "label": "Verify with Caution"
+            },
+            {
+              "id": "2025.findings-acl.161",
+              "label": "Response-length bias"
+            },
+            {
+              "id": "2025.findings-acl.693",
+              "label": "ICAT"
+            },
+            {
+              "id": "2026.findings-acl.34",
+              "label": "Recall vs. truthfulness"
+            },
+            {
+              "id": "2026.eacl-short.37",
+              "label": "Benchmark aging"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

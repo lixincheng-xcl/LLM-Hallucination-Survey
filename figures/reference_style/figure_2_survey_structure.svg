@@ -1,0 +1,240 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1197" viewBox="0 0 1600 1197" role="img">
+<title>Figure 2: The structure of this survey with representative references. Each green leaf includes four to five studies. Evaluation criteria are detailed in Fig. 3 and Table 1, and intervention mechanisms in Fig. 4. Hybrid studies may appear in more than one section.</title>
+<rect width="1600" height="1197" fill="white"/>
+<polyline points="56,614.0625 76,614.0625" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="76,97.0 76,1131.125" stroke="#494949" stroke-width="1.9" fill="none"/>
+<rect x="15" y="434.0625" width="41" height="360" rx="8" fill="white" stroke="#bc25c6" stroke-width="1.1"/>
+<text x="44" y="614.0625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="27" fill="#000000" text-anchor="middle" transform="rotate(-90 44 614.0625)">Hallucination in text LLMs</text>
+<polyline points="76,97.0 98,97.0" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="351,97.0 367,97.0" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="367,54.0 367,140.0" stroke="#494949" stroke-width="1.9" fill="none"/>
+<rect x="98" y="67.0" width="253" height="60" rx="8" fill="white" stroke="#bd22c6" stroke-width="1.1"/>
+<text x="104" y="105.5" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">Concepts &amp; scope (§2)</text>
+<polyline points="367,54.0 384,54.0" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="674,54.0 699,54.0" stroke="#494949" stroke-width="1.9" fill="none"/>
+<rect x="384" y="24.0" width="290" height="60" rx="8" fill="white" stroke="#bd22c6" stroke-width="1.1"/>
+<text x="390" y="62.5" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">Reference frames (§2.1)</text>
+<rect x="699" y="16.0" width="881" height="76" rx="8" fill="#d1f4c3" stroke="#bc25c6" stroke-width="1.1"/>
+<text x="705" y="48.375" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">[Cao </text>
+<text x="759.84619140625" y="48.375" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="809.833984375" y="48.375" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2022]; BEGIN [Dziri </text>
+<text x="1042.4267578125" y="48.375" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1092.41455078125" y="48.375" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2022b]; [Adlakha </text>
+<text x="1288.203125" y="48.375" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1338.19091796875" y="48.375" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2024]; HalluLens</text>
+<text x="705" y="76.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">[Bang </text>
+<text x="772.34619140625" y="76.625" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="822.333984375" y="76.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2025]</text>
+<polyline points="367,140.0 384,140.0" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="674,140.0 699,140.0" stroke="#494949" stroke-width="1.9" fill="none"/>
+<rect x="384" y="110.0" width="290" height="60" rx="8" fill="white" stroke="#bd22c6" stroke-width="1.1"/>
+<text x="390" y="134.375" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">Error relations &amp; history</text>
+<text x="390" y="162.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">(§2.2)</text>
+<rect x="699" y="102.0" width="881" height="76" rx="8" fill="#d1f4c3" stroke="#bc25c6" stroke-width="1.1"/>
+<text x="705" y="134.375" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">Factuality survey [Wang </text>
+<text x="958.3935546875" y="134.375" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1008.38134765625" y="134.375" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2024]; HaluEval 2.0 [Li </text>
+<text x="1267.353515625" y="134.375" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1317.34130859375" y="134.375" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2024]; ANAH [Ji </text>
+<text x="1511.0791015625" y="134.375" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1561.06689453125" y="134.375" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">,</text>
+<text x="705" y="162.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">2024]; HalluLens [Bang </text>
+<text x="954.25537109375" y="162.625" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1004.2431640625" y="162.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2025]</text>
+<polyline points="76,341.8125 98,341.8125" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="351,341.8125 367,341.8125" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="367,238.0 367,445.625" stroke="#494949" stroke-width="1.9" fill="none"/>
+<rect x="98" y="311.8125" width="253" height="60" rx="8" fill="white" stroke="#bd22c6" stroke-width="1.1"/>
+<text x="104" y="350.3125" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">Detection methods (§3)</text>
+<polyline points="367,238.0 384,238.0" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="674,238.0 699,238.0" stroke="#494949" stroke-width="1.9" fill="none"/>
+<rect x="384" y="208.0" width="290" height="60" rx="8" fill="white" stroke="#bd22c6" stroke-width="1.1"/>
+<text x="390" y="246.5" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">External evidence (§3.1)</text>
+<rect x="699" y="200.0" width="881" height="76" rx="8" fill="#d1f4c3" stroke="#bc25c6" stroke-width="1.1"/>
+<text x="705" y="232.375" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">QAFactEval [Fabbri </text>
+<text x="916.0595703125" y="232.375" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="966.04736328125" y="232.375" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2022]; AlignScore [Zha </text>
+<text x="1223.6279296875" y="232.375" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1273.61572265625" y="232.375" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2023]; FActScore [Min</text>
+<text x="705" y="260.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start"></text>
+<text x="705.0" y="260.625" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="754.98779296875" y="260.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2023]; VeriScore [Song </text>
+<text x="1012.58056640625" y="260.625" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1062.568359375" y="260.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2024]; PrefixNLI [Harary </text>
+<text x="1339.55810546875" y="260.625" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1389.5458984375" y="260.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2026]</text>
+<polyline points="367,335.875 384,335.875" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="674,335.875 699,335.875" stroke="#494949" stroke-width="1.9" fill="none"/>
+<rect x="384" y="305.875" width="290" height="60" rx="8" fill="white" stroke="#bd22c6" stroke-width="1.1"/>
+<text x="390" y="330.25" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">Sampling &amp; consistency</text>
+<text x="390" y="358.5" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">(§3.2)</text>
+<rect x="699" y="286.0" width="881" height="99.74999999999999" rx="8" fill="#d1f4c3" stroke="#bc25c6" stroke-width="1.1"/>
+<text x="705" y="316.125" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">SelfCheckGPT [Manakul </text>
+<text x="966.0595703125" y="316.125" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1016.04736328125" y="316.125" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2023]; Semantic uncertainty [Kuhn </text>
+<text x="1388.1787109375" y="316.125" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1438.16650390625" y="316.125" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2023]; LM</text>
+<text x="705" y="344.375" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">vs LM [Cohen </text>
+<text x="857.0751953125" y="344.375" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="907.06298828125" y="344.375" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2023]; SAC3 [Zhang </text>
+<text x="1136.9091796875" y="344.375" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1186.89697265625" y="344.375" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2023a]; Semantic entropy [Farquhar</text>
+<text x="705" y="372.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start"></text>
+<text x="705.0" y="372.625" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="754.98779296875" y="372.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2024]</text>
+<polyline points="367,445.625 384,445.625" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="674,445.625 699,445.625" stroke="#494949" stroke-width="1.9" fill="none"/>
+<rect x="384" y="415.625" width="290" height="60" rx="8" fill="white" stroke="#bd22c6" stroke-width="1.1"/>
+<text x="390" y="454.125" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">Internal signals (§3.3)</text>
+<rect x="699" y="395.75" width="881" height="99.74999999999999" rx="8" fill="#d1f4c3" stroke="#bc25c6" stroke-width="1.1"/>
+<text x="705" y="425.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">FOCUS [Zhang </text>
+<text x="870.283203125" y="425.875" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="920.27099609375" y="425.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2023b]; Internal-state probe [Azaria and Mitchell, 2023];</text>
+<text x="705" y="454.125" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">Lookback Lens [Chuang </text>
+<text x="958.40576171875" y="454.125" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1008.3935546875" y="454.125" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2024a]; Truthfulness hyperplane [Liu </text>
+<text x="1402.7294921875" y="454.125" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1452.71728515625" y="454.125" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2024b];</text>
+<text x="705" y="482.375" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">ReFL [Fan </text>
+<text x="820.27099609375" y="482.375" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="870.2587890625" y="482.375" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2026]</text>
+<polyline points="76,616.3125 98,616.3125" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="351,616.3125 367,616.3125" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="367,567.375 367,665.25" stroke="#494949" stroke-width="1.9" fill="none"/>
+<rect x="98" y="586.3125" width="253" height="60" rx="8" fill="white" stroke="#bd22c6" stroke-width="1.1"/>
+<text x="104" y="624.8125" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">Evaluation (§4)</text>
+<polyline points="367,567.375 384,567.375" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="674,567.375 699,567.375" stroke="#494949" stroke-width="1.9" fill="none"/>
+<rect x="384" y="537.375" width="290" height="60" rx="8" fill="white" stroke="#bd22c6" stroke-width="1.1"/>
+<text x="390" y="561.75" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">Generation evaluation</text>
+<text x="390" y="590.0" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">(§4.1)</text>
+<rect x="699" y="517.5" width="881" height="99.74999999999999" rx="8" fill="#d1f4c3" stroke="#bc25c6" stroke-width="1.1"/>
+<text x="705" y="547.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">TruthfulQA [Lin </text>
+<text x="879.96337890625" y="547.625" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="929.951171875" y="547.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2022]; ExpertQA [Malaviya </text>
+<text x="1231.953125" y="547.625" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1281.94091796875" y="547.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2024]; TofuEval [Tang</text>
+<text x="705" y="575.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start"></text>
+<text x="705.0" y="575.875" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="754.98779296875" y="575.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2024]; HALoGEN [Ravichander </text>
+<text x="1101.42333984375" y="575.875" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1151.4111328125" y="575.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2025]; FactBench [Fatahi Bayat </text>
+<text x="1490.21728515625" y="575.875" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1540.205078125" y="575.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">,</text>
+<text x="705" y="604.125" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">2025]</text>
+<polyline points="367,665.25 384,665.25" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="674,665.25 699,665.25" stroke="#494949" stroke-width="1.9" fill="none"/>
+<rect x="384" y="635.25" width="290" height="60" rx="8" fill="white" stroke="#bd22c6" stroke-width="1.1"/>
+<text x="390" y="673.75" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">Detector evaluation (§4.2)</text>
+<rect x="699" y="627.25" width="881" height="76" rx="8" fill="#d1f4c3" stroke="#bc25c6" stroke-width="1.1"/>
+<text x="705" y="659.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">HaluEval [Li </text>
+<text x="842.451171875" y="659.625" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="892.43896484375" y="659.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2023]; ANAH [Ji </text>
+<text x="1086.1767578125" y="659.625" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1136.16455078125" y="659.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2024]; RAGTruth [Niu </text>
+<text x="1386.8359375" y="659.625" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1436.82373046875" y="659.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2024];</text>
+<text x="705" y="687.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">TofuEval [Tang </text>
+<text x="871.6015625" y="687.875" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="921.58935546875" y="687.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2024]; FaithBench [Bao </text>
+<text x="1181.96533203125" y="687.875" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1231.953125" y="687.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2025]</text>
+<polyline points="76,892.25 98,892.25" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="351,892.25 367,892.25" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="367,763.25 367,1021.25" stroke="#494949" stroke-width="1.9" fill="none"/>
+<rect x="98" y="862.25" width="253" height="60" rx="8" fill="white" stroke="#bd22c6" stroke-width="1.1"/>
+<text x="104" y="900.75" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">Mitigation (§5)</text>
+<polyline points="367,763.25 384,763.25" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="674,763.25 699,763.25" stroke="#494949" stroke-width="1.9" fill="none"/>
+<rect x="384" y="733.25" width="290" height="60" rx="8" fill="white" stroke="#bd22c6" stroke-width="1.1"/>
+<text x="390" y="757.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">Training &amp; alignment</text>
+<text x="390" y="785.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">(§5.1)</text>
+<rect x="699" y="725.25" width="881" height="76" rx="8" fill="#d1f4c3" stroke="#bc25c6" stroke-width="1.1"/>
+<text x="705" y="757.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">FaithDial [Dziri </text>
+<text x="871.6259765625" y="757.625" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="921.61376953125" y="757.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2022a]; Self-Alignment [Zhang </text>
+<text x="1256.953125" y="757.625" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1306.94091796875" y="757.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2024b]; FactAlign</text>
+<text x="705" y="785.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">[Huang and Chen, 2024]; RHIO [Huang </text>
+<text x="1113.94775390625" y="785.875" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1163.935546875" y="785.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2025b]; UAlign [Xue </text>
+<text x="1397.93212890625" y="785.875" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1447.919921875" y="785.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2025]</text>
+<polyline points="367,849.25 384,849.25" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="674,849.25 699,849.25" stroke="#494949" stroke-width="1.9" fill="none"/>
+<rect x="384" y="819.25" width="290" height="60" rx="8" fill="white" stroke="#bd22c6" stroke-width="1.1"/>
+<text x="390" y="843.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">Retrieval &amp; prompting</text>
+<text x="390" y="871.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">(§5.2)</text>
+<rect x="699" y="811.25" width="881" height="76" rx="8" fill="#d1f4c3" stroke="#bc25c6" stroke-width="1.1"/>
+<text x="705" y="843.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">FLARE [Jiang </text>
+<text x="857.77099609375" y="843.625" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="907.7587890625" y="843.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2023]; Context-faithful prompting [Zhou </text>
+<text x="1336.8603515625" y="843.625" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1386.84814453125" y="843.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2023]; Self-RAG</text>
+<text x="705" y="871.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">[Asai </text>
+<text x="765.400390625" y="871.875" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="815.38818359375" y="871.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2024]; Astute RAG [Wang </text>
+<text x="1104.23095703125" y="871.875" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1154.21875" y="871.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2025]; Stable-RAG [Zhang </text>
+<text x="1446.5283203125" y="871.875" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1496.51611328125" y="871.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2026]</text>
+<polyline points="367,935.25 384,935.25" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="674,935.25 699,935.25" stroke="#494949" stroke-width="1.9" fill="none"/>
+<rect x="384" y="905.25" width="290" height="60" rx="8" fill="white" stroke="#bd22c6" stroke-width="1.1"/>
+<text x="390" y="929.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">Decoding &amp; intervention</text>
+<text x="390" y="957.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">(§5.3)</text>
+<rect x="699" y="897.25" width="881" height="76" rx="8" fill="#d1f4c3" stroke="#bc25c6" stroke-width="1.1"/>
+<text x="705" y="929.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">CAD [Shi </text>
+<text x="811.9580078125" y="929.625" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="861.94580078125" y="929.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2024]; DoLa [Chuang </text>
+<text x="1101.484375" y="929.625" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1151.47216796875" y="929.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2024b]; TruthX [Zhang </text>
+<text x="1406.28173828125" y="929.625" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1456.26953125" y="929.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2024a];</text>
+<text x="705" y="957.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">SynCheck / FOD [Wu </text>
+<text x="934.150390625" y="957.875" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="984.13818359375" y="957.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2024]; DeCoRe [Gema </text>
+<text x="1234.77294921875" y="957.875" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1284.7607421875" y="957.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2025]</text>
+<polyline points="367,1021.25 384,1021.25" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="674,1021.25 699,1021.25" stroke="#494949" stroke-width="1.9" fill="none"/>
+<rect x="384" y="991.25" width="290" height="60" rx="8" fill="white" stroke="#bd22c6" stroke-width="1.1"/>
+<text x="390" y="1015.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">Revision &amp; abstention</text>
+<text x="390" y="1043.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">(§5.4)</text>
+<rect x="699" y="983.25" width="881" height="76" rx="8" fill="#d1f4c3" stroke="#bc25c6" stroke-width="1.1"/>
+<text x="705" y="1015.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">WikiChat [Semnani </text>
+<text x="910.517578125" y="1015.625" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="960.50537109375" y="1015.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2023]; CoVe [Dhuliawala </text>
+<text x="1238.9111328125" y="1015.625" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1288.89892578125" y="1015.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2024]; CRITIC [Gou </text>
+<text x="1518.7451171875" y="1015.625" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1568.73291015625" y="1015.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">,</text>
+<text x="705" y="1043.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">2024]; Abstain collaboration [Feng </text>
+<text x="1063.26416015625" y="1043.875" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1113.251953125" y="1043.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2024]; SEAL [Huang </text>
+<text x="1347.24853515625" y="1043.875" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1397.236328125" y="1043.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2025a]</text>
+<polyline points="76,1131.125 98,1131.125" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="351,1131.125 367,1131.125" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="367,1131.125 367,1131.125" stroke="#494949" stroke-width="1.9" fill="none"/>
+<rect x="98" y="1101.125" width="253" height="60" rx="8" fill="white" stroke="#bd22c6" stroke-width="1.1"/>
+<text x="104" y="1125.5" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">Analysis &amp; directions</text>
+<text x="104" y="1153.75" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">(§6)</text>
+<polyline points="367,1131.125 384,1131.125" stroke="#494949" stroke-width="1.9" fill="none"/>
+<polyline points="674,1131.125 699,1131.125" stroke="#494949" stroke-width="1.9" fill="none"/>
+<rect x="384" y="1101.125" width="290" height="60" rx="8" fill="white" stroke="#bd22c6" stroke-width="1.1"/>
+<text x="390" y="1125.5" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">Benefits, limits &amp; next</text>
+<text x="390" y="1153.75" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">steps</text>
+<rect x="699" y="1081.25" width="881" height="99.74999999999999" rx="8" fill="#d1f4c3" stroke="#bc25c6" stroke-width="1.1"/>
+<text x="705" y="1111.375" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">Verify with Caution [Godbole and Jia, 2025]; Response-length bias [Zhao </text>
+<text x="1452.76611328125" y="1111.375" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1502.75390625" y="1111.375" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">,</text>
+<text x="705" y="1139.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">2025]; ICAT [Samarinas </text>
+<text x="959.8095703125" y="1139.625" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1009.79736328125" y="1139.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2025]; Recall vs. truthfulness [Cheang </text>
+<text x="1413.88671875" y="1139.625" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1463.87451171875" y="1139.625" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2026];</text>
+<text x="705" y="1167.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">Benchmark aging [Jiang </text>
+<text x="955.62255859375" y="1167.875" font-family="Times New Roman" font-weight="normal" font-style="italic" font-size="25" fill="#000000" text-anchor="start">et al.</text>
+<text x="1005.6103515625" y="1167.875" font-family="Times New Roman" font-weight="normal" font-style="normal" font-size="25" fill="#000000" text-anchor="start">, 2026]</text>
+</svg>

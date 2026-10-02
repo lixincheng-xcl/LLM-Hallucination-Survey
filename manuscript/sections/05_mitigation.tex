@@ -1,0 +1,33 @@
+\section{Mitigation: Interventions and Assumptions}\label{sec:mitigation}
+
+Figure~\ref{fig:mitigation} connects interventions to potential failure points; hybrid methods span stages. Faithfulness requires appropriate evidence use, whereas factuality also requires correct evidence. Evaluation must therefore respect the reference frame in Section~\ref{sec:background}.
+
+\figwide{Fig4_causes_mitigation.pdf}{Potential failure points and interventions, synthesized rather than causally validated. Hybrid methods span stages. Improvements require independent evaluation through Figure~\ref{fig:evaluation} and Table~\ref{tab:hallucination-benchmarks}. Layout adapted from \citet{liu-etal-2024-lvlm-design}.}{fig:mitigation}
+
+\subsection{Training and alignment}
+
+FaithDial supplies source-grounded dialogue revisions for generation and critic supervision \citep{dziri-etal-2022-faithdial}. This requires curated examples. Self-Alignment instead derives preferences from a model's self-evaluation, improves that evaluation through Self-Knowledge Tuning, and applies direct preference optimization \citep{zhang-etal-2024-self}. It reduces human labeling but depends on self-evaluation producing informative factuality preferences.
+
+FactAlign uses sentence-level fine-grained Kahneman--Tversky optimization for credit assignment within mixed-quality answers \citep{huang-chen-2024-factalign}. UAlign incorporates confidence and semantic entropy into a reward model before proximal policy optimization (PPO) alignment \citep{xue-etal-2025-ualign}. RHIO targets contextual faithfulness: masking retrieval heads produces negative examples, control tokens distinguish faithful from unfaithful continuations, and contrastive decoding subsequently separates them \citep{huang-etal-2025-improving}. RHIO thus spans data construction, training, and inference. Labeling and optimization incur offline costs, while imperfect supervision can reinforce evaluator errors. Factuality rewards therefore require independent auditing.
+
+\subsection{Retrieval and prompting}
+
+FLARE retrieves actively when provisional continuations signal uncertainty, while context-faithful prompting changes instructions without retraining \citep{jiang-etal-2023-active,zhou-etal-2023-context}. Retrieval adds information but introduces selection errors and evidence conflicts. Self-RAG trains retrieval and reflection tokens that control when to retrieve and assess relevance, support, and utility; candidate continuations can then be ranked using these signals \citep{extselfrag2024}. This requires training and reflection supervision. Astute RAG instead uses a training-free, source-aware consolidation procedure: it elicits internal knowledge, compares it with retrieved passages, and iteratively resolves conflicts \citep{wang-etal-2025-astute}. This permits black-box use but adds calls and fallible reliability judgments. Comparison should separate retrieval quality, conflict resolution, and evidence use under matched corpora and budgets.
+
+\subsection{Decoding and internal intervention}
+
+Context-aware decoding (CAD) amplifies the difference between context-conditioned and context-free token distributions \citep{shi-etal-2024-trusting}. For context $c$, query $x$, prefix $y_{<t}$, and contrast strength $\alpha\geq0$,
+
+\begin{equation}\label{eq:cad}
+p_{\mathrm{CAD}}(y_t)\propto\frac{p_\theta(y_t\mid c,x,y_{<t})^{1+\alpha}}{p_\theta(y_t\mid x,y_{<t})^\alpha}.
+\end{equation}
+
+CAD requires logits and additional decoding work. It strengthens context adherence without assessing context truth. DoLa contrasts mature-layer and dynamically selected earlier-layer predictions within the same model \citep{extdola2024}. DoLa needs layer outputs rather than an external corpus, exposing parametric knowledge where CAD favors contextual evidence.
+
+TruthX learns separate semantic and truth-related latent spaces and edits internal representations along a learned direction \citep{zhang-etal-2024-truthx}. It requires learning auxiliary components. Lookback Lens trains a classifier over context-versus-generation attention ratios and selects candidate continuations with that classifier \citep{chuang-etal-2024-lookback}. Its mitigation closes the detector--generator loop, but also inherits detector errors. These mechanisms are unsuitable for text-only APIs without the required internal signals. Successful steering does not establish model-independent truth representations; transfer across architectures and natural errors needs testing.
+
+\subsection{Revision and abstention}
+
+Chain-of-Verification drafts an answer, generates verification questions, answers them independently, and revises the draft \citep{dhuliawala-etal-2024-chain}. Separating verification from the draft reduces answer contamination, but all stages can still share a parametric misconception. CRITIC adds tool feedback before revision, providing an external correction signal at the cost of tool calls and iterative generation \citep{extcritic2024}. WikiChat also grounds dialogue through retrieval and verification, showing that these operations can be coordinated as a pipeline \citep{semnani-etal-2023-wikichat}. External feedback remains limited by search and tool reliability. Revision must preserve supported information while removing errors.
+
+Abstention can reduce unsupported assertions. SEAL learns a rejection token during training and uses its probability to regularize decoding \citep{huang-etal-2025-alleviating}; it is more specific than appending a refusal instruction. Lower error can reflect fewer answers. Refusal and revision therefore need coverage and information retention alongside precision.

@@ -1,0 +1,6 @@
+asset,filename,first_section,revisit_section,primary_role,evidence_output,next_link
+Fig.1,figure_1_hallucination_examples,1,2,展示来源忠实性失败,构造示例，不是模型实测,2.1参照与2.2标签
+Fig.2,figure_2_survey_structure,1,,章节导航,各子节的 4–5 篇代表作与作者年份引用,2-6子节与RQ
+Fig.3,figure_3_evaluation_taxonomy,4,5;6,区分评价对象及参照/粒度,指标族与基准入口,Table1的具体协议
+Fig.4,figure_4_causes_mitigation,5,6,定位潜在失败与干预机制,有条件的机制对应,回到Fig3和Table1复评
+Table1,table_1_benchmarks,4,5;6,具体基准与指标,9行、单位、数据来源,同协议比较及局限

@@ -1,0 +1,22 @@
+[
+  {
+    "file": "manuscript/figures/Fig1_hallucination_examples.pdf",
+    "sha256": "474b32a23550f60804a062c14964c52e26ded41484ae3e7af869d75d23621f46",
+    "provenance": "User-edited PDF supplied 2026-10-02; copied byte-for-byte without modification."
+  },
+  {
+    "file": "manuscript/figures/Fig2_survey_structure.pdf",
+    "sha256": "89f391591c37fa1d9f5c4ea3017fb27179f5ada3bf024736440b6dcea232ce30",
+    "provenance": "User-edited PDF supplied 2026-10-02; copied byte-for-byte without modification."
+  },
+  {
+    "file": "manuscript/figures/Fig3_evaluation_taxonomy.pdf",
+    "sha256": "72db9ae075199df26a58880263f1a4525a888a0d4a4ce8ebfc21f375436ba514",
+    "provenance": "User-edited PDF supplied 2026-10-02; copied byte-for-byte without modification."
+  },
+  {
+    "file": "manuscript/figures/Fig4_causes_mitigation.pdf",
+    "sha256": "d33c0c8e1c374efba09552d1d5a46194a6e160b4c86477983c39fbfdf59497b2",
+    "provenance": "User-edited PDF supplied 2026-10-02; copied byte-for-byte without modification."
+  }
+]

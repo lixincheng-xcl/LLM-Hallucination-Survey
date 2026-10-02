@@ -1,0 +1,8 @@
+example,source,illustrative_output,relation_to_source,semantic_detail,reference_resolution
+QA-1,No cafe information,There is a cafe,unsupported addition,entity/existence,Cannot determine from the source
+QA-2,12000 books,20000 books,contradiction,value,12000
+QA-3,Archive on second floor,Archive on first floor,contradiction,spatial relation,second floor
+Summary-1,Arrival Monday,Arrival Tuesday,contradiction,date,Monday
+Summary-2,200 books,500 books,contradiction,quantity,200
+Summary-3,No donor information,From a university,unsupported addition,provenance,Cannot determine from the source
+Summary-4,Sorting Tuesday; cataloguing Wednesday,Cataloguing before sorting,contradiction,temporal relation,Sorting before cataloguing

@@ -1,0 +1,13 @@
+\section{Benchmarks and Evaluation}\label{sec:evaluation}
+\input{sections/table1}
+Figure~\ref{fig:evaluation} separates answer quality from detector performance. Table~\ref{tab:hallucination-benchmarks} instantiates this distinction; its sizes count different objects, not relative difficulty. Reference frame, annotation unit, and sampling process precede metric selection.
+
+\subsection{Generation evaluation}
+TruthfulQA evaluates misconception-oriented answers for truthfulness and informativeness, with a separate multiple-choice setting \citep{lin-etal-2022-truthfulqa}. ExpertQA distinguishes correctness from attribution through expert questions and claim-level judgments \citep{malaviya-etal-2024-expertqa}. HALoGEN uses domain-specific verifiers; FactBench combines user-derived prompts with web verification \citep{ravichander-etal-2025-halogen,fatahi-bayat-etal-2025-factbench}. Their scores are not interchangeable because evidence and verifier scopes differ.
+
+Source consistency likewise requires a utility measure. TofuEval studies topic-focused dialogue summaries, where factuality must coexist with relevance and completeness \citep{tang-etal-2024-tofueval}. Shorter answers may omit both errors and required information. Precision should accompany coverage and refusal behavior, with explicit empty/unverifiable-answer policies. Full benchmark sizes may also exceed this survey's task scope: HALoGEN includes programming.
+
+\subsection{Detector evaluation}
+HaluEval mixes generated task-specific examples with human-annotated general queries; recognition accuracy need not transfer to unselected errors \citep{li-etal-2023-halueval}. ANAH annotates sentence-level types, evidence, and corrections; RAGTruth adds naturally generated RAG responses with error spans \citep{ji-etal-2024-anah,niu-etal-2024-ragtruth}. Response classification and span localization are different tasks: finding one error does not locate every unsupported claim.
+
+FaithBench selects difficult cases through detector disagreement, making it a stress test rather than a prevalence estimate \citep{bao-etal-2025-faithbench}. TRIVIA+ examines long contexts and noisy supervision \citep{chen-etal-2026-rethinking-evaluation}. Comparisons require matched splits, labels, generators, and evidence access, with thresholds fixed independently of test labels. Similar judge accuracy can conceal different error patterns and biased system-level estimates \citep{godbole-jia-2025-verify}. Mitigation must improve useful generation under an independently audited protocol.
