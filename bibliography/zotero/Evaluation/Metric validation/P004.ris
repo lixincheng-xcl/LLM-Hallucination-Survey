@@ -1,0 +1,21 @@
+TY  - CPAPER
+ID  - P004
+TI  - TRUE: Re-evaluating Factual Consistency Evaluation
+AU  - Honovich, Or
+AU  - Aharoni, Roee
+AU  - Herzig, Jonathan
+AU  - Taitelbaum, Hagai
+AU  - Kukliansy, Doron
+AU  - Cohen, Vered
+AU  - Scialom, Thomas
+AU  - Szpektor, Idan
+AU  - Hassidim, Avinatan
+AU  - Matias, Yossi
+PY  - 2022
+T2  - Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies
+UR  - https://aclanthology.org/2022.naacl-main.287/
+DO  - 10.18653/v1/2022.naacl-main.287
+KW  - Evaluation
+KW  - Metric validation
+N1  - Curator screening note: 统一多个任务的数据，强调样本级而非仅系统级指标验证。
+ER  -

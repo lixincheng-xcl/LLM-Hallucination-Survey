@@ -1,0 +1,18 @@
+TY  - CPAPER
+ID  - P033
+TI  - Does Fine-Tuning LLMs on New Knowledge Encourage Hallucinations?
+AU  - Gekhman, Zorik
+AU  - Yona, Gal
+AU  - Aharoni, Roee
+AU  - Eyal, Matan
+AU  - Feder, Amir
+AU  - Reichart, Roi
+AU  - Herzig, Jonathan
+PY  - 2024
+T2  - Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2024.emnlp-main.444/
+DO  - 10.18653/v1/2024.emnlp-main.444
+KW  - Foundations
+KW  - Training knowledge mismatch
+N1  - Curator screening note: 控制微调中的新知识比例，分析知识学习与幻觉变化。
+ER  -

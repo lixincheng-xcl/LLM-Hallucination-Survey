@@ -1,0 +1,27 @@
+TY  - CPAPER
+ID  - P059
+TI  - FaithBench: A Diverse Hallucination Benchmark for Summarization by Modern LLMs
+AU  - Bao, Forrest Sheng
+AU  - Li, Miaoran
+AU  - Qu, Renyi
+AU  - Luo, Ge
+AU  - Wan, Erana
+AU  - Tang, Yujia
+AU  - Fan, Weisi
+AU  - Tamber, Manveer Singh
+AU  - Kazi, Suleman
+AU  - Sourabh, Vivek
+AU  - Qi, Mike
+AU  - Tu, Ruixuan
+AU  - Xu, Chenyu
+AU  - Gonzales, Matthew
+AU  - Mendelevitch, Ofer
+AU  - Ahmad, Amin
+PY  - 2025
+T2  - Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers)
+UR  - https://aclanthology.org/2025.naacl-short.38/
+DO  - 10.18653/v1/2025.naacl-short.38
+KW  - Evaluation
+KW  - Grounded benchmarks
+N1  - Curator screening note: 基于现代多模型家族和困难分歧样本进行专家标注。
+ER  -

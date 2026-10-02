@@ -1,0 +1,14 @@
+TY  - CPAPER
+ID  - P001
+TI  - TruthfulQA: Measuring How Models Mimic Human Falsehoods
+AU  - Lin, Stephanie
+AU  - Hilton, Jacob
+AU  - Evans, Owain
+PY  - 2022
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.229/
+DO  - 10.18653/v1/2022.acl-long.229
+KW  - Evaluation
+KW  - Factuality benchmarks
+N1  - Curator screening note: 以易诱发人类误解的问题测量真实性，作为闭卷问答基础基准。
+ER  -

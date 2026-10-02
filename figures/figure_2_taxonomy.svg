@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="578" viewBox="0 0 960 578">
+<style>text {font-family: Helvetica, Arial, sans-serif;}</style>
+<rect width="960" height="578" fill="white"/>
+<text x="20" y="30" font-size="24" font-weight="700" fill="#17324d" text-anchor="start">A taxonomy along three independent axes</text>
+<text x="20" y="55" font-size="17" font-weight="400" fill="#5e6d7c" text-anchor="start">Classify the error, the evidence used to detect it, and the point of intervention.</text>
+<rect x="20" y="76" width="294" height="440" rx="7" fill="white" stroke="#cbd5df" stroke-width="1.5"/>
+<rect x="20" y="76" width="294" height="43" rx="7" fill="#2864a0" stroke="#2864a0" stroke-width="1.5"/>
+<text x="34" y="104" font-size="18" font-weight="700" fill="#ffffff" text-anchor="start">A  What is the reference?</text>
+<rect x="333" y="76" width="294" height="440" rx="7" fill="white" stroke="#cbd5df" stroke-width="1.5"/>
+<rect x="333" y="76" width="294" height="43" rx="7" fill="#187c80" stroke="#187c80" stroke-width="1.5"/>
+<text x="347" y="104" font-size="18" font-weight="700" fill="#ffffff" text-anchor="start">B  What evidence is used?</text>
+<rect x="646" y="76" width="294" height="440" rx="7" fill="white" stroke="#cbd5df" stroke-width="1.5"/>
+<rect x="646" y="76" width="294" height="43" rx="7" fill="#765392" stroke="#765392" stroke-width="1.5"/>
+<text x="660" y="104" font-size="18" font-weight="700" fill="#ffffff" text-anchor="start">C  Where to intervene?</text>
+<rect x="32" y="137" width="270" height="118" rx="7" fill="#eff5fc" stroke="#2864a0" stroke-width="1.5"/>
+<text x="44" y="163" font-size="18" font-weight="700" fill="#2864a0" text-anchor="start">World factuality</text>
+<text x="44" y="188" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="start">Incorrect factual claims</text>
+<text x="44" y="210" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="start">Reference: external world</text>
+<text x="44" y="232" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="start">e.g., TruthfulQA; FActScore</text>
+<rect x="32" y="278" width="270" height="118" rx="7" fill="#eff5fc" stroke="#2864a0" stroke-width="1.5"/>
+<text x="44" y="304" font-size="18" font-weight="700" fill="#2864a0" text-anchor="start">Source faithfulness</text>
+<text x="44" y="329" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="start">Contradicted or unsupported</text>
+<text x="44" y="351" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="start">Reference: supplied evidence</text>
+<text x="44" y="373" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="start">e.g., RAGTruth; FaithBench</text>
+<text x="44" y="431" font-size="17" font-weight="700" fill="#2864a0" text-anchor="start">These criteria can disagree.</text>
+<text x="44" y="459" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="start">Unsupported is not always false;</text>
+<text x="44" y="481" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="start">source-consistent can be wrong.</text>
+<rect x="345" y="137" width="270" height="105" rx="7" fill="#edf8f6" stroke="#187c80" stroke-width="1.5"/>
+<text x="357" y="163" font-size="18" font-weight="700" fill="#187c80" text-anchor="start">External / source evidence</text>
+<text x="357" y="188" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="start">NLI / QA / atomic claims</text>
+<text x="357" y="210" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="start">AlignScore; VeriScore</text>
+<rect x="345" y="259" width="270" height="105" rx="7" fill="#edf8f6" stroke="#187c80" stroke-width="1.5"/>
+<text x="357" y="285" font-size="18" font-weight="700" fill="#187c80" text-anchor="start">Sampled-text consistency</text>
+<text x="357" y="310" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="start">Repeated / cross-model outputs</text>
+<text x="357" y="332" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="start">SelfCheckGPT; semantic entropy</text>
+<rect x="345" y="381" width="270" height="105" rx="7" fill="#edf8f6" stroke="#187c80" stroke-width="1.5"/>
+<text x="357" y="407" font-size="18" font-weight="700" fill="#187c80" text-anchor="start">Model-internal signals</text>
+<text x="357" y="432" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="start">Probabilities / states / attention</text>
+<text x="357" y="454" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="start">FOCUS; Lookback Lens</text>
+<rect x="658" y="132" width="270" height="83" rx="7" fill="#f5f0f8" stroke="#765392" stroke-width="1.5"/>
+<text x="670" y="158" font-size="18" font-weight="700" fill="#765392" text-anchor="start">Training and alignment</text>
+<text x="670" y="183" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="start">FaithDial; Self-Alignment</text>
+<rect x="658" y="225" width="270" height="83" rx="7" fill="#f5f0f8" stroke="#765392" stroke-width="1.5"/>
+<text x="670" y="251" font-size="18" font-weight="700" fill="#765392" text-anchor="start">Retrieval and prompting</text>
+<text x="670" y="276" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="start">Self-RAG; Astute RAG</text>
+<rect x="658" y="318" width="270" height="83" rx="7" fill="#f5f0f8" stroke="#765392" stroke-width="1.5"/>
+<text x="670" y="344" font-size="18" font-weight="700" fill="#765392" text-anchor="start">Decoding and intervention</text>
+<text x="670" y="369" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="start">CAD; DoLa; TruthX</text>
+<rect x="658" y="411" width="270" height="83" rx="7" fill="#f5f0f8" stroke="#765392" stroke-width="1.5"/>
+<text x="670" y="437" font-size="18" font-weight="700" fill="#765392" text-anchor="start">Revision and abstention</text>
+<text x="670" y="462" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="start">CoVe; CRITIC; SEAL</text>
+<text x="20" y="543" font-size="17" font-weight="700" fill="#17324d" text-anchor="start">Cross-cutting comparisons: granularity · model access · supervision · cost · coverage · robustness</text>
+<text x="20" y="568" font-size="16.5" font-weight="400" fill="#5e6d7c" text-anchor="start">Original synthesis. A method may occupy multiple categories; the axes do not assert causal relationships.</text>
+</svg>

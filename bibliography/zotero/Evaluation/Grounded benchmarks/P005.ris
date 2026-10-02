@@ -1,0 +1,15 @@
+TY  - JOUR
+ID  - P005
+TI  - Evaluating Attribution in Dialogue Systems: The BEGIN Benchmark
+AU  - Dziri, Nouha
+AU  - Rashkin, Hannah
+AU  - Linzen, Tal
+AU  - Reitter, David
+PY  - 2022
+T2  - Transactions of the Association for Computational Linguistics, Volume 10
+UR  - https://aclanthology.org/2022.tacl-1.62/
+DO  - 10.1162/tacl_a_00506
+KW  - Evaluation
+KW  - Grounded benchmarks
+N1  - Curator screening note: 以对话回应可归因性评价指标，并分析长度与措辞捷径。
+ER  -

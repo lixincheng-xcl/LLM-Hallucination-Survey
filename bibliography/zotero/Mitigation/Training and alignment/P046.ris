@@ -1,0 +1,13 @@
+TY  - CPAPER
+ID  - P046
+TI  - FactAlign: Long-form Factuality Alignment of Large Language Models
+AU  - Huang, Chao-Wei
+AU  - Chen, Yun-Nung
+PY  - 2024
+T2  - Findings of the Association for Computational Linguistics: EMNLP 2024
+UR  - https://aclanthology.org/2024.findings-emnlp.955/
+DO  - 10.18653/v1/2024.findings-emnlp.955
+KW  - Mitigation
+KW  - Training and alignment
+N1  - Curator screening note: 利用句子级事实性反馈进行长文本对齐。
+ER  -

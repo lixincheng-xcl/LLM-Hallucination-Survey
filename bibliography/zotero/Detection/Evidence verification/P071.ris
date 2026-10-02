@@ -1,0 +1,17 @@
+TY  - CPAPER
+ID  - P071
+TI  - PrefixNLI: Detecting Factual Inconsistencies as Soon as They Arise
+AU  - Harary, Sapir
+AU  - Hirsch, Eran
+AU  - Slobodkin, Aviv
+AU  - Wan, David
+AU  - Bansal, Mohit
+AU  - Dagan, Ido
+PY  - 2026
+T2  - Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2026.acl-long.63/
+DO  - 10.18653/v1/2026.acl-long.63
+KW  - Detection
+KW  - Evidence verification
+N1  - Curator screening note: 把完整句子的蕴含检测扩展到解码过程中的文本前缀。
+ER  -

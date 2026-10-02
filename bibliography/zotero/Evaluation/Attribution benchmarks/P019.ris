@@ -1,0 +1,15 @@
+TY  - CPAPER
+ID  - P019
+TI  - Enabling Large Language Models to Generate Text with Citations
+AU  - Gao, Tianyu
+AU  - Yen, Howard
+AU  - Yu, Jiatong
+AU  - Chen, Danqi
+PY  - 2023
+T2  - Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2023.emnlp-main.398/
+DO  - 10.18653/v1/2023.emnlp-main.398
+KW  - Evaluation
+KW  - Attribution benchmarks
+N1  - Curator screening note: 同时评价答案质量、事实正确性及引文支持。
+ER  -

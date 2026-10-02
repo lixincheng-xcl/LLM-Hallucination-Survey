@@ -1,0 +1,19 @@
+TY  - CPAPER
+ID  - P069
+TI  - DeCoRe: Decoding by Contrasting Retrieval Heads to Mitigate Hallucinations
+AU  - Gema, Aryo Pradipta
+AU  - Jin, Chen
+AU  - Abdulaal, Ahmed
+AU  - Diethe, Tom
+AU  - Teare, Philip Alexander
+AU  - Alex, Beatrice
+AU  - Minervini, Pasquale
+AU  - Saseendran, Amrutha
+PY  - 2025
+T2  - Findings of the Association for Computational Linguistics: EMNLP 2025
+UR  - https://aclanthology.org/2025.findings-emnlp.531/
+DO  - 10.18653/v1/2025.findings-emnlp.531
+KW  - Mitigation
+KW  - Decoding and intervention
+N1  - Curator screening note: 对比原模型与检索头屏蔽模型，按熵调节解码。
+ER  -

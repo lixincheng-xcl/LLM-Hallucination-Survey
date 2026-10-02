@@ -1,0 +1,16 @@
+TY  - JOUR
+ID  - P048
+TI  - Evaluating Correctness and Faithfulness of Instruction-Following Models for Question Answering
+AU  - Adlakha, Vaibhav
+AU  - BehnamGhader, Parishad
+AU  - Lu, Xing Han
+AU  - Meade, Nicholas
+AU  - Reddy, Siva
+PY  - 2024
+T2  - Transactions of the Association for Computational Linguistics, Volume 12
+UR  - https://aclanthology.org/2024.tacl-1.38/
+DO  - 10.1162/tacl_a_00667
+KW  - Evaluation
+KW  - Metric validation
+N1  - Curator screening note: 分开衡量问答的信息需求满足与来源支持。
+ER  -

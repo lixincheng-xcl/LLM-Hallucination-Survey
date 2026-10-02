@@ -1,0 +1,18 @@
+TY  - JOUR
+ID  - P047
+TI  - Lost in the Middle: How Language Models Use Long Contexts
+AU  - Liu, Nelson F.
+AU  - Lin, Kevin
+AU  - Hewitt, John
+AU  - Paranjape, Ashwin
+AU  - Bevilacqua, Michele
+AU  - Petroni, Fabio
+AU  - Liang, Percy
+PY  - 2024
+T2  - Transactions of the Association for Computational Linguistics, Volume 12
+UR  - https://aclanthology.org/2024.tacl-1.9/
+DO  - 10.1162/tacl_a_00638
+KW  - Foundations
+KW  - Context use
+N1  - Curator screening note: 分析相关信息位置变化导致的长上下文性能退化。
+ER  -

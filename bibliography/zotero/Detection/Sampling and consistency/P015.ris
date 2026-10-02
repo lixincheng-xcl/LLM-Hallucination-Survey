@@ -1,0 +1,14 @@
+TY  - CPAPER
+ID  - P015
+TI  - SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models
+AU  - Manakul, Potsawee
+AU  - Liusie, Adian
+AU  - Gales, Mark
+PY  - 2023
+T2  - Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2023.emnlp-main.557/
+DO  - 10.18653/v1/2023.emnlp-main.557
+KW  - Detection
+KW  - Sampling and consistency
+N1  - Curator screening note: 用多次黑盒生成之间的一致性定位可疑陈述。
+ER  -

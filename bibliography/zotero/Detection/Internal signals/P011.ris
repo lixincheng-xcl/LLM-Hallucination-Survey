@@ -1,0 +1,20 @@
+TY  - CPAPER
+ID  - P011
+TI  - Enhancing Uncertainty-Based Hallucination Detection with Stronger Focus
+AU  - Zhang, Tianhang
+AU  - Qiu, Lin
+AU  - Guo, Qipeng
+AU  - Deng, Cheng
+AU  - Zhang, Yue
+AU  - Zhang, Zheng
+AU  - Zhou, Chenghu
+AU  - Wang, Xinbing
+AU  - Fu, Luoyi
+PY  - 2023
+T2  - Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2023.emnlp-main.58/
+DO  - 10.18653/v1/2023.emnlp-main.58
+KW  - Detection
+KW  - Internal signals
+N1  - Curator screening note: 从重要词、历史不可靠词和词属性集中估计不确定性。
+ER  -

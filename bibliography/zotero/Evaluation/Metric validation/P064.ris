@@ -1,0 +1,20 @@
+TY  - CPAPER
+ID  - P064
+TI  - Core: Robust Factual Precision with Informative Sub-Claim Identification
+AU  - Jiang, Zhengping
+AU  - Zhang, Jingyu
+AU  - Weir, Nathaniel
+AU  - Ebner, Seth
+AU  - Wanner, Miriam
+AU  - Sanders, Kate
+AU  - Khashabi, Daniel
+AU  - Liu, Anqi
+AU  - Van Durme, Benjamin
+PY  - 2025
+T2  - Findings of the Association for Computational Linguistics: ACL 2025
+UR  - https://aclanthology.org/2025.findings-acl.1018/
+DO  - 10.18653/v1/2025.findings-acl.1018
+KW  - Evaluation
+KW  - Metric validation
+N1  - Curator screening note: 过滤重复或无信息声明，降低事实精确率被操纵的风险。
+ER  -

@@ -1,0 +1,16 @@
+TY  - CPAPER
+ID  - P081
+TI  - DoLa: Decoding by Contrasting Layers Improves Factuality in Large Language Models
+AU  - Chuang, Yung-Sung
+AU  - Xie, Yujia
+AU  - Luo, Hongyin
+AU  - Kim, Yoon
+AU  - Glass, James
+AU  - He, Pengcheng
+PY  - 2024
+T2  - The Twelfth International Conference on Learning Representations
+UR  - https://openreview.net/forum?id=Th6NyL07na
+KW  - Mitigation
+KW  - Decoding and intervention
+N1  - Curator screening note: 比较成熟与较早层的词分布以改进事实性。
+ER  -

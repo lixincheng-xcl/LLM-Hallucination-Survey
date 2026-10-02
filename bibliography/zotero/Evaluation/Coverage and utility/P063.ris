@@ -1,0 +1,16 @@
+TY  - CPAPER
+ID  - P063
+TI  - Beyond Factual Accuracy: Evaluating Coverage of Diverse Factual Information in Long-form Text Generation
+AU  - Samarinas, Chris
+AU  - Krubner, Alexander
+AU  - Salemi, Alireza
+AU  - Kim, Youngwoo
+AU  - Zamani, Hamed
+PY  - 2025
+T2  - Findings of the Association for Computational Linguistics: ACL 2025
+UR  - https://aclanthology.org/2025.findings-acl.693/
+DO  - 10.18653/v1/2025.findings-acl.693
+KW  - Evaluation
+KW  - Coverage and utility
+N1  - Curator screening note: 把声明真实性与主题方面覆盖共同评价。
+ER  -

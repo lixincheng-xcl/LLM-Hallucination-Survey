@@ -1,0 +1,15 @@
+TY  - CPAPER
+ID  - P087
+TI  - Benchmarking Large Language Models in Retrieval-Augmented Generation
+AU  - Chen, Jiawei
+AU  - Lin, Hongyu
+AU  - Han, Xianpei
+AU  - Sun, Le
+PY  - 2024
+T2  - Proceedings of the AAAI Conference on Artificial Intelligence
+UR  - https://ojs.aaai.org/index.php/AAAI/article/view/29728
+DO  - 10.1609/aaai.v38i16.29728
+KW  - Evaluation
+KW  - Robustness tests
+N1  - Curator screening note: 分开评估噪声鲁棒性、拒绝、信息整合和反事实鲁棒性。
+ER  -

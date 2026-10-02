@@ -1,0 +1,18 @@
+TY  - CPAPER
+ID  - P054
+TI  - FaithfulRAG: Fact-Level Conflict Modeling for Context-Faithful Retrieval-Augmented Generation
+AU  - Zhang, Qinggang
+AU  - Xiang, Zhishang
+AU  - Xiao, Yilin
+AU  - Wang, Le
+AU  - Li, Junhui
+AU  - Wang, Xinrun
+AU  - Su, Jinsong
+PY  - 2025
+T2  - Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2025.acl-long.1062/
+DO  - 10.18653/v1/2025.acl-long.1062
+KW  - Mitigation
+KW  - Retrieval and prompting
+N1  - Curator screening note: 在事实层建模参数知识与检索上下文冲突。
+ER  -

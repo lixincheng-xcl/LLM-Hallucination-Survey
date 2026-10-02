@@ -1,0 +1,14 @@
+TY  - CPAPER
+ID  - P068
+TI  - The Hallucination Tax of Reinforcement Finetuning
+AU  - Song, Linxin
+AU  - Shi, Taiwei
+AU  - Zhao, Jieyu
+PY  - 2025
+T2  - Findings of the Association for Computational Linguistics: EMNLP 2025
+UR  - https://aclanthology.org/2025.findings-emnlp.112/
+DO  - 10.18653/v1/2025.findings-emnlp.112
+KW  - Analysis
+KW  - Coverage and refusal
+N1  - Curator screening note: 主要用不可回答数学题分析RFT拒答退化，并报告事实QA迁移。
+ER  -

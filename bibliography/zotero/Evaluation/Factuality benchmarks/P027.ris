@@ -1,0 +1,17 @@
+TY  - CPAPER
+ID  - P027
+TI  - ANAH: Analytical Annotation of Hallucinations in Large Language Models
+AU  - Ji, Ziwei
+AU  - Gu, Yuzhe
+AU  - Zhang, Wenwei
+AU  - Lyu, Chengqi
+AU  - Lin, Dahua
+AU  - Chen, Kai
+PY  - 2024
+T2  - Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2024.acl-long.442/
+DO  - 10.18653/v1/2024.acl-long.442
+KW  - Evaluation
+KW  - Factuality benchmarks
+N1  - Curator screening note: 双语、句子级标注同时包含证据片段、幻觉类型与纠错。
+ER  -

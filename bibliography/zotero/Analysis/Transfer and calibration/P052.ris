@@ -1,0 +1,16 @@
+TY  - CPAPER
+ID  - P052
+TI  - Are the Hidden States Hiding Something? Testing the Limits of Factuality-Encoding Capabilities in LLMs
+AU  - Servedio, Giovanni
+AU  - De Bellis, Alessandro
+AU  - Di Palma, Dario
+AU  - Anelli, Vito Walter
+AU  - Di Noia, Tommaso
+PY  - 2025
+T2  - Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2025.acl-long.304/
+DO  - 10.18653/v1/2025.acl-long.304
+KW  - Analysis
+KW  - Transfer and calibration
+N1  - Curator screening note: 以更真实的模型生成数据挑战探针真实性泛化。
+ER  -

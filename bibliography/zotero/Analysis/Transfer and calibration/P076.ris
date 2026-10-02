@@ -1,0 +1,15 @@
+TY  - CPAPER
+ID  - P076
+TI  - Do LLMs Really Know What They Don’t Know? Internal States Mainly Reflect Knowledge Recall Rather Than Truthfulness
+AU  - Cheang, Chi Seng
+AU  - Chan, Hou Pong
+AU  - Zhang, Wenxuan
+AU  - Deng, Yang
+PY  - 2026
+T2  - Findings of the Association for Computational Linguistics: ACL 2026
+UR  - https://aclanthology.org/2026.findings-acl.34/
+DO  - 10.18653/v1/2026.findings-acl.34
+KW  - Analysis
+KW  - Transfer and calibration
+N1  - Curator screening note: 区分有关联与无关联幻觉，检验内部信号是否主要反映回忆。
+ER  -

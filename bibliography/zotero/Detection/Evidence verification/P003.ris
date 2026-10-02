@@ -1,0 +1,15 @@
+TY  - CPAPER
+ID  - P003
+TI  - QAFactEval: Improved QA-Based Factual Consistency Evaluation for Summarization
+AU  - Fabbri, Alexander
+AU  - Wu, Chien-Sheng
+AU  - Liu, Wenhao
+AU  - Xiong, Caiming
+PY  - 2022
+T2  - Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies
+UR  - https://aclanthology.org/2022.naacl-main.187/
+DO  - 10.18653/v1/2022.naacl-main.187
+KW  - Detection
+KW  - Evidence verification
+N1  - Curator screening note: 用问题生成、回答和可回答性组件评估摘要与来源的一致性。
+ER  -

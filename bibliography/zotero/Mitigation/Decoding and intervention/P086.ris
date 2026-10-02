@@ -1,0 +1,16 @@
+TY  - CPAPER
+ID  - P086
+TI  - Inference-Time Intervention: Eliciting Truthful Answers from a Language Model
+AU  - Li, Kenneth
+AU  - Patel, Oam
+AU  - Viégas, Fernanda
+AU  - Pfister, Hanspeter
+AU  - Wattenberg, Martin
+PY  - 2023
+T2  - Advances in Neural Information Processing Systems 36
+UR  - https://proceedings.neurips.cc/paper_files/paper/2023/hash/81b8390039b7302c909cb769f8b6cd93-Abstract-Conference.html
+DO  - 10.52202/075280-1797
+KW  - Mitigation
+KW  - Decoding and intervention
+N1  - Curator screening note: 沿学习的注意力头方向干预激活以增加真实回答。
+ER  -

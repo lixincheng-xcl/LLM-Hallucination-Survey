@@ -1,0 +1,25 @@
+TY  - CPAPER
+ID  - P039
+TI  - TofuEval: Evaluating Hallucinations of LLMs on Topic-Focused Dialogue Summarization
+AU  - Tang, Liyan
+AU  - Shalyminov, Igor
+AU  - Wong, Amy
+AU  - Burnsky, Jon
+AU  - Vincent, Jake
+AU  - Yang, Yu’an
+AU  - Singh, Siffi
+AU  - Feng, Song
+AU  - Song, Hwanjun
+AU  - Su, Hang
+AU  - Sun, Lijia
+AU  - Zhang, Yi
+AU  - Mansour, Saab
+AU  - McKeown, Kathleen
+PY  - 2024
+T2  - Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2024.naacl-long.251/
+DO  - 10.18653/v1/2024.naacl-long.251
+KW  - Evaluation
+KW  - Grounded benchmarks
+N1  - Curator screening note: 评价主题导向对话摘要的句子级错误与错误类型。
+ER  -

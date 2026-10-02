@@ -1,0 +1,16 @@
+TY  - CPAPER
+ID  - P074
+TI  - Stable-RAG: Mitigating Retrieval-Permutation-Induced Hallucinations in Retrieval-Augmented Generation
+AU  - Zhang, Qianchi
+AU  - Zhang, Hainan
+AU  - Pang, Liang
+AU  - Zheng, Hong-Wei
+AU  - Zheng, Zhiming
+PY  - 2026
+T2  - Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2026.acl-long.1188/
+DO  - 10.18653/v1/2026.acl-long.1188
+KW  - Mitigation
+KW  - Retrieval and prompting
+N1  - Curator screening note: 利用检索顺序敏感性与隐藏状态聚类提高稳定性。
+ER  -

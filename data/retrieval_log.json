@@ -1,0 +1,177 @@
+[
+  {
+    "file": "2022.acl.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2022.acl.xml",
+    "status": "ok",
+    "candidate_count": 22
+  },
+  {
+    "file": "2022.emnlp.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2022.emnlp.xml",
+    "status": "ok",
+    "candidate_count": 36
+  },
+  {
+    "file": "2022.naacl.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2022.naacl.xml",
+    "status": "ok",
+    "candidate_count": 17
+  },
+  {
+    "file": "2022.eacl.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2022.eacl.xml",
+    "status": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "2022.findings.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2022.findings.xml",
+    "status": "ok",
+    "candidate_count": 36
+  },
+  {
+    "file": "2022.tacl.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2022.tacl.xml",
+    "status": "ok",
+    "candidate_count": 3
+  },
+  {
+    "file": "2023.acl.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2023.acl.xml",
+    "status": "ok",
+    "candidate_count": 50
+  },
+  {
+    "file": "2023.emnlp.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2023.emnlp.xml",
+    "status": "ok",
+    "candidate_count": 66
+  },
+  {
+    "file": "2023.naacl.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2023.naacl.xml",
+    "status": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "2023.eacl.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2023.eacl.xml",
+    "status": "ok",
+    "candidate_count": 14
+  },
+  {
+    "file": "2023.findings.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2023.findings.xml",
+    "status": "ok",
+    "candidate_count": 90
+  },
+  {
+    "file": "2023.tacl.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2023.tacl.xml",
+    "status": "ok",
+    "candidate_count": 5
+  },
+  {
+    "file": "2024.acl.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.acl.xml",
+    "status": "ok",
+    "candidate_count": 63
+  },
+  {
+    "file": "2024.emnlp.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.emnlp.xml",
+    "status": "ok",
+    "candidate_count": 104
+  },
+  {
+    "file": "2024.naacl.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.naacl.xml",
+    "status": "ok",
+    "candidate_count": 39
+  },
+  {
+    "file": "2024.eacl.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.eacl.xml",
+    "status": "ok",
+    "candidate_count": 20
+  },
+  {
+    "file": "2024.findings.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.findings.xml",
+    "status": "ok",
+    "candidate_count": 152
+  },
+  {
+    "file": "2024.tacl.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.tacl.xml",
+    "status": "ok",
+    "candidate_count": 6
+  },
+  {
+    "file": "2025.acl.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.acl.xml",
+    "status": "ok",
+    "candidate_count": 138
+  },
+  {
+    "file": "2025.emnlp.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.emnlp.xml",
+    "status": "ok",
+    "candidate_count": 133
+  },
+  {
+    "file": "2025.naacl.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.naacl.xml",
+    "status": "ok",
+    "candidate_count": 60
+  },
+  {
+    "file": "2025.eacl.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.eacl.xml",
+    "status": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "2025.findings.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.findings.xml",
+    "status": "ok",
+    "candidate_count": 301
+  },
+  {
+    "file": "2025.tacl.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.tacl.xml",
+    "status": "ok",
+    "candidate_count": 5
+  },
+  {
+    "file": "2026.acl.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml",
+    "status": "ok",
+    "candidate_count": 190
+  },
+  {
+    "file": "2026.emnlp.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.emnlp.xml",
+    "status": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "2026.naacl.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.naacl.xml",
+    "status": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "2026.eacl.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.eacl.xml",
+    "status": "ok",
+    "candidate_count": 35
+  },
+  {
+    "file": "2026.findings.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.findings.xml",
+    "status": "ok",
+    "candidate_count": 177
+  },
+  {
+    "file": "2026.tacl.xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.tacl.xml",
+    "status": "ok",
+    "candidate_count": 4
+  }
+]

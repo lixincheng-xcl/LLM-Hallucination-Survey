@@ -1,0 +1,15 @@
+TY  - CPAPER
+ID  - P079
+TI  - When Benchmarks Age: Temporal Misalignment through Large Language Model Factuality Evaluation
+AU  - Jiang, Xunyi
+AU  - Chang, Dingyi
+AU  - McAuley, Julian
+AU  - Xu, Xin
+PY  - 2026
+T2  - Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (Volume 2: Short Papers)
+UR  - https://aclanthology.org/2026.eacl-short.37/
+DO  - 10.18653/v1/2026.eacl-short.37
+KW  - Analysis
+KW  - Measurement validity
+N1  - Curator screening note: 研究静态事实基准与现实变化间的时间错配。
+ER  -

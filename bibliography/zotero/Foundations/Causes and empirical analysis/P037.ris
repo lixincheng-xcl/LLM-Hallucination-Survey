@@ -1,0 +1,20 @@
+TY  - CPAPER
+ID  - P037
+TI  - On Large Language Models’ Hallucination with Regard to Known Facts
+AU  - Jiang, Che
+AU  - Qi, Biqing
+AU  - Hong, Xiangyu
+AU  - Fu, Dayuan
+AU  - Cheng, Yang
+AU  - Meng, Fandong
+AU  - Yu, Mo
+AU  - Zhou, Bowen
+AU  - Zhou, Jie
+PY  - 2024
+T2  - Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2024.naacl-long.60/
+DO  - 10.18653/v1/2024.naacl-long.60
+KW  - Foundations
+KW  - Causes and empirical analysis
+N1  - Curator screening note: 比较同一事实正确与错误回答的层间推理动态。
+ER  -

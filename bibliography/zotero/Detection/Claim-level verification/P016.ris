@@ -1,0 +1,20 @@
+TY  - CPAPER
+ID  - P016
+TI  - FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation
+AU  - Min, Sewon
+AU  - Krishna, Kalpesh
+AU  - Lyu, Xinxi
+AU  - Lewis, Mike
+AU  - Yih, Wen-tau
+AU  - Koh, Pang
+AU  - Iyyer, Mohit
+AU  - Zettlemoyer, Luke
+AU  - Hajishirzi, Hannaneh
+PY  - 2023
+T2  - Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2023.emnlp-main.741/
+DO  - 10.18653/v1/2023.emnlp-main.741
+KW  - Detection
+KW  - Claim-level verification
+N1  - Curator screening note: 把长文本拆成原子事实，逐项检索验证事实精确率。
+ER  -

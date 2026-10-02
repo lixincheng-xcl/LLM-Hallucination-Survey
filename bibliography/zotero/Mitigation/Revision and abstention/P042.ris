@@ -1,0 +1,18 @@
+TY  - CPAPER
+ID  - P042
+TI  - Chain-of-Verification Reduces Hallucination in Large Language Models
+AU  - Dhuliawala, Shehzaad
+AU  - Komeili, Mojtaba
+AU  - Xu, Jing
+AU  - Raileanu, Roberta
+AU  - Li, Xian
+AU  - Celikyilmaz, Asli
+AU  - Weston, Jason
+PY  - 2024
+T2  - Findings of the Association for Computational Linguistics: ACL 2024
+UR  - https://aclanthology.org/2024.findings-acl.212/
+DO  - 10.18653/v1/2024.findings-acl.212
+KW  - Mitigation
+KW  - Revision and abstention
+N1  - Curator screening note: 独立回答核验问题，再修订初始回答。
+ER  -

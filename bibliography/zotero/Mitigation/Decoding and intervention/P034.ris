@@ -1,0 +1,16 @@
+TY  - CPAPER
+ID  - P034
+TI  - Synchronous Faithfulness Monitoring for Trustworthy Retrieval-Augmented Generation
+AU  - Wu, Di
+AU  - Gu, Jia-Chen
+AU  - Yin, Fan
+AU  - Peng, Nanyun
+AU  - Chang, Kai-Wei
+PY  - 2024
+T2  - Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2024.emnlp-main.527/
+DO  - 10.18653/v1/2024.emnlp-main.527
+KW  - Mitigation
+KW  - Decoding and intervention
+N1  - Curator screening note: 融合解码动态与语义对齐，在线监测并引导生成。
+ER  -

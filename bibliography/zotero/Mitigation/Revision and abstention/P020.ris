@@ -1,0 +1,15 @@
+TY  - CPAPER
+ID  - P020
+TI  - WikiChat: Stopping the Hallucination of Large Language Model Chatbots by Few-Shot Grounding on Wikipedia
+AU  - Semnani, Sina
+AU  - Yao, Violet
+AU  - Zhang, Heidi
+AU  - Lam, Monica
+PY  - 2023
+T2  - Findings of the Association for Computational Linguistics: EMNLP 2023
+UR  - https://aclanthology.org/2023.findings-emnlp.157/
+DO  - 10.18653/v1/2023.findings-emnlp.157
+KW  - Mitigation
+KW  - Revision and abstention
+N1  - Curator screening note: 将生成内容与维基检索、事实筛选和回应整合结合。
+ER  -

@@ -1,0 +1,20 @@
+TY  - CPAPER
+ID  - P057
+TI  - UAlign: Leveraging Uncertainty Estimations for Factuality Alignment on Large Language Models
+AU  - Xue, Boyang
+AU  - Mi, Fei
+AU  - Zhu, Qi
+AU  - Wang, Hongru
+AU  - Wang, Rui
+AU  - Wang, Sheng
+AU  - Yu, Erxin
+AU  - Hu, Xuming
+AU  - Wong, Kam-Fai
+PY  - 2025
+T2  - Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2025.acl-long.299/
+DO  - 10.18653/v1/2025.acl-long.299
+KW  - Mitigation
+KW  - Training and alignment
+N1  - Curator screening note: 将置信度和语义熵用于奖励建模与PPO事实性对齐。
+ER  -

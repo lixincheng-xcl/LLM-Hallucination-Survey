@@ -1,0 +1,16 @@
+TY  - CPAPER
+ID  - P014
+TI  - HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models
+AU  - Li, Junyi
+AU  - Cheng, Xiaoxue
+AU  - Zhao, Xin
+AU  - Nie, Jian-Yun
+AU  - Wen, Ji-Rong
+PY  - 2023
+T2  - Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2023.emnlp-main.397/
+DO  - 10.18653/v1/2023.emnlp-main.397
+KW  - Evaluation
+KW  - Mixed-task benchmarks
+N1  - Curator screening note: 覆盖问答、对话、摘要与一般查询中的幻觉识别。
+ER  -

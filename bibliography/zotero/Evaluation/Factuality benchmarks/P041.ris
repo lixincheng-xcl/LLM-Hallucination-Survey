@@ -1,0 +1,21 @@
+TY  - CPAPER
+ID  - P041
+TI  - Generating Benchmarks for Factuality Evaluation of Language Models
+AU  - Muhlgay, Dor
+AU  - Ram, Ori
+AU  - Magar, Inbal
+AU  - Levine, Yoav
+AU  - Ratner, Nir
+AU  - Belinkov, Yonatan
+AU  - Abend, Omri
+AU  - Leyton-Brown, Kevin
+AU  - Shashua, Amnon
+AU  - Shoham, Yoav
+PY  - 2024
+T2  - Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2024.eacl-long.4/
+DO  - 10.18653/v1/2024.eacl-long.4
+KW  - Evaluation
+KW  - Factuality benchmarks
+N1  - Curator screening note: 把事实语料转换为事实与错误续写的受控基准。
+ER  -

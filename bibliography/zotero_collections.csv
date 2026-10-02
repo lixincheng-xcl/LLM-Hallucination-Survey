@@ -1,0 +1,88 @@
+record_id,title,collection_path,ris_file
+P001,TruthfulQA: Measuring How Models Mimic Human Falsehoods,文本幻觉综述文献库/Evaluation/Factuality benchmarks,zotero/Evaluation/Factuality benchmarks/P001.ris
+P002,Hallucinated but Factual! Inspecting the Factuality of Hallucinations in Abstractive Summarization,文本幻觉综述文献库/Foundations/Definitions,zotero/Foundations/Definitions/P002.ris
+P003,QAFactEval: Improved QA-Based Factual Consistency Evaluation for Summarization,文本幻觉综述文献库/Detection/Evidence verification,zotero/Detection/Evidence verification/P003.ris
+P004,TRUE: Re-evaluating Factual Consistency Evaluation,文本幻觉综述文献库/Evaluation/Metric validation,zotero/Evaluation/Metric validation/P004.ris
+P005,Evaluating Attribution in Dialogue Systems: The BEGIN Benchmark,文本幻觉综述文献库/Evaluation/Grounded benchmarks,zotero/Evaluation/Grounded benchmarks/P005.ris
+P006,FaithDial: A Faithful Benchmark for Information-Seeking Dialogue,文本幻觉综述文献库/Mitigation/Training and alignment,zotero/Mitigation/Training and alignment/P006.ris
+P007,WeCheck: Strong Factual Consistency Checker via Weakly Supervised Learning,文本幻觉综述文献库/Detection/Evidence verification,zotero/Detection/Evidence verification/P007.ris
+P008,AlignScore: Evaluating Factual Consistency with A Unified Alignment Function,文本幻觉综述文献库/Detection/Evidence verification,zotero/Detection/Evidence verification/P008.ris
+P009,"Understanding Factual Errors in Summarization: Errors, Summarizers, Datasets, Error Detectors",文本幻觉综述文献库/Evaluation/Metric validation,zotero/Evaluation/Metric validation/P009.ris
+P010,BUMP: A Benchmark of Unfaithful Minimal Pairs for Meta-Evaluation of Faithfulness Metrics,文本幻觉综述文献库/Evaluation/Metric validation,zotero/Evaluation/Metric validation/P010.ris
+P011,Enhancing Uncertainty-Based Hallucination Detection with Stronger Focus,文本幻觉综述文献库/Detection/Internal signals,zotero/Detection/Internal signals/P011.ris
+P012,FactKB: Generalizable Factuality Evaluation using Language Models Enhanced with Factual Knowledge,文本幻觉综述文献库/Detection/Evidence verification,zotero/Detection/Evidence verification/P012.ris
+P013,TrueTeacher: Learning Factual Consistency Evaluation with Large Language Models,文本幻觉综述文献库/Detection/Evidence verification,zotero/Detection/Evidence verification/P013.ris
+P014,HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models,文本幻觉综述文献库/Evaluation/Mixed-task benchmarks,zotero/Evaluation/Mixed-task benchmarks/P014.ris
+P015,SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models,文本幻觉综述文献库/Detection/Sampling and consistency,zotero/Detection/Sampling and consistency/P015.ris
+P016,FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation,文本幻觉综述文献库/Detection/Claim-level verification,zotero/Detection/Claim-level verification/P016.ris
+P017,LM vs LM: Detecting Factual Errors via Cross Examination,文本幻觉综述文献库/Detection/Sampling and consistency,zotero/Detection/Sampling and consistency/P017.ris
+P018,Active Retrieval Augmented Generation,文本幻觉综述文献库/Mitigation/Retrieval and prompting,zotero/Mitigation/Retrieval and prompting/P018.ris
+P019,Enabling Large Language Models to Generate Text with Citations,文本幻觉综述文献库/Evaluation/Attribution benchmarks,zotero/Evaluation/Attribution benchmarks/P019.ris
+P020,WikiChat: Stopping the Hallucination of Large Language Model Chatbots by Few-Shot Grounding on Wikipedia,文本幻觉综述文献库/Mitigation/Revision and abstention,zotero/Mitigation/Revision and abstention/P020.ris
+P021,Context-faithful Prompting for Large Language Models,文本幻觉综述文献库/Mitigation/Retrieval and prompting,zotero/Mitigation/Retrieval and prompting/P021.ris
+P022,SAC^3: Reliable Hallucination Detection in Black-Box Language Models via Semantic-aware Cross-check Consistency,文本幻觉综述文献库/Detection/Sampling and consistency,zotero/Detection/Sampling and consistency/P022.ris
+P023,The Internal State of an LLM Knows When It’s Lying,文本幻觉综述文献库/Detection/Internal signals,zotero/Detection/Internal signals/P023.ris
+P024,LongEval: Guidelines for Human Evaluation of Faithfulness in Long-form Summarization,文本幻觉综述文献库/Evaluation/Human evaluation,zotero/Evaluation/Human evaluation/P024.ris
+P025,Self-Alignment for Factuality: Mitigating Hallucinations in LLMs via Self-Evaluation,文本幻觉综述文献库/Mitigation/Training and alignment,zotero/Mitigation/Training and alignment/P025.ris
+P026,Factual Confidence of LLMs: on Reliability and Robustness of Current Estimators,文本幻觉综述文献库/Analysis/Transfer and calibration,zotero/Analysis/Transfer and calibration/P026.ris
+P027,ANAH: Analytical Annotation of Hallucinations in Large Language Models,文本幻觉综述文献库/Evaluation/Factuality benchmarks,zotero/Evaluation/Factuality benchmarks/P027.ris
+P028,TruthX: Alleviating Hallucinations by Editing Large Language Models in Truthful Space,文本幻觉综述文献库/Mitigation/Decoding and intervention,zotero/Mitigation/Decoding and intervention/P028.ris
+P029,RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models,文本幻觉综述文献库/Evaluation/Grounded benchmarks,zotero/Evaluation/Grounded benchmarks/P029.ris
+P030,The Dawn After the Dark: An Empirical Study on Factuality Hallucination in Large Language Models,文本幻觉综述文献库/Foundations/Causes and empirical analysis,zotero/Foundations/Causes and empirical analysis/P030.ris
+P031,"Don’t Hallucinate, Abstain: Identifying LLM Knowledge Gaps via Multi-LLM Collaboration",文本幻觉综述文献库/Mitigation/Revision and abstention,zotero/Mitigation/Revision and abstention/P031.ris
+P032,Lookback Lens: Detecting and Mitigating Contextual Hallucinations in Large Language Models Using Only Attention Maps,文本幻觉综述文献库/Detection/Internal signals,zotero/Detection/Internal signals/P032.ris
+P033,Does Fine-Tuning LLMs on New Knowledge Encourage Hallucinations?,文本幻觉综述文献库/Foundations/Training knowledge mismatch,zotero/Foundations/Training knowledge mismatch/P033.ris
+P034,Synchronous Faithfulness Monitoring for Trustworthy Retrieval-Augmented Generation,文本幻觉综述文献库/Mitigation/Decoding and intervention,zotero/Mitigation/Decoding and intervention/P034.ris
+P035,On the Universal Truthfulness Hyperplane Inside LLMs,文本幻觉综述文献库/Detection/Internal signals,zotero/Detection/Internal signals/P035.ris
+P036,Factuality of Large Language Models: A Survey,文本幻觉综述文献库/Foundations/Definitions,zotero/Foundations/Definitions/P036.ris
+P037,On Large Language Models’ Hallucination with Regard to Known Facts,文本幻觉综述文献库/Foundations/Causes and empirical analysis,zotero/Foundations/Causes and empirical analysis/P037.ris
+P038,ExpertQA: Expert-Curated Questions and Attributed Answers,文本幻觉综述文献库/Evaluation/Attribution benchmarks,zotero/Evaluation/Attribution benchmarks/P038.ris
+P039,TofuEval: Evaluating Hallucinations of LLMs on Topic-Focused Dialogue Summarization,文本幻觉综述文献库/Evaluation/Grounded benchmarks,zotero/Evaluation/Grounded benchmarks/P039.ris
+P040,Trusting Your Evidence: Hallucinate Less with Context-aware Decoding,文本幻觉综述文献库/Mitigation/Decoding and intervention,zotero/Mitigation/Decoding and intervention/P040.ris
+P041,Generating Benchmarks for Factuality Evaluation of Language Models,文本幻觉综述文献库/Evaluation/Factuality benchmarks,zotero/Evaluation/Factuality benchmarks/P041.ris
+P042,Chain-of-Verification Reduces Hallucination in Large Language Models,文本幻觉综述文献库/Mitigation/Revision and abstention,zotero/Mitigation/Revision and abstention/P042.ris
+P043,FENICE: Factuality Evaluation of summarization based on Natural language Inference and Claim Extraction,文本幻觉综述文献库/Detection/Claim-level verification,zotero/Detection/Claim-level verification/P043.ris
+P044,ReEval: Automatic Hallucination Evaluation for Retrieval-Augmented Large Language Models via Transferable Adversarial Attacks,文本幻觉综述文献库/Evaluation/Robustness tests,zotero/Evaluation/Robustness tests/P044.ris
+P045,VeriScore: Evaluating the factuality of verifiable claims in long-form text generation,文本幻觉综述文献库/Detection/Claim-level verification,zotero/Detection/Claim-level verification/P045.ris
+P046,FactAlign: Long-form Factuality Alignment of Large Language Models,文本幻觉综述文献库/Mitigation/Training and alignment,zotero/Mitigation/Training and alignment/P046.ris
+P047,Lost in the Middle: How Language Models Use Long Contexts,文本幻觉综述文献库/Foundations/Context use,zotero/Foundations/Context use/P047.ris
+P048,Evaluating Correctness and Faithfulness of Instruction-Following Models for Question Answering,文本幻觉综述文献库/Evaluation/Metric validation,zotero/Evaluation/Metric validation/P048.ris
+P049,HALoGEN: Fantastic LLM Hallucinations and Where to Find Them,文本幻觉综述文献库/Evaluation/Factuality benchmarks,zotero/Evaluation/Factuality benchmarks/P049.ris
+P050,HalluLens: LLM Hallucination Benchmark,文本幻觉综述文献库/Evaluation/Factuality benchmarks,zotero/Evaluation/Factuality benchmarks/P050.ris
+P051,FactBench: A Dynamic Benchmark for In-the-Wild Language Model Factuality Evaluation,文本幻觉综述文献库/Evaluation/Factuality benchmarks,zotero/Evaluation/Factuality benchmarks/P051.ris
+P052,Are the Hidden States Hiding Something? Testing the Limits of Factuality-Encoding Capabilities in LLMs,文本幻觉综述文献库/Analysis/Transfer and calibration,zotero/Analysis/Transfer and calibration/P052.ris
+P053,Improving Contextual Faithfulness of Large Language Models via Retrieval Heads-Induced Optimization,文本幻觉综述文献库/Mitigation/Training and alignment,zotero/Mitigation/Training and alignment/P053.ris
+P054,FaithfulRAG: Fact-Level Conflict Modeling for Context-Faithful Retrieval-Augmented Generation,文本幻觉综述文献库/Mitigation/Retrieval and prompting,zotero/Mitigation/Retrieval and prompting/P054.ris
+P055,Astute RAG: Overcoming Imperfect Retrieval Augmentation and Knowledge Conflicts for Large Language Models,文本幻觉综述文献库/Mitigation/Retrieval and prompting,zotero/Mitigation/Retrieval and prompting/P055.ris
+P056,Alleviating Hallucinations from Knowledge Misalignment in Large Language Models via Selective Abstention Learning,文本幻觉综述文献库/Mitigation/Revision and abstention,zotero/Mitigation/Revision and abstention/P056.ris
+P057,UAlign: Leveraging Uncertainty Estimations for Factuality Alignment on Large Language Models,文本幻觉综述文献库/Mitigation/Training and alignment,zotero/Mitigation/Training and alignment/P057.ris
+P058,Unfamiliar Finetuning Examples Control How Language Models Hallucinate,文本幻觉综述文献库/Foundations/Training knowledge mismatch,zotero/Foundations/Training knowledge mismatch/P058.ris
+P059,FaithBench: A Diverse Hallucination Benchmark for Summarization by Modern LLMs,文本幻觉综述文献库/Evaluation/Grounded benchmarks,zotero/Evaluation/Grounded benchmarks/P059.ris
+P060,CoCoA: Confidence- and Context-Aware Adaptive Decoding for Resolving Knowledge Conflicts in Large Language Models,文本幻觉综述文献库/Mitigation/Decoding and intervention,zotero/Mitigation/Decoding and intervention/P060.ris
+P061,The Illusion of Progress: Re-evaluating Hallucination Detection in LLMs,文本幻觉综述文献库/Analysis/Measurement validity,zotero/Analysis/Measurement validity/P061.ris
+P062,How Does Response Length Affect Long-Form Factuality,文本幻觉综述文献库/Analysis/Measurement validity,zotero/Analysis/Measurement validity/P062.ris
+P063,Beyond Factual Accuracy: Evaluating Coverage of Diverse Factual Information in Long-form Text Generation,文本幻觉综述文献库/Evaluation/Coverage and utility,zotero/Evaluation/Coverage and utility/P063.ris
+P064,Core: Robust Factual Precision with Informative Sub-Claim Identification,文本幻觉综述文献库/Evaluation/Metric validation,zotero/Evaluation/Metric validation/P064.ris
+P065,Verify with Caution: The Pitfalls of Relying on Imperfect Factuality Metrics,文本幻觉综述文献库/Analysis/Measurement validity,zotero/Analysis/Measurement validity/P065.ris
+P066,Context-DPO: Aligning Language Models for Context-Faithfulness,文本幻觉综述文献库/Mitigation/Training and alignment,zotero/Mitigation/Training and alignment/P066.ris
+P067,Chain-of-Thought Prompting Obscures Hallucination Cues in Large Language Models: An Empirical Evaluation,文本幻觉综述文献库/Analysis/Transfer and calibration,zotero/Analysis/Transfer and calibration/P067.ris
+P068,The Hallucination Tax of Reinforcement Finetuning,文本幻觉综述文献库/Analysis/Coverage and refusal,zotero/Analysis/Coverage and refusal/P068.ris
+P069,DeCoRe: Decoding by Contrasting Retrieval Heads to Mitigate Hallucinations,文本幻觉综述文献库/Mitigation/Decoding and intervention,zotero/Mitigation/Decoding and intervention/P069.ris
+P070,FactReasoner: A Probabilistic Approach to Long-Form Factuality Assessment for Large Language Models,文本幻觉综述文献库/Detection/Claim-level verification,zotero/Detection/Claim-level verification/P070.ris
+P071,PrefixNLI: Detecting Factual Inconsistencies as Soon as They Arise,文本幻觉综述文献库/Detection/Evidence verification,zotero/Detection/Evidence verification/P071.ris
+P072,"Rethinking Evaluation for LLM Hallucination Detection: A Desiderata, A New RAG-based Benchmark, New Insights",文本幻觉综述文献库/Evaluation/Grounded benchmarks,zotero/Evaluation/Grounded benchmarks/P072.ris
+P073,ReFL: Reflective Feedback Learning for Hallucination Detection of Large Language Models,文本幻觉综述文献库/Detection/Internal signals,zotero/Detection/Internal signals/P073.ris
+P074,Stable-RAG: Mitigating Retrieval-Permutation-Induced Hallucinations in Retrieval-Augmented Generation,文本幻觉综述文献库/Mitigation/Retrieval and prompting,zotero/Mitigation/Retrieval and prompting/P074.ris
+P075,Whose Facts Win? LLM Source Preferences under Knowledge Conflicts,文本幻觉综述文献库/Foundations/Context use,zotero/Foundations/Context use/P075.ris
+P076,Do LLMs Really Know What They Don’t Know? Internal States Mainly Reflect Knowledge Recall Rather Than Truthfulness,文本幻觉综述文献库/Analysis/Transfer and calibration,zotero/Analysis/Transfer and calibration/P076.ris
+P077,Enhancing Hallucination Detection via Future Context,文本幻觉综述文献库/Detection/Sampling and consistency,zotero/Detection/Sampling and consistency/P077.ris
+P078,FaithLens: Detecting and Explaining Faithfulness Hallucination,文本幻觉综述文献库/Detection/Evidence verification,zotero/Detection/Evidence verification/P078.ris
+P079,When Benchmarks Age: Temporal Misalignment through Large Language Model Factuality Evaluation,文本幻觉综述文献库/Analysis/Measurement validity,zotero/Analysis/Measurement validity/P079.ris
+P080,Localizing Factual Inconsistencies in Attributable Text Generation,文本幻觉综述文献库/Detection/Claim-level verification,zotero/Detection/Claim-level verification/P080.ris
+P081,DoLa: Decoding by Contrasting Layers Improves Factuality in Large Language Models,文本幻觉综述文献库/Mitigation/Decoding and intervention,zotero/Mitigation/Decoding and intervention/P081.ris
+P082,"Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",文本幻觉综述文献库/Mitigation/Retrieval and prompting,zotero/Mitigation/Retrieval and prompting/P082.ris
+P083,CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing,文本幻觉综述文献库/Mitigation/Revision and abstention,zotero/Mitigation/Revision and abstention/P083.ris
+P084,Semantic Uncertainty: Linguistic Invariances for Uncertainty Estimation in Natural Language Generation,文本幻觉综述文献库/Detection/Sampling and consistency,zotero/Detection/Sampling and consistency/P084.ris
+P085,Detecting hallucinations in large language models using semantic entropy,文本幻觉综述文献库/Detection/Sampling and consistency,zotero/Detection/Sampling and consistency/P085.ris
+P086,Inference-Time Intervention: Eliciting Truthful Answers from a Language Model,文本幻觉综述文献库/Mitigation/Decoding and intervention,zotero/Mitigation/Decoding and intervention/P086.ris
+P087,Benchmarking Large Language Models in Retrieval-Augmented Generation,文本幻觉综述文献库/Evaluation/Robustness tests,zotero/Evaluation/Robustness tests/P087.ris

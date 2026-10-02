@@ -1,0 +1,19 @@
+TY  - JOUR
+ID  - P080
+TI  - Localizing Factual Inconsistencies in Attributable Text Generation
+AU  - Cattan, Arie
+AU  - Roit, Paul
+AU  - Zhang, Shiyue
+AU  - Wan, David
+AU  - Aharoni, Roee
+AU  - Szpektor, Idan
+AU  - Bansal, Mohit
+AU  - Dagan, Ido
+PY  - 2026
+T2  - Transactions of the Association for Computational Linguistics, Volume 14
+UR  - https://aclanthology.org/2026.tacl-1.6/
+DO  - 10.1162/tacl.a.598
+KW  - Detection
+KW  - Claim-level verification
+N1  - Curator screening note: 将陈述拆成谓词—论元QA对，定位细粒度不一致。
+ER  -

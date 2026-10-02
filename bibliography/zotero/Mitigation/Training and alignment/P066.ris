@@ -1,0 +1,25 @@
+TY  - CPAPER
+ID  - P066
+TI  - Context-DPO: Aligning Language Models for Context-Faithfulness
+AU  - Bi, Baolong
+AU  - Huang, Shaohan
+AU  - Wang, Yiwei
+AU  - Yang, Tianchi
+AU  - Zhang, Zihan
+AU  - Huang, Haizhen
+AU  - Mei, Lingrui
+AU  - Fang, Junfeng
+AU  - Li, Zehao
+AU  - Wei, Furu
+AU  - Deng, Weiwei
+AU  - Sun, Feng
+AU  - Zhang, Qi
+AU  - Liu, Shenghua
+PY  - 2025
+T2  - Findings of the Association for Computational Linguistics: ACL 2025
+UR  - https://aclanthology.org/2025.findings-acl.536/
+DO  - 10.18653/v1/2025.findings-acl.536
+KW  - Mitigation
+KW  - Training and alignment
+N1  - Curator screening note: 以知识冲突下忠实与固执回应构造偏好训练。
+ER  -

@@ -1,0 +1,15 @@
+TY  - CPAPER
+ID  - P035
+TI  - On the Universal Truthfulness Hyperplane Inside LLMs
+AU  - Liu, Junteng
+AU  - Chen, Shiqi
+AU  - Cheng, Yu
+AU  - He, Junxian
+PY  - 2024
+T2  - Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2024.emnlp-main.1012/
+DO  - 10.18653/v1/2024.emnlp-main.1012
+KW  - Detection
+KW  - Internal signals
+N1  - Curator screening note: 扩大监督数据的任务多样性，研究探针泛化。
+ER  -

@@ -1,0 +1,1575 @@
+TY  - CPAPER
+ID  - P001
+TI  - TruthfulQA: Measuring How Models Mimic Human Falsehoods
+AU  - Lin, Stephanie
+AU  - Hilton, Jacob
+AU  - Evans, Owain
+PY  - 2022
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.229/
+DO  - 10.18653/v1/2022.acl-long.229
+KW  - Evaluation
+KW  - Factuality benchmarks
+N1  - Curator screening note: 以易诱发人类误解的问题测量真实性，作为闭卷问答基础基准。
+ER  -
+
+TY  - CPAPER
+ID  - P002
+TI  - Hallucinated but Factual! Inspecting the Factuality of Hallucinations in Abstractive Summarization
+AU  - Cao, Meng
+AU  - Dong, Yue
+AU  - Cheung, Jackie
+PY  - 2022
+T2  - Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2022.acl-long.236/
+DO  - 10.18653/v1/2022.acl-long.236
+KW  - Foundations
+KW  - Definitions
+N1  - Curator screening note: 区分源文档不可推出的内容与世界知识意义上的错误。
+ER  -
+
+TY  - CPAPER
+ID  - P003
+TI  - QAFactEval: Improved QA-Based Factual Consistency Evaluation for Summarization
+AU  - Fabbri, Alexander
+AU  - Wu, Chien-Sheng
+AU  - Liu, Wenhao
+AU  - Xiong, Caiming
+PY  - 2022
+T2  - Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies
+UR  - https://aclanthology.org/2022.naacl-main.187/
+DO  - 10.18653/v1/2022.naacl-main.187
+KW  - Detection
+KW  - Evidence verification
+N1  - Curator screening note: 用问题生成、回答和可回答性组件评估摘要与来源的一致性。
+ER  -
+
+TY  - CPAPER
+ID  - P004
+TI  - TRUE: Re-evaluating Factual Consistency Evaluation
+AU  - Honovich, Or
+AU  - Aharoni, Roee
+AU  - Herzig, Jonathan
+AU  - Taitelbaum, Hagai
+AU  - Kukliansy, Doron
+AU  - Cohen, Vered
+AU  - Scialom, Thomas
+AU  - Szpektor, Idan
+AU  - Hassidim, Avinatan
+AU  - Matias, Yossi
+PY  - 2022
+T2  - Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies
+UR  - https://aclanthology.org/2022.naacl-main.287/
+DO  - 10.18653/v1/2022.naacl-main.287
+KW  - Evaluation
+KW  - Metric validation
+N1  - Curator screening note: 统一多个任务的数据，强调样本级而非仅系统级指标验证。
+ER  -
+
+TY  - JOUR
+ID  - P005
+TI  - Evaluating Attribution in Dialogue Systems: The BEGIN Benchmark
+AU  - Dziri, Nouha
+AU  - Rashkin, Hannah
+AU  - Linzen, Tal
+AU  - Reitter, David
+PY  - 2022
+T2  - Transactions of the Association for Computational Linguistics, Volume 10
+UR  - https://aclanthology.org/2022.tacl-1.62/
+DO  - 10.1162/tacl_a_00506
+KW  - Evaluation
+KW  - Grounded benchmarks
+N1  - Curator screening note: 以对话回应可归因性评价指标，并分析长度与措辞捷径。
+ER  -
+
+TY  - JOUR
+ID  - P006
+TI  - FaithDial: A Faithful Benchmark for Information-Seeking Dialogue
+AU  - Dziri, Nouha
+AU  - Kamalloo, Ehsan
+AU  - Milton, Sivan
+AU  - Zaiane, Osmar
+AU  - Yu, Mo
+AU  - Ponti, Edoardo M.
+AU  - Reddy, Siva
+PY  - 2022
+T2  - Transactions of the Association for Computational Linguistics, Volume 10
+UR  - https://aclanthology.org/2022.tacl-1.84/
+DO  - 10.1162/tacl_a_00529
+KW  - Mitigation
+KW  - Training and alignment
+N1  - Curator screening note: 通过改写不忠实对话构建训练与评测资源。
+ER  -
+
+TY  - CPAPER
+ID  - P007
+TI  - WeCheck: Strong Factual Consistency Checker via Weakly Supervised Learning
+AU  - Wu, Wenhao
+AU  - Li, Wei
+AU  - Xiao, Xinyan
+AU  - Liu, Jiachen
+AU  - Li, Sujian
+AU  - Lyu, Yajuan
+PY  - 2023
+T2  - Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2023.acl-long.18/
+DO  - 10.18653/v1/2023.acl-long.18
+KW  - Detection
+KW  - Evidence verification
+N1  - Curator screening note: 聚合弱标签，在真实生成文本上训练一致性检查器。
+ER  -
+
+TY  - CPAPER
+ID  - P008
+TI  - AlignScore: Evaluating Factual Consistency with A Unified Alignment Function
+AU  - Zha, Yuheng
+AU  - Yang, Yichi
+AU  - Li, Ruichen
+AU  - Hu, Zhiting
+PY  - 2023
+T2  - Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2023.acl-long.634/
+DO  - 10.18653/v1/2023.acl-long.634
+KW  - Detection
+KW  - Evidence verification
+N1  - Curator screening note: 将多种文本对任务统一为信息对齐评分。
+ER  -
+
+TY  - CPAPER
+ID  - P009
+TI  - Understanding Factual Errors in Summarization: Errors, Summarizers, Datasets, Error Detectors
+AU  - Tang, Liyan
+AU  - Goyal, Tanya
+AU  - Fabbri, Alex
+AU  - Laban, Philippe
+AU  - Xu, Jiacheng
+AU  - Yavuz, Semih
+AU  - Kryscinski, Wojciech
+AU  - Rousseau, Justin
+AU  - Durrett, Greg
+PY  - 2023
+T2  - Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2023.acl-long.650/
+DO  - 10.18653/v1/2023.acl-long.650
+KW  - Evaluation
+KW  - Metric validation
+N1  - Curator screening note: 按生成模型与错误类型重新分析事实性指标的改进。
+ER  -
+
+TY  - CPAPER
+ID  - P010
+TI  - BUMP: A Benchmark of Unfaithful Minimal Pairs for Meta-Evaluation of Faithfulness Metrics
+AU  - Ma, Liang
+AU  - Cao, Shuyang
+AU  - Logan IV, Robert L
+AU  - Lu, Di
+AU  - Ran, Shihao
+AU  - Zhang, Ke
+AU  - Tetreault, Joel
+AU  - Jaimes, Alejandro
+PY  - 2023
+T2  - Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2023.acl-long.716/
+DO  - 10.18653/v1/2023.acl-long.716
+KW  - Evaluation
+KW  - Metric validation
+N1  - Curator screening note: 用最小差异摘要对诊断指标对单种错误的敏感性。
+ER  -
+
+TY  - CPAPER
+ID  - P011
+TI  - Enhancing Uncertainty-Based Hallucination Detection with Stronger Focus
+AU  - Zhang, Tianhang
+AU  - Qiu, Lin
+AU  - Guo, Qipeng
+AU  - Deng, Cheng
+AU  - Zhang, Yue
+AU  - Zhang, Zheng
+AU  - Zhou, Chenghu
+AU  - Wang, Xinbing
+AU  - Fu, Luoyi
+PY  - 2023
+T2  - Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2023.emnlp-main.58/
+DO  - 10.18653/v1/2023.emnlp-main.58
+KW  - Detection
+KW  - Internal signals
+N1  - Curator screening note: 从重要词、历史不可靠词和词属性集中估计不确定性。
+ER  -
+
+TY  - CPAPER
+ID  - P012
+TI  - FactKB: Generalizable Factuality Evaluation using Language Models Enhanced with Factual Knowledge
+AU  - Feng, Shangbin
+AU  - Balachandran, Vidhisha
+AU  - Bai, Yuyang
+AU  - Tsvetkov, Yulia
+PY  - 2023
+T2  - Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2023.emnlp-main.59/
+DO  - 10.18653/v1/2023.emnlp-main.59
+KW  - Detection
+KW  - Evidence verification
+N1  - Curator screening note: 用知识库事实预训练评估器以改善实体与关系错误检测。
+ER  -
+
+TY  - CPAPER
+ID  - P013
+TI  - TrueTeacher: Learning Factual Consistency Evaluation with Large Language Models
+AU  - Gekhman, Zorik
+AU  - Herzig, Jonathan
+AU  - Aharoni, Roee
+AU  - Elkind, Chen
+AU  - Szpektor, Idan
+PY  - 2023
+T2  - Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2023.emnlp-main.127/
+DO  - 10.18653/v1/2023.emnlp-main.127
+KW  - Detection
+KW  - Evidence verification
+N1  - Curator screening note: 以大模型标注生成摘要，训练较小的一致性评估器。
+ER  -
+
+TY  - CPAPER
+ID  - P014
+TI  - HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models
+AU  - Li, Junyi
+AU  - Cheng, Xiaoxue
+AU  - Zhao, Xin
+AU  - Nie, Jian-Yun
+AU  - Wen, Ji-Rong
+PY  - 2023
+T2  - Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2023.emnlp-main.397/
+DO  - 10.18653/v1/2023.emnlp-main.397
+KW  - Evaluation
+KW  - Mixed-task benchmarks
+N1  - Curator screening note: 覆盖问答、对话、摘要与一般查询中的幻觉识别。
+ER  -
+
+TY  - CPAPER
+ID  - P015
+TI  - SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models
+AU  - Manakul, Potsawee
+AU  - Liusie, Adian
+AU  - Gales, Mark
+PY  - 2023
+T2  - Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2023.emnlp-main.557/
+DO  - 10.18653/v1/2023.emnlp-main.557
+KW  - Detection
+KW  - Sampling and consistency
+N1  - Curator screening note: 用多次黑盒生成之间的一致性定位可疑陈述。
+ER  -
+
+TY  - CPAPER
+ID  - P016
+TI  - FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation
+AU  - Min, Sewon
+AU  - Krishna, Kalpesh
+AU  - Lyu, Xinxi
+AU  - Lewis, Mike
+AU  - Yih, Wen-tau
+AU  - Koh, Pang
+AU  - Iyyer, Mohit
+AU  - Zettlemoyer, Luke
+AU  - Hajishirzi, Hannaneh
+PY  - 2023
+T2  - Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2023.emnlp-main.741/
+DO  - 10.18653/v1/2023.emnlp-main.741
+KW  - Detection
+KW  - Claim-level verification
+N1  - Curator screening note: 把长文本拆成原子事实，逐项检索验证事实精确率。
+ER  -
+
+TY  - CPAPER
+ID  - P017
+TI  - LM vs LM: Detecting Factual Errors via Cross Examination
+AU  - Cohen, Roi
+AU  - Hamri, May
+AU  - Geva, Mor
+AU  - Globerson, Amir
+PY  - 2023
+T2  - Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2023.emnlp-main.778/
+DO  - 10.18653/v1/2023.emnlp-main.778
+KW  - Detection
+KW  - Sampling and consistency
+N1  - Curator screening note: 通过另一模型多轮盘问寻找原始回答中的矛盾。
+ER  -
+
+TY  - CPAPER
+ID  - P018
+TI  - Active Retrieval Augmented Generation
+AU  - Jiang, Zhengbao
+AU  - Xu, Frank
+AU  - Gao, Luyu
+AU  - Sun, Zhiqing
+AU  - Liu, Qian
+AU  - Dwivedi-Yu, Jane
+AU  - Yang, Yiming
+AU  - Callan, Jamie
+AU  - Neubig, Graham
+PY  - 2023
+T2  - Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2023.emnlp-main.495/
+DO  - 10.18653/v1/2023.emnlp-main.495
+KW  - Mitigation
+KW  - Retrieval and prompting
+N1  - Curator screening note: 根据预测句子及低置信词触发主动检索与重新生成。
+ER  -
+
+TY  - CPAPER
+ID  - P019
+TI  - Enabling Large Language Models to Generate Text with Citations
+AU  - Gao, Tianyu
+AU  - Yen, Howard
+AU  - Yu, Jiatong
+AU  - Chen, Danqi
+PY  - 2023
+T2  - Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2023.emnlp-main.398/
+DO  - 10.18653/v1/2023.emnlp-main.398
+KW  - Evaluation
+KW  - Attribution benchmarks
+N1  - Curator screening note: 同时评价答案质量、事实正确性及引文支持。
+ER  -
+
+TY  - CPAPER
+ID  - P020
+TI  - WikiChat: Stopping the Hallucination of Large Language Model Chatbots by Few-Shot Grounding on Wikipedia
+AU  - Semnani, Sina
+AU  - Yao, Violet
+AU  - Zhang, Heidi
+AU  - Lam, Monica
+PY  - 2023
+T2  - Findings of the Association for Computational Linguistics: EMNLP 2023
+UR  - https://aclanthology.org/2023.findings-emnlp.157/
+DO  - 10.18653/v1/2023.findings-emnlp.157
+KW  - Mitigation
+KW  - Revision and abstention
+N1  - Curator screening note: 将生成内容与维基检索、事实筛选和回应整合结合。
+ER  -
+
+TY  - CPAPER
+ID  - P021
+TI  - Context-faithful Prompting for Large Language Models
+AU  - Zhou, Wenxuan
+AU  - Zhang, Sheng
+AU  - Poon, Hoifung
+AU  - Chen, Muhao
+PY  - 2023
+T2  - Findings of the Association for Computational Linguistics: EMNLP 2023
+UR  - https://aclanthology.org/2023.findings-emnlp.968/
+DO  - 10.18653/v1/2023.findings-emnlp.968
+KW  - Mitigation
+KW  - Retrieval and prompting
+N1  - Curator screening note: 用意见式提示和反事实示例提高上下文遵循。
+ER  -
+
+TY  - CPAPER
+ID  - P022
+TI  - SAC^3: Reliable Hallucination Detection in Black-Box Language Models via Semantic-aware Cross-check Consistency
+AU  - Zhang, Jiaxin
+AU  - Li, Zhuohang
+AU  - Das, Kamalika
+AU  - Malin, Bradley
+AU  - Kumar, Sricharan
+PY  - 2023
+T2  - Findings of the Association for Computational Linguistics: EMNLP 2023
+UR  - https://aclanthology.org/2023.findings-emnlp.1032/
+DO  - 10.18653/v1/2023.findings-emnlp.1032
+KW  - Detection
+KW  - Sampling and consistency
+N1  - Curator screening note: 联合问题扰动与跨模型一致性补充单模型自检。
+ER  -
+
+TY  - CPAPER
+ID  - P023
+TI  - The Internal State of an LLM Knows When It’s Lying
+AU  - Azaria, Amos
+AU  - Mitchell, Tom
+PY  - 2023
+T2  - Findings of the Association for Computational Linguistics: EMNLP 2023
+UR  - https://aclanthology.org/2023.findings-emnlp.68/
+DO  - 10.18653/v1/2023.findings-emnlp.68
+KW  - Detection
+KW  - Internal signals
+N1  - Curator screening note: 以隐藏层表示训练真假分类器。
+ER  -
+
+TY  - CPAPER
+ID  - P024
+TI  - LongEval: Guidelines for Human Evaluation of Faithfulness in Long-form Summarization
+AU  - Krishna, Kalpesh
+AU  - Bransom, Erin
+AU  - Kuehl, Bailey
+AU  - Iyyer, Mohit
+AU  - Dasigi, Pradeep
+AU  - Cohan, Arman
+AU  - Lo, Kyle
+PY  - 2023
+T2  - Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics
+UR  - https://aclanthology.org/2023.eacl-main.121/
+DO  - 10.18653/v1/2023.eacl-main.121
+KW  - Evaluation
+KW  - Human evaluation
+N1  - Curator screening note: 比较长摘要细粒度人工判断与抽样标注策略。
+ER  -
+
+TY  - CPAPER
+ID  - P025
+TI  - Self-Alignment for Factuality: Mitigating Hallucinations in LLMs via Self-Evaluation
+AU  - Zhang, Xiaoying
+AU  - Peng, Baolin
+AU  - Tian, Ye
+AU  - Zhou, Jingyan
+AU  - Jin, Lifeng
+AU  - Song, Linfeng
+AU  - Mi, Haitao
+AU  - Meng, Helen
+PY  - 2024
+T2  - Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2024.acl-long.107/
+DO  - 10.18653/v1/2024.acl-long.107
+KW  - Mitigation
+KW  - Training and alignment
+N1  - Curator screening note: 结合自评、知识调优与偏好优化提高事实性。
+ER  -
+
+TY  - CPAPER
+ID  - P026
+TI  - Factual Confidence of LLMs: on Reliability and Robustness of Current Estimators
+AU  - Mahaut, Matéo
+AU  - Aina, Laura
+AU  - Czarnowska, Paula
+AU  - Hardalov, Momchil
+AU  - Müller, Thomas
+AU  - Marquez, Lluis
+PY  - 2024
+T2  - Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2024.acl-long.250/
+DO  - 10.18653/v1/2024.acl-long.250
+KW  - Analysis
+KW  - Transfer and calibration
+N1  - Curator screening note: 统一比较事实置信估计，并检查语义等价输入下的稳定性。
+ER  -
+
+TY  - CPAPER
+ID  - P027
+TI  - ANAH: Analytical Annotation of Hallucinations in Large Language Models
+AU  - Ji, Ziwei
+AU  - Gu, Yuzhe
+AU  - Zhang, Wenwei
+AU  - Lyu, Chengqi
+AU  - Lin, Dahua
+AU  - Chen, Kai
+PY  - 2024
+T2  - Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2024.acl-long.442/
+DO  - 10.18653/v1/2024.acl-long.442
+KW  - Evaluation
+KW  - Factuality benchmarks
+N1  - Curator screening note: 双语、句子级标注同时包含证据片段、幻觉类型与纠错。
+ER  -
+
+TY  - CPAPER
+ID  - P028
+TI  - TruthX: Alleviating Hallucinations by Editing Large Language Models in Truthful Space
+AU  - Zhang, Shaolei
+AU  - Yu, Tian
+AU  - Feng, Yang
+PY  - 2024
+T2  - Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2024.acl-long.483/
+DO  - 10.18653/v1/2024.acl-long.483
+KW  - Mitigation
+KW  - Decoding and intervention
+N1  - Curator screening note: 学习语义与真实性潜空间，在推理时编辑内部表示。
+ER  -
+
+TY  - CPAPER
+ID  - P029
+TI  - RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models
+AU  - Niu, Cheng
+AU  - Wu, Yuanhao
+AU  - Zhu, Juno
+AU  - Xu, Siliang
+AU  - Shum, KaShun
+AU  - Zhong, Randy
+AU  - Song, Juntong
+AU  - Zhang, Tong
+PY  - 2024
+T2  - Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2024.acl-long.585/
+DO  - 10.18653/v1/2024.acl-long.585
+KW  - Evaluation
+KW  - Grounded benchmarks
+N1  - Curator screening note: 对自然产生的RAG回应进行回应级与词级人工标注。
+ER  -
+
+TY  - CPAPER
+ID  - P030
+TI  - The Dawn After the Dark: An Empirical Study on Factuality Hallucination in Large Language Models
+AU  - Li, Junyi
+AU  - Chen, Jie
+AU  - Ren, Ruiyang
+AU  - Cheng, Xiaoxue
+AU  - Zhao, Xin
+AU  - Nie, Jian-Yun
+AU  - Wen, Ji-Rong
+PY  - 2024
+T2  - Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2024.acl-long.586/
+DO  - 10.18653/v1/2024.acl-long.586
+KW  - Foundations
+KW  - Causes and empirical analysis
+N1  - Curator screening note: 将检测、来源与缓解放入同一实证分析。
+ER  -
+
+TY  - CPAPER
+ID  - P031
+TI  - Don’t Hallucinate, Abstain: Identifying LLM Knowledge Gaps via Multi-LLM Collaboration
+AU  - Feng, Shangbin
+AU  - Shi, Weijia
+AU  - Wang, Yike
+AU  - Ding, Wenxuan
+AU  - Balachandran, Vidhisha
+AU  - Tsvetkov, Yulia
+PY  - 2024
+T2  - Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2024.acl-long.786/
+DO  - 10.18653/v1/2024.acl-long.786
+KW  - Mitigation
+KW  - Revision and abstention
+N1  - Curator screening note: 利用协作或竞争式多模型探查知识缺口与拒答。
+ER  -
+
+TY  - CPAPER
+ID  - P032
+TI  - Lookback Lens: Detecting and Mitigating Contextual Hallucinations in Large Language Models Using Only Attention Maps
+AU  - Chuang, Yung-Sung
+AU  - Qiu, Linlu
+AU  - Hsieh, Cheng-Yu
+AU  - Krishna, Ranjay
+AU  - Kim, Yoon
+AU  - Glass, James R.
+PY  - 2024
+T2  - Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2024.emnlp-main.84/
+DO  - 10.18653/v1/2024.emnlp-main.84
+KW  - Detection
+KW  - Internal signals
+N1  - Curator screening note: 以对上下文与已生成文本的注意力比例检测不忠实内容。
+ER  -
+
+TY  - CPAPER
+ID  - P033
+TI  - Does Fine-Tuning LLMs on New Knowledge Encourage Hallucinations?
+AU  - Gekhman, Zorik
+AU  - Yona, Gal
+AU  - Aharoni, Roee
+AU  - Eyal, Matan
+AU  - Feder, Amir
+AU  - Reichart, Roi
+AU  - Herzig, Jonathan
+PY  - 2024
+T2  - Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2024.emnlp-main.444/
+DO  - 10.18653/v1/2024.emnlp-main.444
+KW  - Foundations
+KW  - Training knowledge mismatch
+N1  - Curator screening note: 控制微调中的新知识比例，分析知识学习与幻觉变化。
+ER  -
+
+TY  - CPAPER
+ID  - P034
+TI  - Synchronous Faithfulness Monitoring for Trustworthy Retrieval-Augmented Generation
+AU  - Wu, Di
+AU  - Gu, Jia-Chen
+AU  - Yin, Fan
+AU  - Peng, Nanyun
+AU  - Chang, Kai-Wei
+PY  - 2024
+T2  - Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2024.emnlp-main.527/
+DO  - 10.18653/v1/2024.emnlp-main.527
+KW  - Mitigation
+KW  - Decoding and intervention
+N1  - Curator screening note: 融合解码动态与语义对齐，在线监测并引导生成。
+ER  -
+
+TY  - CPAPER
+ID  - P035
+TI  - On the Universal Truthfulness Hyperplane Inside LLMs
+AU  - Liu, Junteng
+AU  - Chen, Shiqi
+AU  - Cheng, Yu
+AU  - He, Junxian
+PY  - 2024
+T2  - Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2024.emnlp-main.1012/
+DO  - 10.18653/v1/2024.emnlp-main.1012
+KW  - Detection
+KW  - Internal signals
+N1  - Curator screening note: 扩大监督数据的任务多样性，研究探针泛化。
+ER  -
+
+TY  - CPAPER
+ID  - P036
+TI  - Factuality of Large Language Models: A Survey
+AU  - Wang, Yuxia
+AU  - Wang, Minghan
+AU  - Manzoor, Muhammad Arslan
+AU  - Liu, Fei
+AU  - Georgiev, Georgi Nenkov
+AU  - Das, Rocktim Jyoti
+AU  - Nakov, Preslav
+PY  - 2024
+T2  - Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2024.emnlp-main.1088/
+DO  - 10.18653/v1/2024.emnlp-main.1088
+KW  - Foundations
+KW  - Definitions
+N1  - Curator screening note: 已有事实性综述，提供概念边界及相关综述对比。
+ER  -
+
+TY  - CPAPER
+ID  - P037
+TI  - On Large Language Models’ Hallucination with Regard to Known Facts
+AU  - Jiang, Che
+AU  - Qi, Biqing
+AU  - Hong, Xiangyu
+AU  - Fu, Dayuan
+AU  - Cheng, Yang
+AU  - Meng, Fandong
+AU  - Yu, Mo
+AU  - Zhou, Bowen
+AU  - Zhou, Jie
+PY  - 2024
+T2  - Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2024.naacl-long.60/
+DO  - 10.18653/v1/2024.naacl-long.60
+KW  - Foundations
+KW  - Causes and empirical analysis
+N1  - Curator screening note: 比较同一事实正确与错误回答的层间推理动态。
+ER  -
+
+TY  - CPAPER
+ID  - P038
+TI  - ExpertQA: Expert-Curated Questions and Attributed Answers
+AU  - Malaviya, Chaitanya
+AU  - Lee, Subin
+AU  - Chen, Sihao
+AU  - Sieber, Elizabeth
+AU  - Yatskar, Mark
+AU  - Roth, Dan
+PY  - 2024
+T2  - Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2024.naacl-long.167/
+DO  - 10.18653/v1/2024.naacl-long.167
+KW  - Evaluation
+KW  - Attribution benchmarks
+N1  - Curator screening note: 领域专家提出问题并核验回答与逐项引文支持。
+ER  -
+
+TY  - CPAPER
+ID  - P039
+TI  - TofuEval: Evaluating Hallucinations of LLMs on Topic-Focused Dialogue Summarization
+AU  - Tang, Liyan
+AU  - Shalyminov, Igor
+AU  - Wong, Amy
+AU  - Burnsky, Jon
+AU  - Vincent, Jake
+AU  - Yang, Yu’an
+AU  - Singh, Siffi
+AU  - Feng, Song
+AU  - Song, Hwanjun
+AU  - Su, Hang
+AU  - Sun, Lijia
+AU  - Zhang, Yi
+AU  - Mansour, Saab
+AU  - McKeown, Kathleen
+PY  - 2024
+T2  - Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2024.naacl-long.251/
+DO  - 10.18653/v1/2024.naacl-long.251
+KW  - Evaluation
+KW  - Grounded benchmarks
+N1  - Curator screening note: 评价主题导向对话摘要的句子级错误与错误类型。
+ER  -
+
+TY  - CPAPER
+ID  - P040
+TI  - Trusting Your Evidence: Hallucinate Less with Context-aware Decoding
+AU  - Shi, Weijia
+AU  - Han, Xiaochuang
+AU  - Lewis, Mike
+AU  - Tsvetkov, Yulia
+AU  - Zettlemoyer, Luke
+AU  - Yih, Wen-tau
+PY  - 2024
+T2  - Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers)
+UR  - https://aclanthology.org/2024.naacl-short.69/
+DO  - 10.18653/v1/2024.naacl-short.69
+KW  - Mitigation
+KW  - Decoding and intervention
+N1  - Curator screening note: 对比有、无上下文时的词分布以强化上下文证据。
+ER  -
+
+TY  - CPAPER
+ID  - P041
+TI  - Generating Benchmarks for Factuality Evaluation of Language Models
+AU  - Muhlgay, Dor
+AU  - Ram, Ori
+AU  - Magar, Inbal
+AU  - Levine, Yoav
+AU  - Ratner, Nir
+AU  - Belinkov, Yonatan
+AU  - Abend, Omri
+AU  - Leyton-Brown, Kevin
+AU  - Shashua, Amnon
+AU  - Shoham, Yoav
+PY  - 2024
+T2  - Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2024.eacl-long.4/
+DO  - 10.18653/v1/2024.eacl-long.4
+KW  - Evaluation
+KW  - Factuality benchmarks
+N1  - Curator screening note: 把事实语料转换为事实与错误续写的受控基准。
+ER  -
+
+TY  - CPAPER
+ID  - P042
+TI  - Chain-of-Verification Reduces Hallucination in Large Language Models
+AU  - Dhuliawala, Shehzaad
+AU  - Komeili, Mojtaba
+AU  - Xu, Jing
+AU  - Raileanu, Roberta
+AU  - Li, Xian
+AU  - Celikyilmaz, Asli
+AU  - Weston, Jason
+PY  - 2024
+T2  - Findings of the Association for Computational Linguistics: ACL 2024
+UR  - https://aclanthology.org/2024.findings-acl.212/
+DO  - 10.18653/v1/2024.findings-acl.212
+KW  - Mitigation
+KW  - Revision and abstention
+N1  - Curator screening note: 独立回答核验问题，再修订初始回答。
+ER  -
+
+TY  - CPAPER
+ID  - P043
+TI  - FENICE: Factuality Evaluation of summarization based on Natural language Inference and Claim Extraction
+AU  - Scirè, Alessandro
+AU  - Ghonim, Karim
+AU  - Navigli, Roberto
+PY  - 2024
+T2  - Findings of the Association for Computational Linguistics: ACL 2024
+UR  - https://aclanthology.org/2024.findings-acl.841/
+DO  - 10.18653/v1/2024.findings-acl.841
+KW  - Detection
+KW  - Claim-level verification
+N1  - Curator screening note: 结合原子声明提取与自然语言推断做可解释对齐。
+ER  -
+
+TY  - CPAPER
+ID  - P044
+TI  - ReEval: Automatic Hallucination Evaluation for Retrieval-Augmented Large Language Models via Transferable Adversarial Attacks
+AU  - Yu, Xiaodong
+AU  - Cheng, Hao
+AU  - Liu, Xiaodong
+AU  - Roth, Dan
+AU  - Gao, Jianfeng
+PY  - 2024
+T2  - Findings of the Association for Computational Linguistics: NAACL 2024
+UR  - https://aclanthology.org/2024.findings-naacl.85/
+DO  - 10.18653/v1/2024.findings-naacl.85
+KW  - Evaluation
+KW  - Robustness tests
+N1  - Curator screening note: 扰动检索证据构造可迁移的动态幻觉测试。
+ER  -
+
+TY  - CPAPER
+ID  - P045
+TI  - VeriScore: Evaluating the factuality of verifiable claims in long-form text generation
+AU  - Song, Yixiao
+AU  - Kim, Yekyung
+AU  - Iyyer, Mohit
+PY  - 2024
+T2  - Findings of the Association for Computational Linguistics: EMNLP 2024
+UR  - https://aclanthology.org/2024.findings-emnlp.552/
+DO  - 10.18653/v1/2024.findings-emnlp.552
+KW  - Detection
+KW  - Claim-level verification
+N1  - Curator screening note: 仅对可核验声明进行长文本事实性检查。
+ER  -
+
+TY  - CPAPER
+ID  - P046
+TI  - FactAlign: Long-form Factuality Alignment of Large Language Models
+AU  - Huang, Chao-Wei
+AU  - Chen, Yun-Nung
+PY  - 2024
+T2  - Findings of the Association for Computational Linguistics: EMNLP 2024
+UR  - https://aclanthology.org/2024.findings-emnlp.955/
+DO  - 10.18653/v1/2024.findings-emnlp.955
+KW  - Mitigation
+KW  - Training and alignment
+N1  - Curator screening note: 利用句子级事实性反馈进行长文本对齐。
+ER  -
+
+TY  - JOUR
+ID  - P047
+TI  - Lost in the Middle: How Language Models Use Long Contexts
+AU  - Liu, Nelson F.
+AU  - Lin, Kevin
+AU  - Hewitt, John
+AU  - Paranjape, Ashwin
+AU  - Bevilacqua, Michele
+AU  - Petroni, Fabio
+AU  - Liang, Percy
+PY  - 2024
+T2  - Transactions of the Association for Computational Linguistics, Volume 12
+UR  - https://aclanthology.org/2024.tacl-1.9/
+DO  - 10.1162/tacl_a_00638
+KW  - Foundations
+KW  - Context use
+N1  - Curator screening note: 分析相关信息位置变化导致的长上下文性能退化。
+ER  -
+
+TY  - JOUR
+ID  - P048
+TI  - Evaluating Correctness and Faithfulness of Instruction-Following Models for Question Answering
+AU  - Adlakha, Vaibhav
+AU  - BehnamGhader, Parishad
+AU  - Lu, Xing Han
+AU  - Meade, Nicholas
+AU  - Reddy, Siva
+PY  - 2024
+T2  - Transactions of the Association for Computational Linguistics, Volume 12
+UR  - https://aclanthology.org/2024.tacl-1.38/
+DO  - 10.1162/tacl_a_00667
+KW  - Evaluation
+KW  - Metric validation
+N1  - Curator screening note: 分开衡量问答的信息需求满足与来源支持。
+ER  -
+
+TY  - CPAPER
+ID  - P049
+TI  - HALoGEN: Fantastic LLM Hallucinations and Where to Find Them
+AU  - Ravichander, Abhilasha
+AU  - Ghela, Shrusti
+AU  - Wadden, David
+AU  - Choi, Yejin
+PY  - 2025
+T2  - Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2025.acl-long.71/
+DO  - 10.18653/v1/2025.acl-long.71
+KW  - Evaluation
+KW  - Factuality benchmarks
+N1  - Curator screening note: 多领域提示与原子级自动核验支持规模化分析。
+ER  -
+
+TY  - CPAPER
+ID  - P050
+TI  - HalluLens: LLM Hallucination Benchmark
+AU  - Bang, Yejin
+AU  - Ji, Ziwei
+AU  - Schelten, Alan
+AU  - Hartshorn, Anthony
+AU  - Fowler, Tara
+AU  - Zhang, Cheng
+AU  - Cancedda, Nicola
+AU  - Fung, Pascale
+PY  - 2025
+T2  - Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2025.acl-long.1176/
+DO  - 10.18653/v1/2025.acl-long.1176
+KW  - Evaluation
+KW  - Factuality benchmarks
+N1  - Curator screening note: 提出自己的内外在幻觉定义并构造动态任务。
+ER  -
+
+TY  - CPAPER
+ID  - P051
+TI  - FactBench: A Dynamic Benchmark for In-the-Wild Language Model Factuality Evaluation
+AU  - Fatahi Bayat, Farima
+AU  - Zhang, Lechen
+AU  - Munir, Sheza
+AU  - Wang, Lu
+PY  - 2025
+T2  - Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2025.acl-long.1587/
+DO  - 10.18653/v1/2025.acl-long.1587
+KW  - Evaluation
+KW  - Factuality benchmarks
+N1  - Curator screening note: 按现实用户难题与网络证据构建动态评估。
+ER  -
+
+TY  - CPAPER
+ID  - P052
+TI  - Are the Hidden States Hiding Something? Testing the Limits of Factuality-Encoding Capabilities in LLMs
+AU  - Servedio, Giovanni
+AU  - De Bellis, Alessandro
+AU  - Di Palma, Dario
+AU  - Anelli, Vito Walter
+AU  - Di Noia, Tommaso
+PY  - 2025
+T2  - Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2025.acl-long.304/
+DO  - 10.18653/v1/2025.acl-long.304
+KW  - Analysis
+KW  - Transfer and calibration
+N1  - Curator screening note: 以更真实的模型生成数据挑战探针真实性泛化。
+ER  -
+
+TY  - CPAPER
+ID  - P053
+TI  - Improving Contextual Faithfulness of Large Language Models via Retrieval Heads-Induced Optimization
+AU  - Huang, Lei
+AU  - Feng, Xiaocheng
+AU  - Ma, Weitao
+AU  - Fan, Yuchun
+AU  - Feng, Xiachong
+AU  - Ye, Yangfan
+AU  - Zhong, Weihong
+AU  - Gu, Yuxuan
+AU  - Wang, Baoxin
+AU  - Wu, Dayong
+AU  - Hu, Guoping
+AU  - Qin, Bing
+PY  - 2025
+T2  - Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2025.acl-long.826/
+DO  - 10.18653/v1/2025.acl-long.826
+KW  - Mitigation
+KW  - Training and alignment
+N1  - Curator screening note: 屏蔽检索头构造不忠实样本，联合训练与对比解码。
+ER  -
+
+TY  - CPAPER
+ID  - P054
+TI  - FaithfulRAG: Fact-Level Conflict Modeling for Context-Faithful Retrieval-Augmented Generation
+AU  - Zhang, Qinggang
+AU  - Xiang, Zhishang
+AU  - Xiao, Yilin
+AU  - Wang, Le
+AU  - Li, Junhui
+AU  - Wang, Xinrun
+AU  - Su, Jinsong
+PY  - 2025
+T2  - Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2025.acl-long.1062/
+DO  - 10.18653/v1/2025.acl-long.1062
+KW  - Mitigation
+KW  - Retrieval and prompting
+N1  - Curator screening note: 在事实层建模参数知识与检索上下文冲突。
+ER  -
+
+TY  - CPAPER
+ID  - P055
+TI  - Astute RAG: Overcoming Imperfect Retrieval Augmentation and Knowledge Conflicts for Large Language Models
+AU  - Wang, Fei
+AU  - Wan, Xingchen
+AU  - Sun, Ruoxi
+AU  - Chen, Jiefeng
+AU  - Arik, Sercan O
+PY  - 2025
+T2  - Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2025.acl-long.1476/
+DO  - 10.18653/v1/2025.acl-long.1476
+KW  - Mitigation
+KW  - Retrieval and prompting
+N1  - Curator screening note: 按来源整合内部与外部知识以应对不完美检索。
+ER  -
+
+TY  - CPAPER
+ID  - P056
+TI  - Alleviating Hallucinations from Knowledge Misalignment in Large Language Models via Selective Abstention Learning
+AU  - Huang, Lei
+AU  - Feng, Xiaocheng
+AU  - Ma, Weitao
+AU  - Fan, Yuchun
+AU  - Feng, Xiachong
+AU  - Gu, Yuxuan
+AU  - Ye, Yangfan
+AU  - Zhao, Liang
+AU  - Zhong, Weihong
+AU  - Wang, Baoxin
+AU  - Wu, Dayong
+AU  - Hu, Guoping
+AU  - Kong, Lingpeng
+AU  - Xiao, Tong
+AU  - Liu, Ting
+AU  - Qin, Bing
+PY  - 2025
+T2  - Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2025.acl-long.1199/
+DO  - 10.18653/v1/2025.acl-long.1199
+KW  - Mitigation
+KW  - Revision and abstention
+N1  - Curator screening note: 训练拒绝词元与解码正则来控制知识错配。
+ER  -
+
+TY  - CPAPER
+ID  - P057
+TI  - UAlign: Leveraging Uncertainty Estimations for Factuality Alignment on Large Language Models
+AU  - Xue, Boyang
+AU  - Mi, Fei
+AU  - Zhu, Qi
+AU  - Wang, Hongru
+AU  - Wang, Rui
+AU  - Wang, Sheng
+AU  - Yu, Erxin
+AU  - Hu, Xuming
+AU  - Wong, Kam-Fai
+PY  - 2025
+T2  - Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2025.acl-long.299/
+DO  - 10.18653/v1/2025.acl-long.299
+KW  - Mitigation
+KW  - Training and alignment
+N1  - Curator screening note: 将置信度和语义熵用于奖励建模与PPO事实性对齐。
+ER  -
+
+TY  - CPAPER
+ID  - P058
+TI  - Unfamiliar Finetuning Examples Control How Language Models Hallucinate
+AU  - Kang, Katie
+AU  - Wallace, Eric
+AU  - Tomlin, Claire
+AU  - Kumar, Aviral
+AU  - Levine, Sergey
+PY  - 2025
+T2  - Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2025.naacl-long.183/
+DO  - 10.18653/v1/2025.naacl-long.183
+KW  - Foundations
+KW  - Training knowledge mismatch
+N1  - Curator screening note: 分析陌生微调示例的监督方式如何塑造后续幻觉。
+ER  -
+
+TY  - CPAPER
+ID  - P059
+TI  - FaithBench: A Diverse Hallucination Benchmark for Summarization by Modern LLMs
+AU  - Bao, Forrest Sheng
+AU  - Li, Miaoran
+AU  - Qu, Renyi
+AU  - Luo, Ge
+AU  - Wan, Erana
+AU  - Tang, Yujia
+AU  - Fan, Weisi
+AU  - Tamber, Manveer Singh
+AU  - Kazi, Suleman
+AU  - Sourabh, Vivek
+AU  - Qi, Mike
+AU  - Tu, Ruixuan
+AU  - Xu, Chenyu
+AU  - Gonzales, Matthew
+AU  - Mendelevitch, Ofer
+AU  - Ahmad, Amin
+PY  - 2025
+T2  - Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers)
+UR  - https://aclanthology.org/2025.naacl-short.38/
+DO  - 10.18653/v1/2025.naacl-short.38
+KW  - Evaluation
+KW  - Grounded benchmarks
+N1  - Curator screening note: 基于现代多模型家族和困难分歧样本进行专家标注。
+ER  -
+
+TY  - CPAPER
+ID  - P060
+TI  - CoCoA: Confidence- and Context-Aware Adaptive Decoding for Resolving Knowledge Conflicts in Large Language Models
+AU  - Khandelwal, Anant
+AU  - Gupta, Manish
+AU  - Agrawal, Puneet
+PY  - 2025
+T2  - Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2025.emnlp-main.348/
+DO  - 10.18653/v1/2025.emnlp-main.348
+KW  - Mitigation
+KW  - Decoding and intervention
+N1  - Curator screening note: 用置信与上下文分布差异适应不同冲突程度。
+ER  -
+
+TY  - CPAPER
+ID  - P061
+TI  - The Illusion of Progress: Re-evaluating Hallucination Detection in LLMs
+AU  - Janiak, Denis
+AU  - Binkowski, Jakub
+AU  - Sawczyn, Albert
+AU  - Gabrys, Bogdan
+AU  - Shwartz-Ziv, Ravid
+AU  - Kajdanowicz, Tomasz Jan
+PY  - 2025
+T2  - Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2025.emnlp-main.1761/
+DO  - 10.18653/v1/2025.emnlp-main.1761
+KW  - Analysis
+KW  - Measurement validity
+N1  - Curator screening note: 检查词汇重叠标签与回答长度捷径导致的评估偏差。
+ER  -
+
+TY  - CPAPER
+ID  - P062
+TI  - How Does Response Length Affect Long-Form Factuality
+AU  - Zhao, James Xu
+AU  - Liu, Jimmy Z.J.
+AU  - Hooi, Bryan
+AU  - Ng, See-Kiong
+PY  - 2025
+T2  - Findings of the Association for Computational Linguistics: ACL 2025
+UR  - https://aclanthology.org/2025.findings-acl.161/
+DO  - 10.18653/v1/2025.findings-acl.161
+KW  - Analysis
+KW  - Measurement validity
+N1  - Curator screening note: 控制回答长度并分析事实耗竭等解释。
+ER  -
+
+TY  - CPAPER
+ID  - P063
+TI  - Beyond Factual Accuracy: Evaluating Coverage of Diverse Factual Information in Long-form Text Generation
+AU  - Samarinas, Chris
+AU  - Krubner, Alexander
+AU  - Salemi, Alireza
+AU  - Kim, Youngwoo
+AU  - Zamani, Hamed
+PY  - 2025
+T2  - Findings of the Association for Computational Linguistics: ACL 2025
+UR  - https://aclanthology.org/2025.findings-acl.693/
+DO  - 10.18653/v1/2025.findings-acl.693
+KW  - Evaluation
+KW  - Coverage and utility
+N1  - Curator screening note: 把声明真实性与主题方面覆盖共同评价。
+ER  -
+
+TY  - CPAPER
+ID  - P064
+TI  - Core: Robust Factual Precision with Informative Sub-Claim Identification
+AU  - Jiang, Zhengping
+AU  - Zhang, Jingyu
+AU  - Weir, Nathaniel
+AU  - Ebner, Seth
+AU  - Wanner, Miriam
+AU  - Sanders, Kate
+AU  - Khashabi, Daniel
+AU  - Liu, Anqi
+AU  - Van Durme, Benjamin
+PY  - 2025
+T2  - Findings of the Association for Computational Linguistics: ACL 2025
+UR  - https://aclanthology.org/2025.findings-acl.1018/
+DO  - 10.18653/v1/2025.findings-acl.1018
+KW  - Evaluation
+KW  - Metric validation
+N1  - Curator screening note: 过滤重复或无信息声明，降低事实精确率被操纵的风险。
+ER  -
+
+TY  - CPAPER
+ID  - P065
+TI  - Verify with Caution: The Pitfalls of Relying on Imperfect Factuality Metrics
+AU  - Godbole, Ameya
+AU  - Jia, Robin
+PY  - 2025
+T2  - Findings of the Association for Computational Linguistics: ACL 2025
+UR  - https://aclanthology.org/2025.findings-acl.1175/
+DO  - 10.18653/v1/2025.findings-acl.1175
+KW  - Analysis
+KW  - Measurement validity
+N1  - Curator screening note: 跨11数据集检查事实性评估器不一致及偏差。
+ER  -
+
+TY  - CPAPER
+ID  - P066
+TI  - Context-DPO: Aligning Language Models for Context-Faithfulness
+AU  - Bi, Baolong
+AU  - Huang, Shaohan
+AU  - Wang, Yiwei
+AU  - Yang, Tianchi
+AU  - Zhang, Zihan
+AU  - Huang, Haizhen
+AU  - Mei, Lingrui
+AU  - Fang, Junfeng
+AU  - Li, Zehao
+AU  - Wei, Furu
+AU  - Deng, Weiwei
+AU  - Sun, Feng
+AU  - Zhang, Qi
+AU  - Liu, Shenghua
+PY  - 2025
+T2  - Findings of the Association for Computational Linguistics: ACL 2025
+UR  - https://aclanthology.org/2025.findings-acl.536/
+DO  - 10.18653/v1/2025.findings-acl.536
+KW  - Mitigation
+KW  - Training and alignment
+N1  - Curator screening note: 以知识冲突下忠实与固执回应构造偏好训练。
+ER  -
+
+TY  - CPAPER
+ID  - P067
+TI  - Chain-of-Thought Prompting Obscures Hallucination Cues in Large Language Models: An Empirical Evaluation
+AU  - Cheng, Jiahao
+AU  - Su, Tiancheng
+AU  - Yuan, Jia
+AU  - He, Guoxiu
+AU  - Liu, Jiawei
+AU  - Tao, Xinqi
+AU  - Xie, Jingwen
+AU  - Li, Huaxia
+PY  - 2025
+T2  - Findings of the Association for Computational Linguistics: EMNLP 2025
+UR  - https://aclanthology.org/2025.findings-emnlp.67/
+DO  - 10.18653/v1/2025.findings-emnlp.67
+KW  - Analysis
+KW  - Transfer and calibration
+N1  - Curator screening note: 分析推理提示改变隐藏状态和概率后对检测的影响。
+ER  -
+
+TY  - CPAPER
+ID  - P068
+TI  - The Hallucination Tax of Reinforcement Finetuning
+AU  - Song, Linxin
+AU  - Shi, Taiwei
+AU  - Zhao, Jieyu
+PY  - 2025
+T2  - Findings of the Association for Computational Linguistics: EMNLP 2025
+UR  - https://aclanthology.org/2025.findings-emnlp.112/
+DO  - 10.18653/v1/2025.findings-emnlp.112
+KW  - Analysis
+KW  - Coverage and refusal
+N1  - Curator screening note: 主要用不可回答数学题分析RFT拒答退化，并报告事实QA迁移。
+ER  -
+
+TY  - CPAPER
+ID  - P069
+TI  - DeCoRe: Decoding by Contrasting Retrieval Heads to Mitigate Hallucinations
+AU  - Gema, Aryo Pradipta
+AU  - Jin, Chen
+AU  - Abdulaal, Ahmed
+AU  - Diethe, Tom
+AU  - Teare, Philip Alexander
+AU  - Alex, Beatrice
+AU  - Minervini, Pasquale
+AU  - Saseendran, Amrutha
+PY  - 2025
+T2  - Findings of the Association for Computational Linguistics: EMNLP 2025
+UR  - https://aclanthology.org/2025.findings-emnlp.531/
+DO  - 10.18653/v1/2025.findings-emnlp.531
+KW  - Mitigation
+KW  - Decoding and intervention
+N1  - Curator screening note: 对比原模型与检索头屏蔽模型，按熵调节解码。
+ER  -
+
+TY  - CPAPER
+ID  - P070
+TI  - FactReasoner: A Probabilistic Approach to Long-Form Factuality Assessment for Large Language Models
+AU  - Marinescu, Radu
+AU  - Bhattacharjya, Debarun
+AU  - Lee, Junkyu
+AU  - Tchrakian, Tigran T.
+AU  - Carnerero-Cano, Javier
+AU  - Hou, Yufang
+AU  - Daly, Elizabeth M.
+AU  - Pascale, Alessandra
+PY  - 2025
+T2  - Findings of the Association for Computational Linguistics: EMNLP 2025
+UR  - https://aclanthology.org/2025.findings-emnlp.785/
+DO  - 10.18653/v1/2025.findings-emnlp.785
+KW  - Detection
+KW  - Claim-level verification
+N1  - Curator screening note: 以概率推理联合声明与证据之间的逻辑关系。
+ER  -
+
+TY  - CPAPER
+ID  - P071
+TI  - PrefixNLI: Detecting Factual Inconsistencies as Soon as They Arise
+AU  - Harary, Sapir
+AU  - Hirsch, Eran
+AU  - Slobodkin, Aviv
+AU  - Wan, David
+AU  - Bansal, Mohit
+AU  - Dagan, Ido
+PY  - 2026
+T2  - Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2026.acl-long.63/
+DO  - 10.18653/v1/2026.acl-long.63
+KW  - Detection
+KW  - Evidence verification
+N1  - Curator screening note: 把完整句子的蕴含检测扩展到解码过程中的文本前缀。
+ER  -
+
+TY  - CPAPER
+ID  - P072
+TI  - Rethinking Evaluation for LLM Hallucination Detection: A Desiderata, A New RAG-based Benchmark, New Insights
+AU  - Chen, Wenbo
+AU  - Padmanabhan, Veena
+AU  - Giyahchi, Tootiya
+AU  - Wong, Elaine
+AU  - Akoglu, Leman
+PY  - 2026
+T2  - Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2026.acl-long.680/
+DO  - 10.18653/v1/2026.acl-long.680
+KW  - Evaluation
+KW  - Grounded benchmarks
+N1  - Curator screening note: 构建长上下文、含不同噪声标签的RAG检测基准。
+ER  -
+
+TY  - CPAPER
+ID  - P073
+TI  - ReFL: Reflective Feedback Learning for Hallucination Detection of Large Language Models
+AU  - Fan, Cunhang
+AU  - Zhang, Jun
+AU  - Zhang, Xue
+AU  - Zhang, Shuai
+AU  - Lv, Zhao
+AU  - Tao, Jianhua
+AU  - Wen, Zhengqi
+PY  - 2026
+T2  - Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2026.acl-long.899/
+DO  - 10.18653/v1/2026.acl-long.899
+KW  - Detection
+KW  - Internal signals
+N1  - Curator screening note: 通过纠错式上下文学习塑造更适合检测的内部表示。
+ER  -
+
+TY  - CPAPER
+ID  - P074
+TI  - Stable-RAG: Mitigating Retrieval-Permutation-Induced Hallucinations in Retrieval-Augmented Generation
+AU  - Zhang, Qianchi
+AU  - Zhang, Hainan
+AU  - Pang, Liang
+AU  - Zheng, Hong-Wei
+AU  - Zheng, Zhiming
+PY  - 2026
+T2  - Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2026.acl-long.1188/
+DO  - 10.18653/v1/2026.acl-long.1188
+KW  - Mitigation
+KW  - Retrieval and prompting
+N1  - Curator screening note: 利用检索顺序敏感性与隐藏状态聚类提高稳定性。
+ER  -
+
+TY  - CPAPER
+ID  - P075
+TI  - Whose Facts Win? LLM Source Preferences under Knowledge Conflicts
+AU  - Schuster, Jakob
+AU  - Gautam, Vagrant
+AU  - Markert, Katja
+PY  - 2026
+T2  - Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2026.acl-long.1357/
+DO  - 10.18653/v1/2026.acl-long.1357
+KW  - Foundations
+KW  - Context use
+N1  - Curator screening note: 受控研究来源偏好及重复证据对冲突处理的影响。
+ER  -
+
+TY  - CPAPER
+ID  - P076
+TI  - Do LLMs Really Know What They Don’t Know? Internal States Mainly Reflect Knowledge Recall Rather Than Truthfulness
+AU  - Cheang, Chi Seng
+AU  - Chan, Hou Pong
+AU  - Zhang, Wenxuan
+AU  - Deng, Yang
+PY  - 2026
+T2  - Findings of the Association for Computational Linguistics: ACL 2026
+UR  - https://aclanthology.org/2026.findings-acl.34/
+DO  - 10.18653/v1/2026.findings-acl.34
+KW  - Analysis
+KW  - Transfer and calibration
+N1  - Curator screening note: 区分有关联与无关联幻觉，检验内部信号是否主要反映回忆。
+ER  -
+
+TY  - CPAPER
+ID  - P077
+TI  - Enhancing Hallucination Detection via Future Context
+AU  - Lee, Joosung
+AU  - Park, Cheonbok
+AU  - Jo, Hwiyeol
+AU  - Kim, Jeonghoon
+AU  - Park, Joonsuk
+AU  - Yoo, Kang Min
+PY  - 2026
+T2  - Findings of the Association for Computational Linguistics: ACL 2026
+UR  - https://aclanthology.org/2026.findings-acl.35/
+DO  - 10.18653/v1/2026.findings-acl.35
+KW  - Detection
+KW  - Sampling and consistency
+N1  - Curator screening note: 用续生成的未来上下文为黑盒检测补充线索。
+ER  -
+
+TY  - CPAPER
+ID  - P078
+TI  - FaithLens: Detecting and Explaining Faithfulness Hallucination
+AU  - Si, Shuzheng
+AU  - Wang, Qingyi
+AU  - Zhao, Haozhe
+AU  - Bai, Yuzhuo
+AU  - Chen, Guanqiao
+AU  - Luo, Kangyang
+AU  - Chen, Gang
+AU  - Qi, Fanchao
+AU  - Zhang, Minjia
+AU  - Chang, Baobao
+AU  - Sun, Maosong
+PY  - 2026
+T2  - Findings of the Association for Computational Linguistics: ACL 2026
+UR  - https://aclanthology.org/2026.findings-acl.689/
+DO  - 10.18653/v1/2026.findings-acl.689
+KW  - Detection
+KW  - Evidence verification
+N1  - Curator screening note: 结合合成解释、筛选、SFT与RL做忠实性检测与解释。
+ER  -
+
+TY  - CPAPER
+ID  - P079
+TI  - When Benchmarks Age: Temporal Misalignment through Large Language Model Factuality Evaluation
+AU  - Jiang, Xunyi
+AU  - Chang, Dingyi
+AU  - McAuley, Julian
+AU  - Xu, Xin
+PY  - 2026
+T2  - Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (Volume 2: Short Papers)
+UR  - https://aclanthology.org/2026.eacl-short.37/
+DO  - 10.18653/v1/2026.eacl-short.37
+KW  - Analysis
+KW  - Measurement validity
+N1  - Curator screening note: 研究静态事实基准与现实变化间的时间错配。
+ER  -
+
+TY  - JOUR
+ID  - P080
+TI  - Localizing Factual Inconsistencies in Attributable Text Generation
+AU  - Cattan, Arie
+AU  - Roit, Paul
+AU  - Zhang, Shiyue
+AU  - Wan, David
+AU  - Aharoni, Roee
+AU  - Szpektor, Idan
+AU  - Bansal, Mohit
+AU  - Dagan, Ido
+PY  - 2026
+T2  - Transactions of the Association for Computational Linguistics, Volume 14
+UR  - https://aclanthology.org/2026.tacl-1.6/
+DO  - 10.1162/tacl.a.598
+KW  - Detection
+KW  - Claim-level verification
+N1  - Curator screening note: 将陈述拆成谓词—论元QA对，定位细粒度不一致。
+ER  -
+
+TY  - CPAPER
+ID  - P081
+TI  - DoLa: Decoding by Contrasting Layers Improves Factuality in Large Language Models
+AU  - Chuang, Yung-Sung
+AU  - Xie, Yujia
+AU  - Luo, Hongyin
+AU  - Kim, Yoon
+AU  - Glass, James
+AU  - He, Pengcheng
+PY  - 2024
+T2  - The Twelfth International Conference on Learning Representations
+UR  - https://openreview.net/forum?id=Th6NyL07na
+KW  - Mitigation
+KW  - Decoding and intervention
+N1  - Curator screening note: 比较成熟与较早层的词分布以改进事实性。
+ER  -
+
+TY  - CPAPER
+ID  - P082
+TI  - Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection
+AU  - Asai, Akari
+AU  - Wu, Zeqiu
+AU  - Wang, Yizhong
+AU  - Sil, Avirup
+AU  - Hajishirzi, Hannaneh
+PY  - 2024
+T2  - The Twelfth International Conference on Learning Representations
+UR  - https://openreview.net/forum?id=hSyW5go0v8
+KW  - Mitigation
+KW  - Retrieval and prompting
+N1  - Curator screening note: 学习检索及反思词元，按需检索并评价生成片段。
+ER  -
+
+TY  - CPAPER
+ID  - P083
+TI  - CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing
+AU  - Gou, Zhibin
+AU  - Shao, Zhihong
+AU  - Gong, Yeyun
+AU  - Shen, Yelong
+AU  - Yang, Yujiu
+AU  - Duan, Nan
+AU  - Chen, Weizhu
+PY  - 2024
+T2  - The Twelfth International Conference on Learning Representations
+UR  - https://proceedings.iclr.cc/paper_files/paper/2024/hash/fef126561bbf9d4467dbb8d27334b8fe-Abstract-Conference.html
+KW  - Mitigation
+KW  - Revision and abstention
+N1  - Curator screening note: 让黑盒模型利用搜索或工具反馈迭代修正输出。
+ER  -
+
+TY  - CPAPER
+ID  - P084
+TI  - Semantic Uncertainty: Linguistic Invariances for Uncertainty Estimation in Natural Language Generation
+AU  - Kuhn, Lorenz
+AU  - Gal, Yarin
+AU  - Farquhar, Sebastian
+PY  - 2023
+T2  - The Eleventh International Conference on Learning Representations
+UR  - https://openreview.net/forum?id=VD-AYtP0dve
+KW  - Detection
+KW  - Sampling and consistency
+N1  - Curator screening note: 将语义等价答案聚为同类，在意义空间估计熵。
+ER  -
+
+TY  - JOUR
+ID  - P085
+TI  - Detecting hallucinations in large language models using semantic entropy
+AU  - Farquhar, Sebastian
+AU  - Kossen, Jannik
+AU  - Kuhn, Lorenz
+AU  - Gal, Yarin
+PY  - 2024
+T2  - Nature
+UR  - https://www.nature.com/articles/s41586-024-07421-0
+DO  - 10.1038/s41586-024-07421-0
+KW  - Detection
+KW  - Sampling and consistency
+N1  - Curator screening note: 以意义层不确定性识别任意且错误的confabulations。
+ER  -
+
+TY  - CPAPER
+ID  - P086
+TI  - Inference-Time Intervention: Eliciting Truthful Answers from a Language Model
+AU  - Li, Kenneth
+AU  - Patel, Oam
+AU  - Viégas, Fernanda
+AU  - Pfister, Hanspeter
+AU  - Wattenberg, Martin
+PY  - 2023
+T2  - Advances in Neural Information Processing Systems 36
+UR  - https://proceedings.neurips.cc/paper_files/paper/2023/hash/81b8390039b7302c909cb769f8b6cd93-Abstract-Conference.html
+DO  - 10.52202/075280-1797
+KW  - Mitigation
+KW  - Decoding and intervention
+N1  - Curator screening note: 沿学习的注意力头方向干预激活以增加真实回答。
+ER  -
+
+TY  - CPAPER
+ID  - P087
+TI  - Benchmarking Large Language Models in Retrieval-Augmented Generation
+AU  - Chen, Jiawei
+AU  - Lin, Hongyu
+AU  - Han, Xianpei
+AU  - Sun, Le
+PY  - 2024
+T2  - Proceedings of the AAAI Conference on Artificial Intelligence
+UR  - https://ojs.aaai.org/index.php/AAAI/article/view/29728
+DO  - 10.1609/aaai.v38i16.29728
+KW  - Evaluation
+KW  - Robustness tests
+N1  - Curator screening note: 分开评估噪声鲁棒性、拒绝、信息整合和反事实鲁棒性。
+ER  -

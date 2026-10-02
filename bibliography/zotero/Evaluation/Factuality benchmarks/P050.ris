@@ -1,0 +1,19 @@
+TY  - CPAPER
+ID  - P050
+TI  - HalluLens: LLM Hallucination Benchmark
+AU  - Bang, Yejin
+AU  - Ji, Ziwei
+AU  - Schelten, Alan
+AU  - Hartshorn, Anthony
+AU  - Fowler, Tara
+AU  - Zhang, Cheng
+AU  - Cancedda, Nicola
+AU  - Fung, Pascale
+PY  - 2025
+T2  - Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2025.acl-long.1176/
+DO  - 10.18653/v1/2025.acl-long.1176
+KW  - Evaluation
+KW  - Factuality benchmarks
+N1  - Curator screening note: 提出自己的内外在幻觉定义并构造动态任务。
+ER  -

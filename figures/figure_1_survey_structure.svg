@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+<style>text {font-family: Helvetica, Arial, sans-serif;}</style>
+<rect width="960" height="540" fill="white"/>
+<text x="20" y="30" font-size="24" font-weight="700" fill="#17324d" text-anchor="start">The structure of this survey</text>
+<rect x="20" y="49" width="920" height="39" rx="7" fill="#f1f5f8" stroke="#ccd6df" stroke-width="1.5"/>
+<text x="37" y="75" font-size="18" font-weight="400" fill="#17324d" text-anchor="start">1  Introduction: scope, motivation, and three review questions</text>
+<polyline points="200,285 237,285" fill="none" stroke="#7c8b98" stroke-width="1.6"/>
+<polyline points="237,133 237,453" fill="none" stroke="#7c8b98" stroke-width="1.6"/>
+<polyline points="237,133 274,133" fill="none" stroke="#2864a0" stroke-width="1.6"/>
+<polyline points="580,133 619,133" fill="none" stroke="#2864a0" stroke-width="1.6"/>
+<polygon points="619,133 611.0,129.0 611.0,137.0" fill="#2864a0"/>
+<rect x="274" y="110" width="306" height="47" rx="7" fill="#eff5fc" stroke="#2864a0" stroke-width="1.5"/>
+<text x="291" y="139" font-size="18" font-weight="700" fill="#2864a0" text-anchor="start">2  Concepts and taxonomy</text>
+<rect x="619" y="110" width="321" height="47" rx="7" fill="white" stroke="#2864a0" stroke-width="1.5"/>
+<text x="634" y="139" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="start">Reference frames, failures, and causes</text>
+<polyline points="237,213 274,213" fill="none" stroke="#187c80" stroke-width="1.6"/>
+<polyline points="580,213 619,213" fill="none" stroke="#187c80" stroke-width="1.6"/>
+<polygon points="619,213 611.0,209.0 611.0,217.0" fill="#187c80"/>
+<rect x="274" y="190" width="306" height="47" rx="7" fill="#edf8f6" stroke="#187c80" stroke-width="1.5"/>
+<text x="291" y="219" font-size="18" font-weight="700" fill="#187c80" text-anchor="start">3  Detection methods</text>
+<rect x="619" y="190" width="321" height="47" rx="7" fill="white" stroke="#187c80" stroke-width="1.5"/>
+<text x="634" y="219" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="start">Evidence verification, sampling, internals</text>
+<polyline points="237,293 274,293" fill="none" stroke="#765392" stroke-width="1.6"/>
+<polyline points="580,293 619,293" fill="none" stroke="#765392" stroke-width="1.6"/>
+<polygon points="619,293 611.0,289.0 611.0,297.0" fill="#765392"/>
+<rect x="274" y="270" width="306" height="47" rx="7" fill="#f5f0f8" stroke="#765392" stroke-width="1.5"/>
+<text x="291" y="299" font-size="18" font-weight="700" fill="#765392" text-anchor="start">4  Mitigation methods</text>
+<rect x="619" y="270" width="321" height="47" rx="7" fill="white" stroke="#765392" stroke-width="1.5"/>
+<text x="634" y="299" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="start">Training, retrieval, decoding, revision</text>
+<polyline points="237,373 274,373" fill="none" stroke="#b96731" stroke-width="1.6"/>
+<polyline points="580,373 619,373" fill="none" stroke="#b96731" stroke-width="1.6"/>
+<polygon points="619,373 611.0,369.0 611.0,377.0" fill="#b96731"/>
+<rect x="274" y="350" width="306" height="47" rx="7" fill="#fcf3ec" stroke="#b96731" stroke-width="1.5"/>
+<text x="291" y="379" font-size="18" font-weight="700" fill="#b96731" text-anchor="start">5  Benchmarks and evaluation</text>
+<rect x="619" y="350" width="321" height="47" rx="7" fill="white" stroke="#b96731" stroke-width="1.5"/>
+<text x="634" y="379" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="start">Tasks, annotation, metrics, robustness</text>
+<polyline points="237,453 274,453" fill="none" stroke="#5e6d7c" stroke-width="1.6"/>
+<polyline points="580,453 619,453" fill="none" stroke="#5e6d7c" stroke-width="1.6"/>
+<polygon points="619,453 611.0,449.0 611.0,457.0" fill="#5e6d7c"/>
+<rect x="274" y="430" width="306" height="47" rx="7" fill="#f1f5f8" stroke="#5e6d7c" stroke-width="1.5"/>
+<text x="291" y="459" font-size="18" font-weight="700" fill="#5e6d7c" text-anchor="start">6  Analysis and future work</text>
+<rect x="619" y="430" width="321" height="47" rx="7" fill="white" stroke="#5e6d7c" stroke-width="1.5"/>
+<text x="634" y="459" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="start">Validity, coverage, transfer, and cost</text>
+<rect x="20" y="247" width="180" height="76" rx="7" fill="#e9f0f7" stroke="#17324d" stroke-width="1.5"/>
+<text x="110" y="279" font-size="21" font-weight="700" fill="#17324d" text-anchor="middle">Hallucination</text>
+<text x="110" y="305" font-size="19" font-weight="400" fill="#17324d" text-anchor="middle">in text LLMs</text>
+<rect x="20" y="495" width="920" height="30" rx="7" fill="#f1f5f8" stroke="#ccd6df" stroke-width="1.5"/>
+<text x="37" y="516" font-size="17" font-weight="400" fill="#17324d" text-anchor="start">7  Conclusion    |    References and supplementary evidence follow the seven-page main text</text>
+</svg>

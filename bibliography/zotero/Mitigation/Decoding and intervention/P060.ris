@@ -1,0 +1,14 @@
+TY  - CPAPER
+ID  - P060
+TI  - CoCoA: Confidence- and Context-Aware Adaptive Decoding for Resolving Knowledge Conflicts in Large Language Models
+AU  - Khandelwal, Anant
+AU  - Gupta, Manish
+AU  - Agrawal, Puneet
+PY  - 2025
+T2  - Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2025.emnlp-main.348/
+DO  - 10.18653/v1/2025.emnlp-main.348
+KW  - Mitigation
+KW  - Decoding and intervention
+N1  - Curator screening note: 用置信与上下文分布差异适应不同冲突程度。
+ER  -

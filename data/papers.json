@@ -1,0 +1,4669 @@
+[
+  {
+    "id": "2022.acl-long.229",
+    "title": "TruthfulQA: Measuring How Models Mimic Human Falsehoods",
+    "authors": [
+      {
+        "first": "Stephanie",
+        "last": "Lin"
+      },
+      {
+        "first": "Jacob",
+        "last": "Hilton"
+      },
+      {
+        "first": "Owain",
+        "last": "Evans"
+      }
+    ],
+    "year": 2022,
+    "venue_full": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2022.acl-long.229",
+    "pages": "3214-3252",
+    "url": "https://aclanthology.org/2022.acl-long.229/",
+    "source_xml": "2022.acl.xml",
+    "short_name": "TruthfulQA",
+    "category": "Evaluation",
+    "subcategory": "Factuality benchmarks",
+    "use": "以易诱发人类误解的问题测量真实性，作为闭卷问答基础基准。",
+    "review_question": "对抗性问题上的真实性能否代表日常长文本表现？",
+    "record_id": "P001",
+    "venue": "ACL 2022",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Downloaded; selected passages inspected",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Evaluation/Factuality benchmarks",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2022.acl.xml",
+    "include_reason": "以易诱发人类误解的问题测量真实性，作为闭卷问答基础基准。",
+    "relevance": "Directly relevant",
+    "citekey": "lin-etal-2022-truthfulqa"
+  },
+  {
+    "id": "2022.acl-long.236",
+    "title": "Hallucinated but Factual! Inspecting the Factuality of Hallucinations in Abstractive Summarization",
+    "authors": [
+      {
+        "first": "Meng",
+        "last": "Cao"
+      },
+      {
+        "first": "Yue",
+        "last": "Dong"
+      },
+      {
+        "first": "Jackie",
+        "last": "Cheung"
+      }
+    ],
+    "year": 2022,
+    "venue_full": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2022.acl-long.236",
+    "pages": "3340-3354",
+    "url": "https://aclanthology.org/2022.acl-long.236/",
+    "source_xml": "2022.acl.xml",
+    "short_name": "Hallucinated but Factual",
+    "category": "Foundations",
+    "subcategory": "Definitions",
+    "use": "区分源文档不可推出的内容与世界知识意义上的错误。",
+    "review_question": "给定来源不支持的陈述是否应自动标为事实错误？",
+    "record_id": "P002",
+    "venue": "ACL 2022",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Foundations/Definitions",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2022.acl.xml",
+    "include_reason": "区分源文档不可推出的内容与世界知识意义上的错误。",
+    "relevance": "Directly relevant",
+    "citekey": "cao-etal-2022-hallucinated"
+  },
+  {
+    "id": "2022.naacl-main.187",
+    "title": "QAFactEval: Improved QA-Based Factual Consistency Evaluation for Summarization",
+    "authors": [
+      {
+        "first": "Alexander",
+        "last": "Fabbri"
+      },
+      {
+        "first": "Chien-Sheng",
+        "last": "Wu"
+      },
+      {
+        "first": "Wenhao",
+        "last": "Liu"
+      },
+      {
+        "first": "Caiming",
+        "last": "Xiong"
+      }
+    ],
+    "year": 2022,
+    "venue_full": "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    "doi": "10.18653/v1/2022.naacl-main.187",
+    "pages": "2587-2601",
+    "url": "https://aclanthology.org/2022.naacl-main.187/",
+    "source_xml": "2022.naacl.xml",
+    "short_name": "QAFactEval",
+    "category": "Detection",
+    "subcategory": "Evidence verification",
+    "use": "用问题生成、回答和可回答性组件评估摘要与来源的一致性。",
+    "review_question": "问答组件的错误如何传递到最终一致性判断？",
+    "record_id": "P003",
+    "venue": "NAACL 2022",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Detection/Evidence verification",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2022.naacl.xml",
+    "include_reason": "用问题生成、回答和可回答性组件评估摘要与来源的一致性。",
+    "relevance": "Directly relevant",
+    "citekey": "fabbri-etal-2022-qafacteval"
+  },
+  {
+    "id": "2022.naacl-main.287",
+    "title": "TRUE: Re-evaluating Factual Consistency Evaluation",
+    "authors": [
+      {
+        "first": "Or",
+        "last": "Honovich"
+      },
+      {
+        "first": "Roee",
+        "last": "Aharoni"
+      },
+      {
+        "first": "Jonathan",
+        "last": "Herzig"
+      },
+      {
+        "first": "Hagai",
+        "last": "Taitelbaum"
+      },
+      {
+        "first": "Doron",
+        "last": "Kukliansy"
+      },
+      {
+        "first": "Vered",
+        "last": "Cohen"
+      },
+      {
+        "first": "Thomas",
+        "last": "Scialom"
+      },
+      {
+        "first": "Idan",
+        "last": "Szpektor"
+      },
+      {
+        "first": "Avinatan",
+        "last": "Hassidim"
+      },
+      {
+        "first": "Yossi",
+        "last": "Matias"
+      }
+    ],
+    "year": 2022,
+    "venue_full": "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    "doi": "10.18653/v1/2022.naacl-main.287",
+    "pages": "3905-3920",
+    "url": "https://aclanthology.org/2022.naacl-main.287/",
+    "source_xml": "2022.naacl.xml",
+    "short_name": "TRUE",
+    "category": "Evaluation",
+    "subcategory": "Metric validation",
+    "use": "统一多个任务的数据，强调样本级而非仅系统级指标验证。",
+    "review_question": "跨任务平均分是否掩盖困难错误类型？",
+    "record_id": "P004",
+    "venue": "NAACL 2022",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Evaluation/Metric validation",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2022.naacl.xml",
+    "include_reason": "统一多个任务的数据，强调样本级而非仅系统级指标验证。",
+    "relevance": "Directly relevant",
+    "citekey": "honovich-etal-2022-true-evaluating"
+  },
+  {
+    "id": "2022.tacl-1.62",
+    "title": "Evaluating Attribution in Dialogue Systems: The BEGIN Benchmark",
+    "authors": [
+      {
+        "first": "Nouha",
+        "last": "Dziri"
+      },
+      {
+        "first": "Hannah",
+        "last": "Rashkin"
+      },
+      {
+        "first": "Tal",
+        "last": "Linzen"
+      },
+      {
+        "first": "David",
+        "last": "Reitter"
+      }
+    ],
+    "year": 2022,
+    "venue_full": "Transactions of the Association for Computational Linguistics, Volume 10",
+    "doi": "10.1162/tacl_a_00506",
+    "pages": "1066–1083",
+    "url": "https://aclanthology.org/2022.tacl-1.62/",
+    "source_xml": "2022.tacl.xml",
+    "short_name": "BEGIN",
+    "category": "Evaluation",
+    "subcategory": "Grounded benchmarks",
+    "use": "以对话回应可归因性评价指标，并分析长度与措辞捷径。",
+    "review_question": "评估器是否把抽象改写误判为无来源支持？",
+    "record_id": "P005",
+    "venue": "TACL 2022",
+    "publication_status": "Journal",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Evaluation/Grounded benchmarks",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2022.tacl.xml",
+    "include_reason": "以对话回应可归因性评价指标，并分析长度与措辞捷径。",
+    "relevance": "Directly relevant",
+    "citekey": "dziri-etal-2022-evaluating"
+  },
+  {
+    "id": "2022.tacl-1.84",
+    "title": "FaithDial: A Faithful Benchmark for Information-Seeking Dialogue",
+    "authors": [
+      {
+        "first": "Nouha",
+        "last": "Dziri"
+      },
+      {
+        "first": "Ehsan",
+        "last": "Kamalloo"
+      },
+      {
+        "first": "Sivan",
+        "last": "Milton"
+      },
+      {
+        "first": "Osmar",
+        "last": "Zaiane"
+      },
+      {
+        "first": "Mo",
+        "last": "Yu"
+      },
+      {
+        "first": "Edoardo M.",
+        "last": "Ponti"
+      },
+      {
+        "first": "Siva",
+        "last": "Reddy"
+      }
+    ],
+    "year": 2022,
+    "venue_full": "Transactions of the Association for Computational Linguistics, Volume 10",
+    "doi": "10.1162/tacl_a_00529",
+    "pages": "1473–1490",
+    "url": "https://aclanthology.org/2022.tacl-1.84/",
+    "source_xml": "2022.tacl.xml",
+    "short_name": "FaithDial",
+    "category": "Mitigation",
+    "subcategory": "Training and alignment",
+    "use": "通过改写不忠实对话构建训练与评测资源。",
+    "review_question": "人工改写的错误分布能否覆盖新一代模型？",
+    "record_id": "P006",
+    "venue": "TACL 2022",
+    "publication_status": "Journal",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Mitigation/Training and alignment",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2022.tacl.xml",
+    "include_reason": "通过改写不忠实对话构建训练与评测资源。",
+    "relevance": "Directly relevant",
+    "citekey": "dziri-etal-2022-faithdial"
+  },
+  {
+    "id": "2023.acl-long.18",
+    "title": "WeCheck: Strong Factual Consistency Checker via Weakly Supervised Learning",
+    "authors": [
+      {
+        "first": "Wenhao",
+        "last": "Wu"
+      },
+      {
+        "first": "Wei",
+        "last": "Li"
+      },
+      {
+        "first": "Xinyan",
+        "last": "Xiao"
+      },
+      {
+        "first": "Jiachen",
+        "last": "Liu"
+      },
+      {
+        "first": "Sujian",
+        "last": "Li"
+      },
+      {
+        "first": "Yajuan",
+        "last": "Lyu"
+      }
+    ],
+    "year": 2023,
+    "venue_full": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2023.acl-long.18",
+    "pages": "307-321",
+    "url": "https://aclanthology.org/2023.acl-long.18/",
+    "source_xml": "2023.acl.xml",
+    "short_name": "WeCheck",
+    "category": "Detection",
+    "subcategory": "Evidence verification",
+    "use": "聚合弱标签，在真实生成文本上训练一致性检查器。",
+    "review_question": "弱标签误差相关性是否限制跨域迁移？",
+    "record_id": "P007",
+    "venue": "ACL 2023",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Detection/Evidence verification",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2023.acl.xml",
+    "include_reason": "聚合弱标签，在真实生成文本上训练一致性检查器。",
+    "relevance": "Directly relevant",
+    "citekey": "wu-etal-2023-wecheck"
+  },
+  {
+    "id": "2023.acl-long.634",
+    "title": "AlignScore: Evaluating Factual Consistency with A Unified Alignment Function",
+    "authors": [
+      {
+        "first": "Yuheng",
+        "last": "Zha"
+      },
+      {
+        "first": "Yichi",
+        "last": "Yang"
+      },
+      {
+        "first": "Ruichen",
+        "last": "Li"
+      },
+      {
+        "first": "Zhiting",
+        "last": "Hu"
+      }
+    ],
+    "year": 2023,
+    "venue_full": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2023.acl-long.634",
+    "pages": "11328-11348",
+    "url": "https://aclanthology.org/2023.acl-long.634/",
+    "source_xml": "2023.acl.xml",
+    "short_name": "AlignScore",
+    "category": "Detection",
+    "subcategory": "Evidence verification",
+    "use": "将多种文本对任务统一为信息对齐评分。",
+    "review_question": "统一对齐分数对不同粒度、不同领域是否可靠？",
+    "record_id": "P008",
+    "venue": "ACL 2023",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Detection/Evidence verification",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2023.acl.xml",
+    "include_reason": "将多种文本对任务统一为信息对齐评分。",
+    "relevance": "Directly relevant",
+    "citekey": "zha-etal-2023-alignscore"
+  },
+  {
+    "id": "2023.acl-long.650",
+    "title": "Understanding Factual Errors in Summarization: Errors, Summarizers, Datasets, Error Detectors",
+    "authors": [
+      {
+        "first": "Liyan",
+        "last": "Tang"
+      },
+      {
+        "first": "Tanya",
+        "last": "Goyal"
+      },
+      {
+        "first": "Alex",
+        "last": "Fabbri"
+      },
+      {
+        "first": "Philippe",
+        "last": "Laban"
+      },
+      {
+        "first": "Jiacheng",
+        "last": "Xu"
+      },
+      {
+        "first": "Semih",
+        "last": "Yavuz"
+      },
+      {
+        "first": "Wojciech",
+        "last": "Kryscinski"
+      },
+      {
+        "first": "Justin",
+        "last": "Rousseau"
+      },
+      {
+        "first": "Greg",
+        "last": "Durrett"
+      }
+    ],
+    "year": 2023,
+    "venue_full": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2023.acl-long.650",
+    "pages": "11626-11644",
+    "url": "https://aclanthology.org/2023.acl-long.650/",
+    "source_xml": "2023.acl.xml",
+    "short_name": "AggreFact",
+    "category": "Evaluation",
+    "subcategory": "Metric validation",
+    "use": "按生成模型与错误类型重新分析事实性指标的改进。",
+    "review_question": "提升是否主要来自过时生成器的容易错误？",
+    "record_id": "P009",
+    "venue": "ACL 2023",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Evaluation/Metric validation",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2023.acl.xml",
+    "include_reason": "按生成模型与错误类型重新分析事实性指标的改进。",
+    "relevance": "Directly relevant",
+    "citekey": "tang-etal-2023-understanding"
+  },
+  {
+    "id": "2023.acl-long.716",
+    "title": "BUMP: A Benchmark of Unfaithful Minimal Pairs for Meta-Evaluation of Faithfulness Metrics",
+    "authors": [
+      {
+        "first": "Liang",
+        "last": "Ma"
+      },
+      {
+        "first": "Shuyang",
+        "last": "Cao"
+      },
+      {
+        "first": "Robert L",
+        "last": "Logan IV"
+      },
+      {
+        "first": "Di",
+        "last": "Lu"
+      },
+      {
+        "first": "Shihao",
+        "last": "Ran"
+      },
+      {
+        "first": "Ke",
+        "last": "Zhang"
+      },
+      {
+        "first": "Joel",
+        "last": "Tetreault"
+      },
+      {
+        "first": "Alejandro",
+        "last": "Jaimes"
+      }
+    ],
+    "year": 2023,
+    "venue_full": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2023.acl-long.716",
+    "pages": "12788-12812",
+    "url": "https://aclanthology.org/2023.acl-long.716/",
+    "source_xml": "2023.acl.xml",
+    "short_name": "BUMP",
+    "category": "Evaluation",
+    "subcategory": "Metric validation",
+    "use": "用最小差异摘要对诊断指标对单种错误的敏感性。",
+    "review_question": "辨别正确与错误文本和单调响应错误是否一致？",
+    "record_id": "P010",
+    "venue": "ACL 2023",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Evaluation/Metric validation",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2023.acl.xml",
+    "include_reason": "用最小差异摘要对诊断指标对单种错误的敏感性。",
+    "relevance": "Directly relevant",
+    "citekey": "ma-etal-2023-bump"
+  },
+  {
+    "id": "2023.emnlp-main.58",
+    "title": "Enhancing Uncertainty-Based Hallucination Detection with Stronger Focus",
+    "authors": [
+      {
+        "first": "Tianhang",
+        "last": "Zhang"
+      },
+      {
+        "first": "Lin",
+        "last": "Qiu"
+      },
+      {
+        "first": "Qipeng",
+        "last": "Guo"
+      },
+      {
+        "first": "Cheng",
+        "last": "Deng"
+      },
+      {
+        "first": "Yue",
+        "last": "Zhang"
+      },
+      {
+        "first": "Zheng",
+        "last": "Zhang"
+      },
+      {
+        "first": "Chenghu",
+        "last": "Zhou"
+      },
+      {
+        "first": "Xinbing",
+        "last": "Wang"
+      },
+      {
+        "first": "Luoyi",
+        "last": "Fu"
+      }
+    ],
+    "year": 2023,
+    "venue_full": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    "doi": "10.18653/v1/2023.emnlp-main.58",
+    "pages": "915-932",
+    "url": "https://aclanthology.org/2023.emnlp-main.58/",
+    "source_xml": "2023.emnlp.xml",
+    "short_name": "FOCUS",
+    "category": "Detection",
+    "subcategory": "Internal signals",
+    "use": "从重要词、历史不可靠词和词属性集中估计不确定性。",
+    "review_question": "低概率是否意味着不真实，还是仅表示罕见表达？",
+    "record_id": "P011",
+    "venue": "EMNLP 2023",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Detection/Internal signals",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2023.emnlp.xml",
+    "include_reason": "从重要词、历史不可靠词和词属性集中估计不确定性。",
+    "relevance": "Directly relevant",
+    "citekey": "zhang-etal-2023-enhancing-uncertainty"
+  },
+  {
+    "id": "2023.emnlp-main.59",
+    "title": "FactKB: Generalizable Factuality Evaluation using Language Models Enhanced with Factual Knowledge",
+    "authors": [
+      {
+        "first": "Shangbin",
+        "last": "Feng"
+      },
+      {
+        "first": "Vidhisha",
+        "last": "Balachandran"
+      },
+      {
+        "first": "Yuyang",
+        "last": "Bai"
+      },
+      {
+        "first": "Yulia",
+        "last": "Tsvetkov"
+      }
+    ],
+    "year": 2023,
+    "venue_full": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    "doi": "10.18653/v1/2023.emnlp-main.59",
+    "pages": "933-952",
+    "url": "https://aclanthology.org/2023.emnlp-main.59/",
+    "source_xml": "2023.emnlp.xml",
+    "short_name": "FactKB",
+    "category": "Detection",
+    "subcategory": "Evidence verification",
+    "use": "用知识库事实预训练评估器以改善实体与关系错误检测。",
+    "review_question": "知识库覆盖不足时检测器如何表现？",
+    "record_id": "P012",
+    "venue": "EMNLP 2023",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Detection/Evidence verification",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2023.emnlp.xml",
+    "include_reason": "用知识库事实预训练评估器以改善实体与关系错误检测。",
+    "relevance": "Directly relevant",
+    "citekey": "feng-etal-2023-factkb"
+  },
+  {
+    "id": "2023.emnlp-main.127",
+    "title": "TrueTeacher: Learning Factual Consistency Evaluation with Large Language Models",
+    "authors": [
+      {
+        "first": "Zorik",
+        "last": "Gekhman"
+      },
+      {
+        "first": "Jonathan",
+        "last": "Herzig"
+      },
+      {
+        "first": "Roee",
+        "last": "Aharoni"
+      },
+      {
+        "first": "Chen",
+        "last": "Elkind"
+      },
+      {
+        "first": "Idan",
+        "last": "Szpektor"
+      }
+    ],
+    "year": 2023,
+    "venue_full": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    "doi": "10.18653/v1/2023.emnlp-main.127",
+    "pages": "2053-2070",
+    "url": "https://aclanthology.org/2023.emnlp-main.127/",
+    "source_xml": "2023.emnlp.xml",
+    "short_name": "TrueTeacher",
+    "category": "Detection",
+    "subcategory": "Evidence verification",
+    "use": "以大模型标注生成摘要，训练较小的一致性评估器。",
+    "review_question": "教师偏差会否在合成监督中被继承？",
+    "record_id": "P013",
+    "venue": "EMNLP 2023",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Detection/Evidence verification",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2023.emnlp.xml",
+    "include_reason": "以大模型标注生成摘要，训练较小的一致性评估器。",
+    "relevance": "Directly relevant",
+    "citekey": "gekhman-etal-2023-trueteacher"
+  },
+  {
+    "id": "2023.emnlp-main.397",
+    "title": "HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models",
+    "authors": [
+      {
+        "first": "Junyi",
+        "last": "Li"
+      },
+      {
+        "first": "Xiaoxue",
+        "last": "Cheng"
+      },
+      {
+        "first": "Xin",
+        "last": "Zhao"
+      },
+      {
+        "first": "Jian-Yun",
+        "last": "Nie"
+      },
+      {
+        "first": "Ji-Rong",
+        "last": "Wen"
+      }
+    ],
+    "year": 2023,
+    "venue_full": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    "doi": "10.18653/v1/2023.emnlp-main.397",
+    "pages": "6449-6464",
+    "url": "https://aclanthology.org/2023.emnlp-main.397/",
+    "source_xml": "2023.emnlp.xml",
+    "short_name": "HaluEval",
+    "category": "Evaluation",
+    "subcategory": "Mixed-task benchmarks",
+    "use": "覆盖问答、对话、摘要与一般查询中的幻觉识别。",
+    "review_question": "人为诱导错误与自然生成错误的难度有何差异？",
+    "record_id": "P014",
+    "venue": "EMNLP 2023",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Downloaded; selected passages inspected",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Evaluation/Mixed-task benchmarks",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2023.emnlp.xml",
+    "include_reason": "覆盖问答、对话、摘要与一般查询中的幻觉识别。",
+    "relevance": "Directly relevant",
+    "citekey": "li-etal-2023-halueval"
+  },
+  {
+    "id": "2023.emnlp-main.557",
+    "title": "SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models",
+    "authors": [
+      {
+        "first": "Potsawee",
+        "last": "Manakul"
+      },
+      {
+        "first": "Adian",
+        "last": "Liusie"
+      },
+      {
+        "first": "Mark",
+        "last": "Gales"
+      }
+    ],
+    "year": 2023,
+    "venue_full": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    "doi": "10.18653/v1/2023.emnlp-main.557",
+    "pages": "9004-9017",
+    "url": "https://aclanthology.org/2023.emnlp-main.557/",
+    "source_xml": "2023.emnlp.xml",
+    "short_name": "SelfCheckGPT",
+    "category": "Detection",
+    "subcategory": "Sampling and consistency",
+    "use": "用多次黑盒生成之间的一致性定位可疑陈述。",
+    "review_question": "多个样本重复同一错误时能否检出？",
+    "record_id": "P015",
+    "venue": "EMNLP 2023",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Downloaded; selected passages inspected",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Detection/Sampling and consistency",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2023.emnlp.xml",
+    "include_reason": "用多次黑盒生成之间的一致性定位可疑陈述。",
+    "relevance": "Directly relevant",
+    "citekey": "manakul-etal-2023-selfcheckgpt"
+  },
+  {
+    "id": "2023.emnlp-main.741",
+    "title": "FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation",
+    "authors": [
+      {
+        "first": "Sewon",
+        "last": "Min"
+      },
+      {
+        "first": "Kalpesh",
+        "last": "Krishna"
+      },
+      {
+        "first": "Xinxi",
+        "last": "Lyu"
+      },
+      {
+        "first": "Mike",
+        "last": "Lewis"
+      },
+      {
+        "first": "Wen-tau",
+        "last": "Yih"
+      },
+      {
+        "first": "Pang",
+        "last": "Koh"
+      },
+      {
+        "first": "Mohit",
+        "last": "Iyyer"
+      },
+      {
+        "first": "Luke",
+        "last": "Zettlemoyer"
+      },
+      {
+        "first": "Hannaneh",
+        "last": "Hajishirzi"
+      }
+    ],
+    "year": 2023,
+    "venue_full": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    "doi": "10.18653/v1/2023.emnlp-main.741",
+    "pages": "12076-12100",
+    "url": "https://aclanthology.org/2023.emnlp-main.741/",
+    "source_xml": "2023.emnlp.xml",
+    "short_name": "FActScore",
+    "category": "Detection",
+    "subcategory": "Claim-level verification",
+    "use": "把长文本拆成原子事实，逐项检索验证事实精确率。",
+    "review_question": "高精确率是否同时具有足够信息量与覆盖率？",
+    "record_id": "P016",
+    "venue": "EMNLP 2023",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Downloaded; selected passages inspected",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Detection/Claim-level verification",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2023.emnlp.xml",
+    "include_reason": "把长文本拆成原子事实，逐项检索验证事实精确率。",
+    "relevance": "Directly relevant",
+    "citekey": "min-etal-2023-factscore"
+  },
+  {
+    "id": "2023.emnlp-main.778",
+    "title": "LM vs LM: Detecting Factual Errors via Cross Examination",
+    "authors": [
+      {
+        "first": "Roi",
+        "last": "Cohen"
+      },
+      {
+        "first": "May",
+        "last": "Hamri"
+      },
+      {
+        "first": "Mor",
+        "last": "Geva"
+      },
+      {
+        "first": "Amir",
+        "last": "Globerson"
+      }
+    ],
+    "year": 2023,
+    "venue_full": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    "doi": "10.18653/v1/2023.emnlp-main.778",
+    "pages": "12621-12640",
+    "url": "https://aclanthology.org/2023.emnlp-main.778/",
+    "source_xml": "2023.emnlp.xml",
+    "short_name": "LM vs LM",
+    "category": "Detection",
+    "subcategory": "Sampling and consistency",
+    "use": "通过另一模型多轮盘问寻找原始回答中的矛盾。",
+    "review_question": "不同模型共享错误知识时盘问能否提供独立证据？",
+    "record_id": "P017",
+    "venue": "EMNLP 2023",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Detection/Sampling and consistency",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2023.emnlp.xml",
+    "include_reason": "通过另一模型多轮盘问寻找原始回答中的矛盾。",
+    "relevance": "Directly relevant",
+    "citekey": "cohen-etal-2023-lm"
+  },
+  {
+    "id": "2023.emnlp-main.495",
+    "title": "Active Retrieval Augmented Generation",
+    "authors": [
+      {
+        "first": "Zhengbao",
+        "last": "Jiang"
+      },
+      {
+        "first": "Frank",
+        "last": "Xu"
+      },
+      {
+        "first": "Luyu",
+        "last": "Gao"
+      },
+      {
+        "first": "Zhiqing",
+        "last": "Sun"
+      },
+      {
+        "first": "Qian",
+        "last": "Liu"
+      },
+      {
+        "first": "Jane",
+        "last": "Dwivedi-Yu"
+      },
+      {
+        "first": "Yiming",
+        "last": "Yang"
+      },
+      {
+        "first": "Jamie",
+        "last": "Callan"
+      },
+      {
+        "first": "Graham",
+        "last": "Neubig"
+      }
+    ],
+    "year": 2023,
+    "venue_full": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    "doi": "10.18653/v1/2023.emnlp-main.495",
+    "pages": "7969-7992",
+    "url": "https://aclanthology.org/2023.emnlp-main.495/",
+    "source_xml": "2023.emnlp.xml",
+    "short_name": "FLARE",
+    "category": "Mitigation",
+    "subcategory": "Retrieval and prompting",
+    "use": "根据预测句子及低置信词触发主动检索与重新生成。",
+    "review_question": "置信信号失准会如何影响检索时机与成本？",
+    "record_id": "P018",
+    "venue": "EMNLP 2023",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Mitigation/Retrieval and prompting",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2023.emnlp.xml",
+    "include_reason": "根据预测句子及低置信词触发主动检索与重新生成。",
+    "relevance": "Directly relevant",
+    "citekey": "jiang-etal-2023-active"
+  },
+  {
+    "id": "2023.emnlp-main.398",
+    "title": "Enabling Large Language Models to Generate Text with Citations",
+    "authors": [
+      {
+        "first": "Tianyu",
+        "last": "Gao"
+      },
+      {
+        "first": "Howard",
+        "last": "Yen"
+      },
+      {
+        "first": "Jiatong",
+        "last": "Yu"
+      },
+      {
+        "first": "Danqi",
+        "last": "Chen"
+      }
+    ],
+    "year": 2023,
+    "venue_full": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    "doi": "10.18653/v1/2023.emnlp-main.398",
+    "pages": "6465-6488",
+    "url": "https://aclanthology.org/2023.emnlp-main.398/",
+    "source_xml": "2023.emnlp.xml",
+    "short_name": "ALCE",
+    "category": "Evaluation",
+    "subcategory": "Attribution benchmarks",
+    "use": "同时评价答案质量、事实正确性及引文支持。",
+    "review_question": "有引用是否真的提供充分且正确的证据？",
+    "record_id": "P019",
+    "venue": "EMNLP 2023",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Downloaded; selected passages inspected",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Evaluation/Attribution benchmarks",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2023.emnlp.xml",
+    "include_reason": "同时评价答案质量、事实正确性及引文支持。",
+    "relevance": "Directly relevant",
+    "citekey": "gao-etal-2023-enabling"
+  },
+  {
+    "id": "2023.findings-emnlp.157",
+    "title": "WikiChat: Stopping the Hallucination of Large Language Model Chatbots by Few-Shot Grounding on Wikipedia",
+    "authors": [
+      {
+        "first": "Sina",
+        "last": "Semnani"
+      },
+      {
+        "first": "Violet",
+        "last": "Yao"
+      },
+      {
+        "first": "Heidi",
+        "last": "Zhang"
+      },
+      {
+        "first": "Monica",
+        "last": "Lam"
+      }
+    ],
+    "year": 2023,
+    "venue_full": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    "doi": "10.18653/v1/2023.findings-emnlp.157",
+    "pages": "2387-2413",
+    "url": "https://aclanthology.org/2023.findings-emnlp.157/",
+    "source_xml": "2023.findings.xml",
+    "short_name": "WikiChat",
+    "category": "Mitigation",
+    "subcategory": "Revision and abstention",
+    "use": "将生成内容与维基检索、事实筛选和回应整合结合。",
+    "review_question": "单一知识库的时效与覆盖边界在哪里？",
+    "record_id": "P020",
+    "venue": "Findings of EMNLP 2023",
+    "publication_status": "Findings",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Mitigation/Revision and abstention",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2023.findings.xml",
+    "include_reason": "将生成内容与维基检索、事实筛选和回应整合结合。",
+    "relevance": "Directly relevant",
+    "citekey": "semnani-etal-2023-wikichat"
+  },
+  {
+    "id": "2023.findings-emnlp.968",
+    "title": "Context-faithful Prompting for Large Language Models",
+    "authors": [
+      {
+        "first": "Wenxuan",
+        "last": "Zhou"
+      },
+      {
+        "first": "Sheng",
+        "last": "Zhang"
+      },
+      {
+        "first": "Hoifung",
+        "last": "Poon"
+      },
+      {
+        "first": "Muhao",
+        "last": "Chen"
+      }
+    ],
+    "year": 2023,
+    "venue_full": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    "doi": "10.18653/v1/2023.findings-emnlp.968",
+    "pages": "14544-14556",
+    "url": "https://aclanthology.org/2023.findings-emnlp.968/",
+    "source_xml": "2023.findings.xml",
+    "short_name": "Context-faithful prompting",
+    "category": "Mitigation",
+    "subcategory": "Retrieval and prompting",
+    "use": "用意见式提示和反事实示例提高上下文遵循。",
+    "review_question": "遵循错误上下文可能损害世界事实正确性吗？",
+    "record_id": "P021",
+    "venue": "Findings of EMNLP 2023",
+    "publication_status": "Findings",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Mitigation/Retrieval and prompting",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2023.findings.xml",
+    "include_reason": "用意见式提示和反事实示例提高上下文遵循。",
+    "relevance": "Directly relevant",
+    "citekey": "zhou-etal-2023-context"
+  },
+  {
+    "id": "2023.findings-emnlp.1032",
+    "title": "SAC^3: Reliable Hallucination Detection in Black-Box Language Models via Semantic-aware Cross-check Consistency",
+    "authors": [
+      {
+        "first": "Jiaxin",
+        "last": "Zhang"
+      },
+      {
+        "first": "Zhuohang",
+        "last": "Li"
+      },
+      {
+        "first": "Kamalika",
+        "last": "Das"
+      },
+      {
+        "first": "Bradley",
+        "last": "Malin"
+      },
+      {
+        "first": "Sricharan",
+        "last": "Kumar"
+      }
+    ],
+    "year": 2023,
+    "venue_full": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    "doi": "10.18653/v1/2023.findings-emnlp.1032",
+    "pages": "15445-15458",
+    "url": "https://aclanthology.org/2023.findings-emnlp.1032/",
+    "source_xml": "2023.findings.xml",
+    "short_name": "SAC3",
+    "category": "Detection",
+    "subcategory": "Sampling and consistency",
+    "use": "联合问题扰动与跨模型一致性补充单模型自检。",
+    "review_question": "额外模型和采样成本换来了哪些可迁移信号？",
+    "record_id": "P022",
+    "venue": "Findings of EMNLP 2023",
+    "publication_status": "Findings",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Detection/Sampling and consistency",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2023.findings.xml",
+    "include_reason": "联合问题扰动与跨模型一致性补充单模型自检。",
+    "relevance": "Directly relevant",
+    "citekey": "zhang-etal-2023-sac3"
+  },
+  {
+    "id": "2023.findings-emnlp.68",
+    "title": "The Internal State of an LLM Knows When It’s Lying",
+    "authors": [
+      {
+        "first": "Amos",
+        "last": "Azaria"
+      },
+      {
+        "first": "Tom",
+        "last": "Mitchell"
+      }
+    ],
+    "year": 2023,
+    "venue_full": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    "doi": "10.18653/v1/2023.findings-emnlp.68",
+    "pages": "967-976",
+    "url": "https://aclanthology.org/2023.findings-emnlp.68/",
+    "source_xml": "2023.findings.xml",
+    "short_name": "Internal-state probe",
+    "category": "Detection",
+    "subcategory": "Internal signals",
+    "use": "以隐藏层表示训练真假分类器。",
+    "review_question": "人工构造真假句上的可分性能否迁移到自然生成？",
+    "record_id": "P023",
+    "venue": "Findings of EMNLP 2023",
+    "publication_status": "Findings",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Detection/Internal signals",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2023.findings.xml",
+    "include_reason": "以隐藏层表示训练真假分类器。",
+    "relevance": "Directly relevant",
+    "citekey": "azaria-mitchell-2023-internal"
+  },
+  {
+    "id": "2023.eacl-main.121",
+    "title": "LongEval: Guidelines for Human Evaluation of Faithfulness in Long-form Summarization",
+    "authors": [
+      {
+        "first": "Kalpesh",
+        "last": "Krishna"
+      },
+      {
+        "first": "Erin",
+        "last": "Bransom"
+      },
+      {
+        "first": "Bailey",
+        "last": "Kuehl"
+      },
+      {
+        "first": "Mohit",
+        "last": "Iyyer"
+      },
+      {
+        "first": "Pradeep",
+        "last": "Dasigi"
+      },
+      {
+        "first": "Arman",
+        "last": "Cohan"
+      },
+      {
+        "first": "Kyle",
+        "last": "Lo"
+      }
+    ],
+    "year": 2023,
+    "venue_full": "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics",
+    "doi": "10.18653/v1/2023.eacl-main.121",
+    "pages": "1650-1669",
+    "url": "https://aclanthology.org/2023.eacl-main.121/",
+    "source_xml": "2023.eacl.xml",
+    "short_name": "LongEval",
+    "category": "Evaluation",
+    "subcategory": "Human evaluation",
+    "use": "比较长摘要细粒度人工判断与抽样标注策略。",
+    "review_question": "较低标注成本能否保持跨领域评估可信度？",
+    "record_id": "P024",
+    "venue": "EACL 2023",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Evaluation/Human evaluation",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2023.eacl.xml",
+    "include_reason": "比较长摘要细粒度人工判断与抽样标注策略。",
+    "relevance": "Directly relevant",
+    "citekey": "krishna-etal-2023-longeval"
+  },
+  {
+    "id": "2024.acl-long.107",
+    "title": "Self-Alignment for Factuality: Mitigating Hallucinations in LLMs via Self-Evaluation",
+    "authors": [
+      {
+        "first": "Xiaoying",
+        "last": "Zhang"
+      },
+      {
+        "first": "Baolin",
+        "last": "Peng"
+      },
+      {
+        "first": "Ye",
+        "last": "Tian"
+      },
+      {
+        "first": "Jingyan",
+        "last": "Zhou"
+      },
+      {
+        "first": "Lifeng",
+        "last": "Jin"
+      },
+      {
+        "first": "Linfeng",
+        "last": "Song"
+      },
+      {
+        "first": "Haitao",
+        "last": "Mi"
+      },
+      {
+        "first": "Helen",
+        "last": "Meng"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2024.acl-long.107",
+    "pages": "1946-1965",
+    "url": "https://aclanthology.org/2024.acl-long.107/",
+    "source_xml": "2024.acl.xml",
+    "short_name": "Self-Alignment",
+    "category": "Mitigation",
+    "subcategory": "Training and alignment",
+    "use": "结合自评、知识调优与偏好优化提高事实性。",
+    "review_question": "模型内部知识错误会否污染自生成偏好标签？",
+    "record_id": "P025",
+    "venue": "ACL 2024",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Mitigation/Training and alignment",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.acl.xml",
+    "include_reason": "结合自评、知识调优与偏好优化提高事实性。",
+    "relevance": "Directly relevant",
+    "citekey": "zhang-etal-2024-self"
+  },
+  {
+    "id": "2024.acl-long.250",
+    "title": "Factual Confidence of LLMs: on Reliability and Robustness of Current Estimators",
+    "authors": [
+      {
+        "first": "Matéo",
+        "last": "Mahaut"
+      },
+      {
+        "first": "Laura",
+        "last": "Aina"
+      },
+      {
+        "first": "Paula",
+        "last": "Czarnowska"
+      },
+      {
+        "first": "Momchil",
+        "last": "Hardalov"
+      },
+      {
+        "first": "Thomas",
+        "last": "Müller"
+      },
+      {
+        "first": "Lluis",
+        "last": "Marquez"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2024.acl-long.250",
+    "pages": "4554-4570",
+    "url": "https://aclanthology.org/2024.acl-long.250/",
+    "source_xml": "2024.acl.xml",
+    "short_name": "Factual confidence",
+    "category": "Analysis",
+    "subcategory": "Transfer and calibration",
+    "use": "统一比较事实置信估计，并检查语义等价输入下的稳定性。",
+    "review_question": "探针优势是否依赖权重访问、监督数据与提示分布？",
+    "record_id": "P026",
+    "venue": "ACL 2024",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Analysis/Transfer and calibration",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.acl.xml",
+    "include_reason": "统一比较事实置信估计，并检查语义等价输入下的稳定性。",
+    "relevance": "Directly relevant",
+    "citekey": "mahaut-etal-2024-factual"
+  },
+  {
+    "id": "2024.acl-long.442",
+    "title": "ANAH: Analytical Annotation of Hallucinations in Large Language Models",
+    "authors": [
+      {
+        "first": "Ziwei",
+        "last": "Ji"
+      },
+      {
+        "first": "Yuzhe",
+        "last": "Gu"
+      },
+      {
+        "first": "Wenwei",
+        "last": "Zhang"
+      },
+      {
+        "first": "Chengqi",
+        "last": "Lyu"
+      },
+      {
+        "first": "Dahua",
+        "last": "Lin"
+      },
+      {
+        "first": "Kai",
+        "last": "Chen"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2024.acl-long.442",
+    "pages": "8135-8158",
+    "url": "https://aclanthology.org/2024.acl-long.442/",
+    "source_xml": "2024.acl.xml",
+    "short_name": "ANAH",
+    "category": "Evaluation",
+    "subcategory": "Factuality benchmarks",
+    "use": "双语、句子级标注同时包含证据片段、幻觉类型与纠错。",
+    "review_question": "标注和训练收益能否迁移到未见主题与模型？",
+    "record_id": "P027",
+    "venue": "ACL 2024",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Evaluation/Factuality benchmarks",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.acl.xml",
+    "include_reason": "双语、句子级标注同时包含证据片段、幻觉类型与纠错。",
+    "relevance": "Directly relevant",
+    "citekey": "ji-etal-2024-anah"
+  },
+  {
+    "id": "2024.acl-long.483",
+    "title": "TruthX: Alleviating Hallucinations by Editing Large Language Models in Truthful Space",
+    "authors": [
+      {
+        "first": "Shaolei",
+        "last": "Zhang"
+      },
+      {
+        "first": "Tian",
+        "last": "Yu"
+      },
+      {
+        "first": "Yang",
+        "last": "Feng"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2024.acl-long.483",
+    "pages": "8908-8949",
+    "url": "https://aclanthology.org/2024.acl-long.483/",
+    "source_xml": "2024.acl.xml",
+    "short_name": "TruthX",
+    "category": "Mitigation",
+    "subcategory": "Decoding and intervention",
+    "use": "学习语义与真实性潜空间，在推理时编辑内部表示。",
+    "review_question": "真实性方向是否跨任务稳定，是否损害有用性？",
+    "record_id": "P028",
+    "venue": "ACL 2024",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Mitigation/Decoding and intervention",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.acl.xml",
+    "include_reason": "学习语义与真实性潜空间，在推理时编辑内部表示。",
+    "relevance": "Directly relevant",
+    "citekey": "zhang-etal-2024-truthx"
+  },
+  {
+    "id": "2024.acl-long.585",
+    "title": "RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models",
+    "authors": [
+      {
+        "first": "Cheng",
+        "last": "Niu"
+      },
+      {
+        "first": "Yuanhao",
+        "last": "Wu"
+      },
+      {
+        "first": "Juno",
+        "last": "Zhu"
+      },
+      {
+        "first": "Siliang",
+        "last": "Xu"
+      },
+      {
+        "first": "KaShun",
+        "last": "Shum"
+      },
+      {
+        "first": "Randy",
+        "last": "Zhong"
+      },
+      {
+        "first": "Juntong",
+        "last": "Song"
+      },
+      {
+        "first": "Tong",
+        "last": "Zhang"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2024.acl-long.585",
+    "pages": "10862-10878",
+    "url": "https://aclanthology.org/2024.acl-long.585/",
+    "source_xml": "2024.acl.xml",
+    "short_name": "RAGTruth",
+    "category": "Evaluation",
+    "subcategory": "Grounded benchmarks",
+    "use": "对自然产生的RAG回应进行回应级与词级人工标注。",
+    "review_question": "固定检索条件下的检测表现能否迁移到新检索器？",
+    "record_id": "P029",
+    "venue": "ACL 2024",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Downloaded; selected passages inspected",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Evaluation/Grounded benchmarks",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.acl.xml",
+    "include_reason": "对自然产生的RAG回应进行回应级与词级人工标注。",
+    "relevance": "Directly relevant",
+    "citekey": "niu-etal-2024-ragtruth"
+  },
+  {
+    "id": "2024.acl-long.586",
+    "title": "The Dawn After the Dark: An Empirical Study on Factuality Hallucination in Large Language Models",
+    "authors": [
+      {
+        "first": "Junyi",
+        "last": "Li"
+      },
+      {
+        "first": "Jie",
+        "last": "Chen"
+      },
+      {
+        "first": "Ruiyang",
+        "last": "Ren"
+      },
+      {
+        "first": "Xiaoxue",
+        "last": "Cheng"
+      },
+      {
+        "first": "Xin",
+        "last": "Zhao"
+      },
+      {
+        "first": "Jian-Yun",
+        "last": "Nie"
+      },
+      {
+        "first": "Ji-Rong",
+        "last": "Wen"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2024.acl-long.586",
+    "pages": "10879-10899",
+    "url": "https://aclanthology.org/2024.acl-long.586/",
+    "source_xml": "2024.acl.xml",
+    "short_name": "HaluEval 2.0",
+    "category": "Foundations",
+    "subcategory": "Causes and empirical analysis",
+    "use": "将检测、来源与缓解放入同一实证分析。",
+    "review_question": "不同训练和使用阶段的因素能否单独归因？",
+    "record_id": "P030",
+    "venue": "ACL 2024",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Foundations/Causes and empirical analysis",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.acl.xml",
+    "include_reason": "将检测、来源与缓解放入同一实证分析。",
+    "relevance": "Directly relevant",
+    "citekey": "li-etal-2024-dawn"
+  },
+  {
+    "id": "2024.acl-long.786",
+    "title": "Don’t Hallucinate, Abstain: Identifying LLM Knowledge Gaps via Multi-LLM Collaboration",
+    "authors": [
+      {
+        "first": "Shangbin",
+        "last": "Feng"
+      },
+      {
+        "first": "Weijia",
+        "last": "Shi"
+      },
+      {
+        "first": "Yike",
+        "last": "Wang"
+      },
+      {
+        "first": "Wenxuan",
+        "last": "Ding"
+      },
+      {
+        "first": "Vidhisha",
+        "last": "Balachandran"
+      },
+      {
+        "first": "Yulia",
+        "last": "Tsvetkov"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2024.acl-long.786",
+    "pages": "14664-14690",
+    "url": "https://aclanthology.org/2024.acl-long.786/",
+    "source_xml": "2024.acl.xml",
+    "short_name": "Abstain collaboration",
+    "category": "Mitigation",
+    "subcategory": "Revision and abstention",
+    "use": "利用协作或竞争式多模型探查知识缺口与拒答。",
+    "review_question": "减少错误是否伴随过度拒答和较低覆盖率？",
+    "record_id": "P031",
+    "venue": "ACL 2024",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Mitigation/Revision and abstention",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.acl.xml",
+    "include_reason": "利用协作或竞争式多模型探查知识缺口与拒答。",
+    "relevance": "Directly relevant",
+    "citekey": "feng-etal-2024-dont"
+  },
+  {
+    "id": "2024.emnlp-main.84",
+    "title": "Lookback Lens: Detecting and Mitigating Contextual Hallucinations in Large Language Models Using Only Attention Maps",
+    "authors": [
+      {
+        "first": "Yung-Sung",
+        "last": "Chuang"
+      },
+      {
+        "first": "Linlu",
+        "last": "Qiu"
+      },
+      {
+        "first": "Cheng-Yu",
+        "last": "Hsieh"
+      },
+      {
+        "first": "Ranjay",
+        "last": "Krishna"
+      },
+      {
+        "first": "Yoon",
+        "last": "Kim"
+      },
+      {
+        "first": "James R.",
+        "last": "Glass"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    "doi": "10.18653/v1/2024.emnlp-main.84",
+    "pages": "1419-1436",
+    "url": "https://aclanthology.org/2024.emnlp-main.84/",
+    "source_xml": "2024.emnlp.xml",
+    "short_name": "Lookback Lens",
+    "category": "Detection",
+    "subcategory": "Internal signals",
+    "use": "以对上下文与已生成文本的注意力比例检测不忠实内容。",
+    "review_question": "注意力特征的跨任务、跨模型迁移范围是什么？",
+    "record_id": "P032",
+    "venue": "EMNLP 2024",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Downloaded; selected passages inspected",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Detection/Internal signals",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.emnlp.xml",
+    "include_reason": "以对上下文与已生成文本的注意力比例检测不忠实内容。",
+    "relevance": "Directly relevant",
+    "citekey": "chuang-etal-2024-lookback"
+  },
+  {
+    "id": "2024.emnlp-main.444",
+    "title": "Does Fine-Tuning LLMs on New Knowledge Encourage Hallucinations?",
+    "authors": [
+      {
+        "first": "Zorik",
+        "last": "Gekhman"
+      },
+      {
+        "first": "Gal",
+        "last": "Yona"
+      },
+      {
+        "first": "Roee",
+        "last": "Aharoni"
+      },
+      {
+        "first": "Matan",
+        "last": "Eyal"
+      },
+      {
+        "first": "Amir",
+        "last": "Feder"
+      },
+      {
+        "first": "Roi",
+        "last": "Reichart"
+      },
+      {
+        "first": "Jonathan",
+        "last": "Herzig"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    "doi": "10.18653/v1/2024.emnlp-main.444",
+    "pages": "7765-7784",
+    "url": "https://aclanthology.org/2024.emnlp-main.444/",
+    "source_xml": "2024.emnlp.xml",
+    "short_name": "New-knowledge finetuning",
+    "category": "Foundations",
+    "subcategory": "Training knowledge mismatch",
+    "use": "控制微调中的新知识比例，分析知识学习与幻觉变化。",
+    "review_question": "受控问答结果适用于哪些微调数据和模型？",
+    "record_id": "P033",
+    "venue": "EMNLP 2024",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Foundations/Training knowledge mismatch",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.emnlp.xml",
+    "include_reason": "控制微调中的新知识比例，分析知识学习与幻觉变化。",
+    "relevance": "Directly relevant",
+    "citekey": "gekhman-etal-2024-fine"
+  },
+  {
+    "id": "2024.emnlp-main.527",
+    "title": "Synchronous Faithfulness Monitoring for Trustworthy Retrieval-Augmented Generation",
+    "authors": [
+      {
+        "first": "Di",
+        "last": "Wu"
+      },
+      {
+        "first": "Jia-Chen",
+        "last": "Gu"
+      },
+      {
+        "first": "Fan",
+        "last": "Yin"
+      },
+      {
+        "first": "Nanyun",
+        "last": "Peng"
+      },
+      {
+        "first": "Kai-Wei",
+        "last": "Chang"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    "doi": "10.18653/v1/2024.emnlp-main.527",
+    "pages": "9390-9406",
+    "url": "https://aclanthology.org/2024.emnlp-main.527/",
+    "source_xml": "2024.emnlp.xml",
+    "short_name": "SynCheck / FOD",
+    "category": "Mitigation",
+    "subcategory": "Decoding and intervention",
+    "use": "融合解码动态与语义对齐，在线监测并引导生成。",
+    "review_question": "检测器、搜索宽度和实时延迟如何权衡？",
+    "record_id": "P034",
+    "venue": "EMNLP 2024",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Mitigation/Decoding and intervention",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.emnlp.xml",
+    "include_reason": "融合解码动态与语义对齐，在线监测并引导生成。",
+    "relevance": "Directly relevant",
+    "citekey": "wu-etal-2024-synchronous"
+  },
+  {
+    "id": "2024.emnlp-main.1012",
+    "title": "On the Universal Truthfulness Hyperplane Inside LLMs",
+    "authors": [
+      {
+        "first": "Junteng",
+        "last": "Liu"
+      },
+      {
+        "first": "Shiqi",
+        "last": "Chen"
+      },
+      {
+        "first": "Yu",
+        "last": "Cheng"
+      },
+      {
+        "first": "Junxian",
+        "last": "He"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    "doi": "10.18653/v1/2024.emnlp-main.1012",
+    "pages": "18199-18224",
+    "url": "https://aclanthology.org/2024.emnlp-main.1012/",
+    "source_xml": "2024.emnlp.xml",
+    "short_name": "Truthfulness hyperplane",
+    "category": "Detection",
+    "subcategory": "Internal signals",
+    "use": "扩大监督数据的任务多样性，研究探针泛化。",
+    "review_question": "所谓普适方向在自然错误与新型错误上是否成立？",
+    "record_id": "P035",
+    "venue": "EMNLP 2024",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Detection/Internal signals",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.emnlp.xml",
+    "include_reason": "扩大监督数据的任务多样性，研究探针泛化。",
+    "relevance": "Directly relevant",
+    "citekey": "liu-etal-2024-universal"
+  },
+  {
+    "id": "2024.emnlp-main.1088",
+    "title": "Factuality of Large Language Models: A Survey",
+    "authors": [
+      {
+        "first": "Yuxia",
+        "last": "Wang"
+      },
+      {
+        "first": "Minghan",
+        "last": "Wang"
+      },
+      {
+        "first": "Muhammad Arslan",
+        "last": "Manzoor"
+      },
+      {
+        "first": "Fei",
+        "last": "Liu"
+      },
+      {
+        "first": "Georgi Nenkov",
+        "last": "Georgiev"
+      },
+      {
+        "first": "Rocktim Jyoti",
+        "last": "Das"
+      },
+      {
+        "first": "Preslav",
+        "last": "Nakov"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    "doi": "10.18653/v1/2024.emnlp-main.1088",
+    "pages": "19519-19529",
+    "url": "https://aclanthology.org/2024.emnlp-main.1088/",
+    "source_xml": "2024.emnlp.xml",
+    "short_name": "Factuality survey",
+    "category": "Foundations",
+    "subcategory": "Definitions",
+    "use": "已有事实性综述，提供概念边界及相关综述对比。",
+    "review_question": "本综述如何以2025–2026证据更新检测与评估问题？",
+    "record_id": "P036",
+    "venue": "EMNLP 2024",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Foundations/Definitions",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.emnlp.xml",
+    "include_reason": "已有事实性综述，提供概念边界及相关综述对比。",
+    "relevance": "Contextual supporting study",
+    "citekey": "wang-etal-2024-factuality"
+  },
+  {
+    "id": "2024.naacl-long.60",
+    "title": "On Large Language Models’ Hallucination with Regard to Known Facts",
+    "authors": [
+      {
+        "first": "Che",
+        "last": "Jiang"
+      },
+      {
+        "first": "Biqing",
+        "last": "Qi"
+      },
+      {
+        "first": "Xiangyu",
+        "last": "Hong"
+      },
+      {
+        "first": "Dayuan",
+        "last": "Fu"
+      },
+      {
+        "first": "Yang",
+        "last": "Cheng"
+      },
+      {
+        "first": "Fandong",
+        "last": "Meng"
+      },
+      {
+        "first": "Mo",
+        "last": "Yu"
+      },
+      {
+        "first": "Bowen",
+        "last": "Zhou"
+      },
+      {
+        "first": "Jie",
+        "last": "Zhou"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2024.naacl-long.60",
+    "pages": "1041-1053",
+    "url": "https://aclanthology.org/2024.naacl-long.60/",
+    "source_xml": "2024.naacl.xml",
+    "short_name": "Known-fact hallucination",
+    "category": "Foundations",
+    "subcategory": "Causes and empirical analysis",
+    "use": "比较同一事实正确与错误回答的层间推理动态。",
+    "review_question": "知识存在与正确调用为何不能画等号？",
+    "record_id": "P037",
+    "venue": "NAACL 2024",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Foundations/Causes and empirical analysis",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.naacl.xml",
+    "include_reason": "比较同一事实正确与错误回答的层间推理动态。",
+    "relevance": "Directly relevant",
+    "citekey": "jiang-etal-2024-large"
+  },
+  {
+    "id": "2024.naacl-long.167",
+    "title": "ExpertQA: Expert-Curated Questions and Attributed Answers",
+    "authors": [
+      {
+        "first": "Chaitanya",
+        "last": "Malaviya"
+      },
+      {
+        "first": "Subin",
+        "last": "Lee"
+      },
+      {
+        "first": "Sihao",
+        "last": "Chen"
+      },
+      {
+        "first": "Elizabeth",
+        "last": "Sieber"
+      },
+      {
+        "first": "Mark",
+        "last": "Yatskar"
+      },
+      {
+        "first": "Dan",
+        "last": "Roth"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2024.naacl-long.167",
+    "pages": "3025-3045",
+    "url": "https://aclanthology.org/2024.naacl-long.167/",
+    "source_xml": "2024.naacl.xml",
+    "short_name": "ExpertQA",
+    "category": "Evaluation",
+    "subcategory": "Attribution benchmarks",
+    "use": "领域专家提出问题并核验回答与逐项引文支持。",
+    "review_question": "专家领域中的可靠性可否由通用评估器代替？",
+    "record_id": "P038",
+    "venue": "NAACL 2024",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Evaluation/Attribution benchmarks",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.naacl.xml",
+    "include_reason": "领域专家提出问题并核验回答与逐项引文支持。",
+    "relevance": "Directly relevant",
+    "citekey": "malaviya-etal-2024-expertqa"
+  },
+  {
+    "id": "2024.naacl-long.251",
+    "title": "TofuEval: Evaluating Hallucinations of LLMs on Topic-Focused Dialogue Summarization",
+    "authors": [
+      {
+        "first": "Liyan",
+        "last": "Tang"
+      },
+      {
+        "first": "Igor",
+        "last": "Shalyminov"
+      },
+      {
+        "first": "Amy",
+        "last": "Wong"
+      },
+      {
+        "first": "Jon",
+        "last": "Burnsky"
+      },
+      {
+        "first": "Jake",
+        "last": "Vincent"
+      },
+      {
+        "first": "Yu’an",
+        "last": "Yang"
+      },
+      {
+        "first": "Siffi",
+        "last": "Singh"
+      },
+      {
+        "first": "Song",
+        "last": "Feng"
+      },
+      {
+        "first": "Hwanjun",
+        "last": "Song"
+      },
+      {
+        "first": "Hang",
+        "last": "Su"
+      },
+      {
+        "first": "Lijia",
+        "last": "Sun"
+      },
+      {
+        "first": "Yi",
+        "last": "Zhang"
+      },
+      {
+        "first": "Saab",
+        "last": "Mansour"
+      },
+      {
+        "first": "Kathleen",
+        "last": "McKeown"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2024.naacl-long.251",
+    "pages": "4455-4480",
+    "url": "https://aclanthology.org/2024.naacl-long.251/",
+    "source_xml": "2024.naacl.xml",
+    "short_name": "TofuEval",
+    "category": "Evaluation",
+    "subcategory": "Grounded benchmarks",
+    "use": "评价主题导向对话摘要的句子级错误与错误类型。",
+    "review_question": "大模型裁判在对话领域是否优于专用指标？",
+    "record_id": "P039",
+    "venue": "NAACL 2024",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Evaluation/Grounded benchmarks",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.naacl.xml",
+    "include_reason": "评价主题导向对话摘要的句子级错误与错误类型。",
+    "relevance": "Directly relevant",
+    "citekey": "tang-etal-2024-tofueval"
+  },
+  {
+    "id": "2024.naacl-short.69",
+    "title": "Trusting Your Evidence: Hallucinate Less with Context-aware Decoding",
+    "authors": [
+      {
+        "first": "Weijia",
+        "last": "Shi"
+      },
+      {
+        "first": "Xiaochuang",
+        "last": "Han"
+      },
+      {
+        "first": "Mike",
+        "last": "Lewis"
+      },
+      {
+        "first": "Yulia",
+        "last": "Tsvetkov"
+      },
+      {
+        "first": "Luke",
+        "last": "Zettlemoyer"
+      },
+      {
+        "first": "Wen-tau",
+        "last": "Yih"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers)",
+    "doi": "10.18653/v1/2024.naacl-short.69",
+    "pages": "783-791",
+    "url": "https://aclanthology.org/2024.naacl-short.69/",
+    "source_xml": "2024.naacl.xml",
+    "short_name": "CAD",
+    "category": "Mitigation",
+    "subcategory": "Decoding and intervention",
+    "use": "对比有、无上下文时的词分布以强化上下文证据。",
+    "review_question": "上下文本身错误时，强化遵循是否适得其反？",
+    "record_id": "P040",
+    "venue": "NAACL 2024",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Downloaded; selected passages inspected",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Mitigation/Decoding and intervention",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.naacl.xml",
+    "include_reason": "对比有、无上下文时的词分布以强化上下文证据。",
+    "relevance": "Directly relevant",
+    "citekey": "shi-etal-2024-trusting"
+  },
+  {
+    "id": "2024.eacl-long.4",
+    "title": "Generating Benchmarks for Factuality Evaluation of Language Models",
+    "authors": [
+      {
+        "first": "Dor",
+        "last": "Muhlgay"
+      },
+      {
+        "first": "Ori",
+        "last": "Ram"
+      },
+      {
+        "first": "Inbal",
+        "last": "Magar"
+      },
+      {
+        "first": "Yoav",
+        "last": "Levine"
+      },
+      {
+        "first": "Nir",
+        "last": "Ratner"
+      },
+      {
+        "first": "Yonatan",
+        "last": "Belinkov"
+      },
+      {
+        "first": "Omri",
+        "last": "Abend"
+      },
+      {
+        "first": "Kevin",
+        "last": "Leyton-Brown"
+      },
+      {
+        "first": "Amnon",
+        "last": "Shashua"
+      },
+      {
+        "first": "Yoav",
+        "last": "Shoham"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2024.eacl-long.4",
+    "pages": "49-66",
+    "url": "https://aclanthology.org/2024.eacl-long.4/",
+    "source_xml": "2024.eacl.xml",
+    "short_name": "FACTOR",
+    "category": "Evaluation",
+    "subcategory": "Factuality benchmarks",
+    "use": "把事实语料转换为事实与错误续写的受控基准。",
+    "review_question": "判别或排序正确续写是否等于开放生成可靠？",
+    "record_id": "P041",
+    "venue": "EACL 2024",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Evaluation/Factuality benchmarks",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.eacl.xml",
+    "include_reason": "把事实语料转换为事实与错误续写的受控基准。",
+    "relevance": "Directly relevant",
+    "citekey": "muhlgay-etal-2024-generating"
+  },
+  {
+    "id": "2024.findings-acl.212",
+    "title": "Chain-of-Verification Reduces Hallucination in Large Language Models",
+    "authors": [
+      {
+        "first": "Shehzaad",
+        "last": "Dhuliawala"
+      },
+      {
+        "first": "Mojtaba",
+        "last": "Komeili"
+      },
+      {
+        "first": "Jing",
+        "last": "Xu"
+      },
+      {
+        "first": "Roberta",
+        "last": "Raileanu"
+      },
+      {
+        "first": "Xian",
+        "last": "Li"
+      },
+      {
+        "first": "Asli",
+        "last": "Celikyilmaz"
+      },
+      {
+        "first": "Jason",
+        "last": "Weston"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "Findings of the Association for Computational Linguistics: ACL 2024",
+    "doi": "10.18653/v1/2024.findings-acl.212",
+    "pages": "3563-3578",
+    "url": "https://aclanthology.org/2024.findings-acl.212/",
+    "source_xml": "2024.findings.xml",
+    "short_name": "CoVe",
+    "category": "Mitigation",
+    "subcategory": "Revision and abstention",
+    "use": "独立回答核验问题，再修订初始回答。",
+    "review_question": "内部核验如何避免共享错误知识与自我确认？",
+    "record_id": "P042",
+    "venue": "Findings of ACL 2024",
+    "publication_status": "Findings",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Downloaded; selected passages inspected",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Mitigation/Revision and abstention",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.findings.xml",
+    "include_reason": "独立回答核验问题，再修订初始回答。",
+    "relevance": "Directly relevant",
+    "citekey": "dhuliawala-etal-2024-chain"
+  },
+  {
+    "id": "2024.findings-acl.841",
+    "title": "FENICE: Factuality Evaluation of summarization based on Natural language Inference and Claim Extraction",
+    "authors": [
+      {
+        "first": "Alessandro",
+        "last": "Scirè"
+      },
+      {
+        "first": "Karim",
+        "last": "Ghonim"
+      },
+      {
+        "first": "Roberto",
+        "last": "Navigli"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "Findings of the Association for Computational Linguistics: ACL 2024",
+    "doi": "10.18653/v1/2024.findings-acl.841",
+    "pages": "14148-14161",
+    "url": "https://aclanthology.org/2024.findings-acl.841/",
+    "source_xml": "2024.findings.xml",
+    "short_name": "FENICE",
+    "category": "Detection",
+    "subcategory": "Claim-level verification",
+    "use": "结合原子声明提取与自然语言推断做可解释对齐。",
+    "review_question": "声明拆分与长文档证据选择的误差如何累积？",
+    "record_id": "P043",
+    "venue": "Findings of ACL 2024",
+    "publication_status": "Findings",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Detection/Claim-level verification",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.findings.xml",
+    "include_reason": "结合原子声明提取与自然语言推断做可解释对齐。",
+    "relevance": "Directly relevant",
+    "citekey": "scire-etal-2024-fenice"
+  },
+  {
+    "id": "2024.findings-naacl.85",
+    "title": "ReEval: Automatic Hallucination Evaluation for Retrieval-Augmented Large Language Models via Transferable Adversarial Attacks",
+    "authors": [
+      {
+        "first": "Xiaodong",
+        "last": "Yu"
+      },
+      {
+        "first": "Hao",
+        "last": "Cheng"
+      },
+      {
+        "first": "Xiaodong",
+        "last": "Liu"
+      },
+      {
+        "first": "Dan",
+        "last": "Roth"
+      },
+      {
+        "first": "Jianfeng",
+        "last": "Gao"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "Findings of the Association for Computational Linguistics: NAACL 2024",
+    "doi": "10.18653/v1/2024.findings-naacl.85",
+    "pages": "1333-1351",
+    "url": "https://aclanthology.org/2024.findings-naacl.85/",
+    "source_xml": "2024.findings.xml",
+    "short_name": "ReEval",
+    "category": "Evaluation",
+    "subcategory": "Robustness tests",
+    "use": "扰动检索证据构造可迁移的动态幻觉测试。",
+    "review_question": "静态准确率能否掩盖对新证据的不可靠使用？",
+    "record_id": "P044",
+    "venue": "Findings of NAACL 2024",
+    "publication_status": "Findings",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Evaluation/Robustness tests",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.findings.xml",
+    "include_reason": "扰动检索证据构造可迁移的动态幻觉测试。",
+    "relevance": "Directly relevant",
+    "citekey": "yu-etal-2024-reeval"
+  },
+  {
+    "id": "2024.findings-emnlp.552",
+    "title": "VeriScore: Evaluating the factuality of verifiable claims in long-form text generation",
+    "authors": [
+      {
+        "first": "Yixiao",
+        "last": "Song"
+      },
+      {
+        "first": "Yekyung",
+        "last": "Kim"
+      },
+      {
+        "first": "Mohit",
+        "last": "Iyyer"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    "doi": "10.18653/v1/2024.findings-emnlp.552",
+    "pages": "9447-9474",
+    "url": "https://aclanthology.org/2024.findings-emnlp.552/",
+    "source_xml": "2024.findings.xml",
+    "short_name": "VeriScore",
+    "category": "Detection",
+    "subcategory": "Claim-level verification",
+    "use": "仅对可核验声明进行长文本事实性检查。",
+    "review_question": "不可核验内容如何处理而不混淆错误与未知？",
+    "record_id": "P045",
+    "venue": "Findings of EMNLP 2024",
+    "publication_status": "Findings",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Detection/Claim-level verification",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.findings.xml",
+    "include_reason": "仅对可核验声明进行长文本事实性检查。",
+    "relevance": "Directly relevant",
+    "citekey": "song-etal-2024-veriscore"
+  },
+  {
+    "id": "2024.findings-emnlp.955",
+    "title": "FactAlign: Long-form Factuality Alignment of Large Language Models",
+    "authors": [
+      {
+        "first": "Chao-Wei",
+        "last": "Huang"
+      },
+      {
+        "first": "Yun-Nung",
+        "last": "Chen"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    "doi": "10.18653/v1/2024.findings-emnlp.955",
+    "pages": "16363-16375",
+    "url": "https://aclanthology.org/2024.findings-emnlp.955/",
+    "source_xml": "2024.findings.xml",
+    "short_name": "FactAlign",
+    "category": "Mitigation",
+    "subcategory": "Training and alignment",
+    "use": "利用句子级事实性反馈进行长文本对齐。",
+    "review_question": "事实精确率、信息量和有用性能否同时改善？",
+    "record_id": "P046",
+    "venue": "Findings of EMNLP 2024",
+    "publication_status": "Findings",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Mitigation/Training and alignment",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.findings.xml",
+    "include_reason": "利用句子级事实性反馈进行长文本对齐。",
+    "relevance": "Directly relevant",
+    "citekey": "huang-chen-2024-factalign"
+  },
+  {
+    "id": "2024.tacl-1.9",
+    "title": "Lost in the Middle: How Language Models Use Long Contexts",
+    "authors": [
+      {
+        "first": "Nelson F.",
+        "last": "Liu"
+      },
+      {
+        "first": "Kevin",
+        "last": "Lin"
+      },
+      {
+        "first": "John",
+        "last": "Hewitt"
+      },
+      {
+        "first": "Ashwin",
+        "last": "Paranjape"
+      },
+      {
+        "first": "Michele",
+        "last": "Bevilacqua"
+      },
+      {
+        "first": "Fabio",
+        "last": "Petroni"
+      },
+      {
+        "first": "Percy",
+        "last": "Liang"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "Transactions of the Association for Computational Linguistics, Volume 12",
+    "doi": "10.1162/tacl_a_00638",
+    "pages": "157–173",
+    "url": "https://aclanthology.org/2024.tacl-1.9/",
+    "source_xml": "2024.tacl.xml",
+    "short_name": "Lost in the Middle",
+    "category": "Foundations",
+    "subcategory": "Context use",
+    "use": "分析相关信息位置变化导致的长上下文性能退化。",
+    "review_question": "更长上下文窗口是否真的提高证据利用？",
+    "record_id": "P047",
+    "venue": "TACL 2024",
+    "publication_status": "Journal",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Foundations/Context use",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.tacl.xml",
+    "include_reason": "分析相关信息位置变化导致的长上下文性能退化。",
+    "relevance": "Contextual supporting study",
+    "citekey": "liu-etal-2024-lost"
+  },
+  {
+    "id": "2024.tacl-1.38",
+    "title": "Evaluating Correctness and Faithfulness of Instruction-Following Models for Question Answering",
+    "authors": [
+      {
+        "first": "Vaibhav",
+        "last": "Adlakha"
+      },
+      {
+        "first": "Parishad",
+        "last": "BehnamGhader"
+      },
+      {
+        "first": "Xing Han",
+        "last": "Lu"
+      },
+      {
+        "first": "Nicholas",
+        "last": "Meade"
+      },
+      {
+        "first": "Siva",
+        "last": "Reddy"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "Transactions of the Association for Computational Linguistics, Volume 12",
+    "doi": "10.1162/tacl_a_00667",
+    "pages": "681–699",
+    "url": "https://aclanthology.org/2024.tacl-1.38/",
+    "source_xml": "2024.tacl.xml",
+    "short_name": "Correctness and faithfulness",
+    "category": "Evaluation",
+    "subcategory": "Metric validation",
+    "use": "分开衡量问答的信息需求满足与来源支持。",
+    "review_question": "传统EM/F1对冗长回答及其附加错误是否有效？",
+    "record_id": "P048",
+    "venue": "TACL 2024",
+    "publication_status": "Journal",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Evaluation/Metric validation",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2024.tacl.xml",
+    "include_reason": "分开衡量问答的信息需求满足与来源支持。",
+    "relevance": "Directly relevant",
+    "citekey": "adlakha-etal-2024-evaluating"
+  },
+  {
+    "id": "2025.acl-long.71",
+    "title": "HALoGEN: Fantastic LLM Hallucinations and Where to Find Them",
+    "authors": [
+      {
+        "first": "Abhilasha",
+        "last": "Ravichander"
+      },
+      {
+        "first": "Shrusti",
+        "last": "Ghela"
+      },
+      {
+        "first": "David",
+        "last": "Wadden"
+      },
+      {
+        "first": "Yejin",
+        "last": "Choi"
+      }
+    ],
+    "year": 2025,
+    "venue_full": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2025.acl-long.71",
+    "pages": "1402-1425",
+    "url": "https://aclanthology.org/2025.acl-long.71/",
+    "source_xml": "2025.acl.xml",
+    "short_name": "HALoGEN",
+    "category": "Evaluation",
+    "subcategory": "Factuality benchmarks",
+    "use": "多领域提示与原子级自动核验支持规模化分析。",
+    "review_question": "不同领域核验器的覆盖与精度是否一致？",
+    "record_id": "P049",
+    "venue": "ACL 2025",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Evaluation/Factuality benchmarks",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.acl.xml",
+    "include_reason": "多领域提示与原子级自动核验支持规模化分析。",
+    "relevance": "Directly relevant",
+    "citekey": "ravichander-etal-2025-halogen"
+  },
+  {
+    "id": "2025.acl-long.1176",
+    "title": "HalluLens: LLM Hallucination Benchmark",
+    "authors": [
+      {
+        "first": "Yejin",
+        "last": "Bang"
+      },
+      {
+        "first": "Ziwei",
+        "last": "Ji"
+      },
+      {
+        "first": "Alan",
+        "last": "Schelten"
+      },
+      {
+        "first": "Anthony",
+        "last": "Hartshorn"
+      },
+      {
+        "first": "Tara",
+        "last": "Fowler"
+      },
+      {
+        "first": "Cheng",
+        "last": "Zhang"
+      },
+      {
+        "first": "Nicola",
+        "last": "Cancedda"
+      },
+      {
+        "first": "Pascale",
+        "last": "Fung"
+      }
+    ],
+    "year": 2025,
+    "venue_full": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2025.acl-long.1176",
+    "pages": "24128-24156",
+    "url": "https://aclanthology.org/2025.acl-long.1176/",
+    "source_xml": "2025.acl.xml",
+    "short_name": "HalluLens",
+    "category": "Evaluation",
+    "subcategory": "Factuality benchmarks",
+    "use": "提出自己的内外在幻觉定义并构造动态任务。",
+    "review_question": "其训练数据参照定义与来源参照定义如何映射？",
+    "record_id": "P050",
+    "venue": "ACL 2025",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Downloaded; selected passages inspected",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Evaluation/Factuality benchmarks",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.acl.xml",
+    "include_reason": "提出自己的内外在幻觉定义并构造动态任务。",
+    "relevance": "Directly relevant",
+    "citekey": "bang-etal-2025-hallulens"
+  },
+  {
+    "id": "2025.acl-long.1587",
+    "title": "FactBench: A Dynamic Benchmark for In-the-Wild Language Model Factuality Evaluation",
+    "authors": [
+      {
+        "first": "Farima",
+        "last": "Fatahi Bayat"
+      },
+      {
+        "first": "Lechen",
+        "last": "Zhang"
+      },
+      {
+        "first": "Sheza",
+        "last": "Munir"
+      },
+      {
+        "first": "Lu",
+        "last": "Wang"
+      }
+    ],
+    "year": 2025,
+    "venue_full": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2025.acl-long.1587",
+    "pages": "33090-33110",
+    "url": "https://aclanthology.org/2025.acl-long.1587/",
+    "source_xml": "2025.acl.xml",
+    "short_name": "FactBench",
+    "category": "Evaluation",
+    "subcategory": "Factuality benchmarks",
+    "use": "按现实用户难题与网络证据构建动态评估。",
+    "review_question": "网页更新、搜索覆盖和拒答率如何影响结果？",
+    "record_id": "P051",
+    "venue": "ACL 2025",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Evaluation/Factuality benchmarks",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.acl.xml",
+    "include_reason": "按现实用户难题与网络证据构建动态评估。",
+    "relevance": "Directly relevant",
+    "citekey": "fatahi-bayat-etal-2025-factbench"
+  },
+  {
+    "id": "2025.acl-long.304",
+    "title": "Are the Hidden States Hiding Something? Testing the Limits of Factuality-Encoding Capabilities in LLMs",
+    "authors": [
+      {
+        "first": "Giovanni",
+        "last": "Servedio"
+      },
+      {
+        "first": "Alessandro",
+        "last": "De Bellis"
+      },
+      {
+        "first": "Dario",
+        "last": "Di Palma"
+      },
+      {
+        "first": "Vito Walter",
+        "last": "Anelli"
+      },
+      {
+        "first": "Tommaso",
+        "last": "Di Noia"
+      }
+    ],
+    "year": 2025,
+    "venue_full": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2025.acl-long.304",
+    "pages": "6089-6104",
+    "url": "https://aclanthology.org/2025.acl-long.304/",
+    "source_xml": "2025.acl.xml",
+    "short_name": "Hidden-state limits",
+    "category": "Analysis",
+    "subcategory": "Transfer and calibration",
+    "use": "以更真实的模型生成数据挑战探针真实性泛化。",
+    "review_question": "合成真假任务上的表现能否预测真实错误检测？",
+    "record_id": "P052",
+    "venue": "ACL 2025",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Analysis/Transfer and calibration",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.acl.xml",
+    "include_reason": "以更真实的模型生成数据挑战探针真实性泛化。",
+    "relevance": "Directly relevant",
+    "citekey": "servedio-etal-2025-hidden"
+  },
+  {
+    "id": "2025.acl-long.826",
+    "title": "Improving Contextual Faithfulness of Large Language Models via Retrieval Heads-Induced Optimization",
+    "authors": [
+      {
+        "first": "Lei",
+        "last": "Huang"
+      },
+      {
+        "first": "Xiaocheng",
+        "last": "Feng"
+      },
+      {
+        "first": "Weitao",
+        "last": "Ma"
+      },
+      {
+        "first": "Yuchun",
+        "last": "Fan"
+      },
+      {
+        "first": "Xiachong",
+        "last": "Feng"
+      },
+      {
+        "first": "Yangfan",
+        "last": "Ye"
+      },
+      {
+        "first": "Weihong",
+        "last": "Zhong"
+      },
+      {
+        "first": "Yuxuan",
+        "last": "Gu"
+      },
+      {
+        "first": "Baoxin",
+        "last": "Wang"
+      },
+      {
+        "first": "Dayong",
+        "last": "Wu"
+      },
+      {
+        "first": "Guoping",
+        "last": "Hu"
+      },
+      {
+        "first": "Bing",
+        "last": "Qin"
+      }
+    ],
+    "year": 2025,
+    "venue_full": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2025.acl-long.826",
+    "pages": "16896-16913",
+    "url": "https://aclanthology.org/2025.acl-long.826/",
+    "source_xml": "2025.acl.xml",
+    "short_name": "RHIO",
+    "category": "Mitigation",
+    "subcategory": "Training and alignment",
+    "use": "屏蔽检索头构造不忠实样本，联合训练与对比解码。",
+    "review_question": "合成模型内部错误是否代表部署中的证据失效？",
+    "record_id": "P053",
+    "venue": "ACL 2025",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Mitigation/Training and alignment",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.acl.xml",
+    "include_reason": "屏蔽检索头构造不忠实样本，联合训练与对比解码。",
+    "relevance": "Directly relevant",
+    "citekey": "huang-etal-2025-improving"
+  },
+  {
+    "id": "2025.acl-long.1062",
+    "title": "FaithfulRAG: Fact-Level Conflict Modeling for Context-Faithful Retrieval-Augmented Generation",
+    "authors": [
+      {
+        "first": "Qinggang",
+        "last": "Zhang"
+      },
+      {
+        "first": "Zhishang",
+        "last": "Xiang"
+      },
+      {
+        "first": "Yilin",
+        "last": "Xiao"
+      },
+      {
+        "first": "Le",
+        "last": "Wang"
+      },
+      {
+        "first": "Junhui",
+        "last": "Li"
+      },
+      {
+        "first": "Xinrun",
+        "last": "Wang"
+      },
+      {
+        "first": "Jinsong",
+        "last": "Su"
+      }
+    ],
+    "year": 2025,
+    "venue_full": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2025.acl-long.1062",
+    "pages": "21863-21882",
+    "url": "https://aclanthology.org/2025.acl-long.1062/",
+    "source_xml": "2025.acl.xml",
+    "short_name": "FaithfulRAG",
+    "category": "Mitigation",
+    "subcategory": "Retrieval and prompting",
+    "use": "在事实层建模参数知识与检索上下文冲突。",
+    "review_question": "冲突解决的正确性与单纯上下文遵循如何分开？",
+    "record_id": "P054",
+    "venue": "ACL 2025",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Mitigation/Retrieval and prompting",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.acl.xml",
+    "include_reason": "在事实层建模参数知识与检索上下文冲突。",
+    "relevance": "Directly relevant",
+    "citekey": "zhang-etal-2025-faithfulrag"
+  },
+  {
+    "id": "2025.acl-long.1476",
+    "title": "Astute RAG: Overcoming Imperfect Retrieval Augmentation and Knowledge Conflicts for Large Language Models",
+    "authors": [
+      {
+        "first": "Fei",
+        "last": "Wang"
+      },
+      {
+        "first": "Xingchen",
+        "last": "Wan"
+      },
+      {
+        "first": "Ruoxi",
+        "last": "Sun"
+      },
+      {
+        "first": "Jiefeng",
+        "last": "Chen"
+      },
+      {
+        "first": "Sercan O",
+        "last": "Arik"
+      }
+    ],
+    "year": 2025,
+    "venue_full": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2025.acl-long.1476",
+    "pages": "30553-30571",
+    "url": "https://aclanthology.org/2025.acl-long.1476/",
+    "source_xml": "2025.acl.xml",
+    "short_name": "Astute RAG",
+    "category": "Mitigation",
+    "subcategory": "Retrieval and prompting",
+    "use": "按来源整合内部与外部知识以应对不完美检索。",
+    "review_question": "来源可信度如何判定，错误证据会否被放大？",
+    "record_id": "P055",
+    "venue": "ACL 2025",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Mitigation/Retrieval and prompting",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.acl.xml",
+    "include_reason": "按来源整合内部与外部知识以应对不完美检索。",
+    "relevance": "Directly relevant",
+    "citekey": "wang-etal-2025-astute"
+  },
+  {
+    "id": "2025.acl-long.1199",
+    "title": "Alleviating Hallucinations from Knowledge Misalignment in Large Language Models via Selective Abstention Learning",
+    "authors": [
+      {
+        "first": "Lei",
+        "last": "Huang"
+      },
+      {
+        "first": "Xiaocheng",
+        "last": "Feng"
+      },
+      {
+        "first": "Weitao",
+        "last": "Ma"
+      },
+      {
+        "first": "Yuchun",
+        "last": "Fan"
+      },
+      {
+        "first": "Xiachong",
+        "last": "Feng"
+      },
+      {
+        "first": "Yuxuan",
+        "last": "Gu"
+      },
+      {
+        "first": "Yangfan",
+        "last": "Ye"
+      },
+      {
+        "first": "Liang",
+        "last": "Zhao"
+      },
+      {
+        "first": "Weihong",
+        "last": "Zhong"
+      },
+      {
+        "first": "Baoxin",
+        "last": "Wang"
+      },
+      {
+        "first": "Dayong",
+        "last": "Wu"
+      },
+      {
+        "first": "Guoping",
+        "last": "Hu"
+      },
+      {
+        "first": "Lingpeng",
+        "last": "Kong"
+      },
+      {
+        "first": "Tong",
+        "last": "Xiao"
+      },
+      {
+        "first": "Ting",
+        "last": "Liu"
+      },
+      {
+        "first": "Bing",
+        "last": "Qin"
+      }
+    ],
+    "year": 2025,
+    "venue_full": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2025.acl-long.1199",
+    "pages": "24564-24579",
+    "url": "https://aclanthology.org/2025.acl-long.1199/",
+    "source_xml": "2025.acl.xml",
+    "short_name": "SEAL",
+    "category": "Mitigation",
+    "subcategory": "Revision and abstention",
+    "use": "训练拒绝词元与解码正则来控制知识错配。",
+    "review_question": "拒答边界如何与正常信息输出能力平衡？",
+    "record_id": "P056",
+    "venue": "ACL 2025",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Mitigation/Revision and abstention",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.acl.xml",
+    "include_reason": "训练拒绝词元与解码正则来控制知识错配。",
+    "relevance": "Directly relevant",
+    "citekey": "huang-etal-2025-alleviating"
+  },
+  {
+    "id": "2025.acl-long.299",
+    "title": "UAlign: Leveraging Uncertainty Estimations for Factuality Alignment on Large Language Models",
+    "authors": [
+      {
+        "first": "Boyang",
+        "last": "Xue"
+      },
+      {
+        "first": "Fei",
+        "last": "Mi"
+      },
+      {
+        "first": "Qi",
+        "last": "Zhu"
+      },
+      {
+        "first": "Hongru",
+        "last": "Wang"
+      },
+      {
+        "first": "Rui",
+        "last": "Wang"
+      },
+      {
+        "first": "Sheng",
+        "last": "Wang"
+      },
+      {
+        "first": "Erxin",
+        "last": "Yu"
+      },
+      {
+        "first": "Xuming",
+        "last": "Hu"
+      },
+      {
+        "first": "Kam-Fai",
+        "last": "Wong"
+      }
+    ],
+    "year": 2025,
+    "venue_full": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2025.acl-long.299",
+    "pages": "6002-6024",
+    "url": "https://aclanthology.org/2025.acl-long.299/",
+    "source_xml": "2025.acl.xml",
+    "short_name": "UAlign",
+    "category": "Mitigation",
+    "subcategory": "Training and alignment",
+    "use": "将置信度和语义熵用于奖励建模与PPO事实性对齐。",
+    "review_question": "不确定性估计偏差会否被奖励模型固化？",
+    "record_id": "P057",
+    "venue": "ACL 2025",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Mitigation/Training and alignment",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.acl.xml",
+    "include_reason": "将置信度和语义熵用于奖励建模与PPO事实性对齐。",
+    "relevance": "Directly relevant",
+    "citekey": "xue-etal-2025-ualign"
+  },
+  {
+    "id": "2025.naacl-long.183",
+    "title": "Unfamiliar Finetuning Examples Control How Language Models Hallucinate",
+    "authors": [
+      {
+        "first": "Katie",
+        "last": "Kang"
+      },
+      {
+        "first": "Eric",
+        "last": "Wallace"
+      },
+      {
+        "first": "Claire",
+        "last": "Tomlin"
+      },
+      {
+        "first": "Aviral",
+        "last": "Kumar"
+      },
+      {
+        "first": "Sergey",
+        "last": "Levine"
+      }
+    ],
+    "year": 2025,
+    "venue_full": "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2025.naacl-long.183",
+    "pages": "3600-3612",
+    "url": "https://aclanthology.org/2025.naacl-long.183/",
+    "source_xml": "2025.naacl.xml",
+    "short_name": "Unfamiliar finetuning",
+    "category": "Foundations",
+    "subcategory": "Training knowledge mismatch",
+    "use": "分析陌生微调示例的监督方式如何塑造后续幻觉。",
+    "review_question": "奖励模型自身的幻觉如何影响对齐可靠性？",
+    "record_id": "P058",
+    "venue": "NAACL 2025",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Foundations/Training knowledge mismatch",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.naacl.xml",
+    "include_reason": "分析陌生微调示例的监督方式如何塑造后续幻觉。",
+    "relevance": "Directly relevant",
+    "citekey": "kang-etal-2025-unfamiliar"
+  },
+  {
+    "id": "2025.naacl-short.38",
+    "title": "FaithBench: A Diverse Hallucination Benchmark for Summarization by Modern LLMs",
+    "authors": [
+      {
+        "first": "Forrest Sheng",
+        "last": "Bao"
+      },
+      {
+        "first": "Miaoran",
+        "last": "Li"
+      },
+      {
+        "first": "Renyi",
+        "last": "Qu"
+      },
+      {
+        "first": "Ge",
+        "last": "Luo"
+      },
+      {
+        "first": "Erana",
+        "last": "Wan"
+      },
+      {
+        "first": "Yujia",
+        "last": "Tang"
+      },
+      {
+        "first": "Weisi",
+        "last": "Fan"
+      },
+      {
+        "first": "Manveer Singh",
+        "last": "Tamber"
+      },
+      {
+        "first": "Suleman",
+        "last": "Kazi"
+      },
+      {
+        "first": "Vivek",
+        "last": "Sourabh"
+      },
+      {
+        "first": "Mike",
+        "last": "Qi"
+      },
+      {
+        "first": "Ruixuan",
+        "last": "Tu"
+      },
+      {
+        "first": "Chenyu",
+        "last": "Xu"
+      },
+      {
+        "first": "Matthew",
+        "last": "Gonzales"
+      },
+      {
+        "first": "Ofer",
+        "last": "Mendelevitch"
+      },
+      {
+        "first": "Amin",
+        "last": "Ahmad"
+      }
+    ],
+    "year": 2025,
+    "venue_full": "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers)",
+    "doi": "10.18653/v1/2025.naacl-short.38",
+    "pages": "448-461",
+    "url": "https://aclanthology.org/2025.naacl-short.38/",
+    "source_xml": "2025.naacl.xml",
+    "short_name": "FaithBench",
+    "category": "Evaluation",
+    "subcategory": "Grounded benchmarks",
+    "use": "基于现代多模型家族和困难分歧样本进行专家标注。",
+    "review_question": "困难样本采样是否改变真实部署中的错误基率？",
+    "record_id": "P059",
+    "venue": "NAACL 2025",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Downloaded; selected passages inspected",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Evaluation/Grounded benchmarks",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.naacl.xml",
+    "include_reason": "基于现代多模型家族和困难分歧样本进行专家标注。",
+    "relevance": "Directly relevant",
+    "citekey": "bao-etal-2025-faithbench"
+  },
+  {
+    "id": "2025.emnlp-main.348",
+    "title": "CoCoA: Confidence- and Context-Aware Adaptive Decoding for Resolving Knowledge Conflicts in Large Language Models",
+    "authors": [
+      {
+        "first": "Anant",
+        "last": "Khandelwal"
+      },
+      {
+        "first": "Manish",
+        "last": "Gupta"
+      },
+      {
+        "first": "Puneet",
+        "last": "Agrawal"
+      }
+    ],
+    "year": 2025,
+    "venue_full": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    "doi": "10.18653/v1/2025.emnlp-main.348",
+    "pages": "6835-6855",
+    "url": "https://aclanthology.org/2025.emnlp-main.348/",
+    "source_xml": "2025.emnlp.xml",
+    "short_name": "CoCoA",
+    "category": "Mitigation",
+    "subcategory": "Decoding and intervention",
+    "use": "用置信与上下文分布差异适应不同冲突程度。",
+    "review_question": "低冲突性能和高冲突修复是否能同时保持？",
+    "record_id": "P060",
+    "venue": "EMNLP 2025",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Mitigation/Decoding and intervention",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.emnlp.xml",
+    "include_reason": "用置信与上下文分布差异适应不同冲突程度。",
+    "relevance": "Directly relevant",
+    "citekey": "khandelwal-etal-2025-cocoa"
+  },
+  {
+    "id": "2025.emnlp-main.1761",
+    "title": "The Illusion of Progress: Re-evaluating Hallucination Detection in LLMs",
+    "authors": [
+      {
+        "first": "Denis",
+        "last": "Janiak"
+      },
+      {
+        "first": "Jakub",
+        "last": "Binkowski"
+      },
+      {
+        "first": "Albert",
+        "last": "Sawczyn"
+      },
+      {
+        "first": "Bogdan",
+        "last": "Gabrys"
+      },
+      {
+        "first": "Ravid",
+        "last": "Shwartz-Ziv"
+      },
+      {
+        "first": "Tomasz Jan",
+        "last": "Kajdanowicz"
+      }
+    ],
+    "year": 2025,
+    "venue_full": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    "doi": "10.18653/v1/2025.emnlp-main.1761",
+    "pages": "34728-34745",
+    "url": "https://aclanthology.org/2025.emnlp-main.1761/",
+    "source_xml": "2025.emnlp.xml",
+    "short_name": "Illusion of progress",
+    "category": "Analysis",
+    "subcategory": "Measurement validity",
+    "use": "检查词汇重叠标签与回答长度捷径导致的评估偏差。",
+    "review_question": "使用另一LLM裁判是否又引入新的标签偏差？",
+    "record_id": "P061",
+    "venue": "EMNLP 2025",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Analysis/Measurement validity",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.emnlp.xml",
+    "include_reason": "检查词汇重叠标签与回答长度捷径导致的评估偏差。",
+    "relevance": "Directly relevant",
+    "citekey": "janiak-etal-2025-illusion"
+  },
+  {
+    "id": "2025.findings-acl.161",
+    "title": "How Does Response Length Affect Long-Form Factuality",
+    "authors": [
+      {
+        "first": "James Xu",
+        "last": "Zhao"
+      },
+      {
+        "first": "Jimmy Z.J.",
+        "last": "Liu"
+      },
+      {
+        "first": "Bryan",
+        "last": "Hooi"
+      },
+      {
+        "first": "See-Kiong",
+        "last": "Ng"
+      }
+    ],
+    "year": 2025,
+    "venue_full": "Findings of the Association for Computational Linguistics: ACL 2025",
+    "doi": "10.18653/v1/2025.findings-acl.161",
+    "pages": "3102-3125",
+    "url": "https://aclanthology.org/2025.findings-acl.161/",
+    "source_xml": "2025.findings.xml",
+    "short_name": "Response-length bias",
+    "category": "Analysis",
+    "subcategory": "Measurement validity",
+    "use": "控制回答长度并分析事实耗竭等解释。",
+    "review_question": "比较缓解方法时是否匹配输出长度和信息密度？",
+    "record_id": "P062",
+    "venue": "Findings of ACL 2025",
+    "publication_status": "Findings",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Analysis/Measurement validity",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.findings.xml",
+    "include_reason": "控制回答长度并分析事实耗竭等解释。",
+    "relevance": "Directly relevant",
+    "citekey": "zhao-etal-2025-response"
+  },
+  {
+    "id": "2025.findings-acl.693",
+    "title": "Beyond Factual Accuracy: Evaluating Coverage of Diverse Factual Information in Long-form Text Generation",
+    "authors": [
+      {
+        "first": "Chris",
+        "last": "Samarinas"
+      },
+      {
+        "first": "Alexander",
+        "last": "Krubner"
+      },
+      {
+        "first": "Alireza",
+        "last": "Salemi"
+      },
+      {
+        "first": "Youngwoo",
+        "last": "Kim"
+      },
+      {
+        "first": "Hamed",
+        "last": "Zamani"
+      }
+    ],
+    "year": 2025,
+    "venue_full": "Findings of the Association for Computational Linguistics: ACL 2025",
+    "doi": "10.18653/v1/2025.findings-acl.693",
+    "pages": "13468-13482",
+    "url": "https://aclanthology.org/2025.findings-acl.693/",
+    "source_xml": "2025.findings.xml",
+    "short_name": "ICAT",
+    "category": "Evaluation",
+    "subcategory": "Coverage and utility",
+    "use": "把声明真实性与主题方面覆盖共同评价。",
+    "review_question": "没有穷尽性金标准时如何定义事实召回？",
+    "record_id": "P063",
+    "venue": "Findings of ACL 2025",
+    "publication_status": "Findings",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Evaluation/Coverage and utility",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.findings.xml",
+    "include_reason": "把声明真实性与主题方面覆盖共同评价。",
+    "relevance": "Directly relevant",
+    "citekey": "samarinas-etal-2025-beyond"
+  },
+  {
+    "id": "2025.findings-acl.1018",
+    "title": "Core: Robust Factual Precision with Informative Sub-Claim Identification",
+    "authors": [
+      {
+        "first": "Zhengping",
+        "last": "Jiang"
+      },
+      {
+        "first": "Jingyu",
+        "last": "Zhang"
+      },
+      {
+        "first": "Nathaniel",
+        "last": "Weir"
+      },
+      {
+        "first": "Seth",
+        "last": "Ebner"
+      },
+      {
+        "first": "Miriam",
+        "last": "Wanner"
+      },
+      {
+        "first": "Kate",
+        "last": "Sanders"
+      },
+      {
+        "first": "Daniel",
+        "last": "Khashabi"
+      },
+      {
+        "first": "Anqi",
+        "last": "Liu"
+      },
+      {
+        "first": "Benjamin",
+        "last": "Van Durme"
+      }
+    ],
+    "year": 2025,
+    "venue_full": "Findings of the Association for Computational Linguistics: ACL 2025",
+    "doi": "10.18653/v1/2025.findings-acl.1018",
+    "pages": "19833-19856",
+    "url": "https://aclanthology.org/2025.findings-acl.1018/",
+    "source_xml": "2025.findings.xml",
+    "short_name": "Core",
+    "category": "Evaluation",
+    "subcategory": "Metric validation",
+    "use": "过滤重复或无信息声明，降低事实精确率被操纵的风险。",
+    "review_question": "同义重复、显然事实和真实有用信息如何区分？",
+    "record_id": "P064",
+    "venue": "Findings of ACL 2025",
+    "publication_status": "Findings",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Evaluation/Metric validation",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.findings.xml",
+    "include_reason": "过滤重复或无信息声明，降低事实精确率被操纵的风险。",
+    "relevance": "Directly relevant",
+    "citekey": "jiang-etal-2025-core"
+  },
+  {
+    "id": "2025.findings-acl.1175",
+    "title": "Verify with Caution: The Pitfalls of Relying on Imperfect Factuality Metrics",
+    "authors": [
+      {
+        "first": "Ameya",
+        "last": "Godbole"
+      },
+      {
+        "first": "Robin",
+        "last": "Jia"
+      }
+    ],
+    "year": 2025,
+    "venue_full": "Findings of the Association for Computational Linguistics: ACL 2025",
+    "doi": "10.18653/v1/2025.findings-acl.1175",
+    "pages": "22889-22912",
+    "url": "https://aclanthology.org/2025.findings-acl.1175/",
+    "source_xml": "2025.findings.xml",
+    "short_name": "Verify with Caution",
+    "category": "Analysis",
+    "subcategory": "Measurement validity",
+    "use": "跨11数据集检查事实性评估器不一致及偏差。",
+    "review_question": "指标作为训练奖励前是否经过领域内人工验证？",
+    "record_id": "P065",
+    "venue": "Findings of ACL 2025",
+    "publication_status": "Findings",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Downloaded; selected passages inspected",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Analysis/Measurement validity",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.findings.xml",
+    "include_reason": "跨11数据集检查事实性评估器不一致及偏差。",
+    "relevance": "Directly relevant",
+    "citekey": "godbole-jia-2025-verify"
+  },
+  {
+    "id": "2025.findings-acl.536",
+    "title": "Context-DPO: Aligning Language Models for Context-Faithfulness",
+    "authors": [
+      {
+        "first": "Baolong",
+        "last": "Bi"
+      },
+      {
+        "first": "Shaohan",
+        "last": "Huang"
+      },
+      {
+        "first": "Yiwei",
+        "last": "Wang"
+      },
+      {
+        "first": "Tianchi",
+        "last": "Yang"
+      },
+      {
+        "first": "Zihan",
+        "last": "Zhang"
+      },
+      {
+        "first": "Haizhen",
+        "last": "Huang"
+      },
+      {
+        "first": "Lingrui",
+        "last": "Mei"
+      },
+      {
+        "first": "Junfeng",
+        "last": "Fang"
+      },
+      {
+        "first": "Zehao",
+        "last": "Li"
+      },
+      {
+        "first": "Furu",
+        "last": "Wei"
+      },
+      {
+        "first": "Weiwei",
+        "last": "Deng"
+      },
+      {
+        "first": "Feng",
+        "last": "Sun"
+      },
+      {
+        "first": "Qi",
+        "last": "Zhang"
+      },
+      {
+        "first": "Shenghua",
+        "last": "Liu"
+      }
+    ],
+    "year": 2025,
+    "venue_full": "Findings of the Association for Computational Linguistics: ACL 2025",
+    "doi": "10.18653/v1/2025.findings-acl.536",
+    "pages": "10280-10300",
+    "url": "https://aclanthology.org/2025.findings-acl.536/",
+    "source_xml": "2025.findings.xml",
+    "short_name": "Context-DPO",
+    "category": "Mitigation",
+    "subcategory": "Training and alignment",
+    "use": "以知识冲突下忠实与固执回应构造偏好训练。",
+    "review_question": "反事实上下文遵循与真实世界准确性如何区分？",
+    "record_id": "P066",
+    "venue": "Findings of ACL 2025",
+    "publication_status": "Findings",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Mitigation/Training and alignment",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.findings.xml",
+    "include_reason": "以知识冲突下忠实与固执回应构造偏好训练。",
+    "relevance": "Directly relevant",
+    "citekey": "bi-etal-2025-context"
+  },
+  {
+    "id": "2025.findings-emnlp.67",
+    "title": "Chain-of-Thought Prompting Obscures Hallucination Cues in Large Language Models: An Empirical Evaluation",
+    "authors": [
+      {
+        "first": "Jiahao",
+        "last": "Cheng"
+      },
+      {
+        "first": "Tiancheng",
+        "last": "Su"
+      },
+      {
+        "first": "Jia",
+        "last": "Yuan"
+      },
+      {
+        "first": "Guoxiu",
+        "last": "He"
+      },
+      {
+        "first": "Jiawei",
+        "last": "Liu"
+      },
+      {
+        "first": "Xinqi",
+        "last": "Tao"
+      },
+      {
+        "first": "Jingwen",
+        "last": "Xie"
+      },
+      {
+        "first": "Huaxia",
+        "last": "Li"
+      }
+    ],
+    "year": 2025,
+    "venue_full": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    "doi": "10.18653/v1/2025.findings-emnlp.67",
+    "pages": "1272-1305",
+    "url": "https://aclanthology.org/2025.findings-emnlp.67/",
+    "source_xml": "2025.findings.xml",
+    "short_name": "CoT obscures cues",
+    "category": "Analysis",
+    "subcategory": "Transfer and calibration",
+    "use": "分析推理提示改变隐藏状态和概率后对检测的影响。",
+    "review_question": "生成器变强后原有检测器是否仍校准？",
+    "record_id": "P067",
+    "venue": "Findings of EMNLP 2025",
+    "publication_status": "Findings",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Analysis/Transfer and calibration",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.findings.xml",
+    "include_reason": "分析推理提示改变隐藏状态和概率后对检测的影响。",
+    "relevance": "Directly relevant",
+    "citekey": "cheng-etal-2025-chain"
+  },
+  {
+    "id": "2025.findings-emnlp.112",
+    "title": "The Hallucination Tax of Reinforcement Finetuning",
+    "authors": [
+      {
+        "first": "Linxin",
+        "last": "Song"
+      },
+      {
+        "first": "Taiwei",
+        "last": "Shi"
+      },
+      {
+        "first": "Jieyu",
+        "last": "Zhao"
+      }
+    ],
+    "year": 2025,
+    "venue_full": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    "doi": "10.18653/v1/2025.findings-emnlp.112",
+    "pages": "2105-2120",
+    "url": "https://aclanthology.org/2025.findings-emnlp.112/",
+    "source_xml": "2025.findings.xml",
+    "short_name": "Hallucination tax",
+    "category": "Analysis",
+    "subcategory": "Coverage and refusal",
+    "use": "主要用不可回答数学题分析RFT拒答退化，并报告事实QA迁移。",
+    "review_question": "数学设置的结论在事实问答中有多大外推范围？",
+    "record_id": "P068",
+    "venue": "Findings of EMNLP 2025",
+    "publication_status": "Findings",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Analysis/Coverage and refusal",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.findings.xml",
+    "include_reason": "主要用不可回答数学题分析RFT拒答退化，并报告事实QA迁移。",
+    "relevance": "Contextual supporting study",
+    "citekey": "song-etal-2025-hallucination"
+  },
+  {
+    "id": "2025.findings-emnlp.531",
+    "title": "DeCoRe: Decoding by Contrasting Retrieval Heads to Mitigate Hallucinations",
+    "authors": [
+      {
+        "first": "Aryo Pradipta",
+        "last": "Gema"
+      },
+      {
+        "first": "Chen",
+        "last": "Jin"
+      },
+      {
+        "first": "Ahmed",
+        "last": "Abdulaal"
+      },
+      {
+        "first": "Tom",
+        "last": "Diethe"
+      },
+      {
+        "first": "Philip Alexander",
+        "last": "Teare"
+      },
+      {
+        "first": "Beatrice",
+        "last": "Alex"
+      },
+      {
+        "first": "Pasquale",
+        "last": "Minervini"
+      },
+      {
+        "first": "Amrutha",
+        "last": "Saseendran"
+      }
+    ],
+    "year": 2025,
+    "venue_full": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    "doi": "10.18653/v1/2025.findings-emnlp.531",
+    "pages": "10003-10039",
+    "url": "https://aclanthology.org/2025.findings-emnlp.531/",
+    "source_xml": "2025.findings.xml",
+    "short_name": "DeCoRe",
+    "category": "Mitigation",
+    "subcategory": "Decoding and intervention",
+    "use": "对比原模型与检索头屏蔽模型，按熵调节解码。",
+    "review_question": "检索头选择与模型架构变化会否影响收益？",
+    "record_id": "P069",
+    "venue": "Findings of EMNLP 2025",
+    "publication_status": "Findings",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Mitigation/Decoding and intervention",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.findings.xml",
+    "include_reason": "对比原模型与检索头屏蔽模型，按熵调节解码。",
+    "relevance": "Directly relevant",
+    "citekey": "gema-etal-2025-decore"
+  },
+  {
+    "id": "2025.findings-emnlp.785",
+    "title": "FactReasoner: A Probabilistic Approach to Long-Form Factuality Assessment for Large Language Models",
+    "authors": [
+      {
+        "first": "Radu",
+        "last": "Marinescu"
+      },
+      {
+        "first": "Debarun",
+        "last": "Bhattacharjya"
+      },
+      {
+        "first": "Junkyu",
+        "last": "Lee"
+      },
+      {
+        "first": "Tigran T.",
+        "last": "Tchrakian"
+      },
+      {
+        "first": "Javier",
+        "last": "Carnerero-Cano"
+      },
+      {
+        "first": "Yufang",
+        "last": "Hou"
+      },
+      {
+        "first": "Elizabeth M.",
+        "last": "Daly"
+      },
+      {
+        "first": "Alessandra",
+        "last": "Pascale"
+      }
+    ],
+    "year": 2025,
+    "venue_full": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    "doi": "10.18653/v1/2025.findings-emnlp.785",
+    "pages": "14547-14577",
+    "url": "https://aclanthology.org/2025.findings-emnlp.785/",
+    "source_xml": "2025.findings.xml",
+    "short_name": "FactReasoner",
+    "category": "Detection",
+    "subcategory": "Claim-level verification",
+    "use": "以概率推理联合声明与证据之间的逻辑关系。",
+    "review_question": "关系抽取错误与推理复杂度如何影响最终判断？",
+    "record_id": "P070",
+    "venue": "Findings of EMNLP 2025",
+    "publication_status": "Findings",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Detection/Claim-level verification",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2025.findings.xml",
+    "include_reason": "以概率推理联合声明与证据之间的逻辑关系。",
+    "relevance": "Directly relevant",
+    "citekey": "marinescu-etal-2025-factreasoner"
+  },
+  {
+    "id": "2026.acl-long.63",
+    "title": "PrefixNLI: Detecting Factual Inconsistencies as Soon as They Arise",
+    "authors": [
+      {
+        "first": "Sapir",
+        "last": "Harary"
+      },
+      {
+        "first": "Eran",
+        "last": "Hirsch"
+      },
+      {
+        "first": "Aviv",
+        "last": "Slobodkin"
+      },
+      {
+        "first": "David",
+        "last": "Wan"
+      },
+      {
+        "first": "Mohit",
+        "last": "Bansal"
+      },
+      {
+        "first": "Ido",
+        "last": "Dagan"
+      }
+    ],
+    "year": 2026,
+    "venue_full": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2026.acl-long.63",
+    "pages": "1414-1433",
+    "url": "https://aclanthology.org/2026.acl-long.63/",
+    "source_xml": "2026.acl.xml",
+    "short_name": "PrefixNLI",
+    "category": "Detection",
+    "subcategory": "Evidence verification",
+    "use": "把完整句子的蕴含检测扩展到解码过程中的文本前缀。",
+    "review_question": "提前预警的准确率与检测延迟如何权衡？",
+    "record_id": "P071",
+    "venue": "ACL 2026",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Downloaded; selected passages inspected",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Detection/Evidence verification",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml",
+    "include_reason": "把完整句子的蕴含检测扩展到解码过程中的文本前缀。",
+    "relevance": "Directly relevant",
+    "citekey": "harary-etal-2026-prefixnli"
+  },
+  {
+    "id": "2026.acl-long.680",
+    "title": "Rethinking Evaluation for LLM Hallucination Detection: A Desiderata, A New RAG-based Benchmark, New Insights",
+    "authors": [
+      {
+        "first": "Wenbo",
+        "last": "Chen"
+      },
+      {
+        "first": "Veena",
+        "last": "Padmanabhan"
+      },
+      {
+        "first": "Tootiya",
+        "last": "Giyahchi"
+      },
+      {
+        "first": "Elaine",
+        "last": "Wong"
+      },
+      {
+        "first": "Leman",
+        "last": "Akoglu"
+      }
+    ],
+    "year": 2026,
+    "venue_full": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2026.acl-long.680",
+    "pages": "14912-14931",
+    "url": "https://aclanthology.org/2026.acl-long.680/",
+    "source_xml": "2026.acl.xml",
+    "short_name": "TRIVIA+",
+    "category": "Evaluation",
+    "subcategory": "Grounded benchmarks",
+    "use": "构建长上下文、含不同噪声标签的RAG检测基准。",
+    "review_question": "评测是否覆盖自然错误、长上下文和真实标注噪声？",
+    "record_id": "P072",
+    "venue": "ACL 2026",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Downloaded; selected passages inspected",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Evaluation/Grounded benchmarks",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml",
+    "include_reason": "构建长上下文、含不同噪声标签的RAG检测基准。",
+    "relevance": "Directly relevant",
+    "citekey": "chen-etal-2026-rethinking-evaluation"
+  },
+  {
+    "id": "2026.acl-long.899",
+    "title": "ReFL: Reflective Feedback Learning for Hallucination Detection of Large Language Models",
+    "authors": [
+      {
+        "first": "Cunhang",
+        "last": "Fan"
+      },
+      {
+        "first": "Jun",
+        "last": "Zhang"
+      },
+      {
+        "first": "Xue",
+        "last": "Zhang"
+      },
+      {
+        "first": "Shuai",
+        "last": "Zhang"
+      },
+      {
+        "first": "Zhao",
+        "last": "Lv"
+      },
+      {
+        "first": "Jianhua",
+        "last": "Tao"
+      },
+      {
+        "first": "Zhengqi",
+        "last": "Wen"
+      }
+    ],
+    "year": 2026,
+    "venue_full": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2026.acl-long.899",
+    "pages": "19648-19665",
+    "url": "https://aclanthology.org/2026.acl-long.899/",
+    "source_xml": "2026.acl.xml",
+    "short_name": "ReFL",
+    "category": "Detection",
+    "subcategory": "Internal signals",
+    "use": "通过纠错式上下文学习塑造更适合检测的内部表示。",
+    "review_question": "不更新权重是否仍需要监督示例及内部访问？",
+    "record_id": "P073",
+    "venue": "ACL 2026",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Detection/Internal signals",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml",
+    "include_reason": "通过纠错式上下文学习塑造更适合检测的内部表示。",
+    "relevance": "Directly relevant",
+    "citekey": "fan-etal-2026-refl"
+  },
+  {
+    "id": "2026.acl-long.1188",
+    "title": "Stable-RAG: Mitigating Retrieval-Permutation-Induced Hallucinations in Retrieval-Augmented Generation",
+    "authors": [
+      {
+        "first": "Qianchi",
+        "last": "Zhang"
+      },
+      {
+        "first": "Hainan",
+        "last": "Zhang"
+      },
+      {
+        "first": "Liang",
+        "last": "Pang"
+      },
+      {
+        "first": "Hong-Wei",
+        "last": "Zheng"
+      },
+      {
+        "first": "Zhiming",
+        "last": "Zheng"
+      }
+    ],
+    "year": 2026,
+    "venue_full": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2026.acl-long.1188",
+    "pages": "25907-25926",
+    "url": "https://aclanthology.org/2026.acl-long.1188/",
+    "source_xml": "2026.acl.xml",
+    "short_name": "Stable-RAG",
+    "category": "Mitigation",
+    "subcategory": "Retrieval and prompting",
+    "use": "利用检索顺序敏感性与隐藏状态聚类提高稳定性。",
+    "review_question": "证据集合不变时排列变化是否应影响回答？",
+    "record_id": "P074",
+    "venue": "ACL 2026",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Mitigation/Retrieval and prompting",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml",
+    "include_reason": "利用检索顺序敏感性与隐藏状态聚类提高稳定性。",
+    "relevance": "Directly relevant",
+    "citekey": "zhang-etal-2026-stable"
+  },
+  {
+    "id": "2026.acl-long.1357",
+    "title": "Whose Facts Win? LLM Source Preferences under Knowledge Conflicts",
+    "authors": [
+      {
+        "first": "Jakob",
+        "last": "Schuster"
+      },
+      {
+        "first": "Vagrant",
+        "last": "Gautam"
+      },
+      {
+        "first": "Katja",
+        "last": "Markert"
+      }
+    ],
+    "year": 2026,
+    "venue_full": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "doi": "10.18653/v1/2026.acl-long.1357",
+    "pages": "29430-29459",
+    "url": "https://aclanthology.org/2026.acl-long.1357/",
+    "source_xml": "2026.acl.xml",
+    "short_name": "Source preferences",
+    "category": "Foundations",
+    "subcategory": "Context use",
+    "use": "受控研究来源偏好及重复证据对冲突处理的影响。",
+    "review_question": "来源看似可信与其陈述真实是否被混淆？",
+    "record_id": "P075",
+    "venue": "ACL 2026",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Foundations/Context use",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.acl.xml",
+    "include_reason": "受控研究来源偏好及重复证据对冲突处理的影响。",
+    "relevance": "Directly relevant",
+    "citekey": "schuster-etal-2026-whose"
+  },
+  {
+    "id": "2026.findings-acl.34",
+    "title": "Do LLMs Really Know What They Don’t Know? Internal States Mainly Reflect Knowledge Recall Rather Than Truthfulness",
+    "authors": [
+      {
+        "first": "Chi Seng",
+        "last": "Cheang"
+      },
+      {
+        "first": "Hou Pong",
+        "last": "Chan"
+      },
+      {
+        "first": "Wenxuan",
+        "last": "Zhang"
+      },
+      {
+        "first": "Yang",
+        "last": "Deng"
+      }
+    ],
+    "year": 2026,
+    "venue_full": "Findings of the Association for Computational Linguistics: ACL 2026",
+    "doi": "10.18653/v1/2026.findings-acl.34",
+    "pages": "713-730",
+    "url": "https://aclanthology.org/2026.findings-acl.34/",
+    "source_xml": "2026.findings.xml",
+    "short_name": "Recall vs truthfulness",
+    "category": "Analysis",
+    "subcategory": "Transfer and calibration",
+    "use": "区分有关联与无关联幻觉，检验内部信号是否主要反映回忆。",
+    "review_question": "参数知识被强烈激活时如何识别其本身的错误？",
+    "record_id": "P076",
+    "venue": "Findings of ACL 2026",
+    "publication_status": "Findings",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Downloaded; selected passages inspected",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Analysis/Transfer and calibration",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.findings.xml",
+    "include_reason": "区分有关联与无关联幻觉，检验内部信号是否主要反映回忆。",
+    "relevance": "Directly relevant",
+    "citekey": "cheang-etal-2026-llms"
+  },
+  {
+    "id": "2026.findings-acl.35",
+    "title": "Enhancing Hallucination Detection via Future Context",
+    "authors": [
+      {
+        "first": "Joosung",
+        "last": "Lee"
+      },
+      {
+        "first": "Cheonbok",
+        "last": "Park"
+      },
+      {
+        "first": "Hwiyeol",
+        "last": "Jo"
+      },
+      {
+        "first": "Jeonghoon",
+        "last": "Kim"
+      },
+      {
+        "first": "Joonsuk",
+        "last": "Park"
+      },
+      {
+        "first": "Kang Min",
+        "last": "Yoo"
+      }
+    ],
+    "year": 2026,
+    "venue_full": "Findings of the Association for Computational Linguistics: ACL 2026",
+    "doi": "10.18653/v1/2026.findings-acl.35",
+    "pages": "731-749",
+    "url": "https://aclanthology.org/2026.findings-acl.35/",
+    "source_xml": "2026.findings.xml",
+    "short_name": "Future-context detection",
+    "category": "Detection",
+    "subcategory": "Sampling and consistency",
+    "use": "用续生成的未来上下文为黑盒检测补充线索。",
+    "review_question": "续写是否放大原错误，额外采样成本是多少？",
+    "record_id": "P077",
+    "venue": "Findings of ACL 2026",
+    "publication_status": "Findings",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Detection/Sampling and consistency",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.findings.xml",
+    "include_reason": "用续生成的未来上下文为黑盒检测补充线索。",
+    "relevance": "Directly relevant",
+    "citekey": "lee-etal-2026-enhancing"
+  },
+  {
+    "id": "2026.findings-acl.689",
+    "title": "FaithLens: Detecting and Explaining Faithfulness Hallucination",
+    "authors": [
+      {
+        "first": "Shuzheng",
+        "last": "Si"
+      },
+      {
+        "first": "Qingyi",
+        "last": "Wang"
+      },
+      {
+        "first": "Haozhe",
+        "last": "Zhao"
+      },
+      {
+        "first": "Yuzhuo",
+        "last": "Bai"
+      },
+      {
+        "first": "Guanqiao",
+        "last": "Chen"
+      },
+      {
+        "first": "Kangyang",
+        "last": "Luo"
+      },
+      {
+        "first": "Gang",
+        "last": "Chen"
+      },
+      {
+        "first": "Fanchao",
+        "last": "Qi"
+      },
+      {
+        "first": "Minjia",
+        "last": "Zhang"
+      },
+      {
+        "first": "Baobao",
+        "last": "Chang"
+      },
+      {
+        "first": "Maosong",
+        "last": "Sun"
+      }
+    ],
+    "year": 2026,
+    "venue_full": "Findings of the Association for Computational Linguistics: ACL 2026",
+    "doi": "10.18653/v1/2026.findings-acl.689",
+    "pages": "14068-14099",
+    "url": "https://aclanthology.org/2026.findings-acl.689/",
+    "source_xml": "2026.findings.xml",
+    "short_name": "FaithLens",
+    "category": "Detection",
+    "subcategory": "Evidence verification",
+    "use": "结合合成解释、筛选、SFT与RL做忠实性检测与解释。",
+    "review_question": "解释流畅是否等于解释依据可信？",
+    "record_id": "P078",
+    "venue": "Findings of ACL 2026",
+    "publication_status": "Findings",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Detection/Evidence verification",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.findings.xml",
+    "include_reason": "结合合成解释、筛选、SFT与RL做忠实性检测与解释。",
+    "relevance": "Directly relevant",
+    "citekey": "si-etal-2026-faithlens"
+  },
+  {
+    "id": "2026.eacl-short.37",
+    "title": "When Benchmarks Age: Temporal Misalignment through Large Language Model Factuality Evaluation",
+    "authors": [
+      {
+        "first": "Xunyi",
+        "last": "Jiang"
+      },
+      {
+        "first": "Dingyi",
+        "last": "Chang"
+      },
+      {
+        "first": "Julian",
+        "last": "McAuley"
+      },
+      {
+        "first": "Xin",
+        "last": "Xu"
+      }
+    ],
+    "year": 2026,
+    "venue_full": "Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    "doi": "10.18653/v1/2026.eacl-short.37",
+    "pages": "500-512",
+    "url": "https://aclanthology.org/2026.eacl-short.37/",
+    "source_xml": "2026.eacl.xml",
+    "short_name": "Benchmark aging",
+    "category": "Analysis",
+    "subcategory": "Measurement validity",
+    "use": "研究静态事实基准与现实变化间的时间错配。",
+    "review_question": "测到的是模型错误还是过时标签？",
+    "record_id": "P079",
+    "venue": "EACL 2026",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Analysis/Measurement validity",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.eacl.xml",
+    "include_reason": "研究静态事实基准与现实变化间的时间错配。",
+    "relevance": "Directly relevant",
+    "citekey": "jiang-etal-2026-benchmarks"
+  },
+  {
+    "id": "2026.tacl-1.6",
+    "title": "Localizing Factual Inconsistencies in Attributable Text Generation",
+    "authors": [
+      {
+        "first": "Arie",
+        "last": "Cattan"
+      },
+      {
+        "first": "Paul",
+        "last": "Roit"
+      },
+      {
+        "first": "Shiyue",
+        "last": "Zhang"
+      },
+      {
+        "first": "David",
+        "last": "Wan"
+      },
+      {
+        "first": "Roee",
+        "last": "Aharoni"
+      },
+      {
+        "first": "Idan",
+        "last": "Szpektor"
+      },
+      {
+        "first": "Mohit",
+        "last": "Bansal"
+      },
+      {
+        "first": "Ido",
+        "last": "Dagan"
+      }
+    ],
+    "year": 2026,
+    "venue_full": "Transactions of the Association for Computational Linguistics, Volume 14",
+    "doi": "10.1162/tacl.a.598",
+    "pages": "100–123",
+    "url": "https://aclanthology.org/2026.tacl-1.6/",
+    "source_xml": "2026.tacl.xml",
+    "short_name": "QASemConsistency",
+    "category": "Detection",
+    "subcategory": "Claim-level verification",
+    "use": "将陈述拆成谓词—论元QA对，定位细粒度不一致。",
+    "review_question": "更细的语义分解是否增加分解和标注成本？",
+    "record_id": "P080",
+    "venue": "TACL 2026",
+    "publication_status": "Journal",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Detection/Claim-level verification",
+    "verification_source": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/2026.tacl.xml",
+    "include_reason": "将陈述拆成谓词—论元QA对，定位细粒度不一致。",
+    "relevance": "Directly relevant",
+    "citekey": "cattan-etal-2026-localizing"
+  },
+  {
+    "id": "ext-dola",
+    "title": "DoLa: Decoding by Contrasting Layers Improves Factuality in Large Language Models",
+    "authors": [
+      {
+        "first": "Yung-Sung",
+        "last": "Chuang"
+      },
+      {
+        "first": "Yujia",
+        "last": "Xie"
+      },
+      {
+        "first": "Hongyin",
+        "last": "Luo"
+      },
+      {
+        "first": "Yoon",
+        "last": "Kim"
+      },
+      {
+        "first": "James",
+        "last": "Glass"
+      },
+      {
+        "first": "Pengcheng",
+        "last": "He"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "The Twelfth International Conference on Learning Representations",
+    "url": "https://openreview.net/forum?id=Th6NyL07na",
+    "doi": "",
+    "pages": "",
+    "source_xml": "",
+    "verification_source": "https://openreview.net/pdf?id=Th6NyL07na",
+    "short_name": "DoLa",
+    "category": "Mitigation",
+    "subcategory": "Decoding and intervention",
+    "use": "比较成熟与较早层的词分布以改进事实性。",
+    "review_question": "层间差异能否区分不熟悉的正确事实与幻觉？",
+    "record_id": "P081",
+    "venue": "ICLR 2024",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Mitigation/Decoding and intervention",
+    "include_reason": "比较成熟与较早层的词分布以改进事实性。",
+    "relevance": "Directly relevant",
+    "citekey": "extdola2024"
+  },
+  {
+    "id": "ext-selfrag",
+    "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+    "authors": [
+      {
+        "first": "Akari",
+        "last": "Asai"
+      },
+      {
+        "first": "Zeqiu",
+        "last": "Wu"
+      },
+      {
+        "first": "Yizhong",
+        "last": "Wang"
+      },
+      {
+        "first": "Avirup",
+        "last": "Sil"
+      },
+      {
+        "first": "Hannaneh",
+        "last": "Hajishirzi"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "The Twelfth International Conference on Learning Representations",
+    "url": "https://openreview.net/forum?id=hSyW5go0v8",
+    "doi": "",
+    "pages": "",
+    "source_xml": "",
+    "verification_source": "https://openreview.net/pdf?id=hSyW5go0v8 ; https://arxiv.org/abs/2310.11511",
+    "short_name": "Self-RAG",
+    "category": "Mitigation",
+    "subcategory": "Retrieval and prompting",
+    "use": "学习检索及反思词元，按需检索并评价生成片段。",
+    "review_question": "反思标签质量、训练成本与检索覆盖如何限制效果？",
+    "record_id": "P082",
+    "venue": "ICLR 2024",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Mitigation/Retrieval and prompting",
+    "include_reason": "学习检索及反思词元，按需检索并评价生成片段。",
+    "relevance": "Directly relevant",
+    "citekey": "extselfrag2024"
+  },
+  {
+    "id": "ext-critic",
+    "title": "CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing",
+    "authors": [
+      {
+        "first": "Zhibin",
+        "last": "Gou"
+      },
+      {
+        "first": "Zhihong",
+        "last": "Shao"
+      },
+      {
+        "first": "Yeyun",
+        "last": "Gong"
+      },
+      {
+        "first": "Yelong",
+        "last": "Shen"
+      },
+      {
+        "first": "Yujiu",
+        "last": "Yang"
+      },
+      {
+        "first": "Nan",
+        "last": "Duan"
+      },
+      {
+        "first": "Weizhu",
+        "last": "Chen"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "The Twelfth International Conference on Learning Representations",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/fef126561bbf9d4467dbb8d27334b8fe-Abstract-Conference.html",
+    "doi": "",
+    "pages": "",
+    "source_xml": "",
+    "verification_source": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/fef126561bbf9d4467dbb8d27334b8fe-Abstract-Conference.html",
+    "short_name": "CRITIC",
+    "category": "Mitigation",
+    "subcategory": "Revision and abstention",
+    "use": "让黑盒模型利用搜索或工具反馈迭代修正输出。",
+    "review_question": "核验工具不可靠时如何避免错误反馈循环？",
+    "record_id": "P083",
+    "venue": "ICLR 2024",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Mitigation/Revision and abstention",
+    "include_reason": "让黑盒模型利用搜索或工具反馈迭代修正输出。",
+    "relevance": "Directly relevant",
+    "citekey": "extcritic2024"
+  },
+  {
+    "id": "ext-semantic-uncertainty",
+    "title": "Semantic Uncertainty: Linguistic Invariances for Uncertainty Estimation in Natural Language Generation",
+    "authors": [
+      {
+        "first": "Lorenz",
+        "last": "Kuhn"
+      },
+      {
+        "first": "Yarin",
+        "last": "Gal"
+      },
+      {
+        "first": "Sebastian",
+        "last": "Farquhar"
+      }
+    ],
+    "year": 2023,
+    "venue_full": "The Eleventh International Conference on Learning Representations",
+    "url": "https://openreview.net/forum?id=VD-AYtP0dve",
+    "doi": "",
+    "pages": "",
+    "source_xml": "",
+    "verification_source": "https://arxiv.org/abs/2302.09664 ; https://iclr.cc/virtual/2023/papers.html",
+    "short_name": "Semantic uncertainty",
+    "category": "Detection",
+    "subcategory": "Sampling and consistency",
+    "use": "将语义等价答案聚为同类，在意义空间估计熵。",
+    "review_question": "语义聚类准确性与采样预算如何影响检测？",
+    "record_id": "P084",
+    "venue": "ICLR 2023",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Detection/Sampling and consistency",
+    "include_reason": "将语义等价答案聚为同类，在意义空间估计熵。",
+    "relevance": "Directly relevant",
+    "citekey": "extsemanticuncertainty2023"
+  },
+  {
+    "id": "ext-semantic-entropy",
+    "title": "Detecting hallucinations in large language models using semantic entropy",
+    "authors": [
+      {
+        "first": "Sebastian",
+        "last": "Farquhar"
+      },
+      {
+        "first": "Jannik",
+        "last": "Kossen"
+      },
+      {
+        "first": "Lorenz",
+        "last": "Kuhn"
+      },
+      {
+        "first": "Yarin",
+        "last": "Gal"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "Nature",
+    "url": "https://www.nature.com/articles/s41586-024-07421-0",
+    "doi": "10.1038/s41586-024-07421-0",
+    "pages": "625–630",
+    "source_xml": "",
+    "verification_source": "https://www.nature.com/articles/s41586-024-07421-0",
+    "short_name": "Semantic entropy",
+    "category": "Detection",
+    "subcategory": "Sampling and consistency",
+    "use": "以意义层不确定性识别任意且错误的confabulations。",
+    "review_question": "稳定重复的错误信念不属于其可保证检出的目标。",
+    "record_id": "P085",
+    "venue": "Nature 2024",
+    "publication_status": "Journal",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Detection/Sampling and consistency",
+    "include_reason": "以意义层不确定性识别任意且错误的confabulations。",
+    "relevance": "Directly relevant",
+    "citekey": "extsemanticentropy2024"
+  },
+  {
+    "id": "ext-iti",
+    "title": "Inference-Time Intervention: Eliciting Truthful Answers from a Language Model",
+    "authors": [
+      {
+        "first": "Kenneth",
+        "last": "Li"
+      },
+      {
+        "first": "Oam",
+        "last": "Patel"
+      },
+      {
+        "first": "Fernanda",
+        "last": "Viégas"
+      },
+      {
+        "first": "Hanspeter",
+        "last": "Pfister"
+      },
+      {
+        "first": "Martin",
+        "last": "Wattenberg"
+      }
+    ],
+    "year": 2023,
+    "venue_full": "Advances in Neural Information Processing Systems 36",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/81b8390039b7302c909cb769f8b6cd93-Abstract-Conference.html",
+    "doi": "10.52202/075280-1797",
+    "pages": "41451–41530",
+    "source_xml": "",
+    "verification_source": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/81b8390039b7302c909cb769f8b6cd93-Abstract-Conference.html",
+    "short_name": "ITI",
+    "category": "Mitigation",
+    "subcategory": "Decoding and intervention",
+    "use": "沿学习的注意力头方向干预激活以增加真实回答。",
+    "review_question": "干预强度如何平衡真实性与有用性？",
+    "record_id": "P086",
+    "venue": "NeurIPS 2023",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Mitigation/Decoding and intervention",
+    "include_reason": "沿学习的注意力头方向干预激活以增加真实回答。",
+    "relevance": "Directly relevant",
+    "citekey": "extiti2023"
+  },
+  {
+    "id": "ext-rgb",
+    "title": "Benchmarking Large Language Models in Retrieval-Augmented Generation",
+    "authors": [
+      {
+        "first": "Jiawei",
+        "last": "Chen"
+      },
+      {
+        "first": "Hongyu",
+        "last": "Lin"
+      },
+      {
+        "first": "Xianpei",
+        "last": "Han"
+      },
+      {
+        "first": "Le",
+        "last": "Sun"
+      }
+    ],
+    "year": 2024,
+    "venue_full": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/29728",
+    "doi": "10.1609/aaai.v38i16.29728",
+    "pages": "17754–17762",
+    "source_xml": "",
+    "verification_source": "https://ojs.aaai.org/index.php/AAAI/article/view/29728",
+    "short_name": "RGB",
+    "category": "Evaluation",
+    "subcategory": "Robustness tests",
+    "use": "分开评估噪声鲁棒性、拒绝、信息整合和反事实鲁棒性。",
+    "review_question": "正常检索准确率能否反映不完美检索下的可靠性？",
+    "record_id": "P087",
+    "venue": "AAAI 2024",
+    "publication_status": "Main conference",
+    "screening_status": "Included",
+    "screening_level": "Title and abstract screened",
+    "fulltext_status": "Not fully read in this preparation round",
+    "checked_date": "2026-10-01",
+    "collection_path": "文本幻觉综述文献库/Evaluation/Robustness tests",
+    "include_reason": "分开评估噪声鲁棒性、拒绝、信息整合和反事实鲁棒性。",
+    "relevance": "Directly relevant",
+    "citekey": "extrgb2024"
+  }
+]

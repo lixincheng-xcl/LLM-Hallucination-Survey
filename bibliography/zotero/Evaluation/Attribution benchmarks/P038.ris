@@ -1,0 +1,17 @@
+TY  - CPAPER
+ID  - P038
+TI  - ExpertQA: Expert-Curated Questions and Attributed Answers
+AU  - Malaviya, Chaitanya
+AU  - Lee, Subin
+AU  - Chen, Sihao
+AU  - Sieber, Elizabeth
+AU  - Yatskar, Mark
+AU  - Roth, Dan
+PY  - 2024
+T2  - Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2024.naacl-long.167/
+DO  - 10.18653/v1/2024.naacl-long.167
+KW  - Evaluation
+KW  - Attribution benchmarks
+N1  - Curator screening note: 领域专家提出问题并核验回答与逐项引文支持。
+ER  -

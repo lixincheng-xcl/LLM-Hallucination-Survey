@@ -1,0 +1,18 @@
+TY  - CPAPER
+ID  - P073
+TI  - ReFL: Reflective Feedback Learning for Hallucination Detection of Large Language Models
+AU  - Fan, Cunhang
+AU  - Zhang, Jun
+AU  - Zhang, Xue
+AU  - Zhang, Shuai
+AU  - Lv, Zhao
+AU  - Tao, Jianhua
+AU  - Wen, Zhengqi
+PY  - 2026
+T2  - Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2026.acl-long.899/
+DO  - 10.18653/v1/2026.acl-long.899
+KW  - Detection
+KW  - Internal signals
+N1  - Curator screening note: 通过纠错式上下文学习塑造更适合检测的内部表示。
+ER  -

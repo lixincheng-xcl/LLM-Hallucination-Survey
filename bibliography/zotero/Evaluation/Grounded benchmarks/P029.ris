@@ -1,0 +1,19 @@
+TY  - CPAPER
+ID  - P029
+TI  - RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models
+AU  - Niu, Cheng
+AU  - Wu, Yuanhao
+AU  - Zhu, Juno
+AU  - Xu, Siliang
+AU  - Shum, KaShun
+AU  - Zhong, Randy
+AU  - Song, Juntong
+AU  - Zhang, Tong
+PY  - 2024
+T2  - Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2024.acl-long.585/
+DO  - 10.18653/v1/2024.acl-long.585
+KW  - Evaluation
+KW  - Grounded benchmarks
+N1  - Curator screening note: 对自然产生的RAG回应进行回应级与词级人工标注。
+ER  -

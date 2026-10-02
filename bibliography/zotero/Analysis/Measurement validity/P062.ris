@@ -1,0 +1,15 @@
+TY  - CPAPER
+ID  - P062
+TI  - How Does Response Length Affect Long-Form Factuality
+AU  - Zhao, James Xu
+AU  - Liu, Jimmy Z.J.
+AU  - Hooi, Bryan
+AU  - Ng, See-Kiong
+PY  - 2025
+T2  - Findings of the Association for Computational Linguistics: ACL 2025
+UR  - https://aclanthology.org/2025.findings-acl.161/
+DO  - 10.18653/v1/2025.findings-acl.161
+KW  - Analysis
+KW  - Measurement validity
+N1  - Curator screening note: 控制回答长度并分析事实耗竭等解释。
+ER  -

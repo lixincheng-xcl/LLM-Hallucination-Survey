@@ -1,0 +1,15 @@
+TY  - JOUR
+ID  - P085
+TI  - Detecting hallucinations in large language models using semantic entropy
+AU  - Farquhar, Sebastian
+AU  - Kossen, Jannik
+AU  - Kuhn, Lorenz
+AU  - Gal, Yarin
+PY  - 2024
+T2  - Nature
+UR  - https://www.nature.com/articles/s41586-024-07421-0
+DO  - 10.1038/s41586-024-07421-0
+KW  - Detection
+KW  - Sampling and consistency
+N1  - Curator screening note: 以意义层不确定性识别任意且错误的confabulations。
+ER  -

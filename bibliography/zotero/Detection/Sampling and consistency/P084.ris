@@ -1,0 +1,13 @@
+TY  - CPAPER
+ID  - P084
+TI  - Semantic Uncertainty: Linguistic Invariances for Uncertainty Estimation in Natural Language Generation
+AU  - Kuhn, Lorenz
+AU  - Gal, Yarin
+AU  - Farquhar, Sebastian
+PY  - 2023
+T2  - The Eleventh International Conference on Learning Representations
+UR  - https://openreview.net/forum?id=VD-AYtP0dve
+KW  - Detection
+KW  - Sampling and consistency
+N1  - Curator screening note: 将语义等价答案聚为同类，在意义空间估计熵。
+ER  -

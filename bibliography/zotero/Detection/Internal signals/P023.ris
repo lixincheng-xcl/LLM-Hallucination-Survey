@@ -1,0 +1,13 @@
+TY  - CPAPER
+ID  - P023
+TI  - The Internal State of an LLM Knows When It’s Lying
+AU  - Azaria, Amos
+AU  - Mitchell, Tom
+PY  - 2023
+T2  - Findings of the Association for Computational Linguistics: EMNLP 2023
+UR  - https://aclanthology.org/2023.findings-emnlp.68/
+DO  - 10.18653/v1/2023.findings-emnlp.68
+KW  - Detection
+KW  - Internal signals
+N1  - Curator screening note: 以隐藏层表示训练真假分类器。
+ER  -

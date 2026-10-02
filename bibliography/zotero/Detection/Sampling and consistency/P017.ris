@@ -1,0 +1,15 @@
+TY  - CPAPER
+ID  - P017
+TI  - LM vs LM: Detecting Factual Errors via Cross Examination
+AU  - Cohen, Roi
+AU  - Hamri, May
+AU  - Geva, Mor
+AU  - Globerson, Amir
+PY  - 2023
+T2  - Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2023.emnlp-main.778/
+DO  - 10.18653/v1/2023.emnlp-main.778
+KW  - Detection
+KW  - Sampling and consistency
+N1  - Curator screening note: 通过另一模型多轮盘问寻找原始回答中的矛盾。
+ER  -

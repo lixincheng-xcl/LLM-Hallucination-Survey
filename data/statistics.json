@@ -1,0 +1,63 @@
+{
+  "count": 87,
+  "years": {
+    "2022": 6,
+    "2023": 20,
+    "2024": 29,
+    "2025": 22,
+    "2026": 10
+  },
+  "publication_status": {
+    "Main conference": 60,
+    "Journal": 6,
+    "Findings": 21
+  },
+  "categories": {
+    "Evaluation": 23,
+    "Foundations": 8,
+    "Detection": 23,
+    "Mitigation": 24,
+    "Analysis": 9
+  },
+  "venues": {
+    "ACL 2022": 2,
+    "NAACL 2022": 2,
+    "TACL 2022": 2,
+    "ACL 2023": 4,
+    "EMNLP 2023": 9,
+    "Findings of EMNLP 2023": 4,
+    "EACL 2023": 1,
+    "ACL 2024": 7,
+    "EMNLP 2024": 5,
+    "NAACL 2024": 4,
+    "EACL 2024": 1,
+    "Findings of ACL 2024": 2,
+    "Findings of NAACL 2024": 1,
+    "Findings of EMNLP 2024": 2,
+    "TACL 2024": 2,
+    "ACL 2025": 9,
+    "NAACL 2025": 2,
+    "EMNLP 2025": 2,
+    "Findings of ACL 2025": 5,
+    "Findings of EMNLP 2025": 4,
+    "ACL 2026": 5,
+    "Findings of ACL 2026": 3,
+    "EACL 2026": 1,
+    "TACL 2026": 1,
+    "ICLR 2024": 3,
+    "ICLR 2023": 1,
+    "Nature 2024": 1,
+    "NeurIPS 2023": 1,
+    "AAAI 2024": 1
+  },
+  "candidate_records": 1776,
+  "screening_counts": {
+    "Excluded at automatic title triage": 401,
+    "Reserve - not individually abstract-screened": 1288,
+    "Included": 87
+  },
+  "selected_exact_duplicates": 0,
+  "fulltext_files_downloaded": 15,
+  "search_snapshot": "2026-10-01",
+  "preparation_completed": "2026-10-02"
+}

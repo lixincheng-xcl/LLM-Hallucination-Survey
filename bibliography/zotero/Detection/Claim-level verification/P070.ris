@@ -1,0 +1,19 @@
+TY  - CPAPER
+ID  - P070
+TI  - FactReasoner: A Probabilistic Approach to Long-Form Factuality Assessment for Large Language Models
+AU  - Marinescu, Radu
+AU  - Bhattacharjya, Debarun
+AU  - Lee, Junkyu
+AU  - Tchrakian, Tigran T.
+AU  - Carnerero-Cano, Javier
+AU  - Hou, Yufang
+AU  - Daly, Elizabeth M.
+AU  - Pascale, Alessandra
+PY  - 2025
+T2  - Findings of the Association for Computational Linguistics: EMNLP 2025
+UR  - https://aclanthology.org/2025.findings-emnlp.785/
+DO  - 10.18653/v1/2025.findings-emnlp.785
+KW  - Detection
+KW  - Claim-level verification
+N1  - Curator screening note: 以概率推理联合声明与证据之间的逻辑关系。
+ER  -

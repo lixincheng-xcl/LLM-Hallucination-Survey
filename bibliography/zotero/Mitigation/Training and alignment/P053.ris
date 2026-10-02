@@ -1,0 +1,23 @@
+TY  - CPAPER
+ID  - P053
+TI  - Improving Contextual Faithfulness of Large Language Models via Retrieval Heads-Induced Optimization
+AU  - Huang, Lei
+AU  - Feng, Xiaocheng
+AU  - Ma, Weitao
+AU  - Fan, Yuchun
+AU  - Feng, Xiachong
+AU  - Ye, Yangfan
+AU  - Zhong, Weihong
+AU  - Gu, Yuxuan
+AU  - Wang, Baoxin
+AU  - Wu, Dayong
+AU  - Hu, Guoping
+AU  - Qin, Bing
+PY  - 2025
+T2  - Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2025.acl-long.826/
+DO  - 10.18653/v1/2025.acl-long.826
+KW  - Mitigation
+KW  - Training and alignment
+N1  - Curator screening note: 屏蔽检索头构造不忠实样本，联合训练与对比解码。
+ER  -

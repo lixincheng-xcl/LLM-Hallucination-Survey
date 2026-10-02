@@ -1,0 +1,20 @@
+TY  - CPAPER
+ID  - P009
+TI  - Understanding Factual Errors in Summarization: Errors, Summarizers, Datasets, Error Detectors
+AU  - Tang, Liyan
+AU  - Goyal, Tanya
+AU  - Fabbri, Alex
+AU  - Laban, Philippe
+AU  - Xu, Jiacheng
+AU  - Yavuz, Semih
+AU  - Kryscinski, Wojciech
+AU  - Rousseau, Justin
+AU  - Durrett, Greg
+PY  - 2023
+T2  - Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2023.acl-long.650/
+DO  - 10.18653/v1/2023.acl-long.650
+KW  - Evaluation
+KW  - Metric validation
+N1  - Curator screening note: 按生成模型与错误类型重新分析事实性指标的改进。
+ER  -

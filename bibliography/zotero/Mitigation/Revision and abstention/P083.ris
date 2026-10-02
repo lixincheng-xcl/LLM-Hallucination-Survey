@@ -1,0 +1,17 @@
+TY  - CPAPER
+ID  - P083
+TI  - CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing
+AU  - Gou, Zhibin
+AU  - Shao, Zhihong
+AU  - Gong, Yeyun
+AU  - Shen, Yelong
+AU  - Yang, Yujiu
+AU  - Duan, Nan
+AU  - Chen, Weizhu
+PY  - 2024
+T2  - The Twelfth International Conference on Learning Representations
+UR  - https://proceedings.iclr.cc/paper_files/paper/2024/hash/fef126561bbf9d4467dbb8d27334b8fe-Abstract-Conference.html
+KW  - Mitigation
+KW  - Revision and abstention
+N1  - Curator screening note: 让黑盒模型利用搜索或工具反馈迭代修正输出。
+ER  -

@@ -1,0 +1,27 @@
+TY  - CPAPER
+ID  - P056
+TI  - Alleviating Hallucinations from Knowledge Misalignment in Large Language Models via Selective Abstention Learning
+AU  - Huang, Lei
+AU  - Feng, Xiaocheng
+AU  - Ma, Weitao
+AU  - Fan, Yuchun
+AU  - Feng, Xiachong
+AU  - Gu, Yuxuan
+AU  - Ye, Yangfan
+AU  - Zhao, Liang
+AU  - Zhong, Weihong
+AU  - Wang, Baoxin
+AU  - Wu, Dayong
+AU  - Hu, Guoping
+AU  - Kong, Lingpeng
+AU  - Xiao, Tong
+AU  - Liu, Ting
+AU  - Qin, Bing
+PY  - 2025
+T2  - Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2025.acl-long.1199/
+DO  - 10.18653/v1/2025.acl-long.1199
+KW  - Mitigation
+KW  - Revision and abstention
+N1  - Curator screening note: 训练拒绝词元与解码正则来控制知识错配。
+ER  -

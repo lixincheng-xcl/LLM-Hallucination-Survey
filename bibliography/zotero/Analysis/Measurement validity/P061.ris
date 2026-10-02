@@ -1,0 +1,17 @@
+TY  - CPAPER
+ID  - P061
+TI  - The Illusion of Progress: Re-evaluating Hallucination Detection in LLMs
+AU  - Janiak, Denis
+AU  - Binkowski, Jakub
+AU  - Sawczyn, Albert
+AU  - Gabrys, Bogdan
+AU  - Shwartz-Ziv, Ravid
+AU  - Kajdanowicz, Tomasz Jan
+PY  - 2025
+T2  - Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2025.emnlp-main.1761/
+DO  - 10.18653/v1/2025.emnlp-main.1761
+KW  - Analysis
+KW  - Measurement validity
+N1  - Curator screening note: 检查词汇重叠标签与回答长度捷径导致的评估偏差。
+ER  -

@@ -1,0 +1,16 @@
+TY  - CPAPER
+ID  - P055
+TI  - Astute RAG: Overcoming Imperfect Retrieval Augmentation and Knowledge Conflicts for Large Language Models
+AU  - Wang, Fei
+AU  - Wan, Xingchen
+AU  - Sun, Ruoxi
+AU  - Chen, Jiefeng
+AU  - Arik, Sercan O
+PY  - 2025
+T2  - Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2025.acl-long.1476/
+DO  - 10.18653/v1/2025.acl-long.1476
+KW  - Mitigation
+KW  - Retrieval and prompting
+N1  - Curator screening note: 按来源整合内部与外部知识以应对不完美检索。
+ER  -

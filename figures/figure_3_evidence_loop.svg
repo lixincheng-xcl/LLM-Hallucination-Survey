@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="356" viewBox="0 0 960 356">
+<style>text {font-family: Helvetica, Arial, sans-serif;}</style>
+<rect width="960" height="356" fill="white"/>
+<text x="20" y="30" font-size="24" font-weight="700" fill="#17324d" text-anchor="start">From detection to a controlled response</text>
+<polyline points="195,147 240,147" fill="none" stroke="#7c8b98" stroke-width="1.6"/>
+<polygon points="240,147 232.0,143.0 232.0,151.0" fill="#7c8b98"/>
+<polyline points="430,147 475,147" fill="none" stroke="#7c8b98" stroke-width="1.6"/>
+<polygon points="475,147 467.0,143.0 467.0,151.0" fill="#7c8b98"/>
+<polyline points="695,147 740,147" fill="none" stroke="#7c8b98" stroke-width="1.6"/>
+<polygon points="740,147 732.0,143.0 732.0,151.0" fill="#7c8b98"/>
+<polyline points="840,201 840,242 335,242 335,201" fill="none" stroke="#b96731" stroke-width="1.6" stroke-dasharray="5,4"/>
+<polygon points="335,201 331.0,209.0 339.0,209.0" fill="#b96731"/>
+<rect x="20" y="95" width="175" height="106" rx="7" fill="#f7f9fb" stroke="#2864a0" stroke-width="1.5"/>
+<text x="107.5" y="122" font-size="18" font-weight="700" fill="#2864a0" text-anchor="middle">Prompt + sources</text>
+<text x="107.5" y="149" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="middle">Check relevance</text>
+<text x="107.5" y="172" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="middle">and reliability</text>
+<rect x="240" y="95" width="190" height="106" rx="7" fill="#f7f9fb" stroke="#765392" stroke-width="1.5"/>
+<text x="335.0" y="122" font-size="18" font-weight="700" fill="#765392" text-anchor="middle">Generate candidate</text>
+<text x="335.0" y="149" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="middle">Model parameters</text>
+<text x="335.0" y="172" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="middle">+ supplied context</text>
+<rect x="475" y="95" width="220" height="106" rx="7" fill="#f7f9fb" stroke="#187c80" stroke-width="1.5"/>
+<text x="585.0" y="122" font-size="18" font-weight="700" fill="#187c80" text-anchor="middle">Verify claims</text>
+<text x="585.0" y="149" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="middle">Source support / truth</text>
+<text x="585.0" y="172" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="middle">Uncertainty / consistency</text>
+<rect x="740" y="95" width="200" height="106" rx="7" fill="#f7f9fb" stroke="#b96731" stroke-width="1.5"/>
+<text x="840.0" y="122" font-size="18" font-weight="700" fill="#b96731" text-anchor="middle">Choose an action</text>
+<text x="840.0" y="149" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="middle">Keep · retrieve · revise</text>
+<text x="840.0" y="172" font-size="16.5" font-weight="400" fill="#17324d" text-anchor="middle">or abstain</text>
+<text x="360" y="234" font-size="16.5" font-weight="400" fill="#b96731" text-anchor="start">Feedback: additional evidence or a revised claim</text>
+<rect x="20" y="274" width="920" height="60" rx="7" fill="#f1f5f8" stroke="#ccd6df" stroke-width="1.5"/>
+<text x="38" y="298" font-size="18" font-weight="700" fill="#17324d" text-anchor="start">Evaluate the whole system, not just the detector:</text>
+<text x="38" y="322" font-size="18" font-weight="400" fill="#17324d" text-anchor="start">factuality + source support + useful coverage + refusal + latency + transfer</text>
+</svg>

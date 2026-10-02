@@ -1,0 +1,17 @@
+TY  - CPAPER
+ID  - P032
+TI  - Lookback Lens: Detecting and Mitigating Contextual Hallucinations in Large Language Models Using Only Attention Maps
+AU  - Chuang, Yung-Sung
+AU  - Qiu, Linlu
+AU  - Hsieh, Cheng-Yu
+AU  - Krishna, Ranjay
+AU  - Kim, Yoon
+AU  - Glass, James R.
+PY  - 2024
+T2  - Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2024.emnlp-main.84/
+DO  - 10.18653/v1/2024.emnlp-main.84
+KW  - Detection
+KW  - Internal signals
+N1  - Curator screening note: 以对上下文与已生成文本的注意力比例检测不忠实内容。
+ER  -

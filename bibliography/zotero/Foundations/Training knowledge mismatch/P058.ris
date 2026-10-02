@@ -1,0 +1,16 @@
+TY  - CPAPER
+ID  - P058
+TI  - Unfamiliar Finetuning Examples Control How Language Models Hallucinate
+AU  - Kang, Katie
+AU  - Wallace, Eric
+AU  - Tomlin, Claire
+AU  - Kumar, Aviral
+AU  - Levine, Sergey
+PY  - 2025
+T2  - Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2025.naacl-long.183/
+DO  - 10.18653/v1/2025.naacl-long.183
+KW  - Foundations
+KW  - Training knowledge mismatch
+N1  - Curator screening note: 分析陌生微调示例的监督方式如何塑造后续幻觉。
+ER  -

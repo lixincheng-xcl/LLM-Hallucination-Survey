@@ -1,0 +1,14 @@
+TY  - CPAPER
+ID  - P028
+TI  - TruthX: Alleviating Hallucinations by Editing Large Language Models in Truthful Space
+AU  - Zhang, Shaolei
+AU  - Yu, Tian
+AU  - Feng, Yang
+PY  - 2024
+T2  - Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2024.acl-long.483/
+DO  - 10.18653/v1/2024.acl-long.483
+KW  - Mitigation
+KW  - Decoding and intervention
+N1  - Curator screening note: 学习语义与真实性潜空间，在推理时编辑内部表示。
+ER  -

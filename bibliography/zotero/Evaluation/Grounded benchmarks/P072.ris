@@ -1,0 +1,16 @@
+TY  - CPAPER
+ID  - P072
+TI  - Rethinking Evaluation for LLM Hallucination Detection: A Desiderata, A New RAG-based Benchmark, New Insights
+AU  - Chen, Wenbo
+AU  - Padmanabhan, Veena
+AU  - Giyahchi, Tootiya
+AU  - Wong, Elaine
+AU  - Akoglu, Leman
+PY  - 2026
+T2  - Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2026.acl-long.680/
+DO  - 10.18653/v1/2026.acl-long.680
+KW  - Evaluation
+KW  - Grounded benchmarks
+N1  - Curator screening note: 构建长上下文、含不同噪声标签的RAG检测基准。
+ER  -

@@ -1,0 +1,13 @@
+TY  - CPAPER
+ID  - P065
+TI  - Verify with Caution: The Pitfalls of Relying on Imperfect Factuality Metrics
+AU  - Godbole, Ameya
+AU  - Jia, Robin
+PY  - 2025
+T2  - Findings of the Association for Computational Linguistics: ACL 2025
+UR  - https://aclanthology.org/2025.findings-acl.1175/
+DO  - 10.18653/v1/2025.findings-acl.1175
+KW  - Analysis
+KW  - Measurement validity
+N1  - Curator screening note: 跨11数据集检查事实性评估器不一致及偏差。
+ER  -

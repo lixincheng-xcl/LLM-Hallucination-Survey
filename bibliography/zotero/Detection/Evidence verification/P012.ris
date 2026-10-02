@@ -1,0 +1,15 @@
+TY  - CPAPER
+ID  - P012
+TI  - FactKB: Generalizable Factuality Evaluation using Language Models Enhanced with Factual Knowledge
+AU  - Feng, Shangbin
+AU  - Balachandran, Vidhisha
+AU  - Bai, Yuyang
+AU  - Tsvetkov, Yulia
+PY  - 2023
+T2  - Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2023.emnlp-main.59/
+DO  - 10.18653/v1/2023.emnlp-main.59
+KW  - Detection
+KW  - Evidence verification
+N1  - Curator screening note: 用知识库事实预训练评估器以改善实体与关系错误检测。
+ER  -

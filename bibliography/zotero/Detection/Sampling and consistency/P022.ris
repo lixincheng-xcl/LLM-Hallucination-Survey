@@ -1,0 +1,16 @@
+TY  - CPAPER
+ID  - P022
+TI  - SAC^3: Reliable Hallucination Detection in Black-Box Language Models via Semantic-aware Cross-check Consistency
+AU  - Zhang, Jiaxin
+AU  - Li, Zhuohang
+AU  - Das, Kamalika
+AU  - Malin, Bradley
+AU  - Kumar, Sricharan
+PY  - 2023
+T2  - Findings of the Association for Computational Linguistics: EMNLP 2023
+UR  - https://aclanthology.org/2023.findings-emnlp.1032/
+DO  - 10.18653/v1/2023.findings-emnlp.1032
+KW  - Detection
+KW  - Sampling and consistency
+N1  - Curator screening note: 联合问题扰动与跨模型一致性补充单模型自检。
+ER  -

@@ -1,0 +1,16 @@
+TY  - CPAPER
+ID  - P013
+TI  - TrueTeacher: Learning Factual Consistency Evaluation with Large Language Models
+AU  - Gekhman, Zorik
+AU  - Herzig, Jonathan
+AU  - Aharoni, Roee
+AU  - Elkind, Chen
+AU  - Szpektor, Idan
+PY  - 2023
+T2  - Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2023.emnlp-main.127/
+DO  - 10.18653/v1/2023.emnlp-main.127
+KW  - Detection
+KW  - Evidence verification
+N1  - Curator screening note: 以大模型标注生成摘要，训练较小的一致性评估器。
+ER  -

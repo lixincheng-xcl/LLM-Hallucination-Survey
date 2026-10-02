@@ -1,0 +1,19 @@
+TY  - CPAPER
+ID  - P010
+TI  - BUMP: A Benchmark of Unfaithful Minimal Pairs for Meta-Evaluation of Faithfulness Metrics
+AU  - Ma, Liang
+AU  - Cao, Shuyang
+AU  - Logan IV, Robert L
+AU  - Lu, Di
+AU  - Ran, Shihao
+AU  - Zhang, Ke
+AU  - Tetreault, Joel
+AU  - Jaimes, Alejandro
+PY  - 2023
+T2  - Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2023.acl-long.716/
+DO  - 10.18653/v1/2023.acl-long.716
+KW  - Evaluation
+KW  - Metric validation
+N1  - Curator screening note: 用最小差异摘要对诊断指标对单种错误的敏感性。
+ER  -

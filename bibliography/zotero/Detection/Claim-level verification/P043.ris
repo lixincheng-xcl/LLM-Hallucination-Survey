@@ -1,0 +1,14 @@
+TY  - CPAPER
+ID  - P043
+TI  - FENICE: Factuality Evaluation of summarization based on Natural language Inference and Claim Extraction
+AU  - Scirè, Alessandro
+AU  - Ghonim, Karim
+AU  - Navigli, Roberto
+PY  - 2024
+T2  - Findings of the Association for Computational Linguistics: ACL 2024
+UR  - https://aclanthology.org/2024.findings-acl.841/
+DO  - 10.18653/v1/2024.findings-acl.841
+KW  - Detection
+KW  - Claim-level verification
+N1  - Curator screening note: 结合原子声明提取与自然语言推断做可解释对齐。
+ER  -

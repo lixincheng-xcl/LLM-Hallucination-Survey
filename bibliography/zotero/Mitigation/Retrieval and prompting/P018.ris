@@ -1,0 +1,20 @@
+TY  - CPAPER
+ID  - P018
+TI  - Active Retrieval Augmented Generation
+AU  - Jiang, Zhengbao
+AU  - Xu, Frank
+AU  - Gao, Luyu
+AU  - Sun, Zhiqing
+AU  - Liu, Qian
+AU  - Dwivedi-Yu, Jane
+AU  - Yang, Yiming
+AU  - Callan, Jamie
+AU  - Neubig, Graham
+PY  - 2023
+T2  - Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing
+UR  - https://aclanthology.org/2023.emnlp-main.495/
+DO  - 10.18653/v1/2023.emnlp-main.495
+KW  - Mitigation
+KW  - Retrieval and prompting
+N1  - Curator screening note: 根据预测句子及低置信词触发主动检索与重新生成。
+ER  -

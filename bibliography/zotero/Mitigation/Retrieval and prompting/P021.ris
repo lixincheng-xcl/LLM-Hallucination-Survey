@@ -1,0 +1,15 @@
+TY  - CPAPER
+ID  - P021
+TI  - Context-faithful Prompting for Large Language Models
+AU  - Zhou, Wenxuan
+AU  - Zhang, Sheng
+AU  - Poon, Hoifung
+AU  - Chen, Muhao
+PY  - 2023
+T2  - Findings of the Association for Computational Linguistics: EMNLP 2023
+UR  - https://aclanthology.org/2023.findings-emnlp.968/
+DO  - 10.18653/v1/2023.findings-emnlp.968
+KW  - Mitigation
+KW  - Retrieval and prompting
+N1  - Curator screening note: 用意见式提示和反事实示例提高上下文遵循。
+ER  -

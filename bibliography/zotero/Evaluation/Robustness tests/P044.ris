@@ -1,0 +1,16 @@
+TY  - CPAPER
+ID  - P044
+TI  - ReEval: Automatic Hallucination Evaluation for Retrieval-Augmented Large Language Models via Transferable Adversarial Attacks
+AU  - Yu, Xiaodong
+AU  - Cheng, Hao
+AU  - Liu, Xiaodong
+AU  - Roth, Dan
+AU  - Gao, Jianfeng
+PY  - 2024
+T2  - Findings of the Association for Computational Linguistics: NAACL 2024
+UR  - https://aclanthology.org/2024.findings-naacl.85/
+DO  - 10.18653/v1/2024.findings-naacl.85
+KW  - Evaluation
+KW  - Robustness tests
+N1  - Curator screening note: 扰动检索证据构造可迁移的动态幻觉测试。
+ER  -

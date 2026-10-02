@@ -1,0 +1,15 @@
+TY  - CPAPER
+ID  - P082
+TI  - Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection
+AU  - Asai, Akari
+AU  - Wu, Zeqiu
+AU  - Wang, Yizhong
+AU  - Sil, Avirup
+AU  - Hajishirzi, Hannaneh
+PY  - 2024
+T2  - The Twelfth International Conference on Learning Representations
+UR  - https://openreview.net/forum?id=hSyW5go0v8
+KW  - Mitigation
+KW  - Retrieval and prompting
+N1  - Curator screening note: 学习检索及反思词元，按需检索并评价生成片段。
+ER  -

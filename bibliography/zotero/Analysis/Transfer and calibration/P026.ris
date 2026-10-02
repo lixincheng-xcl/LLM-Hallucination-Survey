@@ -1,0 +1,17 @@
+TY  - CPAPER
+ID  - P026
+TI  - Factual Confidence of LLMs: on Reliability and Robustness of Current Estimators
+AU  - Mahaut, Matéo
+AU  - Aina, Laura
+AU  - Czarnowska, Paula
+AU  - Hardalov, Momchil
+AU  - Müller, Thomas
+AU  - Marquez, Lluis
+PY  - 2024
+T2  - Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2024.acl-long.250/
+DO  - 10.18653/v1/2024.acl-long.250
+KW  - Analysis
+KW  - Transfer and calibration
+N1  - Curator screening note: 统一比较事实置信估计，并检查语义等价输入下的稳定性。
+ER  -

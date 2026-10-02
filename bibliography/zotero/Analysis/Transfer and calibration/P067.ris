@@ -1,0 +1,19 @@
+TY  - CPAPER
+ID  - P067
+TI  - Chain-of-Thought Prompting Obscures Hallucination Cues in Large Language Models: An Empirical Evaluation
+AU  - Cheng, Jiahao
+AU  - Su, Tiancheng
+AU  - Yuan, Jia
+AU  - He, Guoxiu
+AU  - Liu, Jiawei
+AU  - Tao, Xinqi
+AU  - Xie, Jingwen
+AU  - Li, Huaxia
+PY  - 2025
+T2  - Findings of the Association for Computational Linguistics: EMNLP 2025
+UR  - https://aclanthology.org/2025.findings-emnlp.67/
+DO  - 10.18653/v1/2025.findings-emnlp.67
+KW  - Analysis
+KW  - Transfer and calibration
+N1  - Curator screening note: 分析推理提示改变隐藏状态和概率后对检测的影响。
+ER  -

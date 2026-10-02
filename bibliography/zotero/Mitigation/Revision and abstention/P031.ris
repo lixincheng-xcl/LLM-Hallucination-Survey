@@ -1,0 +1,17 @@
+TY  - CPAPER
+ID  - P031
+TI  - Don’t Hallucinate, Abstain: Identifying LLM Knowledge Gaps via Multi-LLM Collaboration
+AU  - Feng, Shangbin
+AU  - Shi, Weijia
+AU  - Wang, Yike
+AU  - Ding, Wenxuan
+AU  - Balachandran, Vidhisha
+AU  - Tsvetkov, Yulia
+PY  - 2024
+T2  - Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2024.acl-long.786/
+DO  - 10.18653/v1/2024.acl-long.786
+KW  - Mitigation
+KW  - Revision and abstention
+N1  - Curator screening note: 利用协作或竞争式多模型探查知识缺口与拒答。
+ER  -

@@ -1,0 +1,18 @@
+TY  - JOUR
+ID  - P006
+TI  - FaithDial: A Faithful Benchmark for Information-Seeking Dialogue
+AU  - Dziri, Nouha
+AU  - Kamalloo, Ehsan
+AU  - Milton, Sivan
+AU  - Zaiane, Osmar
+AU  - Yu, Mo
+AU  - Ponti, Edoardo M.
+AU  - Reddy, Siva
+PY  - 2022
+T2  - Transactions of the Association for Computational Linguistics, Volume 10
+UR  - https://aclanthology.org/2022.tacl-1.84/
+DO  - 10.1162/tacl_a_00529
+KW  - Mitigation
+KW  - Training and alignment
+N1  - Curator screening note: 通过改写不忠实对话构建训练与评测资源。
+ER  -

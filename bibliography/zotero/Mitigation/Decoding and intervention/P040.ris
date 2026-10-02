@@ -1,0 +1,17 @@
+TY  - CPAPER
+ID  - P040
+TI  - Trusting Your Evidence: Hallucinate Less with Context-aware Decoding
+AU  - Shi, Weijia
+AU  - Han, Xiaochuang
+AU  - Lewis, Mike
+AU  - Tsvetkov, Yulia
+AU  - Zettlemoyer, Luke
+AU  - Yih, Wen-tau
+PY  - 2024
+T2  - Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers)
+UR  - https://aclanthology.org/2024.naacl-short.69/
+DO  - 10.18653/v1/2024.naacl-short.69
+KW  - Mitigation
+KW  - Decoding and intervention
+N1  - Curator screening note: 对比有、无上下文时的词分布以强化上下文证据。
+ER  -

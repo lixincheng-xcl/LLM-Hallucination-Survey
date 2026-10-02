@@ -1,0 +1,15 @@
+TY  - CPAPER
+ID  - P049
+TI  - HALoGEN: Fantastic LLM Hallucinations and Where to Find Them
+AU  - Ravichander, Abhilasha
+AU  - Ghela, Shrusti
+AU  - Wadden, David
+AU  - Choi, Yejin
+PY  - 2025
+T2  - Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2025.acl-long.71/
+DO  - 10.18653/v1/2025.acl-long.71
+KW  - Evaluation
+KW  - Factuality benchmarks
+N1  - Curator screening note: 多领域提示与原子级自动核验支持规模化分析。
+ER  -

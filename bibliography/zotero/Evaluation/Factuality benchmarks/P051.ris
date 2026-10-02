@@ -1,0 +1,15 @@
+TY  - CPAPER
+ID  - P051
+TI  - FactBench: A Dynamic Benchmark for In-the-Wild Language Model Factuality Evaluation
+AU  - Fatahi Bayat, Farima
+AU  - Zhang, Lechen
+AU  - Munir, Sheza
+AU  - Wang, Lu
+PY  - 2025
+T2  - Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2025.acl-long.1587/
+DO  - 10.18653/v1/2025.acl-long.1587
+KW  - Evaluation
+KW  - Factuality benchmarks
+N1  - Curator screening note: 按现实用户难题与网络证据构建动态评估。
+ER  -

@@ -1,0 +1,14 @@
+TY  - CPAPER
+ID  - P045
+TI  - VeriScore: Evaluating the factuality of verifiable claims in long-form text generation
+AU  - Song, Yixiao
+AU  - Kim, Yekyung
+AU  - Iyyer, Mohit
+PY  - 2024
+T2  - Findings of the Association for Computational Linguistics: EMNLP 2024
+UR  - https://aclanthology.org/2024.findings-emnlp.552/
+DO  - 10.18653/v1/2024.findings-emnlp.552
+KW  - Detection
+KW  - Claim-level verification
+N1  - Curator screening note: 仅对可核验声明进行长文本事实性检查。
+ER  -

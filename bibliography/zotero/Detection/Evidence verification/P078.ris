@@ -1,0 +1,22 @@
+TY  - CPAPER
+ID  - P078
+TI  - FaithLens: Detecting and Explaining Faithfulness Hallucination
+AU  - Si, Shuzheng
+AU  - Wang, Qingyi
+AU  - Zhao, Haozhe
+AU  - Bai, Yuzhuo
+AU  - Chen, Guanqiao
+AU  - Luo, Kangyang
+AU  - Chen, Gang
+AU  - Qi, Fanchao
+AU  - Zhang, Minjia
+AU  - Chang, Baobao
+AU  - Sun, Maosong
+PY  - 2026
+T2  - Findings of the Association for Computational Linguistics: ACL 2026
+UR  - https://aclanthology.org/2026.findings-acl.689/
+DO  - 10.18653/v1/2026.findings-acl.689
+KW  - Detection
+KW  - Evidence verification
+N1  - Curator screening note: 结合合成解释、筛选、SFT与RL做忠实性检测与解释。
+ER  -

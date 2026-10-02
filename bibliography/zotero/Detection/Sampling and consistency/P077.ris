@@ -1,0 +1,17 @@
+TY  - CPAPER
+ID  - P077
+TI  - Enhancing Hallucination Detection via Future Context
+AU  - Lee, Joosung
+AU  - Park, Cheonbok
+AU  - Jo, Hwiyeol
+AU  - Kim, Jeonghoon
+AU  - Park, Joonsuk
+AU  - Yoo, Kang Min
+PY  - 2026
+T2  - Findings of the Association for Computational Linguistics: ACL 2026
+UR  - https://aclanthology.org/2026.findings-acl.35/
+DO  - 10.18653/v1/2026.findings-acl.35
+KW  - Detection
+KW  - Sampling and consistency
+N1  - Curator screening note: 用续生成的未来上下文为黑盒检测补充线索。
+ER  -

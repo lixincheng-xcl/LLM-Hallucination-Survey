@@ -1,0 +1,19 @@
+TY  - CPAPER
+ID  - P025
+TI  - Self-Alignment for Factuality: Mitigating Hallucinations in LLMs via Self-Evaluation
+AU  - Zhang, Xiaoying
+AU  - Peng, Baolin
+AU  - Tian, Ye
+AU  - Zhou, Jingyan
+AU  - Jin, Lifeng
+AU  - Song, Linfeng
+AU  - Mi, Haitao
+AU  - Meng, Helen
+PY  - 2024
+T2  - Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+UR  - https://aclanthology.org/2024.acl-long.107/
+DO  - 10.18653/v1/2024.acl-long.107
+KW  - Mitigation
+KW  - Training and alignment
+N1  - Curator screening note: 结合自评、知识调优与偏好优化提高事实性。
+ER  -
