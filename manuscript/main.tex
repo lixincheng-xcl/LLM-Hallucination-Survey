@@ -12,7 +12,7 @@
 \usepackage{url}
 \usepackage{placeins}
 \title{Hallucination in Large Language Models:\\A Survey of Detection, Evaluation, and Mitigation}
-\author{Xincheng Li \\ University of Auckland}
+\author{Xincheng Li \\ School of Computer Science, University of Auckland \\ Email: \texttt{xli798@aucklanduni.ac.nz}}
 \newcommand{\figwide}[3]{\begin{figure*}[t]\centering\includegraphics[width=\textwidth]{figures/#1}\caption{#2}\label{#3}\end{figure*}}
 \begin{document}
 \maketitle
@@ -22,7 +22,7 @@ Large language models can produce fluent assertions that are false or unsupporte
 \begin{figure}[t]
 \centering
 \includegraphics[width=\columnwidth]{figures/Fig1_hallucination_examples.pdf}
-\caption{Constructed source-faithfulness errors. Green adds unsupported information; pink changes attributes; blue changes relations. The cafe claim is unsupported, not necessarily false in the world. Layout adapted from \citet{liu-etal-2024-lvlm-design}; examples are original, not measured outputs.}
+\caption{Hallucination examples in source-grounded question answering and summarization. Green marks unsupported additions, pink attribute errors, and blue relation errors. The cafe claim is unsupported by the record; this does not establish world falsity. See page~\pageref{app:example-large} for an enlarged view.}
 \label{fig:examples}
 \end{figure}
 \input{sections/01_introduction}
@@ -33,6 +33,8 @@ Large language models can produce fluent assertions that are false or unsupporte
 \input{sections/06_analysis}
 \section{Conclusion}
 \textbf{RQ1} requires separating world factuality from source faithfulness and declaring the claim unit and unknown-label policy. For \textbf{RQ2}, external evidence enables support checks, whereas sampling and internal signals estimate reliability under distinct access and supervision constraints. For \textbf{RQ3}, useful mitigation requires independently verified gains in supported information at comparable coverage and cost. Future work should test detector--intervention combinations under evidence conflicts and distribution shifts, linking mechanism choice to residual errors.
+\section*{Limitations}
+This narrative survey emphasizes English text tasks and ACL-family venues. Venue and keyword filters may omit relevant work; full-text checking was claim-specific rather than uniform. Heterogeneous generators, evidence, judges, and budgets prevent pooled effect estimates. The taxonomy and reporting protocol require prospective validation. Appendices~\ref{app:selection}--\ref{app:comparisons} document selection and comparison boundaries.
 \label{sec:mainend}
 \clearpage
 \bibliography{references,design_sources}

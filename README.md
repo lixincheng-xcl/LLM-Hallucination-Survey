@@ -6,13 +6,13 @@
 
 [Read the survey (PDF)](manuscript/LLM_Hallucination_Survey.pdf) · [Overleaf source ZIP](release/LLM_Hallucination_Survey_Overleaf.zip) · [LaTeX source](manuscript/main.tex) · [Build and validation](manuscript/README.md)
 
-Completed coursework survey by **Xincheng Li, University of Auckland**. The paper compares text-LLM hallucination detection, evaluation, and mitigation by reference frame, available evidence, and intervention location. It covers QA, long-form generation, summarization, grounded dialogue, and retrieval-augmented generation. It is a narrative literature synthesis, not a new empirical model or an accepted conference paper.
+Completed coursework survey by **Xincheng Li, School of Computer Science, University of Auckland**. The paper compares text-LLM hallucination detection, evaluation, and mitigation by reference frame, available evidence, and intervention location. It covers QA, long-form generation, summarization, grounded dialogue, and retrieval-augmented generation. It is a narrative literature synthesis, not a new empirical model or an accepted conference paper.
 
-**Release:** 3 October 2026. **Literature snapshot:** 1 October 2026. The main paper occupies pages 1–7; references and appendices follow separately. The paper cites **86 research studies + 2 visual-design sources**. The discovery library retains **87 studies**, so library inclusion and manuscript citation counts differ. This is a dated curated collection, not an exhaustive systematic review or a continuously updating service.
+**Release:** 4 October 2026. **Literature snapshot:** 1 October 2026. The main paper occupies pages 1–7; references and appendices follow separately. The paper cites **86 research studies + 2 visual-design sources**. The discovery library retains **87 studies**, so library inclusion and manuscript citation counts differ. This is a dated curated collection, not an exhaustive systematic review or a continuously updating service.
 
 ## Figures and logical structure
 
-The manuscript uses the author's four revised PDFs without alteration. Figure 1 is proportionally scaled to the right column of page 1; Figures 2–4 span both columns. The PNGs below are previews of those exact PDFs. Original figure files and SHA-256 digests are in [manuscript/figures](manuscript/figures/manifest.json).
+The manuscript uses the author's four revised PDFs without alteration. Figure 1 is proportionally scaled to the right column of page 1; Figures 2–4 span both columns. An unnumbered enlarged view of Figure 1 appears in the appendix. The PNGs below are previews of those exact PDFs. Original figure files and SHA-256 digests are in [manuscript/figures](manuscript/figures/manifest.json).
 
 1. **Fig. 1 — Examples:** defines unsupported versus contradicted source claims.
 2. **Fig. 2 — Survey structure:** navigates concepts, detection, evaluation, mitigation, and analysis.
@@ -28,7 +28,7 @@ The manuscript uses the author's four revised PDFs without alteration. Figure 1 
 
 The native draw.io files predate the author's final PDF edits and are retained as editable working sources; they are not claimed to reproduce the revised PDFs byte-for-byte. Earlier SVG/PDF assets under `figures/reference_style/` are archived design-stage artifacts, not the submitted artwork.
 
-World factuality and source faithfulness are distinct. Unsupported content is not necessarily false in the world; faithful use of false evidence can still produce false answers. Fig. 1 is constructed, not measured output. Fig. 4 is a mechanism synthesis, not a causal experiment. Visual-design sources are acknowledged in captions.
+World factuality and source faithfulness are distinct. Unsupported content is not necessarily false in the world; faithful use of false evidence can still produce false answers. Fig. 1 is constructed, not measured output. Fig. 4 is a mechanism synthesis, not a causal experiment. Visual-design sources are acknowledged together in Appendix A.
 
 ## Evidence and reproducibility
 

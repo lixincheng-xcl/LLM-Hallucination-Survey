@@ -1,8 +1,8 @@
-# Final manuscript validation — 3 October 2026
+# Final manuscript validation — 4 October 2026
 
 ## Delivered scope
 
-The completed English survey is **Hallucination in Large Language Models: A Survey of Detection, Evaluation, and Mitigation**, by Xincheng Li, University of Auckland. It uses the supplied ACL style without margin or font changes. The PDF has **18 pages: 7 main pages, 6 reference pages, and 5 appendix pages**. It reports no new experiments and does not claim exhaustive systematic coverage.
+The completed English survey is **Hallucination in Large Language Models: A Survey of Detection, Evaluation, and Mitigation**, by Xincheng Li, School of Computer Science, University of Auckland (xli798@aucklanduni.ac.nz). It uses the supplied ACL style without margin or font changes. The PDF has **19 pages: 7 main pages, 6 reference pages, and 6 appendix pages**. It reports no new experiments and does not claim exhaustive systematic coverage.
 
 ## Figures and narrative closure
 
@@ -11,9 +11,9 @@ The author's four revised PDFs remain byte-for-byte unchanged. Figure 1 is propo
 | Component | PDF page | Role and connection |
 |---|---:|---|
 | Fig. 1 | 1 | Synthetic unsupported/contradicted source examples; the caption distinguishes unsupported from world-false. |
-| Fig. 2 | 3 | Section navigation; all printed section numbers match the final paper. |
-| Fig. 3 | 4 | Evaluation target taxonomy, instantiated by Table 1. |
-| Table 1 | 4 | Nine benchmark corpora with task-specific metrics and count caveats. |
+| Fig. 2 | 2 | Section navigation; all printed section numbers match the final paper. |
+| Fig. 3 | 3 | Evaluation target taxonomy, instantiated by Table 1. |
+| Table 1 | 5 | Nine benchmark corpora with task-specific metrics and count caveats. |
 | Fig. 4 | 6 | Potential failures and interventions, linked in caption/prose to Fig. 3 and Table 1 for independent evaluation. |
 
 The final PDFs do not include the former Figure 4 feedback arrow. The paper describes an evaluation loop *linking* the figures and table, rather than falsely claiming that arrow is still present. Earlier draw.io and SVG assets are preserved as design-stage working files, not substituted for the user-edited artwork.
@@ -24,9 +24,16 @@ The repository link appears only in the abstract’s final sentence. Page 7 now 
 
 The supplied Chinese writing guide informed the common comparison dimensions, methods-to-metrics links, evidence-derived future questions, and explicit research-question closure. Its catastrophic-forgetting examples and topic-specific taxonomy were not imported into this hallucination survey. No guide instruction superseded the requested ACL format or seven-page limit.
 
+## Final editorial and technical revision
+
+The author block now gives the School of Computer Science and the requested university email. Main captions contain scientific descriptions; visual-design credit is consolidated in Appendix A with both sources still cited. A dedicated Limitations section follows the conclusion within page 7. Appendix prose now uses two columns with full-width table floats, and page 19 provides an unnumbered enlargement of the unchanged Figure 1 PDF.
+
+The introduction now identifies the comparison contributed by this survey. The Methods discussion contrasts feedback sources, defines all CAD symbols, and points to the common access/resource matrix. The evaluation section explains VeriScore’s F1@K and why its supported-claim target differs from task-aspect coverage. The joint-validation analysis uses the conditional-probability identity for erroneous releases, with variables and its positive-error condition defined. This is a mathematical deduction and a proposed protocol, not a reported experiment. Appendix A adds coding rules for hybrid methods and distinguishes target, proxy, and verifier access.
+
 ## Technical and source checks
 
 - Reviewed source support versus world correctness, the three detection families, generation versus detector evaluation, and hybrid mitigation classification.
+- Verified VeriScore’s F1@K formula and domain-specific median K in the primary method, and TruthfulQA’s original MC true-answer likelihood mass; the evidence ledger records exact source sections and pages.
 - Rechecked the FOCUS primary method: its accessible proxy provides token probabilities and attention for historical uncertainty propagation; the target generator can remain black-box. Updated the public evidence ledger and method matrix consistently.
 - Confirmed Lookback Lens requires supervised labels; FactAlign uses fKTO; RHIO spans training and decoding; TruthX learns auxiliary components; SEAL combines rejection-token learning with decoding regularization.
 - Defined the CAD contrast parameter and distinguished contextual adherence from context truth.
@@ -44,4 +51,4 @@ The six suffix groups remain: Chuang 2024a/b, Dziri 2022a/b, Zhang 2023a/b, Zhan
 
 Compiled with pdfTeX/BibTeX (TeX Live 2026) through `latexmk`, with no unresolved citations/references, no BibTeX warnings, and no overfull boxes. The seven-page main-paper boundary and reference start on page 8 are checked from both the AUX and PDF. Figure 1’s actual PDF transform confirms equal horizontal/vertical scaling, approximately 218.3 pt width, and placement in the right column. The main source contains the repository URL exactly once, at the end of the abstract. All main pages, bibliography pages, and appendix pages were rendered and reviewed for clipping, overlap, figure placement, table readability, and unwanted blank pages. Figure 2 remains dense and retains the user's original line wrapping; it is displayed at the full available ACL width and can be zoomed as a vector PDF.
 
-`manuscript/validation.json` records the machine checks and final PDF digest. The Overleaf archive contains the complete multipart source and authoritative PDF figures. Its 22 files were byte-compared with the source, extracted to a separate directory, and independently compiled: the result has 18 pages and identical page-by-page text to the delivered PDF. Historical preparation notes remain explicitly marked as such.
+`manuscript/validation.json` records the machine checks and final PDF digest. The Overleaf archive contains the complete multipart source and authoritative PDF figures. Its 22 files were byte-compared with the source, extracted to a separate directory, and independently compiled: the result has 19 pages and identical page-by-page text to the delivered PDF. Historical preparation notes remain explicitly marked as such.

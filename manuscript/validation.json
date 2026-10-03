@@ -3,7 +3,7 @@
   "main_pages": 7,
   "references_start_page": 8,
   "appendix_start_page": 14,
-  "total_pages": 18,
+  "total_pages": 19,
   "research_references": 86,
   "design_references": 2,
   "total_references": 88,
@@ -11,8 +11,8 @@
   "figure_label_mismatches": 0,
   "figures_on_pages": {
     "1": 1,
-    "2": 3,
-    "3": 4,
+    "2": 2,
+    "3": 3,
     "4": 6
   },
   "undefined_citations_or_references": 0,
@@ -24,9 +24,14 @@
   },
   "figure1_proportional_single_column": true,
   "github_link_only_in_abstract_final_sentence": true,
+  "affiliation_and_email_verified": true,
+  "dedicated_limitations_section": true,
+  "main_caption_process_wording_removed": true,
+  "appendix_text_two_columns": true,
+  "figure1_enlarged_appendix_page": 19,
   "overfull_boxes": 0,
   "user_figure_hashes": "all match manifest",
-  "pdf_sha256": "3cad6f4c8bf10a9df86793360210cfab0d4dbbbc241e7a63db3ce00536ce84e0",
+  "pdf_sha256": "75ba79025d7d25bfb13be04ba626cc8dff97fc127281e67ec1024f0e9e00f059",
   "compiler": "pdfTeX / BibTeX, TeX Live 2026; unmodified supplied ACL style",
   "checks": "Structural/citation checks; visual review is recorded separately."
 }

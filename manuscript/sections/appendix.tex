@@ -1,4 +1,3 @@
-\onecolumn
 \section{Selection, Provenance, and Reading Depth}\label{app:selection}
 This is a targeted narrative survey with a metadata snapshot of 1 October 2026, not an exhaustive systematic review or a meta-analysis. Discovery used official ACL Anthology collections for ACL, EMNLP, NAACL, EACL, Findings, and TACL across 2022--2026. Twenty-five collections were available; five requested year/venue combinations returned unavailable responses and were logged as such. A broad title filter for hallucination, factuality, faithfulness, attribution, uncertainty, retrieval, and related terms returned 1,766 records. Three targeted Anthology additions and seven external mechanism-defining studies produced 1,776 candidate records.
 
@@ -6,19 +5,22 @@ Selection prioritized direct relevance to text factuality or source faithfulness
 
 All 87 selected titles and abstracts were screened. Initial preparation inspected selected passages of 15 downloaded representative papers; drafting added targeted primary-source checks for the detailed detection, evaluation, and mitigation claims. This does not mean every selected paper was read in full. The companion evidence ledgers record claim-specific sections, access assumptions, and interpretive limits. The broad supplementary catalogue below distinguishes mechanisms without reproducing performance rankings. No experiments, independent benchmark replications, or statistical pooling were performed.
 
-The manuscript cites 86 research studies, including citations embedded in its figures, and two survey papers credited solely for visual design. One intervention study remains in the 87-paper discovery library but is not cited in the manuscript. Library inclusion and final citation are separate editorial decisions. Figures~\ref{fig:examples}--\ref{fig:mitigation} use the author's supplied revised PDFs; their hashes and provenance are preserved in the repository. The example interactions are synthetic illustrations. The other figures organize published work and should not be interpreted as newly measured results. Bibliographic labels are generated with the unmodified ACL BibTeX style and checked against the labels printed inside the figures.
+The synthesis cites 86 research studies from the 87-study discovery library, including references within the figures. Two additional surveys provide the visual-design sources: the layouts of Figures~\ref{fig:examples}, \ref{fig:evaluation}, and~\ref{fig:mitigation} and Table~\ref{tab:hallucination-benchmarks} follow \citet{liu-etal-2024-lvlm-design}; the structure tree in Figure~\ref{fig:structure} follows \citet{liu-etal-2025-logical-design}. Figure~\ref{fig:examples} uses synthetic interactions to illustrate source-support distinctions. Figure~\ref{fig:mitigation} summarizes proposed mechanisms across studies rather than an experimentally identified causal decomposition.
+
+\paragraph{Coding rules.}
+For each study, record the correctness target, scoring unit, evidence source, model signals, supervision, and intervention stage. Assign detection branches by the evidence used for a decision; assign mitigation branches by the operation that changes generation. Keep separate entries for training and inference requirements. A method can occupy multiple branches: Lookback Lens uses attention for detection and candidate selection, while RHIO spans training and decoding. Record source-faithfulness targets separately from world-factuality targets, and distinguish target-generator access from proxy or verifier access. These rules make the comparison reproducible without forcing hybrid methods into exclusive categories.
 
 \section{Benchmark Units and Protocol Caveats}\label{app:benchmarks}
 Table~\ref{tab:benchmark-caveats} supplies the counting and interpretation details behind Table~\ref{tab:hallucination-benchmarks}. A benchmark may support both a description of generated errors and evaluation of a detector, but those uses require different denominators and sampling assumptions. In particular, reporting error frequencies within deliberately selected difficult examples does not estimate a generator's error prevalence on ordinary requests.
 
-\begin{table}[ht]
+\begin{table*}[tp]
 \centering\small
 \setlength{\tabcolsep}{5pt}\renewcommand{\arraystretch}{1.14}
 \caption{Interpretation safeguards for the nine main-text benchmarks.}
 \label{tab:benchmark-caveats}
 \begin{tabularx}{\textwidth}{@{}p{.17\textwidth}X@{}}\toprule
 Benchmark & Unit, protocol, and limitation \\\midrule
-TruthfulQA & The 817 questions target common misconceptions. Generative truthfulness/informativeness and multiple-choice answer selection are distinct settings. MC is not hallucination-detector classification. \\
+TruthfulQA & The 817 questions target common misconceptions. Generative truthfulness/informativeness and multiple-choice answer selection are distinct settings. The original MC score measures normalized likelihood mass on true reference answers; it is not hallucination-detector classification. \\
 HaluEval & The 35,000 examples combine task-specific generated examples with a human-annotated general-query portion. Artificial and naturally generated errors should be reported separately rather than treated as one deployment distribution. \\
 ANAH & Approximately 12,000 annotated sentences provide error types, evidence, and corrections. Generative versus discriminative annotators describe detector implementations; their task remains prediction of annotation labels. \\
 RAGTruth & The 17,790 responses come from 2,965 prompts and six generators, not 17,790 independent documents. Response classification and span localization have different matching rules and must be evaluated separately. \\
@@ -28,7 +30,7 @@ HALoGEN & The 10,923 prompts cover all nine domains, including programming. That
 FaithBench & The 750 summaries derive from 75 passages and ten models, selected using detector disagreement. This supports difficult-case detector analysis; error frequencies are conditional on selection, not population prevalence. \\
 FactBench & The 1,000-prompt snapshot uses user-derived prompts and fine-grained verification. Supported, unsupported, and undecidable units require explicit aggregation rules. A dynamic benchmark needs a fixed version for reproducible comparisons. \\
 \bottomrule\end{tabularx}
-\end{table}
+\end{table*}
 
 \section{Supplementary Comparative Evidence}\label{app:comparisons}
 Tables~\ref{tab:extra-evaluation}--\ref{tab:extra-mitigation} extend the main synthesis with complementary studies. The final column states the inference boundary used in this survey; it is not an assertion that the original authors omitted every proposed test. These studies expand coverage of mechanisms and failure conditions rather than form a ranked list. Descriptive entries are grounded in the recorded primary metadata and selected source passages, with reading depth retained in the repository.
@@ -38,35 +40,7 @@ Tables~\ref{tab:extra-evaluation}--\ref{tab:extra-mitigation} extend the main sy
 \section{A Common Reporting Protocol}\label{app:protocol}
 The following protocol is a synthesis of the comparisons in Sections~\ref{sec:detection}--\ref{sec:analysis}, not a benchmark run. It can be used to evaluate whether an intervention in Figure~\ref{fig:mitigation} solves the kind of error illustrated in Figure~\ref{fig:examples} under the target in Figure~\ref{fig:evaluation}.
 
-\subsection{Fix the target before selecting a metric}
-Specify whether the target is world correctness, source support, or both; the answer unit; and the treatment of unknown or unverifiable claims. Record the generator/version, prompts, retrieval corpus/date, evidence truncation, decoding parameters, and judge/version. Use the same evidence and question distribution across systems where possible. If a method changes retrieval, separate retrieval quality from generation conditional on the retrieved passages.
-
-For a nonempty extracted claim set $C$ and fixed evidence $E$, a schematic support precision is
-\begin{equation}
-P_{\mathrm{support}}(C,E)=\frac{\sum_{c\in C}\mathbf{1}[E\models c]}{|C|}.
-\end{equation}
-This expression describes an aggregation principle, not the complete implementation of every factuality metric. Extraction determines the denominator; duplicate, trivial, subjective, and undecidable claims need explicit handling. An empty answer is not assigned perfect useful factuality by this definition. FActScore and VeriScore motivate claim-level analysis, while Core highlights the role of informative subclaims \citep{min-etal-2023-factscore,song-etal-2024-veriscore,jiang-etal-2025-core}.
-
-\subsection{Separate detection, localization, and generation quality}
-For binary detection, report class prevalence, confusion counts, precision/recall/F1, and balanced accuracy, $\tfrac12(\mathrm{TPR}+\mathrm{TNR})$, where appropriate. Fix thresholds on independent validation data. For spans, specify tokenization and exact versus overlap matching. For continuous scores, report discrimination and calibration separately; neither establishes the truth of an individual answer. Inspect false-positive and false-negative examples across error types, evidence lengths, and generator families.
-
-For generation, pair factuality with unique supported content and required-aspect coverage. A source-faithful answer may still omit the answer to the question. Human auditing should sample both high- and low-scoring outputs, use explicit instructions, and report disagreement or adjudication. LongEval provides relevant human-evaluation guidance \citep{krishna-etal-2023-longeval}. Avoid pooling scalar scores whose claim extraction, evidence, or unknown-label policy differs.
-
-\subsection{Measure selection and revision effects}
-Let $A_\tau$ be the set of answers retained by a confidence threshold $\tau$ among $N$ questions. For nonempty $A_\tau$, define
-\begin{equation}
-\mathrm{Coverage}(\tau)=\frac{|A_\tau|}{N},\qquad
-\mathrm{Risk}(\tau)=\frac{\sum_{i\in A_\tau}\mathbf{1}[\text{answer }i\text{ is erroneous}]}{|A_\tau|}.
-\end{equation}
-The error predicate must use the declared reference frame. Comparing risk at matched coverage prevents a system from appearing universally better merely by refusing more questions. This response-level selective-evaluation definition is distinct from SEAL's token-level training objective. For revision, count corrected errors, newly introduced errors, retained supported claims, and required information lost. Measure both before and after revision on the same initial drafts.
-
-\subsection{Audit independence, robustness, and cost}
-A verifier used for training or candidate selection should not be the sole final judge. Use independently collected labels or an independently audited evaluator. Test natural errors from held-out generators, difficult consistent falsehoods, evidence conflicts, context permutations, paraphrases, and updated facts. Disaggregate performance rather than interpreting an average as proof of transfer. Verify with Caution and temporal benchmark analysis motivate independent error inspection and timestamped evidence \citep{godbole-jia-2025-verify,jiang-etal-2026-benchmarks}.
-
-Report offline annotation and training costs separately from inference calls, sampled tokens, retrieval requests, tool invocations, latency, and memory. A black-box method can be expensive, while an internal method can be unavailable even if computationally economical. Do not infer a fixed latency multiplier from the number of model distributions or stages without measurement. Comparisons should either match budgets or present a quality--cost trade-off.
-
-\subsection{Method access and deployment trade-offs}
-\begin{table}[ht]
+\begin{table*}[tp]
 \centering\small\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.14}
 \caption{Mechanism-level deployment comparison. Costs are qualitative resources, not measured rankings.}
 \label{tab:access}
@@ -85,5 +59,42 @@ Representation editing / TruthX & Hidden states and learned auxiliary components
 Verification / CoVe, CRITIC & Model calls; CRITIC also needs tools & Verification and revision rounds & Isolated prompts are not independent knowledge \\
 Selective generation / SEAL & Rejection-token training and regularized decoding & Training; altered answering behavior & Lower risk must be interpreted at matched coverage \\
 \bottomrule\end{tabularx}
-\end{table}
+\end{table*}
+
+\subsection{Fix the target before selecting a metric}
+Specify whether the target is world correctness, source support, or both; the answer unit; and the treatment of unknown or unverifiable claims. Record the generator/version, prompts, retrieval corpus/date, evidence truncation, decoding parameters, and judge/version. Use the same evidence and question distribution across systems where possible. If a method changes retrieval, separate retrieval quality from generation conditional on the retrieved passages.
+
+For a nonempty extracted claim set $C$ and fixed evidence $E$, a schematic support precision is
+\begin{equation}
+P_{\mathrm{support}}(C,E)=\frac{\sum_{c\in C}\mathbf{1}[E\models c]}{|C|}.
+\end{equation}
+This expression describes an aggregation principle, not the complete implementation of every factuality metric. Extraction determines the denominator; duplicate, trivial, subjective, and undecidable claims need explicit handling. An empty answer is not assigned perfect useful factuality by this definition. FActScore and VeriScore motivate claim-level analysis, while Core highlights the role of informative subclaims \citep{min-etal-2023-factscore,song-etal-2024-veriscore,jiang-etal-2025-core}.
+
+\subsection{Separate detection, localization, and generation quality}
+For binary detection, report class prevalence, confusion counts, precision/recall/F1, and balanced accuracy, $\tfrac12(\mathrm{TPR}+\mathrm{TNR})$, where appropriate. Fix thresholds on independent validation data. For spans, specify tokenization and exact versus overlap matching. For continuous scores, report discrimination and calibration separately; neither establishes the truth of an individual answer. Inspect false-positive and false-negative examples across error types, evidence lengths, and generator families.
+
+For generation, pair factuality with unique supported content and required-aspect coverage. A source-faithful answer may still omit the answer to the question. Human auditing should sample both high- and low-scoring outputs, use explicit instructions, and report disagreement or adjudication. LongEval provides relevant human-evaluation guidance \citep{krishna-etal-2023-longeval}. Avoid pooling scalar scores whose claim extraction, evidence, or unknown-label policy differs.
+
+\subsection{Measure selection and revision effects}
+Let $A_\tau$ be the answers retained by threshold $\tau$ among $N$ questions, and let $e_i$ indicate an erroneous answer under the declared reference frame. For nonempty $A_\tau$, define
+\begin{equation}
+\begin{aligned}
+\mathrm{Coverage}(\tau)&=\frac{|A_\tau|}{N},\\
+\mathrm{Risk}(\tau)&=\frac{\sum_{i\in A_\tau}e_i}{|A_\tau|}.
+\end{aligned}
+\end{equation}
+Comparing risk at matched coverage prevents a system from appearing universally better merely by refusing more questions. This response-level selective-evaluation definition is distinct from SEAL's token-level training objective. For revision, count corrected errors, newly introduced errors, retained supported claims, and required information lost. Measure both before and after revision on the same initial drafts.
+
+\subsection{Audit independence, robustness, and cost}
+A verifier used for training or candidate selection should not be the sole final judge. Use independently collected labels or an independently audited evaluator. Test natural errors from held-out generators, difficult consistent falsehoods, evidence conflicts, context permutations, paraphrases, and updated facts. Disaggregate performance rather than interpreting an average as proof of transfer. Verify with Caution and temporal benchmark analysis motivate independent error inspection and timestamped evidence \citep{godbole-jia-2025-verify,jiang-etal-2026-benchmarks}.
+
+Table~\ref{tab:access} summarizes method access and deployment trade-offs. Report offline annotation and training costs separately from inference calls, sampled tokens, retrieval requests, tool invocations, latency, and memory. A black-box method can be expensive, while an internal method can be unavailable even if computationally economical. Do not infer a fixed latency multiplier from the number of model distributions or stages without measurement. Comparisons should either match budgets or present a quality--cost trade-off.
+
 \input{sections/embedded_citations}
+
+\begin{figure*}[p]
+\centering
+\includegraphics[width=\textwidth]{figures/Fig1_hallucination_examples.pdf}
+\caption*{Enlarged view of Figure~\ref{fig:examples}: source-grounded hallucination examples.}
+\phantomsection\label{app:example-large}
+\end{figure*}

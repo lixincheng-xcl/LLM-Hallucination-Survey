@@ -1,14 +1,14 @@
 \section{Mitigation: Interventions and Assumptions}\label{sec:mitigation}
 
-Figure~\ref{fig:mitigation} connects interventions to potential failure points; hybrid methods span stages. Faithfulness requires appropriate evidence use, whereas factuality also requires correct evidence. Evaluation must therefore respect the reference frame in Section~\ref{sec:background}.
+Figure~\ref{fig:mitigation} organizes interventions by where they act; selection also depends on what is trusted. CAD amplifies contextual evidence, whereas Astute RAG reconciles conflicting knowledge \citep{shi-etal-2024-trusting,wang-etal-2025-astute}. Reporting a supplied record favors adherence; answering what is true may require rejecting that record. Neither policy dominates independently of the reference frame. Missing, ignored, and unreliable evidence therefore motivate different interventions.
 
-\figwide{Fig4_causes_mitigation.pdf}{Potential failure points and interventions, synthesized rather than causally validated. Hybrid methods span stages. Improvements require independent evaluation through Figure~\ref{fig:evaluation} and Table~\ref{tab:hallucination-benchmarks}. Layout adapted from \citet{liu-etal-2024-lvlm-design}.}{fig:mitigation}
+\figwide{Fig4_causes_mitigation.pdf}{Potential failure points and mitigation across the generation pipeline. Hybrid methods span stages. Intervention outcomes connect to the evaluation targets in Figure~\ref{fig:evaluation} and benchmarks in Table~\ref{tab:hallucination-benchmarks}.}{fig:mitigation}
 
 \subsection{Training and alignment}
 
 FaithDial supplies source-grounded dialogue revisions for generation and critic supervision \citep{dziri-etal-2022-faithdial}. This requires curated examples. Self-Alignment instead derives preferences from a model's self-evaluation, improves that evaluation through Self-Knowledge Tuning, and applies direct preference optimization \citep{zhang-etal-2024-self}. It reduces human labeling but depends on self-evaluation producing informative factuality preferences.
 
-FactAlign uses sentence-level fine-grained Kahneman--Tversky optimization for credit assignment within mixed-quality answers \citep{huang-chen-2024-factalign}. UAlign incorporates confidence and semantic entropy into a reward model before proximal policy optimization (PPO) alignment \citep{xue-etal-2025-ualign}. RHIO targets contextual faithfulness: masking retrieval heads produces negative examples, control tokens distinguish faithful from unfaithful continuations, and contrastive decoding subsequently separates them \citep{huang-etal-2025-improving}. RHIO thus spans data construction, training, and inference. Labeling and optimization incur offline costs, while imperfect supervision can reinforce evaluator errors. Factuality rewards therefore require independent auditing.
+FactAlign uses sentence-level fine-grained Kahneman--Tversky optimization for credit assignment within mixed-quality answers \citep{huang-chen-2024-factalign}. UAlign incorporates confidence and semantic entropy into a reward model before proximal policy optimization (PPO) alignment \citep{xue-etal-2025-ualign}. RHIO targets contextual faithfulness: masking retrieval heads produces negative examples, control tokens distinguish faithful from unfaithful continuations, and contrastive decoding subsequently separates them \citep{huang-etal-2025-improving}. FaithDial, Self-Alignment, and FactAlign thus differ in supervision source and granularity; RHIO additionally couples induced negatives with decoding. Their coverage depends on which facts supervisors can verify and which errors receive feedback. Table~\ref{tab:access} compares access and resource requirements.
 
 \subsection{Retrieval and prompting}
 
@@ -16,7 +16,7 @@ FLARE retrieves actively when provisional continuations signal uncertainty, whil
 
 \subsection{Decoding and internal intervention}
 
-Context-aware decoding (CAD) amplifies the difference between context-conditioned and context-free token distributions \citep{shi-etal-2024-trusting}. For context $c$, query $x$, prefix $y_{<t}$, and contrast strength $\alpha\geq0$,
+Context-aware decoding (CAD) amplifies the difference between context-conditioned and context-free token distributions \citep{shi-etal-2024-trusting}. For model parameters $\theta$, next token $y_t$, context $c$, query $x$, prefix $y_{<t}$, and contrast strength $\alpha\geq0$,
 
 \begin{equation}\label{eq:cad}
 p_{\mathrm{CAD}}(y_t)\propto\frac{p_\theta(y_t\mid c,x,y_{<t})^{1+\alpha}}{p_\theta(y_t\mid x,y_{<t})^\alpha}.

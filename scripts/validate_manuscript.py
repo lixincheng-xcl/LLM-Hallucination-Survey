@@ -68,6 +68,19 @@ abstract = main.split(r'\begin{abstract}',1)[1].split(r'\end{abstract}',1)[0].st
 assert abstract.endswith(r'\url{'+repo_url+'}.')
 main_sources = main + ''.join(p.read_text() for p in (M/'sections').glob('0*.tex'))
 assert main_sources.count(repo_url) == 1
+assert 'School of Computer Science, University of Auckland' in main
+assert r'Email: \texttt{xli798@aucklanduni.ac.nz}' in main
+assert r'\section*{Limitations}' in main
+main_pdf_text = '\n'.join(p.extract_text() for p in pages[:7])
+assert 'School of Computer Science, University of Auckland' in main_pdf_text
+assert 'xli798@aucklanduni.ac.nz' in main_pdf_text
+for phrase in ['Layout adapted', 'Tree design adapted', 'Tree layout follows',
+               'examples are original, not measured outputs', 'three-rule design follows']:
+    assert phrase not in main_pdf_text, phrase
+appendix_source = (M/'sections/appendix.tex').read_text()
+assert r'\onecolumn' not in appendix_source
+enlarged_page = int(re.search(r'\\newlabel\{app:example-large\}\{\{.*?\}\{(\d+)\}', aux)[1])
+assert 'Enlarged view of Figure 1' in pages[enlarged_page-1].extract_text()
 with (ROOT/'data/manuscript_citations.csv').open('w',newline='') as f:
     w=csv.writer(f);w.writerow(['citekey','record_id','title','in_manuscript','acl_label'])
     for p in json.loads((ROOT/'data/papers.json').read_text()):
@@ -79,6 +92,9 @@ report = {'status':'passed','main_pages':7,'references_start_page':8,
           'figures_on_pages':fig_pages,'undefined_citations_or_references':0,
           'figure1_placement':fig1,'figure1_proportional_single_column':True,
           'github_link_only_in_abstract_final_sentence':True,
+          'affiliation_and_email_verified':True,'dedicated_limitations_section':True,
+          'main_caption_process_wording_removed':True,'appendix_text_two_columns':True,
+          'figure1_enlarged_appendix_page':enlarged_page,
           'overfull_boxes':0,'user_figure_hashes':'all match manifest',
           'pdf_sha256':hashlib.sha256((M/'build/main.pdf').read_bytes()).hexdigest(),
           'compiler':'pdfTeX / BibTeX, TeX Live 2026; unmodified supplied ACL style',
