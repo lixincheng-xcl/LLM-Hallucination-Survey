@@ -8,11 +8,11 @@
 
 Completed coursework survey by **Xincheng Li, University of Auckland**. The paper compares text-LLM hallucination detection, evaluation, and mitigation by reference frame, available evidence, and intervention location. It covers QA, long-form generation, summarization, grounded dialogue, and retrieval-augmented generation. It is a narrative literature synthesis, not a new empirical model or an accepted conference paper.
 
-**Release:** 2 October 2026. **Literature snapshot:** 1 October 2026. The main paper occupies pages 1–7; references and appendices follow separately. The paper cites **86 research studies + 2 visual-design sources**. The discovery library retains **87 studies**, so library inclusion and manuscript citation counts differ. This is a dated curated collection, not an exhaustive systematic review or a continuously updating service.
+**Release:** 3 October 2026. **Literature snapshot:** 1 October 2026. The main paper occupies pages 1–7; references and appendices follow separately. The paper cites **86 research studies + 2 visual-design sources**. The discovery library retains **87 studies**, so library inclusion and manuscript citation counts differ. This is a dated curated collection, not an exhaustive systematic review or a continuously updating service.
 
 ## Figures and logical structure
 
-The manuscript uses the author's four revised PDFs without alteration, each at full two-column text width. The PNGs below are previews of those exact PDFs. Original figure files and SHA-256 digests are in [manuscript/figures](manuscript/figures/manifest.json).
+The manuscript uses the author's four revised PDFs without alteration. Figure 1 is proportionally scaled to the right column of page 1; Figures 2–4 span both columns. The PNGs below are previews of those exact PDFs. Original figure files and SHA-256 digests are in [manuscript/figures](manuscript/figures/manifest.json).
 
 1. **Fig. 1 — Examples:** defines unsupported versus contradicted source claims.
 2. **Fig. 2 — Survey structure:** navigates concepts, detection, evaluation, mitigation, and analysis.

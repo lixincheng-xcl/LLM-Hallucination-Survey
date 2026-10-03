@@ -17,8 +17,14 @@
 \begin{document}
 \maketitle
 \begin{abstract}
-Large language models can produce fluent assertions that are false or unsupported by their evidence. Research spans detectors, benchmarks, and interventions, but their results often concern different correctness targets. This survey organizes text-based research from 2022--2026 around error definitions, detection evidence, and useful mitigation. We distinguish world factuality from source faithfulness, compare external-evidence, sampling-based, and internal-signal detectors, and connect evaluation to training, retrieval, decoding, and revision. Factual precision alone cannot establish progress: verifier dependence, selective answering, evidence quality, and distribution shift change the interpretation of gains. We develop a comparative framework pairing correctness with information coverage, independent verification, and cost, and propose tests of generalization and reliability.
+Large language models can produce fluent assertions that are false or unsupported by their evidence. Research spans detectors, benchmarks, and interventions, but their results often concern different correctness targets. This survey organizes text-based research from 2022--2026 around error definitions, detection evidence, and useful mitigation. We distinguish world factuality from source faithfulness, compare external-evidence, sampling-based, and internal-signal detectors, and connect evaluation to training, retrieval, decoding, and revision. Factual precision alone cannot establish progress: verifier dependence, selective answering, evidence quality, and distribution shift change the interpretation of gains. We develop a comparative framework pairing correctness with information coverage, independent verification, and cost, and propose tests of generalization and reliability. The companion literature collection and supporting materials are available at \url{https://github.com/lixincheng-xcl/LLM-Hallucination-Survey}.
 \end{abstract}
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/Fig1_hallucination_examples.pdf}
+\caption{Constructed source-faithfulness errors. Green adds unsupported information; pink changes attributes; blue changes relations. The cafe claim is unsupported, not necessarily false in the world. Layout adapted from \citet{liu-etal-2024-lvlm-design}; examples are original, not measured outputs.}
+\label{fig:examples}
+\end{figure}
 \input{sections/01_introduction}
 \input{sections/02_background}
 \input{sections/03_detection}
@@ -26,7 +32,7 @@ Large language models can produce fluent assertions that are false or unsupporte
 \input{sections/05_mitigation}
 \input{sections/06_analysis}
 \section{Conclusion}
-Hallucination research requires explicit reference frames, detection signals, and intervention targets. External evidence enables verification but introduces retrieval and judge errors; consistency and internal signals remain conditional proxies. Training, retrieval, decoding, and revision address different failure points, often jointly. Progress requires independently verified gains in useful, supported information under matched evidence and budgets. This evaluation loop connects the survey's examples, taxonomy, benchmarks, and interventions.
+\textbf{RQ1} requires separating world factuality from source faithfulness and declaring the claim unit and unknown-label policy. For \textbf{RQ2}, external evidence enables support checks, whereas sampling and internal signals estimate reliability under distinct access and supervision constraints. For \textbf{RQ3}, useful mitigation requires independently verified gains in supported information at comparable coverage and cost. Future work should test detector--intervention combinations under evidence conflicts and distribution shifts, linking mechanism choice to residual errors.
 \label{sec:mainend}
 \clearpage
 \bibliography{references,design_sources}

@@ -10,15 +10,23 @@
   "figure_citation_keys_checked": 55,
   "figure_label_mismatches": 0,
   "figures_on_pages": {
-    "1": 2,
+    "1": 1,
     "2": 3,
     "3": 4,
     "4": 6
   },
   "undefined_citations_or_references": 0,
+  "figure1_placement": {
+    "x_pt": 306.142,
+    "y_pt": 478.873,
+    "width_pt": 218.2554753064,
+    "height_pt": 143.10744
+  },
+  "figure1_proportional_single_column": true,
+  "github_link_only_in_abstract_final_sentence": true,
   "overfull_boxes": 0,
   "user_figure_hashes": "all match manifest",
-  "pdf_sha256": "be77b0f99094a6880f83f5b41f1fe61735cf1a88fab05df1efcc6989886db84c",
+  "pdf_sha256": "3cad6f4c8bf10a9df86793360210cfab0d4dbbbc241e7a63db3ce00536ce84e0",
   "compiler": "pdfTeX / BibTeX, TeX Live 2026; unmodified supplied ACL style",
   "checks": "Structural/citation checks; visual review is recorded separately."
 }

@@ -6,7 +6,7 @@ Xincheng Li — University of Auckland
 - Main paper: **pages 1–7**.
 - References: **pages 8–13**, 86 research studies and two credited design sources.
 - Appendices: **pages 14–18**, selection/provenance, benchmark caveats, complementary evidence, and reporting protocol.
-- Four user-edited PDFs are included unchanged at full two-column text width (Figures 1–4). The nine-benchmark table is native LaTeX.
+- Four user-edited PDFs are included unchanged. Figure 1 occupies the right column of page 1 at its original aspect ratio; Figures 2–4 use full two-column text width. The nine-benchmark table is native LaTeX.
 - Actual ACL BibTeX output matches all 55 distinct studies cited inside the diagrams, including the six disambiguation groups.
 
 This is a coursework survey and repository release, not an accepted ACL conference paper. It reports no new experiments. The library and paper have different counts: one of the 87 screened studies is retained in the library but not cited in the paper.
@@ -27,7 +27,7 @@ From the repository root, with Python and `pypdf` available:
 python3 scripts/validate_manuscript.py
 ```
 
-The validator checks seven main pages, the bibliography start, 88 entries, imported-figure hashes, figure citation labels, unresolved references, and overfull boxes. Visual review is recorded in `../docs/manuscript_validation.md`. The checked release PDF is `LLM_Hallucination_Survey.pdf`.
+The validator checks seven main pages, the bibliography start, 88 entries, imported-figure hashes, figure citation labels, Figure 1 placement and proportional scaling, the GitHub link in the abstract’s final sentence, unresolved references, and overfull boxes. Visual review is recorded in `../docs/manuscript_validation.md`. The checked release PDF is `LLM_Hallucination_Survey.pdf`.
 
 For Overleaf, import `../release/LLM_Hallucination_Survey_Overleaf.zip`, set `main.tex` as the main document, and use pdfLaTeX. All style, bibliography, section, and figure files are bundled. The release ZIP excludes build intermediates and historical artwork.
 

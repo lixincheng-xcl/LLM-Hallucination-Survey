@@ -42,6 +42,32 @@ for key in ['examples','structure','evaluation','mitigation']:
     match = re.search(r'\\newlabel\{fig:'+key+r'\}\{\{(\d+)\}\{(\d+)\}', aux)
     fig_pages[match[1]] = int(match[2])
 assert list(fig_pages) == ['1','2','3','4'] and max(fig_pages.values()) <= 7
+assert fig_pages['1'] == 1, 'Figure 1 must be on page one'
+# Check the placed PDF form, not just the LaTeX width declaration.
+placements = []
+def inspect_form(operator, operands, cm, tm):
+    if operator != b'Do':
+        return
+    obj = pages[0]['/Resources']['/XObject'][operands[0]].get_object()
+    if obj.get('/Subtype') != '/Form':
+        return
+    bbox = [float(x) for x in obj['/BBox']]
+    a, b, c, d, x, y = cm
+    assert abs(b) < 1e-6 and abs(c) < 1e-6 and abs(a-d) < 1e-6
+    placements.append({'x_pt': x, 'y_pt': y,
+                       'width_pt': (bbox[2]-bbox[0])*a,
+                       'height_pt': (bbox[3]-bbox[1])*d})
+pages[0].extract_text(visitor_operand_before=inspect_form)
+assert len(placements) == 1, placements
+fig1 = placements[0]
+assert fig1['x_pt'] > float(pages[0].mediabox.width)/2
+assert 217 < fig1['width_pt'] < 220, fig1
+main = (M/'main.tex').read_text()
+repo_url = 'https://github.com/lixincheng-xcl/LLM-Hallucination-Survey'
+abstract = main.split(r'\begin{abstract}',1)[1].split(r'\end{abstract}',1)[0].strip()
+assert abstract.endswith(r'\url{'+repo_url+'}.')
+main_sources = main + ''.join(p.read_text() for p in (M/'sections').glob('0*.tex'))
+assert main_sources.count(repo_url) == 1
 with (ROOT/'data/manuscript_citations.csv').open('w',newline='') as f:
     w=csv.writer(f);w.writerow(['citekey','record_id','title','in_manuscript','acl_label'])
     for p in json.loads((ROOT/'data/papers.json').read_text()):
@@ -51,6 +77,8 @@ report = {'status':'passed','main_pages':7,'references_start_page':8,
           'research_references':86,'design_references':2,'total_references':88,
           'figure_citation_keys_checked':55,'figure_label_mismatches':0,
           'figures_on_pages':fig_pages,'undefined_citations_or_references':0,
+          'figure1_placement':fig1,'figure1_proportional_single_column':True,
+          'github_link_only_in_abstract_final_sentence':True,
           'overfull_boxes':0,'user_figure_hashes':'all match manifest',
           'pdf_sha256':hashlib.sha256((M/'build/main.pdf').read_bytes()).hexdigest(),
           'compiler':'pdfTeX / BibTeX, TeX Live 2026; unmodified supplied ACL style',
