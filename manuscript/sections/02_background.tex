@@ -1,5 +1,4 @@
 \section{Concepts and Scope}\label{sec:background}
-\figwide{Fig2_survey_structure.pdf}{The structure of this survey. Green leaves locate representative studies. Branches organize concepts, detection signals, evaluation targets, interventions, and analysis. Methods may span multiple branches.}{fig:structure}
 \subsection{Reference frames}
 \emph{World factuality} concerns agreement with externally established facts; \emph{source faithfulness} concerns support by supplied evidence. Neither entails the other: a response can repeat a false source faithfully or add a true but unlicensed detail \citep{cao-etal-2022-hallucinated,adlakha-etal-2024-evaluating}. BEGIN evaluates attribution in grounded dialogue under this distinction \citep{dziri-etal-2022-evaluating}.
 
@@ -8,6 +7,7 @@ Source-based labels should distinguish \emph{supported}, \emph{contradicted}, an
 \subsection{Error relations and development}
 Entity, attribute, and relation errors are orthogonal to reference frames: a wrong date can contradict either a document or a world fact. Annotation units also differ. ANAH provides sentence-level analysis, while HaluEval~2.0 extends empirical factuality analysis across domains \citep{ji-etal-2024-anah,li-etal-2024-dawn}.
 
-Research moved from distinct task-specific correctness targets in 2022 toward atomic verification and black-box self-checking in 2023 \citep{min-etal-2023-factscore,manakul-etal-2023-selfcheckgpt}, followed by contextual monitoring and factuality alignment. Recent studies scrutinize judge reliability, information coverage, and temporal validity \citep{godbole-jia-2025-verify,samarinas-etal-2025-beyond,jiang-etal-2026-benchmarks}. This trajectory does not imply that newer methods supersede earlier ones.
+Research moved from distinct task-specific correctness targets in 2022 toward atomic verification and black-box self-checking in 2023 \citep{min-etal-2023-factscore,manakul-etal-2023-selfcheckgpt}, followed by contextual monitoring and factuality alignment. Recent studies scrutinize judge reliability, information coverage, and temporal validity \citep{godbole-jia-2025-verify,samarinas-etal-2025-beyond,jiang-etal-2026-benchmarks}.
 
+\figwide{Fig3_evaluation_taxonomy.pdf}{Taxonomy of hallucination evaluation methods for LLMs. The two branches distinguish generated-content evaluation from error-label prediction.}{fig:evaluation}
 Three axes organize the comparison: reference frame, detection evidence, and intervention point. Benchmarks evaluate generated content or detectors; detectors can guide decoding. Fine-tuning and long-context studies motivate failures in supervision, knowledge access, and evidence use \citep{gekhman-etal-2024-fine,liu-etal-2024-lost}. Across axes, we compare evidence access, generator signals, supervision, and cost, separating decision criteria from deployment requirements.

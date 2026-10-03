@@ -1,8 +1,8 @@
 \section{Mitigation: Interventions and Assumptions}\label{sec:mitigation}
 
-Figure~\ref{fig:mitigation} organizes interventions by where they act; selection also depends on what is trusted. CAD amplifies contextual evidence, whereas Astute RAG reconciles conflicting knowledge \citep{shi-etal-2024-trusting,wang-etal-2025-astute}. Reporting a supplied record favors adherence; answering what is true may require rejecting that record. Neither policy dominates independently of the reference frame. Missing, ignored, and unreliable evidence therefore motivate different interventions.
+Figure~\ref{fig:mitigation} organizes interventions by where they act; selection also depends on what is trusted. Context-aware decoding (CAD) amplifies contextual evidence, whereas Astute RAG reconciles conflicting knowledge \citep{shi-etal-2024-trusting,wang-etal-2025-astute}. Reporting a supplied record favors adherence; answering what is true may require rejecting that record. Neither policy dominates independently of the reference frame. Missing, ignored, and unreliable evidence therefore motivate different interventions.
 
-\figwide{Fig4_causes_mitigation.pdf}{Potential failure points and mitigation across the generation pipeline. Hybrid methods span stages. Intervention outcomes connect to the evaluation targets in Figure~\ref{fig:evaluation} and benchmarks in Table~\ref{tab:hallucination-benchmarks}.}{fig:mitigation}
+\figwide{Fig4_causes_mitigation.pdf}{Potential causes and mitigation methods of hallucination in LLMs. Colors group stages of the generation pipeline; hybrid methods may span multiple stages.}{fig:mitigation}
 
 \subsection{Training and alignment}
 
@@ -12,11 +12,11 @@ FactAlign uses sentence-level fine-grained Kahneman--Tversky optimization for cr
 
 \subsection{Retrieval and prompting}
 
-FLARE retrieves actively when provisional continuations signal uncertainty, while context-faithful prompting changes instructions without retraining \citep{jiang-etal-2023-active,zhou-etal-2023-context}. Retrieval adds information but introduces selection errors and evidence conflicts. Self-RAG trains retrieval and reflection tokens that control when to retrieve and assess relevance, support, and utility; candidate continuations can then be ranked using these signals \citep{extselfrag2024}. This requires training and reflection supervision. Astute RAG instead uses a training-free, source-aware consolidation procedure: it elicits internal knowledge, compares it with retrieved passages, and iteratively resolves conflicts \citep{wang-etal-2025-astute}. This permits black-box use but adds calls and fallible reliability judgments. Comparison should separate retrieval quality, conflict resolution, and evidence use under matched corpora and budgets.
+FLARE retrieves actively when provisional continuations signal uncertainty, while context-faithful prompting changes instructions without retraining \citep{jiang-etal-2023-active,zhou-etal-2023-context}. Retrieval adds information but introduces selection errors and evidence conflicts. Self-RAG trains retrieval and reflection tokens that control when to retrieve and assess relevance, support, and utility; candidate continuations can then be ranked using these signals \citep{extselfrag2024}. Astute RAG instead uses a training-free, source-aware consolidation procedure: it elicits internal knowledge, compares it with retrieved passages, and iteratively resolves conflicts \citep{wang-etal-2025-astute}. This permits black-box use but adds calls and fallible reliability judgments. Comparison should separate retrieval quality, conflict resolution, and evidence use under matched corpora and budgets.
 
 \subsection{Decoding and internal intervention}
 
-Context-aware decoding (CAD) amplifies the difference between context-conditioned and context-free token distributions \citep{shi-etal-2024-trusting}. For model parameters $\theta$, next token $y_t$, context $c$, query $x$, prefix $y_{<t}$, and contrast strength $\alpha\geq0$,
+CAD amplifies the difference between context-conditioned and context-free token distributions \citep{shi-etal-2024-trusting}. For model parameters $\theta$, next token $y_t$, context $c$, query $x$, prefix $y_{<t}$, and contrast strength $\alpha\geq0$,
 
 \begin{equation}\label{eq:cad}
 p_{\mathrm{CAD}}(y_t)\propto\frac{p_\theta(y_t\mid c,x,y_{<t})^{1+\alpha}}{p_\theta(y_t\mid x,y_{<t})^\alpha}.
@@ -28,6 +28,6 @@ TruthX learns separate semantic and truth-related latent spaces and edits intern
 
 \subsection{Revision and abstention}
 
-Chain-of-Verification drafts an answer, generates verification questions, answers them independently, and revises the draft \citep{dhuliawala-etal-2024-chain}. Separating verification from the draft reduces answer contamination, but all stages can still share a parametric misconception. CRITIC adds tool feedback before revision, providing an external correction signal at the cost of tool calls and iterative generation \citep{extcritic2024}. WikiChat also grounds dialogue through retrieval and verification, showing that these operations can be coordinated as a pipeline \citep{semnani-etal-2023-wikichat}. External feedback remains limited by search and tool reliability. Revision must preserve supported information while removing errors.
+Chain-of-Verification (CoVe) drafts an answer, generates verification questions, answers them independently, and revises the draft \citep{dhuliawala-etal-2024-chain}. Separating verification from the draft reduces answer contamination, but all stages can still share a parametric misconception. CRITIC adds tool feedback before revision, providing an external correction signal at the cost of tool calls and iterative generation \citep{extcritic2024}. WikiChat also grounds dialogue through retrieval and verification, showing that these operations can be coordinated as a pipeline \citep{semnani-etal-2023-wikichat}. External feedback remains limited by search and tool reliability. Revision must preserve supported information while removing errors.
 
 Abstention can reduce unsupported assertions. SEAL learns a rejection token during training and uses its probability to regularize decoding \citep{huang-etal-2025-alleviating}; it is more specific than appending a refusal instruction. Lower error can reflect fewer answers. Refusal and revision therefore need coverage and information retention alongside precision.

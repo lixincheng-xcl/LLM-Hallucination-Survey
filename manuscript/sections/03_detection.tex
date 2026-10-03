@@ -1,5 +1,4 @@
 \section{Detection: Evidence and Access}\label{sec:detection}
-\figwide{Fig3_evaluation_taxonomy.pdf}{Taxonomy of hallucination evaluation: generated-answer quality versus error-label prediction. Shared corpora require distinct protocols; the listed metrics assess different targets.}{fig:evaluation}
 Detection estimates response, sentence, or span errors under a specified reference. Figure~\ref{fig:structure} groups its evidence requirements: output access does not imply repeated samples, probabilities, or attention maps.
 
 \subsection{External evidence}
@@ -17,4 +16,4 @@ FOCUS combines token probabilities with attention-based uncertainty propagation 
 
 A separable activation pattern need not represent truth: associated falsehoods can resemble factual recall in controlled experiments \citep{cheang-etal-2026-llms}. Probes therefore need evaluation across natural error types and generators.
 
-These families differ in what could falsify a decision. Alignment can expose a source contradiction but not establish source truth. Sampling tests claim reproducibility; probes test resemblance to labeled examples. Neither supplies independent factual evidence. Access requirements must distinguish the target generator, proxy, and verifier. Thus, ``black-box'' and ``reference-free'' are not interchangeable deployment labels; evidence, signals, supervision, and inference budgets need separate specification.
+Alignment can expose a source contradiction but not establish source truth. Sampling tests claim reproducibility; probes test resemblance to labeled examples. Neither supplies independent factual evidence. Access requirements must distinguish the target generator, proxy, and verifier. Thus, ``black-box'' and ``reference-free'' are not interchangeable deployment labels; evidence, signals, supervision, and inference budgets need separate specification.

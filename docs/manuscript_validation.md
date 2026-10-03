@@ -14,7 +14,7 @@ The author's four revised PDFs remain byte-for-byte unchanged. Figure 1 is propo
 | Fig. 2 | 2 | Section navigation; all printed section numbers match the final paper. |
 | Fig. 3 | 3 | Evaluation target taxonomy, instantiated by Table 1. |
 | Table 1 | 5 | Nine benchmark corpora with task-specific metrics and count caveats. |
-| Fig. 4 | 6 | Potential failures and interventions, linked in caption/prose to Fig. 3 and Table 1 for independent evaluation. |
+| Fig. 4 | 6 | Potential failures and interventions, linked in the analysis to Fig. 3 and Table 1 for independent evaluation. |
 
 The final PDFs do not include the former Figure 4 feedback arrow. The paper describes an evaluation loop *linking* the figures and table, rather than falsely claiming that arrow is still present. Earlier draw.io and SVG assets are preserved as design-stage working files, not substituted for the user-edited artwork.
 
@@ -25,6 +25,10 @@ The repository link appears only in the abstract’s final sentence. Page 7 now 
 The supplied Chinese writing guide informed the common comparison dimensions, methods-to-metrics links, evidence-derived future questions, and explicit research-question closure. Its catastrophic-forgetting examples and topic-specific taxonomy were not imported into this hallucination survey. No guide instruction superseded the requested ACL format or seven-page limit.
 
 ## Final editorial and technical revision
+
+The abstract was rewritten after directly reading the abstracts of the supplied logical-reasoning and LVLM-hallucination surveys. It follows their problem, scope, ordered synthesis, and future-directions structure using original wording and this paper's actual scope. It now introduces concepts, detection, evaluation, mitigation, and open questions in manuscript order, with the repository sentence last. Main and supplementary captions use concise descriptive titles, followed only by necessary explanations of colors, abbreviations, counting units, or interpretation. Figure 1 retains the distinction between unsupported and false content; Table 1 now defines P and R as well as Dis, Gen, and MC.
+
+The final language pass expands LLM, CAD, CoVe, NLI, and SFT at their first relevant uses and removes repetitive navigation or scope statements. The RQ3 conclusion now recognizes independently verified reliability gains assessed with informative coverage and cost; it does not require an increase in supported-claim count, since correcting errors while retaining supported content can also be useful. The four supplied figure files, bibliography entries, and ACL style files remain unchanged. Float declarations were positioned to preserve Figures 2 and 3 on pages 2 and 3 without resizing the artwork or changing typography.
 
 The author block now gives the School of Computer Science and the requested university email. Main captions contain scientific descriptions; visual-design credit is consolidated in Appendix A with both sources still cited. A dedicated Limitations section follows the conclusion within page 7. Appendix prose now uses two columns with full-width table floats, and page 19 provides an unnumbered enlargement of the unchanged Figure 1 PDF.
 

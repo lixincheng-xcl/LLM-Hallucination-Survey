@@ -1,6 +1,6 @@
 \begin{table*}[tp]
 \centering\small\setlength{\tabcolsep}{5pt}\renewcommand{\arraystretch}{1.18}
-\caption{Complementary evaluation designs.}
+\caption{Additional benchmarks and evaluation protocols for hallucination in LLMs.}
 \label{tab:extra-evaluation}
 \begin{tabularx}{\textwidth}{@{}p{.22\textwidth}p{.34\textwidth}X@{}}\toprule
 Study & Mechanism or evaluation design & Comparative implication and boundary \\\midrule
@@ -19,24 +19,24 @@ RGB \citep{extrgb2024} & Separates noise robustness, negative rejection, informa
 
 \begin{table*}[tp]
 \centering\small\setlength{\tabcolsep}{5pt}\renewcommand{\arraystretch}{1.18}
-\caption{Complementary detection and explanation methods.}
+\caption{Additional hallucination detection and explanation methods for LLMs.}
 \label{tab:extra-detection}
 \begin{tabularx}{\textwidth}{@{}p{.22\textwidth}p{.34\textwidth}X@{}}\toprule
 Study & Mechanism or evaluation design & Comparative implication and boundary \\\midrule
 WeCheck \citep{wu-etal-2023-wecheck} & Aggregates weak labels over actual generated samples, then learns a noise-aware classifier. & Supervision quality and error distribution distinguish a learned consistency model from zero-shot entailment. \\
 FactKB \citep{feng-etal-2023-factkb} & Uses knowledge-base factual pretraining with entity/relation objectives for factuality evaluation. & Structured supervision targets relation errors; broader transfer requires separate evidence. \\
 TrueTeacher \citep{gekhman-etal-2023-trueteacher} & Uses LLM-labeled model-generated summaries to train a smaller consistency evaluator. & Distillation trades annotation cost for teacher-label dependence; generated errors differ from artificial perturbations. \\
-FENICE \citep{scire-etal-2024-fenice} & Extracts atomic claims and aligns them to a source using NLI. & Local alignment improves interpretability, while claim extraction and entailment both remain possible error sources. \\
+FENICE \citep{scire-etal-2024-fenice} & Extracts atomic claims and aligns them to a source using natural language inference (NLI). & Local alignment improves interpretability, while claim extraction and entailment both remain possible error sources. \\
 FactReasoner \citep{marinescu-etal-2025-factreasoner} & Models evidence--claim logical relationships probabilistically after decomposition/retrieval. & Joint reasoning differs from independently verifying claims; its result still depends on evidence retrieval and relation estimates. \\
 Future context \citep{lee-etal-2026-enhancing} & Samples continuations and uses them as clues for black-box hallucination detection. & Generated continuations extend consistency checking without supplying independent external verification. \\
-FaithLens \citep{si-etal-2026-faithlens} & Trains detection and explanations using filtered synthetic data, SFT, and rule-based RL. & Explanation quality and decision accuracy require separate validation; fluency alone does not establish explanation faithfulness. \\
+FaithLens \citep{si-etal-2026-faithlens} & Trains detection and explanations using filtered synthetic data, supervised fine-tuning (SFT), and rule-based reinforcement learning. & Explanation quality and decision accuracy require separate validation; fluency alone does not establish explanation faithfulness. \\
 QASemConsistency \citep{cattan-etal-2026-localizing} & Decomposes claims into predicate--argument QA pairs for fine-grained support localization. & Semantic error localization supplies a finer target than response-level binary classification. \\
 \bottomrule\end{tabularx}
 \end{table*}
 
 \begin{table*}[tp]
 \centering\small\setlength{\tabcolsep}{5pt}\renewcommand{\arraystretch}{1.18}
-\caption{Evidence on reliability and failure mechanisms.}
+\caption{Studies of hallucination mechanisms and reliability in LLMs.}
 \label{tab:extra-analysis}
 \begin{tabularx}{\textwidth}{@{}p{.22\textwidth}p{.34\textwidth}X@{}}\toprule
 Study & Mechanism or evaluation design & Comparative implication and boundary \\\midrule
@@ -48,14 +48,14 @@ Hidden-state limits \citep{servedio-etal-2025-hidden} & Tests factuality encodin
 Unfamiliar supervision \citep{kang-etal-2025-unfamiliar} & Relates hallucination response patterns to supervision of unfamiliar fine-tuning examples, including reward-model errors. & Factuality alignment depends on how unknowns and reward errors are labeled. \\
 Illusion of Progress \citep{janiak-etal-2025-illusion} & Examines lexical-overlap labels and response-length heuristics in detector evaluation. & Semantic validation and simple baselines remain necessary; an LLM judge is not automatically a gold standard. \\
 CoT obscures cues \citep{cheng-etal-2025-chain} & Measures how reasoning prompts shift hidden/probability signals and detector effectiveness. & A generation intervention shifts the detector's input distribution, making calibration transfer uncertain. \\
-Hallucination tax \citep{song-etal-2025-hallucination} & Studies RFT refusal degradation primarily on unanswerable mathematics, with reported transfer to factual QA. & Evidence is not a universal result for every factual-generation task. \\
+Hallucination tax \citep{song-etal-2025-hallucination} & Studies refusal degradation after reinforcement fine-tuning, primarily on unanswerable mathematics, with reported transfer to factual QA. & Evidence is not a universal result for every factual-generation task. \\
 Source preferences \citep{schuster-etal-2026-whose} & Controlled synthetic-source study of source preferences and repetition in conflicting English evidence. & Frequency and source cues influence conflict resolution; synthetic-source preference is not proof of real-world source credibility. \\
 \bottomrule\end{tabularx}
 \end{table*}
 
 \begin{table*}[tp]
 \centering\small\setlength{\tabcolsep}{5pt}\renewcommand{\arraystretch}{1.18}
-\caption{Complementary mitigation mechanisms.}
+\caption{Additional hallucination mitigation methods for LLMs.}
 \label{tab:extra-mitigation}
 \begin{tabularx}{\textwidth}{@{}p{.22\textwidth}p{.34\textwidth}X@{}}\toprule
 Study & Mechanism or evaluation design & Comparative implication and boundary \\\midrule

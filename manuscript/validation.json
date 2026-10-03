@@ -31,7 +31,7 @@
   "figure1_enlarged_appendix_page": 19,
   "overfull_boxes": 0,
   "user_figure_hashes": "all match manifest",
-  "pdf_sha256": "75ba79025d7d25bfb13be04ba626cc8dff97fc127281e67ec1024f0e9e00f059",
+  "pdf_sha256": "b7e3fdbbaf55856af37a5fb8c6bda628dc26eddd3b07b7f611fd8a1a1fab2383",
   "compiler": "pdfTeX / BibTeX, TeX Live 2026; unmodified supplied ACL style",
   "checks": "Structural/citation checks; visual review is recorded separately."
 }

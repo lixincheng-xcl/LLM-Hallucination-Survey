@@ -1,10 +1,11 @@
 \section{Introduction}
-A fluent answer is not necessarily justified. In question answering (QA), a model may repeat a misconception; in summarization, it may add a plausible detail absent from the source. Both are called hallucinations, although their correctness criteria differ: source-unsupported content can be factually correct \citep{lin-etal-2022-truthfulqa,cao-etal-2022-hallucinated}. Collapsing these settings obscures what a system improves.
+A fluent answer from a large language model (LLM) is not necessarily justified. In question answering (QA), a model may repeat a misconception; in summarization, it may add a plausible detail absent from the source. Both are called hallucinations, although their correctness criteria differ: source-unsupported content can be factually correct \citep{lin-etal-2022-truthfulqa,cao-etal-2022-hallucinated}. Collapsing these settings obscures what a system improves.
 
 
 In Figure~\ref{fig:examples}, the library record supports 12,000 books and a second-floor archive. The cafe assertion lacks support; the changed count and location contradict the record. The delivery summary also invents a donor and reverses events. Verification must specify the claim and its reference evidence.
 
 Building on the broad factuality review of \citet{wang-etal-2024-factuality}, we connect each method's evidence and access assumptions to the evaluation target it can support. This comparison distinguishes better correction from gains caused by withholding information or changing the verifier. Three questions organize the synthesis: \textbf{RQ1}, what reference frame defines an error; \textbf{RQ2}, what evidence and access enable detection; and \textbf{RQ3}, when does mitigation improve useful generation?
 
+\figwide{Fig2_survey_structure.pdf}{The structure of this survey. Green boxes list representative studies for each branch.}{fig:structure}
 \paragraph{Scope and organization.}
 This narrative survey covers 2022--2026 ACL-family research on text-based QA, long-form generation, summarization, dialogue, and retrieval-augmented generation (RAG), supplemented by mechanism-defining studies from other venues. Figure~\ref{fig:structure} maps concepts (\S\ref{sec:background}), detection (\S\ref{sec:detection}), evaluation (\S\ref{sec:evaluation}), mitigation (\S\ref{sec:mitigation}), and analysis (\S\ref{sec:analysis}). Appendix~\ref{app:selection} gives the selection criteria. Multimodal perception and general reasoning are outside the scope.
