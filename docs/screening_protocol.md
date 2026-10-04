@@ -1,6 +1,6 @@
 # Search and screening protocol
 
-Snapshot: 1 October 2026. Preparation completed: 2 October 2026.
+Snapshot: 15 September 2026. Preparation completed: 2 October 2026.
 
 This is a bounded, targeted literature survey preparation, **not an exhaustive systematic review**. Its target size is approximately the 87 reference entries in the supplied logical-reasoning survey. The 87 included studies are a candidate citation library, not a requirement to cite every item in the eventual paper.
 

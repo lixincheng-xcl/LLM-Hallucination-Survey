@@ -79,8 +79,11 @@ for phrase in ['Layout adapted', 'Tree design adapted', 'Tree layout follows',
     assert phrase not in main_pdf_text, phrase
 appendix_source = (M/'sections/appendix.tex').read_text()
 assert r'\onecolumn' not in appendix_source
-enlarged_page = int(re.search(r'\\newlabel\{app:example-large\}\{\{.*?\}\{(\d+)\}', aux)[1])
-assert 'Enlarged view of Figure 1' in pages[enlarged_page-1].extract_text()
+assert 'app:example-large' not in aux and 'app:example-large' not in main
+assert len(pages) == 18
+assert not any('Enlarged view of Figure' in p.extract_text() for p in pages)
+assert '15 September 2026' in appendix_source
+assert '1 October 2026' not in appendix_source
 with (ROOT/'data/manuscript_citations.csv').open('w',newline='') as f:
     w=csv.writer(f);w.writerow(['citekey','record_id','title','in_manuscript','acl_label'])
     for p in json.loads((ROOT/'data/papers.json').read_text()):
@@ -94,7 +97,8 @@ report = {'status':'passed','main_pages':7,'references_start_page':8,
           'github_link_only_in_abstract_final_sentence':True,
           'affiliation_and_email_verified':True,'dedicated_limitations_section':True,
           'main_caption_process_wording_removed':True,'appendix_text_two_columns':True,
-          'figure1_enlarged_appendix_page':enlarged_page,
+          'figure1_enlarged_appendix_removed':True,
+          'literature_snapshot':'2026-09-15',
           'overfull_boxes':0,'user_figure_hashes':'all match manifest',
           'pdf_sha256':hashlib.sha256((M/'build/main.pdf').read_bytes()).hexdigest(),
           'compiler':'pdfTeX / BibTeX, TeX Live 2026; unmodified supplied ACL style',

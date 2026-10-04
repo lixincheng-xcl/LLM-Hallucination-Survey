@@ -1,5 +1,5 @@
 \section{Selection, Provenance, and Reading Depth}\label{app:selection}
-This is a targeted narrative survey with a metadata snapshot of 1 October 2026, not an exhaustive systematic review or a meta-analysis. Discovery used official ACL Anthology collections for ACL, EMNLP, NAACL, EACL, Findings, and TACL across 2022--2026. Twenty-five collections were available; five requested year/venue combinations returned unavailable responses and were logged as such. A broad title filter for hallucination, factuality, faithfulness, attribution, uncertainty, retrieval, and related terms returned 1,766 records. Three targeted Anthology additions and seven external mechanism-defining studies produced 1,776 candidate records.
+This is a targeted narrative survey with a metadata snapshot of 15 September 2026, not an exhaustive systematic review or a meta-analysis. Discovery used official ACL Anthology collections for ACL, EMNLP, NAACL, EACL, Findings, and TACL across 2022--2026. Twenty-five collections were available; five requested year/venue combinations returned unavailable responses and were logged as such. A broad title filter for hallucination, factuality, faithfulness, attribution, uncertainty, retrieval, and related terms returned 1,766 records. Three targeted Anthology additions and seven external mechanism-defining studies produced 1,776 candidate records.
 
 Selection prioritized direct relevance to text factuality or source faithfulness, distinct mechanisms, benchmark diversity, and evidence that qualified common assumptions. The working library contains 87 studies: 6 from 2022, 20 from 2023, 29 from 2024, 22 from 2025, and 10 from 2026. Eighty have Anthology records; the seven external records were checked against primary publication metadata. Canonical published versions were preferred over duplicate preprints. DOI and normalized-title checks found no exact duplicates among selected records; this is not a guarantee about near-duplicates in the reserve set. Automatic title triage excluded 401 candidates, and 1,288 remain in reserve without individual abstract assessment. These counts describe the actual workflow, not full-text exclusion decisions.
 
@@ -91,10 +91,3 @@ A verifier used for training or candidate selection should not be the sole final
 Table~\ref{tab:access} summarizes method access and deployment trade-offs. Report offline annotation and training costs separately from inference calls, sampled tokens, retrieval requests, tool invocations, latency, and memory. A black-box method can be expensive, while an internal method can be unavailable even if computationally economical. Do not infer a fixed latency multiplier from the number of model distributions or stages without measurement. Comparisons should either match budgets or present a quality--cost trade-off.
 
 \input{sections/embedded_citations}
-
-\begin{figure*}[p]
-\centering
-\includegraphics[width=\textwidth]{figures/Fig1_hallucination_examples.pdf}
-\caption*{Enlarged view of Figure~\ref{fig:examples}: source-grounded hallucination examples.}
-\phantomsection\label{app:example-large}
-\end{figure*}

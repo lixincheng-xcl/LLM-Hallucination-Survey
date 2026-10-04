@@ -6,7 +6,7 @@ Email: xli798@aucklanduni.ac.nz
 
 - Main paper: **pages 1–7**.
 - References: **pages 8–13**, 86 research studies and two credited design sources.
-- Appendices: **pages 14–19**, selection/provenance, benchmark caveats, complementary evidence, reporting protocol, and an enlarged view of Figure 1.
+- Appendices: **pages 14–18**, selection/provenance, benchmark caveats, complementary evidence, and reporting protocol.
 - Four user-edited PDFs are included unchanged. Figure 1 occupies the right column of page 1 at its original aspect ratio; Figures 2–4 use full two-column text width. The nine-benchmark table is native LaTeX.
 - Actual ACL BibTeX output matches all 55 distinct studies cited inside the diagrams, including the six disambiguation groups.
 
@@ -14,7 +14,7 @@ This is a coursework survey and repository release, not an accepted ACL conferen
 
 ## Build
 
-The supplied official `acl.sty` and `acl_natbib.bst` are unchanged. `main.tex` uses `preprint` mode to display the author's name and page numbers. No font or margin compression is applied. The main text, references, and appendix prose use ACL's two-column format; wide tables and the enlarged example use spanning floats. A dedicated Limitations section fits within the seven main pages.
+The supplied official `acl.sty` and `acl_natbib.bst` are unchanged. `main.tex` uses `preprint` mode to display the author's name and page numbers. No font or margin compression is applied. The main text, references, and appendix prose use ACL's two-column format; wide tables use spanning floats. A dedicated Limitations section fits within the seven main pages.
 
 From this directory, using a TeX installation with `latexmk` and BibTeX:
 
