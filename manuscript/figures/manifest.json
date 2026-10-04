@@ -16,7 +16,11 @@
   },
   {
     "file": "manuscript/figures/Fig4_causes_mitigation.pdf",
-    "sha256": "d33c0c8e1c374efba09552d1d5a46194a6e160b4c86477983c39fbfdf59497b2",
-    "provenance": "User-edited PDF supplied 2026-10-02; copied byte-for-byte without modification."
+    "sha256": "474dacf5b8182f9bdeb12fe83557b2b9e43acfe0c30534a3dafc6d146b177e0e",
+    "provenance": "User-edited PDF supplied 2026-10-02. On 2026-10-04, only the Lookback Lens heading was corrected from Attention control to Attention-guided candidate selection, on two lines. The heading was exported from the PDF-embedded native draw.io source and transplanted as vector text into the original PDF; all other rendered content, citations, and page geometry were preserved.",
+    "original_sha256": "d33c0c8e1c374efba09552d1d5a46194a6e160b4c86477983c39fbfdf59497b2",
+    "original_provenance": "User-edited PDF supplied 2026-10-02; copied byte-for-byte without modification.",
+    "editable_source": "manuscript/figures/Fig4_causes_mitigation.drawio",
+    "validation": "At 3x rendering (3081 x 1417 pixels), all changed pixels fall within [1247, 1093, 1685, 1172], the corrected heading region. Only native text cell c69 differs from the recovered original source."
   }
 ]

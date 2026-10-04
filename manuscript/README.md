@@ -7,7 +7,7 @@ Email: xli798@aucklanduni.ac.nz
 - Main paper: **pages 1–7**.
 - References: **pages 8–13**, 86 research studies and two credited design sources.
 - Appendices: **pages 14–18**, selection/provenance, benchmark caveats, complementary evidence, and reporting protocol.
-- Four user-edited PDFs are included unchanged. Figure 1 occupies the right column of page 1 at its original aspect ratio; Figures 2–4 use full two-column text width. The nine-benchmark table is native LaTeX.
+- Figures 1–3 are included unchanged; Figure 4 has one corrected method label and an accompanying editable draw.io source. Figure 1 occupies the right column of page 1 at its original aspect ratio; Figures 2–4 use full two-column text width. The nine-benchmark table is native LaTeX.
 - Actual ACL BibTeX output matches all 55 distinct studies cited inside the diagrams, including the six disambiguation groups.
 
 This is a coursework survey and repository release, not an accepted ACL conference paper. It reports no new experiments. The library and paper have different counts: one of the 87 screened studies is retained in the library but not cited in the paper.

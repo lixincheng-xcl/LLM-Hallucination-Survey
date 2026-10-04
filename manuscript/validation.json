@@ -32,7 +32,7 @@
   "literature_snapshot": "2026-09-15",
   "overfull_boxes": 0,
   "user_figure_hashes": "all match manifest",
-  "pdf_sha256": "8ccce8128d9df46f6879e9c5e41eef13afad7f9c2a708653360509ccb2fbd5c3",
+  "pdf_sha256": "e8a972dd5545ec43a791d4d086d497ed0d221f0063c935641ae39d148d67f329",
   "compiler": "pdfTeX / BibTeX, TeX Live 2026; unmodified supplied ACL style",
   "checks": "Structural/citation checks; visual review is recorded separately."
 }

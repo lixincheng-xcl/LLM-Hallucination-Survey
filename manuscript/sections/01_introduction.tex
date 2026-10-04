@@ -2,7 +2,7 @@
 A fluent answer from a large language model (LLM) is not necessarily justified. In question answering (QA), a model may repeat a misconception; in summarization, it may add a plausible detail absent from the source. Both are called hallucinations, although their correctness criteria differ: source-unsupported content can be factually correct \citep{lin-etal-2022-truthfulqa,cao-etal-2022-hallucinated}. Collapsing these settings obscures what a system improves.
 
 
-In Figure~\ref{fig:examples}, the library record supports 12,000 books and a second-floor archive. The cafe assertion lacks support; the changed count and location contradict the record. The delivery summary also invents a donor and reverses events. Verification must specify the claim and its reference evidence.
+In Figure~\ref{fig:examples}, the library record supports 12,000 books and a second-floor archive. The cafe assertion lacks support; the changed count and location contradict the record. The delivery summary also invents a university source and reverses events. Verification must specify the claim and its reference evidence.
 
 Building on the broad factuality review of \citet{wang-etal-2024-factuality}, we connect each method's evidence and access assumptions to the evaluation target it can support. This comparison distinguishes better correction from gains caused by withholding information or changing the verifier. Three questions organize the synthesis: \textbf{RQ1}, what reference frame defines an error; \textbf{RQ2}, what evidence and access enable detection; and \textbf{RQ3}, when does mitigation improve useful generation?
 

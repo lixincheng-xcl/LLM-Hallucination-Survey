@@ -20,7 +20,7 @@ Table~\ref{tab:benchmark-caveats} supplies the counting and interpretation detai
 \label{tab:benchmark-caveats}
 \begin{tabularx}{\textwidth}{@{}p{.17\textwidth}X@{}}\toprule
 Benchmark & Unit, protocol, and limitation \\\midrule
-TruthfulQA & The 817 questions target common misconceptions. Generative truthfulness/informativeness and multiple-choice answer selection are distinct settings. The original MC score measures normalized likelihood mass on true reference answers; it is not hallucination-detector classification. \\
+TruthfulQA & The original 2022 benchmark contains 817 questions. Generation measures truthfulness/informativeness; MC1 measures single-true accuracy, and MC2 normalized probability mass assigned to true answers. The \href{https://github.com/sylinrl/TruthfulQA}{official January 2025 update} introduced two-option choices and revised the question set. Report the dataset version and MC protocol separately; answer selection is not detector classification. \\
 HaluEval & The 35,000 examples combine task-specific generated examples with a human-annotated general-query portion. Artificial and naturally generated errors should be reported separately rather than treated as one deployment distribution. \\
 ANAH & Approximately 12,000 annotated sentences provide error types, evidence, and corrections. Generative versus discriminative annotators describe detector implementations; their task remains prediction of annotation labels. \\
 RAGTruth & The 17,790 responses come from 2,965 prompts and six generators, not 17,790 independent documents. Response classification and span localization have different matching rules and must be evaluated separately. \\
