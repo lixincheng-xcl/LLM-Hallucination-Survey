@@ -24,7 +24,7 @@ for optional, key in re.findall(r'\\bibitem\[\{(.*?)\}\]\{([^}]+)\}', bbl, re.S)
 assert len(labels) == 88, len(labels)
 assert 'extiti2023' not in labels
 baseline = json.loads((ROOT / 'data/acl_citation_labels.json').read_text())['labels']
-figure_map = json.loads((ROOT / 'figures/reference_style/figure_citation_map.json').read_text())
+figure_map = json.loads((ROOT / 'data/figure_citation_map.json').read_text())
 figure_keys = {x['citekey'] for rows in figure_map.values() for x in rows}
 assert len(figure_keys) == 55
 for key in figure_keys:

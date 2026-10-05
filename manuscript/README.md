@@ -34,6 +34,6 @@ For Overleaf, import `../release/LLM_Hallucination_Survey_Overleaf.zip`, set `ma
 
 ## Artwork and sources
 
-`figures/manifest.json` records SHA-256 digests and the provenance of the supplied and revised PDFs. PNGs are only README previews. Prior native draw.io working files are outside this package in `../figures/drawio/`; the authoritative revised sources for Figures 1, 2, and 4 are bundled in this package alongside their PDFs.
+`figures/manifest.json` records SHA-256 digests and the provenance of the supplied and revised PDFs. PNGs are only README previews. The authoritative revised sources for Figures 1, 2, and 4 are bundled in this package alongside their PDFs. Figure citation mappings are retained in `../data/figure_citation_map.json`; historical artwork is not included in the repository.
 
 Original academic sources are linked in the bibliography; their PDFs are not bundled. The two visual-design surveys are credited in Appendix A. Figure 1 is a constructed example, and Figure 4 is a qualitative synthesis, not measured causal evidence.

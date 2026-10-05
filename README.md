@@ -22,9 +22,9 @@ Figures 1–2 retain the author's visual design with improved text size and line
 ![Fig. 3: evaluation taxonomy](manuscript/figures/Fig3_evaluation_taxonomy.png)
 ![Fig. 4: potential causes and mitigation](manuscript/figures/Fig4_causes_mitigation.png)
 
-[Main-text benchmark table source](manuscript/sections/table1.tex) · [Earlier editable draw.io sources](figures/drawio/README.md) · [ACL citation-label proof](bibliography/acl_label_proof/README.md)
+[Main-text benchmark table source](manuscript/sections/table1.tex) · [Current editable draw.io sources](manuscript/figures) · [ACL citation-label proof](bibliography/acl_label_proof/README.md)
 
-The earlier native draw.io files under `figures/drawio/` predate the author's final PDF edits. The editable sources for [Figure 1](manuscript/figures/Fig1_hallucination_examples.drawio), [Figure 2](manuscript/figures/Fig2_survey_structure.drawio), and [Figure 4](manuscript/figures/Fig4_causes_mitigation.drawio) were recovered from the supplied PDFs' embedded draw.io data and revised while preserving their visual design. Earlier SVG/PDF assets under `figures/reference_style/` are archived design-stage artifacts, not the submitted artwork.
+The editable sources for [Figure 1](manuscript/figures/Fig1_hallucination_examples.drawio), [Figure 2](manuscript/figures/Fig2_survey_structure.drawio), and [Figure 4](manuscript/figures/Fig4_causes_mitigation.drawio) were recovered from the supplied PDFs' embedded draw.io data and revised while preserving their visual design. The former top-level `figures/` directory has been removed from the repository; the final artwork remains under `manuscript/figures/`.
 
 World factuality and source faithfulness are distinct. Unsupported content is not necessarily false in the world; faithful use of false evidence can still produce false answers. Fig. 1 is constructed, not measured output. Fig. 4 is a mechanism synthesis, not a causal experiment. Visual-design sources are acknowledged together in Appendix A.
 
