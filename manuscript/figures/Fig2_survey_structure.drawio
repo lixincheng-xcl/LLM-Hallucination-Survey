@@ -1,0 +1,343 @@
+<mxfile host="Electron" agent="Native diagram reconstruction">
+  <diagram name="Fig2 - editable" id="figure_2_survey_structure">
+    <mxGraphModel dx="2231" dy="1406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1800" pageHeight="1140" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c14" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#d1f4c3;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;[Cao &lt;i&gt;et al.&lt;/i&gt;, 2022]; BEGIN [Dziri &lt;i&gt;et al.&lt;/i&gt;, 2022b];&lt;br&gt;[Adlakha &lt;i&gt;et al.&lt;/i&gt;, 2024]; HalluLens [Bang &lt;i&gt;et al.&lt;/i&gt;, 2025]&lt;/div&gt;">
+          <mxGeometry x="685" y="24" width="1095" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="leaf_c14" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=white;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;Reference frames&lt;br&gt;(§2.1)&lt;/div&gt;">
+          <mxGeometry x="365" y="29.0" width="300" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="leaf_ref_c14" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="62.0" as="sourcePoint" />
+            <mxPoint x="685" y="62.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c22" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#d1f4c3;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;Factuality survey [Wang &lt;i&gt;et al.&lt;/i&gt;, 2024]; HaluEval 2.0 [Li &lt;i&gt;et al.&lt;/i&gt;, 2024];&lt;br&gt;ANAH [Ji &lt;i&gt;et al.&lt;/i&gt;, 2024]; HalluLens [Bang &lt;i&gt;et al.&lt;/i&gt;, 2025]&lt;/div&gt;">
+          <mxGeometry x="685" y="108" width="1095" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="leaf_c22" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=white;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;Error relations &amp;amp; history&lt;br&gt;(§2.2)&lt;/div&gt;">
+          <mxGeometry x="365" y="113.0" width="300" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="leaf_ref_c22" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="146.0" as="sourcePoint" />
+            <mxPoint x="685" y="146.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c34" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#d1f4c3;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;QAFactEval [Fabbri &lt;i&gt;et al.&lt;/i&gt;, 2022]; AlignScore [Zha &lt;i&gt;et al.&lt;/i&gt;, 2023];&lt;br&gt;FActScore [Min &lt;i&gt;et al.&lt;/i&gt;, 2023]; VeriScore [Song &lt;i&gt;et al.&lt;/i&gt;, 2024]; PrefixNLI [Harary &lt;i&gt;et al.&lt;/i&gt;, 2026]&lt;/div&gt;">
+          <mxGeometry x="685" y="192" width="1095" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="leaf_c34" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=white;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;External evidence&lt;br&gt;(§3.1)&lt;/div&gt;">
+          <mxGeometry x="365" y="197.0" width="300" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="leaf_ref_c34" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="230.0" as="sourcePoint" />
+            <mxPoint x="685" y="230.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c42" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#d1f4c3;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;SelfCheckGPT [Manakul &lt;i&gt;et al.&lt;/i&gt;, 2023];&lt;br&gt;Semantic uncertainty [Kuhn &lt;i&gt;et al.&lt;/i&gt;, 2023]; LM vs LM [Cohen &lt;i&gt;et al.&lt;/i&gt;, 2023];&lt;br&gt;SAC3 [Zhang &lt;i&gt;et al.&lt;/i&gt;, 2023a]; Semantic entropy [Farquhar &lt;i&gt;et al.&lt;/i&gt;, 2024]&lt;/div&gt;">
+          <mxGeometry x="685" y="276" width="1095" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="leaf_c42" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=white;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;Sampling &amp;amp; consistency&lt;br&gt;(§3.2)&lt;/div&gt;">
+          <mxGeometry x="365" y="296.0" width="300" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="leaf_ref_c42" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="329.0" as="sourcePoint" />
+            <mxPoint x="685" y="329.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c50" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#d1f4c3;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;FOCUS [Zhang &lt;i&gt;et al.&lt;/i&gt;, 2023b]; Internal-state probe [Azaria and Mitchell, 2023];&lt;br&gt;Lookback Lens [Chuang &lt;i&gt;et al.&lt;/i&gt;, 2024a];&lt;br&gt;Truthfulness hyperplane [Liu &lt;i&gt;et al.&lt;/i&gt;, 2024b]; ReFL [Fan &lt;i&gt;et al.&lt;/i&gt;, 2026]&lt;/div&gt;">
+          <mxGeometry x="685" y="390" width="1095" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="leaf_c50" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=white;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;Internal signals&lt;br&gt;(§3.3)&lt;/div&gt;">
+          <mxGeometry x="365" y="410.0" width="300" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="leaf_ref_c50" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="443.0" as="sourcePoint" />
+            <mxPoint x="685" y="443.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c64" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#d1f4c3;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;TruthfulQA [Lin &lt;i&gt;et al.&lt;/i&gt;, 2022]; ExpertQA [Malaviya &lt;i&gt;et al.&lt;/i&gt;, 2024]; TofuEval [Tang &lt;i&gt;et al.&lt;/i&gt;, 2024];&lt;br&gt;HALoGEN [Ravichander &lt;i&gt;et al.&lt;/i&gt;, 2025]; FactBench [Fatahi Bayat &lt;i&gt;et al.&lt;/i&gt;, 2025]&lt;/div&gt;">
+          <mxGeometry x="685" y="504" width="1095" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="leaf_c64" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=white;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;Generation evaluation&lt;br&gt;(§4.1)&lt;/div&gt;">
+          <mxGeometry x="365" y="509.0" width="300" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="leaf_ref_c64" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="542.0" as="sourcePoint" />
+            <mxPoint x="685" y="542.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c72" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#d1f4c3;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;HaluEval [Li &lt;i&gt;et al.&lt;/i&gt;, 2023]; ANAH [Ji &lt;i&gt;et al.&lt;/i&gt;, 2024]; RAGTruth [Niu &lt;i&gt;et al.&lt;/i&gt;, 2024];&lt;br&gt;TofuEval [Tang &lt;i&gt;et al.&lt;/i&gt;, 2024]; FaithBench [Bao &lt;i&gt;et al.&lt;/i&gt;, 2025]&lt;/div&gt;">
+          <mxGeometry x="685" y="588" width="1095" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="leaf_c72" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=white;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;Detector evaluation&lt;br&gt;(§4.2)&lt;/div&gt;">
+          <mxGeometry x="365" y="593.0" width="300" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="leaf_ref_c72" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="626.0" as="sourcePoint" />
+            <mxPoint x="685" y="626.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c85" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#d1f4c3;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;FaithDial [Dziri &lt;i&gt;et al.&lt;/i&gt;, 2022a]; Self-Alignment [Zhang &lt;i&gt;et al.&lt;/i&gt;, 2024b];&lt;br&gt;FactAlign [Huang and Chen, 2024]; RHIO [Huang &lt;i&gt;et al.&lt;/i&gt;, 2025b]; UAlign [Xue &lt;i&gt;et al.&lt;/i&gt;, 2025]&lt;/div&gt;">
+          <mxGeometry x="685" y="672" width="1095" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="leaf_c85" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=white;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;Training &amp;amp; alignment&lt;br&gt;(§5.1)&lt;/div&gt;">
+          <mxGeometry x="365" y="677.0" width="300" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="leaf_ref_c85" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="710.0" as="sourcePoint" />
+            <mxPoint x="685" y="710.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c93" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#d1f4c3;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;FLARE [Jiang &lt;i&gt;et al.&lt;/i&gt;, 2023]; Context-faithful prompting [Zhou &lt;i&gt;et al.&lt;/i&gt;, 2023];&lt;br&gt;Self-RAG [Asai &lt;i&gt;et al.&lt;/i&gt;, 2024]; Astute RAG [Wang &lt;i&gt;et al.&lt;/i&gt;, 2025]; Stable-RAG [Zhang &lt;i&gt;et al.&lt;/i&gt;, 2026]&lt;/div&gt;">
+          <mxGeometry x="685" y="756" width="1095" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="leaf_c93" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=white;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;Retrieval &amp;amp; prompting&lt;br&gt;(§5.2)&lt;/div&gt;">
+          <mxGeometry x="365" y="761.0" width="300" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="leaf_ref_c93" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="794.0" as="sourcePoint" />
+            <mxPoint x="685" y="794.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c101" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#d1f4c3;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;CAD [Shi &lt;i&gt;et al.&lt;/i&gt;, 2024]; DoLa [Chuang &lt;i&gt;et al.&lt;/i&gt;, 2024b]; TruthX [Zhang &lt;i&gt;et al.&lt;/i&gt;, 2024a];&lt;br&gt;SynCheck / FOD [Wu &lt;i&gt;et al.&lt;/i&gt;, 2024]; DeCoRe [Gema &lt;i&gt;et al.&lt;/i&gt;, 2025]&lt;/div&gt;">
+          <mxGeometry x="685" y="840" width="1095" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="leaf_c101" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=white;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;Decoding &amp;amp; intervention&lt;br&gt;(§5.3)&lt;/div&gt;">
+          <mxGeometry x="365" y="845.0" width="300" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="leaf_ref_c101" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="878.0" as="sourcePoint" />
+            <mxPoint x="685" y="878.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c109" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#d1f4c3;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;WikiChat [Semnani &lt;i&gt;et al.&lt;/i&gt;, 2023]; CoVe [Dhuliawala &lt;i&gt;et al.&lt;/i&gt;, 2024]; CRITIC [Gou &lt;i&gt;et al.&lt;/i&gt;, 2024];&lt;br&gt;Abstain collaboration [Feng &lt;i&gt;et al.&lt;/i&gt;, 2024]; SEAL [Huang &lt;i&gt;et al.&lt;/i&gt;, 2025a]&lt;/div&gt;">
+          <mxGeometry x="685" y="924" width="1095" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="leaf_c109" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=white;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;Revision &amp;amp; abstention&lt;br&gt;(§5.4)&lt;/div&gt;">
+          <mxGeometry x="365" y="929.0" width="300" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="leaf_ref_c109" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="962.0" as="sourcePoint" />
+            <mxPoint x="685" y="962.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c122" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=#d1f4c3;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;Verify with Caution [Godbole and Jia, 2025];&lt;br&gt;Response-length bias [Zhao &lt;i&gt;et al.&lt;/i&gt;, 2025]; ICAT [Samarinas &lt;i&gt;et al.&lt;/i&gt;, 2025];&lt;br&gt;Recall vs. truthfulness [Cheang &lt;i&gt;et al.&lt;/i&gt;, 2026]; Benchmark aging [Jiang &lt;i&gt;et al.&lt;/i&gt;, 2026]&lt;/div&gt;">
+          <mxGeometry x="685" y="1008" width="1095" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="leaf_c122" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=white;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;Benefits, limits &amp;amp;&lt;br&gt;next steps&lt;/div&gt;">
+          <mxGeometry x="365" y="1028.0" width="300" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="leaf_ref_c122" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="1061.0" as="sourcePoint" />
+            <mxPoint x="685" y="1061.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="branch_0" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=white;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;Concepts &amp;amp; scope&lt;br&gt;(§2)&lt;/div&gt;">
+          <mxGeometry x="90" y="71.0" width="250" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="root_branch_0" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="104.0" as="sourcePoint" />
+            <mxPoint x="90" y="104.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="branch_mid_0" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="104.0" as="sourcePoint" />
+            <mxPoint x="352" y="104.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="branch_vertical_0" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="352" y="62.0" as="sourcePoint" />
+            <mxPoint x="352" y="146.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="branch_leaf_c14" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="352" y="62.0" as="sourcePoint" />
+            <mxPoint x="365" y="62.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="branch_leaf_c22" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="352" y="146.0" as="sourcePoint" />
+            <mxPoint x="365" y="146.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="branch_1" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=white;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;Detection methods&lt;br&gt;(§3)&lt;/div&gt;">
+          <mxGeometry x="90" y="303.5" width="250" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="root_branch_1" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="336.5" as="sourcePoint" />
+            <mxPoint x="90" y="336.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="branch_mid_1" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="336.5" as="sourcePoint" />
+            <mxPoint x="352" y="336.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="branch_vertical_1" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="352" y="230.0" as="sourcePoint" />
+            <mxPoint x="352" y="443.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="branch_leaf_c34" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="352" y="230.0" as="sourcePoint" />
+            <mxPoint x="365" y="230.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="branch_leaf_c42" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="352" y="329.0" as="sourcePoint" />
+            <mxPoint x="365" y="329.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="branch_leaf_c50" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="352" y="443.0" as="sourcePoint" />
+            <mxPoint x="365" y="443.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="branch_2" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=white;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;Evaluation&lt;br&gt;(§4)&lt;/div&gt;">
+          <mxGeometry x="90" y="551.0" width="250" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="root_branch_2" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="584.0" as="sourcePoint" />
+            <mxPoint x="90" y="584.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="branch_mid_2" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="584.0" as="sourcePoint" />
+            <mxPoint x="352" y="584.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="branch_vertical_2" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="352" y="542.0" as="sourcePoint" />
+            <mxPoint x="352" y="626.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="branch_leaf_c64" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="352" y="542.0" as="sourcePoint" />
+            <mxPoint x="365" y="542.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="branch_leaf_c72" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="352" y="626.0" as="sourcePoint" />
+            <mxPoint x="365" y="626.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="branch_3" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=white;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;Mitigation&lt;br&gt;(§5)&lt;/div&gt;">
+          <mxGeometry x="90" y="803.0" width="250" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="root_branch_3" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="836.0" as="sourcePoint" />
+            <mxPoint x="90" y="836.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="branch_mid_3" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="836.0" as="sourcePoint" />
+            <mxPoint x="352" y="836.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="branch_vertical_3" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="352" y="710.0" as="sourcePoint" />
+            <mxPoint x="352" y="962.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="branch_leaf_c85" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="352" y="710.0" as="sourcePoint" />
+            <mxPoint x="365" y="710.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="branch_leaf_c93" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="352" y="794.0" as="sourcePoint" />
+            <mxPoint x="365" y="794.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="branch_leaf_c101" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="352" y="878.0" as="sourcePoint" />
+            <mxPoint x="365" y="878.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="branch_leaf_c109" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="352" y="962.0" as="sourcePoint" />
+            <mxPoint x="365" y="962.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="branch_4" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=white;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;align=left;verticalAlign=middle;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:27.5px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;Analysis &amp;amp; directions&lt;br&gt;(§6)&lt;/div&gt;">
+          <mxGeometry x="90" y="1028.0" width="250" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="root_branch_4" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="1061.0" as="sourcePoint" />
+            <mxPoint x="90" y="1061.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="branch_mid_4" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="1061.0" as="sourcePoint" />
+            <mxPoint x="352" y="1061.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="branch_leaf_c122" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="352" y="1061.0" as="sourcePoint" />
+            <mxPoint x="365" y="1061.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="root_vertical" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="104.0" as="sourcePoint" />
+            <mxPoint x="70" y="1061.0" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="root_link" parent="1" edge="1" style="edgeStyle=none;html=1;rounded=0;endArrow=none;strokeColor=#505050;strokeWidth=1.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="582.5" as="sourcePoint" />
+            <mxPoint x="70" y="582.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="root_box" parent="1" vertex="1" style="rounded=1;absoluteArcSize=1;arcSize=16;whiteSpace=wrap;html=1;fillColor=white;strokeColor=#bd22c6;strokeWidth=1.1;spacing=5;" value="">
+          <mxGeometry x="15" y="407.5" width="40" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="root_label" parent="1" vertex="1" style="text;html=1;rotation=-90;align=center;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;" value="&lt;div style=&quot;font-family:Times New Roman;font-size:30px;line-height:30px;text-align:left;white-space:nowrap;color:#000000;&quot;&gt;Hallucination in text LLMs&lt;/div&gt;">
+          <mxGeometry x="-140.0" y="567.5" width="350" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

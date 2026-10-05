@@ -15,12 +15,16 @@
     "3": 3,
     "4": 6
   },
+  "main_tables_on_pages": {
+    "1": 4,
+    "2": 6
+  },
   "undefined_citations_or_references": 0,
   "figure1_placement": {
     "x_pt": 306.142,
-    "y_pt": 478.873,
-    "width_pt": 218.2554753064,
-    "height_pt": 143.10744
+    "y_pt": 474.787,
+    "width_pt": 218.2581312,
+    "height_pt": 147.19416
   },
   "figure1_proportional_single_column": true,
   "github_link_only_in_abstract_final_sentence": true,
@@ -32,7 +36,7 @@
   "literature_snapshot": "2026-09-15",
   "overfull_boxes": 0,
   "user_figure_hashes": "all match manifest",
-  "pdf_sha256": "e8a972dd5545ec43a791d4d086d497ed0d221f0063c935641ae39d148d67f329",
+  "pdf_sha256": "dddb39aa57d71ad684f669a2f0a35306e73a062026da8ffe2b490730edf111e2",
   "compiler": "pdfTeX / BibTeX, TeX Live 2026; unmodified supplied ACL style",
   "checks": "Structural/citation checks; visual review is recorded separately."
 }

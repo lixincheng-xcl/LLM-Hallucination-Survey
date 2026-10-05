@@ -1,13 +1,21 @@
 [
   {
     "file": "manuscript/figures/Fig1_hallucination_examples.pdf",
-    "sha256": "474b32a23550f60804a062c14964c52e26ded41484ae3e7af869d75d23621f46",
-    "provenance": "User-edited PDF supplied 2026-10-02; copied byte-for-byte without modification."
+    "sha256": "5ca9b620b564f18e0a69aed3f3c790b9e43a4c0ac9300ccd40320e2490579177",
+    "provenance": "User-edited PDF supplied 2026-10-02. On 2026-10-05, its embedded native draw.io source was recovered and the example layout reflowed for single-column readability. Body text was enlarged from 22/23 to 30/31/32 native units; source records were compacted without changing facts, and the delivery response was shortened to On Tuesday, it received 500 books. Colors, error meanings, icons, and both panels were retained.",
+    "original_sha256": "474b32a23550f60804a062c14964c52e26ded41484ae3e7af869d75d23621f46",
+    "original_provenance": "User-edited PDF supplied 2026-10-02; copied byte-for-byte without modification.",
+    "editable_source": "manuscript/figures/Fig1_hallucination_examples.drawio",
+    "validation": "Native vector PDF with matching embedded .drawio source; new page size 765.12 x 516 pt (previously 786.95996 x 516 pt). All questions and factual/event-order contrasts remain; no raster replacement."
   },
   {
     "file": "manuscript/figures/Fig2_survey_structure.pdf",
-    "sha256": "89f391591c37fa1d9f5c4ea3017fb27179f5ada3bf024736440b6dcea232ce30",
-    "provenance": "User-edited PDF supplied 2026-10-02; copied byte-for-byte without modification."
+    "sha256": "a59113e194959d1948251a2ae677da675fd950bb0eac40a72d42fda3a623b300",
+    "provenance": "User-edited PDF supplied 2026-10-02. On 2026-10-05, its embedded native draw.io source was recovered and reflowed. The citation column was widened and font size increased from 25 to 27.5 native units. Line breaks now occur between complete method/citation entries. The original tree structure, colors, section numbers, and all author-year labels were preserved.",
+    "original_sha256": "89f391591c37fa1d9f5c4ea3017fb27179f5ada3bf024736440b6dcea232ce30",
+    "original_provenance": "User-edited PDF supplied 2026-10-02; copied byte-for-byte without modification.",
+    "editable_source": "manuscript/figures/Fig2_survey_structure.drawio",
+    "validation": "58 citation occurrences and 55 unique labels match the original PDF exactly after whitespace normalization. Native vector PDF and embedded .drawio source match. New page size 1272 x 786 pt (previously 1272 x 800.88 pt)."
   },
   {
     "file": "manuscript/figures/Fig3_evaluation_taxonomy.pdf",

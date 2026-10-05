@@ -6,15 +6,16 @@ The completed English survey is **Hallucination in Large Language Models: A Surv
 
 ## Figures and narrative closure
 
-The author's supplied PDFs for Figures 1–3 remain byte-for-byte unchanged. Figure 4's method label was corrected to ‘Attention-guided candidate selection’ using its embedded native draw.io source. Figure 1 is proportionally scaled to the right column of page 1; Figures 2–4 retain full two-column width. Hashes are in `manuscript/figures/manifest.json`.
+Figures 1–2 preserve the supplied visual design with larger text and deliberate line wrapping. Figure 3 remains byte-for-byte unchanged. Figure 4's method label was corrected to ‘Attention-guided candidate selection’ using its embedded native draw.io source. Figure 1 is proportionally scaled to the right column of page 1; Figures 2–4 retain full two-column width. Hashes are in `manuscript/figures/manifest.json`.
 
 | Component | PDF page | Role and connection |
 |---|---:|---|
 | Fig. 1 | 1 | Synthetic unsupported/contradicted source examples; the caption distinguishes unsupported from world-false. |
 | Fig. 2 | 2 | Section navigation; all printed section numbers match the final paper. |
 | Fig. 3 | 3 | Evaluation target taxonomy, instantiated by Table 1. |
-| Table 1 | 5 | Nine benchmark corpora with task-specific metrics and count caveats. |
+| Table 1 | 4 | Nine benchmark corpora with task-specific metrics and count caveats. |
 | Fig. 4 | 6 | Potential failures and interventions, linked in the analysis to Fig. 3 and Table 1 for independent evaluation. |
+| Table 2 | 6 | Six representative method comparisons: target, evidence/access, resources, and failure boundary. |
 
 The final PDFs do not include the former Figure 4 feedback arrow. The paper describes an evaluation loop *linking* the figures and table, rather than falsely claiming that arrow is still present. Earlier draw.io and SVG assets are preserved as design-stage working files, not substituted for the user-edited artwork.
 
@@ -28,7 +29,7 @@ The supplied Chinese writing guide informed the common comparison dimensions, me
 
 The abstract was rewritten after directly reading the abstracts of the supplied logical-reasoning and LVLM-hallucination surveys. It follows their problem, scope, ordered synthesis, and future-directions structure using original wording and this paper's actual scope. It now introduces concepts, detection, evaluation, mitigation, and open questions in manuscript order, with the repository sentence last. The latest abstract follows the supplied example's narrative progression without publication years or literature counts; the Chinese Word abstract has been updated to match. Main and supplementary captions use concise descriptive titles, followed only by necessary explanations of colors, abbreviations, counting units, or interpretation. Figure 1 retains the distinction between unsupported and false content; Table 1 now defines P and R as well as Dis, Gen, and MC.
 
-The final language pass expands LLM, CAD, CoVe, NLI, and SFT at their first relevant uses and removes repetitive navigation or scope statements. The RQ3 conclusion now recognizes independently verified reliability gains assessed with informative coverage and cost; it does not require an increase in supported-claim count, since correcting errors while retaining supported content can also be useful. Figures 1–3, bibliography entries, and ACL style files remain unchanged; Figure 4 has the documented label correction. Float declarations were positioned to preserve Figures 2 and 3 on pages 2 and 3 without resizing the artwork or changing typography.
+The final language pass expands LLM, CAD, CoVe, NLI, and SFT at their first relevant uses and removes repetitive navigation or scope statements. The RQ3 conclusion now recognizes independently verified reliability gains assessed with informative coverage and cost; it does not require an increase in supported-claim count, since correcting errors while retaining supported content can also be useful. Figure 3, bibliography entries, and ACL style files remain unchanged; Figures 1–2 have readability improvements and Figure 4 has the documented label correction. Float declarations were positioned to preserve Figures 2 and 3 on pages 2 and 3 while retaining ACL body typography.
 
 The author block now gives the School of Computer Science and the requested university email. Main captions contain scientific descriptions; visual-design credit is consolidated in Appendix A with both sources still cited. A dedicated Limitations section follows the conclusion within page 7. Appendix prose uses two columns with full-width table floats. The requested Figure 1 enlargement has been removed; Figure 1 remains in the right column of page 1.
 
@@ -53,10 +54,17 @@ The six suffix groups remain: Chuang 2024a/b, Dziri 2022a/b, Zhang 2023a/b, Zhan
 
 ## Build and visual review
 
-Compiled with pdfTeX/BibTeX (TeX Live 2026) through `latexmk`, with no unresolved citations/references, no BibTeX warnings, and no overfull boxes. The seven-page main-paper boundary and reference start on page 8 are checked from both the AUX and PDF. Figure 1’s actual PDF transform confirms equal horizontal/vertical scaling, approximately 218.3 pt width, and placement in the right column. The main source contains the repository URL exactly once, at the end of the abstract. All main pages, bibliography pages, and appendix pages were rendered and reviewed for clipping, overlap, figure placement, table readability, and unwanted blank pages. Figure 2 remains dense and retains the user's original line wrapping; it is displayed at the full available ACL width and can be zoomed as a vector PDF.
+Compiled with pdfTeX/BibTeX (TeX Live 2026) through `latexmk`, with no unresolved citations/references, no BibTeX warnings, and no overfull boxes. The seven-page main-paper boundary and reference start on page 8 are checked from both the AUX and PDF. Figure 1’s actual PDF transform confirms equal horizontal/vertical scaling, approximately 218.3 pt width, and placement in the right column. The main source contains the repository URL exactly once, at the end of the abstract. All main pages, bibliography pages, and appendix pages were rendered and reviewed for clipping, overlap, figure placement, table readability, and unwanted blank pages. Figure 2 uses complete method-name and author-year groups, with its effective citation font enlarged from approximately 6.40 to 7.05 pt. Figure 1's principal record text increased from approximately 4.38 to 6.56 pt. Both remain vector PDFs; all Figure 2 citation labels are preserved.
 
 `manuscript/validation.json` records the machine checks and final PDF digest. The Overleaf archive contains the complete multipart source and authoritative PDF figures. Its source files were byte-compared with the source, extracted to a separate directory, and independently compiled: the result has 18 pages and identical page-by-page text to the delivered PDF. Historical preparation notes remain explicitly marked as such.
 
 ## Targeted scoring review revision
 
 The original TruthfulQA protocol now distinguishes generation, MC1 accuracy, and MC2 normalized true-answer probability mass, with the original 817-question version separated from the official 2025 update. The introduction describes an invented university source, without inferring a donation. Representative detection and mitigation mechanisms are compared at the level of scoring, supervision, and distribution contrast. The analysis distinguishes reported findings, synthesis, and proposed checks; evidence sensitivity is separated from attribution to retrieval selection. No experiments or new performance results are claimed.
+
+
+## Final scoring improvements (5 October 2026)
+
+The main paper now includes a compact method-comparison table derived from the full appendix resource table. One within-study Llama 65B biography comparison from CoVe reports both FActScore (55.9 to 71.4) and mean fact count (16.6 to 12.3), without treating it as a causal length ablation. Section 4 explains metric choice and the common reference-frame axis behind both branches of Figure 3. The introduction states representative-selection criteria; Appendix A describes explicit coding choices without claiming complete reproducibility. Repeated prose was condensed to retain seven main pages, with no change to ACL body font size or margins.
+
+Figures 1 and 2 have revised native draw.io sources recovered from the supplied PDFs. Their natural crop dimensions preserve proportional placement while reducing unused space. Figure 1 uses shorter source-card wording with the same facts and error relations. Figure 2 retains all 58 citation instances and 55 distinct citation labels; method names and author-year labels no longer split across lines.

@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\caption{Representative method trade-offs. Targets describe intended criteria or proxies, not guarantees; resource costs are qualitative.}
+\label{tab:method-comparison}
+\fontsize{9}{10.2}\selectfont
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.0}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{.21\textwidth}>{\raggedright\arraybackslash}p{.15\textwidth}>{\raggedright\arraybackslash}p{.23\textwidth}>{\raggedright\arraybackslash}p{.16\textwidth}>{\raggedright\arraybackslash}X@{}}
+\toprule
+Family / example & Target & Evidence / model access & Extra resource & Critical boundary \\
+\midrule
+Claim checks: FActScore \citep{min-etal-2023-factscore} & World factuality via source support & Text, corpus, retriever, verifier & Per-claim search and checks & Missing support is not disproof. \\
+Sampling: SelfCheckGPT \citep{manakul-etal-2023-selfcheckgpt} & World factuality proxy & Repeated outputs; no target internals & Generation and comparisons & Stable falsehoods can agree. \\
+Alignment: FactAlign \citep{huang-chen-2024-factalign} & World factuality & Trainable generator; factuality labels & Verification and updates & Verification errors enter training. \\
+RAG: Self-RAG \citep{extselfrag2024} & Source support and utility & Trainable model, corpus, reflection labels & Training and retrieval & Reflection is not independent verification. \\
+Decoding: CAD / DoLa \citep{shi-etal-2024-trusting,extdola2024} & Source faithfulness / world factuality & Context-conditioned/free logits / layer outputs & Token-distribution computation & Neither establishes truth. \\
+Revision: CoVe \citep{dhuliawala-etal-2024-chain} & World factuality & Model calls; no external verifier required & Verification and rewriting & Shared misconceptions can persist. \\
+\bottomrule
+\end{tabularx}
+\end{table*}

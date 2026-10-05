@@ -43,6 +43,12 @@ for key in ['examples','structure','evaluation','mitigation']:
     fig_pages[match[1]] = int(match[2])
 assert list(fig_pages) == ['1','2','3','4'] and max(fig_pages.values()) <= 7
 assert fig_pages['1'] == 1, 'Figure 1 must be on page one'
+main_table_pages = {}
+for expected, key in enumerate(['hallucination-benchmarks', 'method-comparison'], 1):
+    match = re.search(r'\\newlabel\{tab:'+key+r'\}\{\{(\d+)\}\{(\d+)\}', aux)
+    assert match and int(match[1]) == expected and int(match[2]) <= 7, (key, match)
+    main_table_pages[str(expected)] = int(match[2])
+
 # Check the placed PDF form, not just the LaTeX width declaration.
 placements = []
 def inspect_form(operator, operands, cm, tm):
@@ -92,7 +98,8 @@ report = {'status':'passed','main_pages':7,'references_start_page':8,
           'appendix_start_page':appendix_page,'total_pages':len(pages),
           'research_references':86,'design_references':2,'total_references':88,
           'figure_citation_keys_checked':55,'figure_label_mismatches':0,
-          'figures_on_pages':fig_pages,'undefined_citations_or_references':0,
+          'figures_on_pages':fig_pages,'main_tables_on_pages':main_table_pages,
+          'undefined_citations_or_references':0,
           'figure1_placement':fig1,'figure1_proportional_single_column':True,
           'github_link_only_in_abstract_final_sentence':True,
           'affiliation_and_email_verified':True,'dedicated_limitations_section':True,
