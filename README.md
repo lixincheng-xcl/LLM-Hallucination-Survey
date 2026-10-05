@@ -1,6 +1,4 @@
-# Hallucination in Large Language Models
-
-### A Survey of Detection, Evaluation, and Mitigation
+# Hallucination in Large Language Models: A Survey of Detection, Evaluation, and Mitigation
 
 **7 main pages · 4 figures · 9 main-table benchmarks · 88 references · ACL format**
 
