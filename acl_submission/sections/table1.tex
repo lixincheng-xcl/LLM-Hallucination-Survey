@@ -1,0 +1,25 @@
+\begin{table*}[t]
+\centering\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\textwidth}{@{}p{.225\textwidth}p{.085\textwidth}p{.145\textwidth}p{.20\textwidth}X@{}}
+\toprule
+Benchmark & Setting & Size & Focus & Metrics \\
+\midrule
+TruthfulQA \citep{lin-etal-2022-truthfulqa} & Gen/MC & 817 questions (2022) & World factuality & Gen: truthfulness; informativeness; MC1 accuracy; MC2 true-answer mass \\
+HaluEval \citep{li-etal-2023-halueval} & Dis & 35,000 samples & Mixed-task errors & Recognition accuracy \\
+ANAH \citep{ji-etal-2024-anah} & Dis & $\sim$12k sentences & QA support; contradiction & Type accuracy; F1 \\
+RAGTruth \citep{niu-etal-2024-ragtruth} & Dis & 17,790 responses & RAG faithfulness & Response/span P, R, F1 \\
+ExpertQA \citep{malaviya-etal-2024-expertqa} & Gen & 2,177 questions & Correctness; attribution & Human factuality/support \\
+TofuEval \citep{tang-etal-2024-tofueval} & Dis/Gen & 1,479 summaries* & Dialogue summaries & Balanced accuracy; error rate \\
+HALoGEN \citep{ravichander-etal-2025-halogen} & Gen & 10,923 prompts & Domain factuality & Atomic hallucination rate \\
+FaithBench \citep{bao-etal-2025-faithbench} & Dis/Gen & 750 summaries & Summary faithfulness & Balanced accuracy; macro F1; conditional error rate \\
+FactBench \citep{fatahi-bayat-etal-2025-factbench} & Gen & 1,000 prompts & Verifiable claims & Hallucination score; precision \\
+\bottomrule
+\end{tabularx}
+\par\smallskip\begin{minipage}{\textwidth}\footnotesize
+* Paper-reported retained count; the source arithmetic is inconsistent. HALoGEN's count includes programming. FaithBench's selected cases are not a prevalence sample. Dis/Gen indicates distinct possible uses, not a shared metric.
+\end{minipage}
+\caption{Hallucination evaluation benchmarks for LLMs. `Dis', `Gen', and `MC' denote error-label discrimination, generated-content evaluation, and multiple choice, respectively; P and R denote precision and recall. Sizes count the stated units. Appendix~\ref{app:benchmarks} details the evaluation protocols.}
+\label{tab:hallucination-benchmarks}
+\end{table*}

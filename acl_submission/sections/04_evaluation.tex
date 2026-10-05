@@ -1,0 +1,19 @@
+\section{Benchmarks and Evaluation}\label{sec:evaluation}
+\input{sections/table1}
+Figure~\ref{fig:evaluation} separates generation evaluation from detector evaluation. World factuality and source faithfulness are reference frames for both; detector subbranches distinguish scoring units. Table~\ref{tab:hallucination-benchmarks} sizes count dataset units, not difficulty.
+
+\subsection{Generation evaluation}
+TruthfulQA evaluates misconception-oriented answers for truthfulness and informativeness, with a separate multiple-choice setting \citep{lin-etal-2022-truthfulqa}. ExpertQA distinguishes correctness from attribution through expert questions and claim-level judgments \citep{malaviya-etal-2024-expertqa}. HALoGEN uses domain-specific verifiers; FactBench combines user-derived prompts with web verification \citep{ravichander-etal-2025-halogen,fatahi-bayat-etal-2025-factbench}. Their scores are not interchangeable because evidence and verifier scopes differ.
+
+TofuEval studies topic-focused dialogue summaries, where factuality must coexist with relevance and completeness \citep{tang-etal-2024-tofueval}. Precision needs coverage and refusal reporting, with explicit empty/unverifiable-answer policies.
+
+
+Aggregation also changes the target. For $n>0$ extracted claims and $s$ supported claims, VeriScore combines $P=s/n$ with $R_K=\min(s/K,1)$ as $F_1@K=2PR_K/(P+R_K)$ for $s>0$, and zero otherwise \citep{song-etal-2024-veriscore}. Its domain-specific $K>0$ is the median extracted-claim count across evaluated responses. Unlike FActScore's basic support fraction, this rewards supported-claim quantity as well as precision. However, $R_K$ is not coverage of the information required by a question: extra supported details can raise it while leaving important aspects unanswered. Comparisons should fix $K$ and separately audit extraction, verification, and task-relevant coverage. FactBench's undecidable units additionally require an explicit aggregation policy \citep{fatahi-bayat-etal-2025-factbench}.
+
+\subsection{Detector evaluation}
+HaluEval mixes generated task-specific examples with human-annotated general queries; recognition accuracy need not transfer to unselected errors \citep{li-etal-2023-halueval}. ANAH annotates sentence-level types, evidence, and corrections; RAGTruth adds naturally generated RAG responses with error spans \citep{ji-etal-2024-anah,niu-etal-2024-ragtruth}. Response classification and span localization are different tasks: finding one error does not locate every unsupported claim.
+
+
+Table~\ref{tab:hallucination-benchmarks}'s corpora do not supply every detector input. On fixed RAGTruth outputs, alignment can use source--response pairs \citep{niu-etal-2024-ragtruth}. SelfCheckGPT additionally needs prompt-conditioned samples from a declared generator; Lookback Lens needs attention features and probe-training labels. Specify feature models and prefixes; regenerating answers changes the evaluated outputs. Sentence-to-token conversion adds localization assumptions. TofuEval's sentence and summary decisions also require separate assessment \citep{tang-etal-2024-tofueval}.
+
+FaithBench selects cases by detector disagreement, so its error frequency is conditional on selection \citep{bao-etal-2025-faithbench}. TRIVIA+ tests long contexts and noisy supervision \citep{chen-etal-2026-rethinking-evaluation}. Accuracy weights classes by prevalence; balanced accuracy weights them equally. Precision/recall require a declared positive class; span F1 requires tokenization and matching rules. Fix thresholds on validation data and match splits, generators, and evidence. Similar evaluator accuracy can still conceal biased system-level estimates \citep{godbole-jia-2025-verify}. Independently audit useful generation after mitigation.

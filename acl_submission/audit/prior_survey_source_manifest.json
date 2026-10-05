@@ -1,0 +1,56 @@
+[
+  {
+    "citekey": "wang-etal-2024-factuality",
+    "filename": "wang2024.pdf",
+    "url": "https://aclanthology.org/2024.emnlp-main.1088.pdf",
+    "version": "ACL proceedings",
+    "sha256": "5e559dbd43cba291ef5d3c2cfb354569e0fb1eb75adf53bc8ad619d7043a512f",
+    "retrieved_on": "2026-10-05",
+    "publication_in_audit": true
+  },
+  {
+    "citekey": "zhang-etal-2025-sirens",
+    "filename": "zhang2025_sirens.pdf",
+    "url": "https://aclanthology.org/2025.cl-4.9.pdf",
+    "version": "ACL-hosted journal",
+    "sha256": "5345e8ee0ed1078835f481c7fbc85bef32b361b64c5c29765682428474362521",
+    "retrieved_on": "2026-10-05",
+    "publication_in_audit": true
+  },
+  {
+    "citekey": "Ji_2023",
+    "filename": "ji2023_arxiv_v5.pdf",
+    "url": "https://arxiv.org/pdf/2202.03629v5",
+    "version": "arXiv v5, 2022-11-07",
+    "sha256": "96551e93b9f6e98a171355215a9ce467e8c6ff76e9947ad85ad21625c1911e9c",
+    "retrieved_on": "2026-10-05",
+    "publication_in_audit": true
+  },
+  {
+    "citekey": "schmidtova-etal-2025-eyes",
+    "filename": "schmidtova2025.pdf",
+    "url": "https://aclanthology.org/2025.inlg-main.4.pdf",
+    "version": "ACL proceedings",
+    "sha256": "12b48cf3d8e4b19121b5551bd0da16721e029d5afbc1c0824fcd11bc4c78ccb5",
+    "retrieved_on": "2026-10-05",
+    "publication_in_audit": true
+  },
+  {
+    "citekey": "Alansari_2026",
+    "filename": "alansari2026_arxiv.pdf",
+    "url": "https://arxiv.org/pdf/2510.06265v3",
+    "version": "arXiv v3, 2026-03-18",
+    "sha256": "670479ab45e70159cade095691578ce8e25b39d84270826c8bf5fdfa55b80142",
+    "retrieved_on": "2026-10-05",
+    "publication_in_audit": true
+  },
+  {
+    "citekey": "zhang-etal-2026-probe",
+    "filename": "probe2026.pdf",
+    "url": "https://aclanthology.org/2026.findings-acl.2099.pdf",
+    "version": "ACL proceedings; context only",
+    "sha256": "d31dc6ad6b68691d4682fc3eea98f5c5c4c5a3a88e8391304be2eb4961e01b7f",
+    "retrieved_on": "2026-10-05",
+    "publication_in_audit": false
+  }
+]

@@ -8,6 +8,12 @@ Completed coursework survey by **Xincheng Li, School of Computer Science, Univer
 
 **Release:** 4 October 2026. **Literature snapshot:** 15 September 2026. The main paper occupies pages 1–7; references and appendices follow separately. The paper cites **86 research studies + 2 visual-design sources**. The discovery library retains **87 studies**, so library inclusion and manuscript citation counts differ. This is a dated curated collection, not an exhaustive systematic review or a continuously updating service.
 
+## ACL-oriented revision (5 October 2026)
+
+A separate [research draft](acl_submission/README.md) develops a thirteen-study source-linked audit of detection/mitigation evidence compatibility, with five close-survey comparisons. It preserves the coursework release and all four final figure PDFs. The new manuscript has **8 main pages and 92 references**; it has not been submitted or accepted. Author verification remains necessary.
+
+[Author PDF](acl_submission/release/ACL_Author_Version.pdf) · [Anonymous review PDF](acl_submission/release/ACL_Review_Anonymous.pdf) · [Overleaf source](acl_submission/release/ACL_Overleaf_Source.zip) · [Evidence audit](acl_submission/audit/evidence_cases.csv)
+
 ## Figures and logical structure
 
 Figures 1–2 use the author's final selected PDFs, copied byte-for-byte without modification. Figure 3 remains unchanged. Figure 4 retains the supplied design with the corrected method label, “Attention-guided candidate selection”. Figure 1 is proportionally scaled to the right column of page 1; Figures 2–4 span both columns. The PNGs below are previews of those exact PDFs. Figure files, source provenance, and SHA-256 digests are in [manuscript/figures](manuscript/figures/manifest.json).

@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\centering\small
+\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.05}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{.19\textwidth}>{\raggedright\arraybackslash}p{.42\textwidth}>{\raggedright\arraybackslash}X@{}}
+\toprule
+Case / source location & Reported safeguard or experiment & Boundary for comparison or composition \\\midrule
+FActScore, \S3.1, Tables 1/5, App. C & Support relative to a specified knowledge source; responding fraction and fact counts; editing using human factuality labels. & Information quantity is reported. Oracle-label editing does not validate the automatic estimator--editor combination. \\
+CoVe, \S3.3 / Table 3 & Biographical FActScore and fact quantity are reported together; factored verification answers are generated without the original draft. & Precision and retained content can change together. Prompt separation does not establish independent factual knowledge. \\
+Self-RAG, App. C.2 & Human checks of outputs and reflection tokens on 50 examples; support/plausibility excludes self-predicted irrelevant/no-support cases. & Human checks supplement self-scoring, but the conditional support/plausibility estimate does not characterize all outputs. \\
+DoLa, Table 1 / \S4.2 / Apps. E--F & Truthfulness and informativeness; latency measurements under a specified device, batch, and generation length. & Measured overhead applies to that setup; it is not an equal-budget ranking against retrieval or revision methods. \\
+SEAL, \S6 / App. E & A separate rejection experiment complements generation tests; tested beam settings differ from greedy baselines. & Generation factuality, selective answering, and compute allocation must be distinguished. \\
+CRITIC, App. D & Detection metrics on initial answers and human analysis complement tool-assisted correction results. & These component analyses do not by themselves quantify fixed-detector calibration on revised errors. \\
+\bottomrule
+\end{tabularx}
+\caption{Contrasts from the documentary audit. Locations refer to the cited primary papers discussed in Sections~\ref{sec:mitigation}--\ref{sec:analysis}; the supplementary records retain all thirteen cases. A boundary restricts the inference drawn here, not the validity of the original study.}
+\label{tab:method-comparison}
+\end{table*}

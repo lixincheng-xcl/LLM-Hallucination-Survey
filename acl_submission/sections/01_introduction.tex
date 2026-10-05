@@ -1,0 +1,18 @@
+\section{Introduction}
+A fluent answer from a large language model (LLM) is not necessarily justified. In question answering (QA), a model may repeat a misconception; in summarization, it may add a plausible detail absent from the source. Both are called hallucinations, although their correctness criteria differ: source-unsupported content can be factually correct \citep{lin-etal-2022-truthfulqa,cao-etal-2022-hallucinated}. Collapsing these settings obscures what a system improves.
+
+
+In Figure~\ref{fig:examples}, the library record supports 12,000 books and a second-floor archive. The cafe assertion lacks support; the changed count and location contradict the record. The delivery summary also invents a university source and reverses events. Verification must specify the claim and its reference evidence.
+
+Better hallucination detection and better generation are often treated as complementary safeguards. Their published results can nevertheless concern different reference evidence, answer populations, and information budgets. A detector evaluated on unrevised answers may encounter a different error distribution after correction. Likewise, a higher fraction of supported claims can coexist with fewer useful claims. The central question is therefore \emph{when evidence of a component improvement supports a claim about the combined system}.
+
+We make three contributions. First, we connect reference frames, detection evidence, and intervention stages in a common comparison framework. Second, a bounded documentary audit records the tested safeguards and inference boundaries of representative methods, with primary-source locators. Third, we derive four compatibility conditions and a prospective reporting protocol from these comparisons. These are analytical contributions; we introduce no new detector or generation benchmark. Three questions organize the survey: \textbf{RQ1}, what reference defines an error; \textbf{RQ2}, what evidence supports a detector's use; and \textbf{RQ3}, when can detection and mitigation evidence support reliable, useful generation?
+
+\figwide{Fig2_survey_structure.pdf}{The structure of this survey. Green boxes list representative studies for each branch.}{fig:structure}
+\paragraph{Scope and organization.}
+We cover text QA, long-form generation, summarization, dialogue, and retrieval-augmented generation (RAG), emphasizing ACL-family research and mechanism-defining work from other venues. Multimodal perception and general reasoning are excluded. Figure~\ref{fig:structure} maps concepts (\S\ref{sec:background}), detection (\S\ref{sec:detection}), evaluation (\S\ref{sec:evaluation}), mitigation (\S\ref{sec:mitigation}), and analysis (\S\ref{sec:analysis}).
+
+\paragraph{Audit design.}
+We fixed all thirteen named studies in an existing representative-method resource table before coding reporting properties. This purposive set spans source alignment, sampling, internal detection, training, retrieval, decoding, editing, revision, and abstention. For each primary full text, we inspected methods, evaluation, results, and relevant appendices, recording the reference frame, scoring unit, access, information control, feedback--evaluation separation, resources, and joint validation. A statement that evidence was not located is restricted to the inspected sections. All selected cases are retained; no field-wide frequency or pooled effect is inferred. Appendix~\ref{app:selection} and the accompanying codebook distinguish this audit from the broader contextual literature search and document reading depth.
+
+\input{sections/related_surveys}

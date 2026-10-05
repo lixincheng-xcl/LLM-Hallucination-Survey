@@ -1,0 +1,22 @@
+{
+  "ACL_Anonymous_Source.zip": {
+    "sha256": "4e119bfaa8b24a8e76dc900616783a906995af65dc23517c9ee9a53670f21a72",
+    "bytes": 527286
+  },
+  "ACL_Author_Version.pdf": {
+    "sha256": "5abf2b9688991e6d1fb1b6502c5e2bdcf9e836c5ab642adca821ff6d28731c43",
+    "bytes": 835306
+  },
+  "ACL_Review_Anonymous.pdf": {
+    "sha256": "bf6a3f27c0d7be8f879e5667ebb68e9a9c80ad8c6524d71080c67eabc5850905",
+    "bytes": 844012
+  },
+  "ACL_Anonymous_Supplement.zip": {
+    "sha256": "be88464fdaa38c0a7a5b1e9edddb84f1e32498465ba95eb6e7845052414b181a",
+    "bytes": 60922
+  },
+  "ACL_Overleaf_Source.zip": {
+    "sha256": "487a50be473a1cbdd6a28fc4ccb291250bab6927db320948c0d4c263350a9f25",
+    "bytes": 587893
+  }
+}

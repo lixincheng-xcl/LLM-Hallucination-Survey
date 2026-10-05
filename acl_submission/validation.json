@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "main_end_page": 8,
+  "total_pages": 23,
+  "references": 92,
+  "figure_label_keys": 55,
+  "figure_pages": {
+    "1": 1,
+    "2": 3,
+    "3": 4,
+    "4": 6
+  },
+  "figure1_right_single_column": true,
+  "frozen_figures_unchanged": true,
+  "coursework_pdf_unchanged": true,
+  "table_captions_below": 11,
+  "audit_cases": 13,
+  "anonymous_pdf_identity_scan": "passed",
+  "overfull_boxes": 0,
+  "unresolved_references": 0,
+  "pdf_sha256": "bf6a3f27c0d7be8f879e5667ebb68e9a9c80ad8c6524d71080c67eabc5850905"
+}

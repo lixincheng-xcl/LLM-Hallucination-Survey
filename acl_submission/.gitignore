@@ -1,0 +1,10 @@
+build*/
+audit/sources/
+*.aux
+*.bbl
+*.blg
+*.log
+*.fls
+*.fdb_latexmk
+*.out
+*.synctex.gz

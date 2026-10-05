@@ -1,0 +1,66 @@
+\begin{table*}[tp]
+\centering\small\setlength{\tabcolsep}{5pt}\renewcommand{\arraystretch}{1.18}
+\begin{tabularx}{\textwidth}{@{}p{.22\textwidth}p{.34\textwidth}X@{}}\toprule
+Study & Mechanism or evaluation design & Comparative implication and boundary \\\midrule
+TRUE \citep{honovich-etal-2022-true-evaluating} & Standardizes factual-consistency datasets across tasks and evaluates metrics at the example level. & Instance discrimination differs from system-level correlation. Combined existing tasks do not estimate real-world hallucination prevalence. \\
+AggreFact analysis \citep{tang-etal-2023-understanding} & Stratifies summarization error annotations by generating model and error type; metric gains vary across strata. & Pooled scores can hide weaknesses on newer generators or rare error types. \\
+BUMP \citep{ma-etal-2023-bump} & Uses minimally differing human-written summary pairs with one introduced error. & A controlled error-sensitivity probe complements natural generation data; minimal pairs do not reproduce the full distribution of model errors. \\
+ALCE \citep{gao-etal-2023-enabling} & Evaluates answer quality and citation quality in end-to-end retrieval and cited generation. & Citation presence, citation support, and factual correctness are distinct criteria. A plausible citation is not by itself evidence. \\
+LongEval \citep{krishna-etal-2023-longeval} & Studies fine-grained human judgments and partial annotation for long summaries. & Fine-grained annotation requires agreement and coverage reporting; partial annotation does not exhaustively verify all claims. \\
+FACTOR \citep{muhlgay-etal-2024-generating} & Transforms factual corpora into true versus false continuation choices. & Controlled factual choice evaluates a different task from open-ended generation and error localization. \\
+ReEval \citep{yu-etal-2024-reeval} & Perturbs evidence to create dynamic tests of evidence use under retrieval. & Static accuracy may reflect memorized knowledge rather than source adherence; counterfactual evidence requires an explicit faithfulness target. \\
+Core \citep{jiang-etal-2025-core} & Filters redundant or uninformative subclaims before factual precision aggregation. & Trivial repetitions can inflate precision; informativeness and coverage are complementary criteria. \\
+TRIVIA+ \citep{chen-etal-2026-rethinking-evaluation} & Adds long-context RAG detection data and controlled sample-dependent label noise. & Long-context and noisy-label tests complement evaluation on clean labels. \\
+RGB \citep{extrgb2024} & Separates noise robustness, negative rejection, information integration, and counterfactual robustness in English/Chinese RAG. & Retrieval conditions define distinct RAG abilities, not one interchangeable hallucination score. \\
+\bottomrule\end{tabularx}
+\caption{Additional benchmarks and evaluation protocols for hallucination in LLMs.}
+\label{tab:extra-evaluation}
+\end{table*}
+
+\begin{table*}[tp]
+\centering\small\setlength{\tabcolsep}{5pt}\renewcommand{\arraystretch}{1.18}
+\begin{tabularx}{\textwidth}{@{}p{.22\textwidth}p{.34\textwidth}X@{}}\toprule
+Study & Mechanism or evaluation design & Comparative implication and boundary \\\midrule
+WeCheck \citep{wu-etal-2023-wecheck} & Aggregates weak labels over actual generated samples, then learns a noise-aware classifier. & Supervision quality and error distribution distinguish a learned consistency model from zero-shot entailment. \\
+FactKB \citep{feng-etal-2023-factkb} & Uses knowledge-base factual pretraining with entity/relation objectives for factuality evaluation. & Structured supervision targets relation errors; broader transfer requires separate evidence. \\
+TrueTeacher \citep{gekhman-etal-2023-trueteacher} & Uses LLM-labeled model-generated summaries to train a smaller consistency evaluator. & Distillation trades annotation cost for teacher-label dependence; generated errors differ from artificial perturbations. \\
+FENICE \citep{scire-etal-2024-fenice} & Extracts atomic claims and aligns them to a source using natural language inference (NLI). & Local alignment improves interpretability, while claim extraction and entailment both remain possible error sources. \\
+FactReasoner \citep{marinescu-etal-2025-factreasoner} & Models evidence--claim logical relationships probabilistically after decomposition/retrieval. & Joint reasoning differs from independently verifying claims; its result still depends on evidence retrieval and relation estimates. \\
+Future context \citep{lee-etal-2026-enhancing} & Samples continuations and uses them as clues for black-box hallucination detection. & Generated continuations extend consistency checking without supplying independent external verification. \\
+FaithLens \citep{si-etal-2026-faithlens} & Trains detection and explanations using filtered synthetic data, supervised fine-tuning (SFT), and rule-based reinforcement learning. & Explanation quality and decision accuracy require separate validation; fluency alone does not establish explanation faithfulness. \\
+QASemConsistency \citep{cattan-etal-2026-localizing} & Decomposes claims into predicate--argument QA pairs for fine-grained support localization. & Semantic error localization supplies a finer target than response-level binary classification. \\
+\bottomrule\end{tabularx}
+\caption{Additional hallucination detection and explanation methods for LLMs.}
+\label{tab:extra-detection}
+\end{table*}
+
+\begin{table*}[tp]
+\centering\small\setlength{\tabcolsep}{5pt}\renewcommand{\arraystretch}{1.18}
+\begin{tabularx}{\textwidth}{@{}p{.22\textwidth}p{.34\textwidth}X@{}}\toprule
+Study & Mechanism or evaluation design & Comparative implication and boundary \\\midrule
+Factual confidence \citep{mahaut-etal-2024-factual} & Compares confidence estimators and checks stability under meaning-preserving input changes. & Confidence can be unstable across paraphrases; access and supervision requirements differ. \\
+New-knowledge fine-tuning \citep{gekhman-etal-2024-fine} & Controlled closed-book QA experiments vary the amount of unfamiliar factual information in SFT. & The findings motivate knowledge-aware supervision within the studied fine-tuning setup. \\
+Known facts \citep{jiang-etal-2024-large} & Examines layer-wise prediction dynamics when questions about the same fact yield correct versus incorrect answers. & Errors can reflect knowledge access rather than absence; measured patterns do not prove universal causal mechanisms. \\
+Lost in the Middle \citep{liu-etal-2024-lost} & Evaluates how position of relevant evidence affects long-context use. & Evidence being present is insufficient for reliable use; its tasks are not themselves a comprehensive hallucination taxonomy. \\
+Hidden-state limits \citep{servedio-etal-2025-hidden} & Tests factuality encoding on more realistic, model-dependent generated data. & Accuracy on synthetic true/false facts does not establish probe generalization to target-model outputs. \\
+Unfamiliar supervision \citep{kang-etal-2025-unfamiliar} & Relates hallucination response patterns to supervision of unfamiliar fine-tuning examples, including reward-model errors. & Factuality alignment depends on how unknowns and reward errors are labeled. \\
+Illusion of Progress \citep{janiak-etal-2025-illusion} & Examines lexical-overlap labels and response-length heuristics in detector evaluation. & Semantic validation and simple baselines remain necessary; an LLM judge is not automatically a gold standard. \\
+CoT obscures cues \citep{cheng-etal-2025-chain} & Measures how reasoning prompts shift hidden/probability signals and detector effectiveness. & A generation intervention shifts the detector's input distribution, making calibration transfer uncertain. \\
+Hallucination tax \citep{song-etal-2025-hallucination} & Studies refusal degradation after reinforcement fine-tuning, primarily on unanswerable mathematics, with reported transfer to factual QA. & Evidence is not a universal result for every factual-generation task. \\
+Source preferences \citep{schuster-etal-2026-whose} & Controlled synthetic-source study of source preferences and repetition in conflicting English evidence. & Frequency and source cues influence conflict resolution; synthetic-source preference is not proof of real-world source credibility. \\
+\bottomrule\end{tabularx}
+\caption{Studies of hallucination mechanisms and reliability in LLMs.}
+\label{tab:extra-analysis}
+\end{table*}
+
+\begin{table*}[tp]
+\centering\small\setlength{\tabcolsep}{5pt}\renewcommand{\arraystretch}{1.18}
+\begin{tabularx}{\textwidth}{@{}p{.22\textwidth}p{.34\textwidth}X@{}}\toprule
+Study & Mechanism or evaluation design & Comparative implication and boundary \\\midrule
+FaithfulRAG \citep{zhang-etal-2025-faithfulrag} & Models fact-level conflicts between retrieved and parametric knowledge before response generation. & Explicit reconciliation complements source preference; source adherence and world correctness remain distinct. \\
+CoCoA \citep{khandelwal-etal-2025-cocoa} & Adapts token-level decoding using confidence/context distribution differences. & Adaptive and fixed contrast differ in conflict sensitivity; low-conflict behavior also matters. \\
+Context-DPO \citep{bi-etal-2025-context} & Constructs preferences from faithful versus stubborn responses under knowledge conflict. & A context-faithfulness objective differs from truthfulness with respect to external facts. \\
+\bottomrule\end{tabularx}
+\caption{Additional hallucination mitigation methods for LLMs.}
+\label{tab:extra-mitigation}
+\end{table*}

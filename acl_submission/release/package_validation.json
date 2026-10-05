@@ -1,0 +1,16 @@
+[
+  {
+    "package": "ACL_Anonymous_Source.zip",
+    "root": "main.tex",
+    "compile": "passed",
+    "main_pages": 8,
+    "total_pages": 23
+  },
+  {
+    "package": "ACL_Overleaf_Source.zip",
+    "root": "author_version.tex",
+    "compile": "passed",
+    "main_pages": 8,
+    "total_pages": 23
+  }
+]
