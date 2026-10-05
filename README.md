@@ -10,7 +10,7 @@ Completed coursework survey by **Xincheng Li, School of Computer Science, Univer
 
 ## Figures and logical structure
 
-Figures 1–2 retain the author's visual design with improved text size and line wrapping. Figure 3 remains unchanged. Figure 4 retains the supplied design with the corrected method label, “Attention-guided candidate selection”. Figure 1 is proportionally scaled to the right column of page 1; Figures 2–4 span both columns. The PNGs below are previews of those exact PDFs. Figure files, source provenance, and SHA-256 digests are in [manuscript/figures](manuscript/figures/manifest.json).
+Figures 1–2 use the author's final selected PDFs, copied byte-for-byte without modification. Figure 3 remains unchanged. Figure 4 retains the supplied design with the corrected method label, “Attention-guided candidate selection”. Figure 1 is proportionally scaled to the right column of page 1; Figures 2–4 span both columns. The PNGs below are previews of those exact PDFs. Figure files, source provenance, and SHA-256 digests are in [manuscript/figures](manuscript/figures/manifest.json).
 
 1. **Fig. 1 — Examples:** defines unsupported versus contradicted source claims.
 2. **Fig. 2 — Survey structure:** navigates concepts, detection, evaluation, mitigation, and analysis.
@@ -24,7 +24,7 @@ Figures 1–2 retain the author's visual design with improved text size and line
 
 [Main-text benchmark table source](manuscript/sections/table1.tex) · [Current editable draw.io sources](manuscript/figures) · [ACL citation-label proof](bibliography/acl_label_proof/README.md)
 
-The editable sources for [Figure 1](manuscript/figures/Fig1_hallucination_examples.drawio), [Figure 2](manuscript/figures/Fig2_survey_structure.drawio), and [Figure 4](manuscript/figures/Fig4_causes_mitigation.drawio) were recovered from the supplied PDFs' embedded draw.io data and revised while preserving their visual design. The former top-level `figures/` directory has been removed from the repository; the final artwork remains under `manuscript/figures/`.
+The editable sources for [Figure 1](manuscript/figures/Fig1_hallucination_examples.drawio), [Figure 2](manuscript/figures/Fig2_survey_structure.drawio), and [Figure 4](manuscript/figures/Fig4_causes_mitigation.drawio) were recovered from the supplied PDFs' embedded draw.io data. Figures 1–2 match the author's final selected versions without edits; Figure 4 retains its previously documented label correction. The former top-level `figures/` directory has been removed from the repository; the final artwork remains under `manuscript/figures/`.
 
 World factuality and source faithfulness are distinct. Unsupported content is not necessarily false in the world; faithful use of false evidence can still produce false answers. Fig. 1 is constructed, not measured output. Fig. 4 is a mechanism synthesis, not a causal experiment. Visual-design sources are acknowledged together in Appendix A.
 

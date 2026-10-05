@@ -1,5 +1,9 @@
 # Final manuscript validation — 5 October 2026
 
+## Author-selected final Figures 1–2 (5 October 2026)
+
+The author explicitly selected `Fig1_hallucination_examples.pdf` and `Fig2_survey_structure.pdf` from the project root as final. The manuscript and release package now use those exact PDF bytes. Their SHA-256 digests are recorded in `manuscript/figures/manifest.json`. Companion editable sources are extracted from those PDFs' embedded XML without edits; previews are rendered from the same PDFs. This selection supersedes the Figure 1–2 font, wording, line-wrapping, and crop refinements described in the historical revision notes below. Manuscript prose, captions, table-caption placement, bibliography, and Figures 3–4 are unchanged in this update.
+
 ## Delivered scope
 
 The completed English survey is **Hallucination in Large Language Models: A Survey of Detection, Evaluation, and Mitigation**, by Xincheng Li, School of Computer Science, University of Auckland (xli798@aucklanduni.ac.nz). It uses the supplied ACL style without margin or font changes. The PDF has **18 pages: 7 main pages, 6 reference pages, and 5 appendix pages**. It reports no new experiments and does not claim exhaustive systematic coverage.

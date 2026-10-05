@@ -10,8 +10,8 @@
         <mxCell id="c1" parent="c92" style="rounded=0;absoluteArcSize=1;arcSize=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#a4ad00;strokeWidth=2.5;dashed=1;dashPattern=7 5;" value="" vertex="1">
           <mxGeometry height="426" width="1060" as="geometry" />
         </mxCell>
-        <mxCell id="c2" parent="c92" style="html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Comic Sans MS;fontSize=34;fontColor=#a4ad00;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;font-family:Comic Sans MS;font-size:34px;color:#a4ad00;font-weight:normal;&quot;&gt;Judgement Hallucination Examples&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="700" x="10.051724137931036" y="12.7" as="geometry" />
+        <mxCell id="c2" parent="c92" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Comic Sans MS;fontSize=27;fontColor=#a4ad00;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;&quot;&gt;&lt;span style=&quot;font-family:Comic Sans MS;font-weight:normal;font-style:normal;color:#a4ad00;&quot;&gt;Judgement Hallucination Examples&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="31.32" width="400.6909655172414" x="10.051724137931036" y="12.7" as="geometry" />
         </mxCell>
         <mxCell id="c93" parent="1" style="group;" value="" vertex="1">
           <mxGeometry height="315" width="360" x="42" y="97" as="geometry" />
@@ -19,26 +19,29 @@
         <mxCell id="c3" parent="c93" style="rounded=1;absoluteArcSize=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#f8f5ec;strokeColor=#c0b9a5;strokeWidth=1;dashed=0;dashPattern=7 5;" value="" vertex="1">
           <mxGeometry height="315" width="360" as="geometry" />
         </mxCell>
-        <mxCell id="c4" parent="c93" style="html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Comic Sans MS;fontSize=30;fontColor=#555147;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;font-family:Comic Sans MS;font-size:30px;color:#555147;font-weight:bold;&quot;&gt;Library record&lt;/div&gt;" vertex="1">
-          <mxGeometry height="34.8" width="334" x="16" y="9.3" as="geometry" />
+        <mxCell id="c4" parent="c93" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Comic Sans MS;fontSize=23;fontColor=#555147;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;&quot;&gt;&lt;span style=&quot;font-family:Comic Sans MS;font-weight:bold;font-style:normal;color:#555147;&quot;&gt;Source: library record&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26.68" width="256.012" x="16" y="9.3" as="geometry" />
         </mxCell>
-        <mxCell id="c5" parent="c93" style="html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Comic Sans MS;fontSize=32;fontColor=#000000;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;font-family:Comic Sans MS;font-size:32px;color:#000000;font-weight:normal;&quot;&gt;Northbridge Library&lt;/div&gt;" vertex="1">
-          <mxGeometry height="37.12" width="334" x="16" y="55" as="geometry" />
+        <mxCell id="c5" parent="c93" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Comic Sans MS;fontSize=22;fontColor=#000000;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;&quot;&gt;&lt;span style=&quot;font-family:Comic Sans MS;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;Northbridge Library opened in&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="25.52" width="317.65" x="16" y="43.2" as="geometry" />
         </mxCell>
-        <mxCell id="c6" parent="c93" style="html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Comic Sans MS;fontSize=32;fontColor=#000000;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;font-family:Comic Sans MS;font-size:32px;color:#000000;font-weight:normal;&quot;&gt;Opened: 2020.&lt;/div&gt;" vertex="1">
-          <mxGeometry height="37.12" width="334" x="16" y="99" as="geometry" />
+        <mxCell id="c6" parent="c93" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Comic Sans MS;fontSize=22;fontColor=#000000;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;&quot;&gt;&lt;span style=&quot;font-family:Comic Sans MS;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;2020.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="25.52" width="63.189" x="16" y="70.2" as="geometry" />
         </mxCell>
-        <mxCell id="c7" parent="c93" style="html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Comic Sans MS;fontSize=32;fontColor=#000000;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;font-family:Comic Sans MS;font-size:32px;color:#000000;font-weight:normal;&quot;&gt;12,000 books.&lt;/div&gt;" vertex="1">
-          <mxGeometry height="37.12" width="334" x="16" y="143" as="geometry" />
+        <mxCell id="c7" parent="c93" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Comic Sans MS;fontSize=22;fontColor=#000000;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;&quot;&gt;&lt;span style=&quot;font-family:Comic Sans MS;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;It holds 12,000 books.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="25.52" width="234.012" x="16" y="109.2" as="geometry" />
         </mxCell>
-        <mxCell id="c8" parent="c93" style="html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Comic Sans MS;fontSize=32;fontColor=#000000;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;font-family:Comic Sans MS;font-size:32px;color:#000000;font-weight:normal;&quot;&gt;Archive: second floor.&lt;/div&gt;" vertex="1">
-          <mxGeometry height="37.12" width="334" x="16" y="187" as="geometry" />
+        <mxCell id="c8" parent="c93" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Comic Sans MS;fontSize=22;fontColor=#000000;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;&quot;&gt;&lt;span style=&quot;font-family:Comic Sans MS;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;The archive is on the second&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="25.52" width="296.499" x="16" y="148.2" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" parent="c93" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Comic Sans MS;fontSize=22;fontColor=#000000;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;&quot;&gt;&lt;span style=&quot;font-family:Comic Sans MS;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;floor.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="25.52" width="60.396" x="16" y="175.2" as="geometry" />
         </mxCell>
         <mxCell id="c94" parent="1" style="group;" value="" vertex="1">
-          <mxGeometry height="48" width="499" x="484" y="71" as="geometry" />
+          <mxGeometry height="48" width="499" x="612" y="71" as="geometry" />
         </mxCell>
-        <mxCell id="c10" parent="c94" style="rounded=1;absoluteArcSize=1;arcSize=28;whiteSpace=wrap;html=1;fillColor=#fff1c5;strokeColor=none;strokeWidth=0;dashed=0;dashPattern=7 5;align=center;fontSize=32;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;font-family:Arial;font-size:32px;color:#000000;font-weight:normal;&quot;&gt;Is there a cafe in the library?&lt;/div&gt;" vertex="1">
-          <mxGeometry height="48" width="520" x="0" as="geometry" />
+        <mxCell id="c10" parent="c94" style="rounded=1;absoluteArcSize=1;arcSize=28;whiteSpace=wrap;html=1;fillColor=#fff1c5;strokeColor=none;strokeWidth=0;dashed=0;dashPattern=7 5;align=center;" value="&lt;span style=&quot;font-family: Arial; font-size: 23px; white-space: nowrap;&quot;&gt;Is there a cafe in the library?&lt;/span&gt;" vertex="1">
+          <mxGeometry height="48" width="313.89" x="78.11000000000001" as="geometry" />
         </mxCell>
         <mxCell id="c12" parent="1" style="ellipse;html=1;fillColor=#ffcf9f;strokeColor=#c87952;strokeWidth=2;" value="" vertex="1">
           <mxGeometry height="48" width="48" x="1011" y="71" as="geometry" />
@@ -95,13 +98,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="c95" parent="1" style="group;" value="" vertex="1">
-          <mxGeometry height="52" width="576" x="484" y="127" as="geometry" />
+          <mxGeometry height="52" width="355.53" x="494" y="127" as="geometry" />
         </mxCell>
         <mxCell id="c26" parent="c95" style="rounded=1;absoluteArcSize=1;arcSize=26;whiteSpace=wrap;html=1;fillColor=#f4f4f4;strokeColor=none;strokeWidth=0;dashed=0;dashPattern=7 5;" value="" vertex="1">
-          <mxGeometry height="52" width="576" as="geometry" />
+          <mxGeometry height="52" width="355.53" as="geometry" />
         </mxCell>
-        <mxCell id="c27" parent="c95" style="html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Arial;fontSize=32;fontColor=#00bd10;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;font-family:Arial;font-size:32px;color:#00bd10;font-weight:normal;&quot;&gt;Yes, there is a cafe in the library.&lt;/div&gt;" vertex="1">
-          <mxGeometry height="38" width="556" x="10" y="7" as="geometry" />
+        <mxCell id="c27" parent="c95" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Arial;fontSize=23;fontColor=#00bd10;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;&quot;&gt;&lt;span style=&quot;font-family:Arial;font-weight:normal;font-style:normal;color:#00bd10;&quot;&gt;Yes, there is a cafe in the library.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26.68" width="189.7679167559055" x="8.398346456692911" y="12.3" as="geometry" />
         </mxCell>
         <mxCell id="c30" parent="1" style="ellipse;html=1;fillColor=#ffcf9f;strokeColor=#c87952;strokeWidth=2;" value="" vertex="1">
           <mxGeometry height="48" width="48" x="1011" y="196" as="geometry" />
@@ -158,19 +161,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="c97" parent="1" style="group;" value="" vertex="1">
-          <mxGeometry height="52" width="576" x="484" y="252" as="geometry" />
+          <mxGeometry height="52" width="296.5" x="494" y="252" as="geometry" />
         </mxCell>
         <mxCell id="c44" parent="c97" style="rounded=1;absoluteArcSize=1;arcSize=26;whiteSpace=wrap;html=1;fillColor=#f4f4f4;strokeColor=none;strokeWidth=0;dashed=0;dashPattern=7 5;" value="" vertex="1">
-          <mxGeometry height="52" width="576" as="geometry" />
+          <mxGeometry height="52" width="296.5" as="geometry" />
         </mxCell>
-        <mxCell id="c45" parent="c97" style="html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Arial;fontSize=32;fontColor=#ff0098;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;font-family:Arial;font-size:32px;color:#ff0098;font-weight:normal;&quot;&gt;Yes, it holds 20,000 books.&lt;/div&gt;" vertex="1">
-          <mxGeometry height="38" width="556" x="10" y="7" as="geometry" />
+        <mxCell id="c45" parent="c97" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Arial;fontSize=23;fontColor=#ff0098;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;&quot;&gt;&lt;span style=&quot;font-family:Arial;font-weight:normal;font-style:normal;color:#ff0098;&quot;&gt;Yes, it holds 20,000 books.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26.68" width="130.82420472440944" x="7.003937007874015" y="12.3" as="geometry" />
         </mxCell>
         <mxCell id="c98" parent="1" style="group;align=right;" value="" vertex="1">
-          <mxGeometry height="48" width="499" x="484" y="321" as="geometry" />
+          <mxGeometry height="48" width="499" x="612" y="321" as="geometry" />
         </mxCell>
-        <mxCell id="c46" parent="c98" style="rounded=1;absoluteArcSize=1;arcSize=28;whiteSpace=wrap;html=1;fillColor=#fff1c5;strokeColor=none;strokeWidth=0;dashed=0;dashPattern=7 5;fontSize=32;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;font-family:Arial;font-size:32px;color:#000000;font-weight:normal;&quot;&gt;Is the archive on the first floor?&lt;/div&gt;" vertex="1">
-          <mxGeometry height="48" width="520" x="0" as="geometry" />
+        <mxCell id="c46" parent="c98" style="rounded=1;absoluteArcSize=1;arcSize=28;whiteSpace=wrap;html=1;fillColor=#fff1c5;strokeColor=none;strokeWidth=0;dashed=0;dashPattern=7 5;" value="&lt;span style=&quot;font-family: Arial; font-size: 23px; text-align: left; white-space: nowrap;&quot;&gt;Is the archive on the first floor?&lt;/span&gt;" vertex="1">
+          <mxGeometry height="48" width="334.07" x="57.93000000000001" as="geometry" />
         </mxCell>
         <mxCell id="c48" parent="1" style="ellipse;html=1;fillColor=#ffcf9f;strokeColor=#c87952;strokeWidth=2;" value="" vertex="1">
           <mxGeometry height="48" width="48" x="1011" y="321" as="geometry" />
@@ -227,13 +230,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="c99" parent="1" style="group;" value="" vertex="1">
-          <mxGeometry height="52" width="576" x="484" y="377" as="geometry" />
+          <mxGeometry height="52" width="388.9" x="494" y="377" as="geometry" />
         </mxCell>
         <mxCell id="c62" parent="c99" style="rounded=1;absoluteArcSize=1;arcSize=26;whiteSpace=wrap;html=1;fillColor=#f4f4f4;strokeColor=none;strokeWidth=0;dashed=0;dashPattern=7 5;" value="" vertex="1">
-          <mxGeometry height="52" width="576" as="geometry" />
+          <mxGeometry height="52" width="388.9" as="geometry" />
         </mxCell>
-        <mxCell id="c63" parent="c99" style="html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Arial;fontSize=32;fontColor=#008eff;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;font-family:Arial;font-size:32px;color:#008eff;font-weight:normal;&quot;&gt;Yes, the archive is on the first floor.&lt;/div&gt;" vertex="1">
-          <mxGeometry height="38" width="556" x="10" y="7" as="geometry" />
+        <mxCell id="c63" parent="c99" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Arial;fontSize=23;fontColor=#008eff;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;&quot;&gt;&lt;span style=&quot;font-family:Arial;font-weight:normal;font-style:normal;color:#008eff;&quot;&gt;Yes, the archive is on the first floor.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26.68" width="222.44957511811023" x="9.186614173228346" y="12.3" as="geometry" />
         </mxCell>
         <mxCell id="c100" parent="1" style="group;" value="" vertex="1">
           <mxGeometry height="282" width="1060" x="20" y="451" as="geometry" />
@@ -241,32 +244,32 @@
         <mxCell id="c64" parent="c100" style="rounded=0;absoluteArcSize=1;arcSize=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#ff123b;strokeWidth=2.5;dashed=1;dashPattern=7 5;" value="" vertex="1">
           <mxGeometry height="282" width="1060" as="geometry" />
         </mxCell>
-        <mxCell id="c65" parent="c100" style="html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Comic Sans MS;fontSize=34;fontColor=#ff123b;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;font-family:Comic Sans MS;font-size:34px;color:#ff123b;font-weight:normal;&quot;&gt;Description Hallucination Examples&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="700" x="10.051724137931036" y="13.7" as="geometry" />
+        <mxCell id="c65" parent="c100" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Comic Sans MS;fontSize=27;fontColor=#ff123b;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;&quot;&gt;&lt;span style=&quot;font-family:Comic Sans MS;font-weight:normal;font-style:normal;color:#ff123b;&quot;&gt;Description Hallucination Examples&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="31.32" width="405.521275862069" x="10.051724137931036" y="13.7" as="geometry" />
         </mxCell>
         <mxCell id="c101" parent="1" style="group;" value="" vertex="1">
-          <mxGeometry height="218" width="360" x="42" y="508" as="geometry" />
+          <mxGeometry height="202" width="360" x="42" y="513" as="geometry" />
         </mxCell>
         <mxCell id="c66" parent="c101" style="rounded=1;absoluteArcSize=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#f8f5ec;strokeColor=#c0b9a5;strokeWidth=1;dashed=0;dashPattern=7 5;" value="" vertex="1">
-          <mxGeometry height="218" width="360" as="geometry" />
+          <mxGeometry height="202" width="360" as="geometry" />
         </mxCell>
-        <mxCell id="c67" parent="c101" style="html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Comic Sans MS;fontSize=30;fontColor=#555147;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;font-family:Comic Sans MS;font-size:30px;color:#555147;font-weight:bold;&quot;&gt;Delivery note&lt;/div&gt;" vertex="1">
-          <mxGeometry height="34.8" width="334" x="16" y="8" as="geometry" />
+        <mxCell id="c67" parent="c101" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Comic Sans MS;fontSize=23;fontColor=#555147;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;&quot;&gt;&lt;span style=&quot;font-family:Comic Sans MS;font-weight:bold;font-style:normal;color:#555147;&quot;&gt;Source: delivery note&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26.68" width="244.399" x="16" y="9.3" as="geometry" />
         </mxCell>
-        <mxCell id="c68" parent="c101" style="html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Comic Sans MS;fontSize=30;fontColor=#000000;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;font-family:Comic Sans MS;font-size:30px;color:#000000;font-weight:normal;&quot;&gt;200 books arrived&lt;/div&gt;" vertex="1">
-          <mxGeometry height="34.8" width="334" x="16" y="48" as="geometry" />
+        <mxCell id="c68" parent="c101" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Comic Sans MS;fontSize=22;fontColor=#000000;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;&quot;&gt;&lt;span style=&quot;font-family:Comic Sans MS;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;200 books arrived Monday.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="25.52" width="280.644" x="16" y="43.2" as="geometry" />
         </mxCell>
-        <mxCell id="c69" parent="c101" style="html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Comic Sans MS;fontSize=30;fontColor=#000000;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;font-family:Comic Sans MS;font-size:30px;color:#000000;font-weight:normal;&quot;&gt;Monday.&lt;/div&gt;" vertex="1">
-          <mxGeometry height="34.8" width="334" x="16" y="79" as="geometry" />
+        <mxCell id="c69" parent="c101" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Comic Sans MS;fontSize=22;fontColor=#000000;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;&quot;&gt;&lt;span style=&quot;font-family:Comic Sans MS;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;Sorting: Tuesday. Cataloguing:&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="25.52" width="313.891" x="16" y="70.2" as="geometry" />
         </mxCell>
-        <mxCell id="c70" parent="c101" style="html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Comic Sans MS;fontSize=30;fontColor=#000000;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;font-family:Comic Sans MS;font-size:30px;color:#000000;font-weight:normal;&quot;&gt;Sorting: Tuesday.&lt;/div&gt;" vertex="1">
-          <mxGeometry height="34.8" width="334" x="16" y="110" as="geometry" />
+        <mxCell id="c70" parent="c101" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Comic Sans MS;fontSize=22;fontColor=#000000;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;&quot;&gt;&lt;span style=&quot;font-family:Comic Sans MS;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;Wednesday.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="25.52" width="127.234" x="16" y="97.2" as="geometry" />
         </mxCell>
         <mxCell id="c102" parent="1" style="group;" value="" vertex="1">
-          <mxGeometry height="48" width="501" x="484" y="507" as="geometry" />
+          <mxGeometry height="48" width="501" x="610" y="507" as="geometry" />
         </mxCell>
-        <mxCell id="c71" parent="c102" style="rounded=1;absoluteArcSize=1;arcSize=28;whiteSpace=wrap;html=1;fillColor=#fff1c5;strokeColor=none;strokeWidth=0;dashed=0;dashPattern=7 5;fontSize=32;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;font-family:Arial;font-size:32px;color:#000000;font-weight:normal;&quot;&gt;Summarize the delivery note.&lt;/div&gt;" vertex="1">
-          <mxGeometry height="48" width="520" x="0" as="geometry" />
+        <mxCell id="c71" parent="c102" style="rounded=1;absoluteArcSize=1;arcSize=28;whiteSpace=wrap;html=1;fillColor=#fff1c5;strokeColor=none;strokeWidth=0;dashed=0;dashPattern=7 5;" value="&lt;span style=&quot;font-family: Arial; font-size: 23px; text-align: left; white-space: nowrap;&quot;&gt;Summarize the delivery note.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="48" width="313.89" x="80.11000000000001" as="geometry" />
         </mxCell>
         <mxCell id="c73" parent="1" style="ellipse;html=1;fillColor=#ffcf9f;strokeColor=#c87952;strokeWidth=2;" value="" vertex="1">
           <mxGeometry height="48" width="48" x="1011" y="507" as="geometry" />
@@ -322,26 +325,20 @@
             <mxPoint x="459" y="614" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c28" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=28;whiteSpace=wrap;html=1;fillColor=#fff1c5;strokeColor=none;strokeWidth=0;dashed=0;dashPattern=7 5;align=center;fontSize=32;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;font-family:Arial;font-size:32px;color:#000000;font-weight:normal;&quot;&gt;Does it hold 20,000 books?&lt;/div&gt;" vertex="1">
-          <mxGeometry height="48" width="520" x="484" y="196" as="geometry" />
+        <mxCell id="c28" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=28;whiteSpace=wrap;html=1;fillColor=#fff1c5;strokeColor=none;strokeWidth=0;dashed=0;dashPattern=7 5;align=center;" value="&lt;span style=&quot;font-family: Arial; font-size: 23px; white-space: nowrap;&quot;&gt;Does it hold 20,000 books?&lt;/span&gt;" vertex="1">
+          <mxGeometry height="48" width="301.85" x="702.15" y="196" as="geometry" />
         </mxCell>
         <mxCell id="c87" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=28;whiteSpace=wrap;html=1;fillColor=#f4f4f4;strokeColor=none;strokeWidth=0;dashed=0;dashPattern=7 5;" value="" vertex="1">
-          <mxGeometry height="128" width="576" x="484" y="572" as="geometry" />
+          <mxGeometry height="128" width="486" x="494" y="572" as="geometry" />
         </mxCell>
-        <mxCell id="c88" parent="1" style="html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Arial;fontSize=32;fontColor=#000000;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;font-size:32px;&quot;&gt;&lt;span style=&quot;font-family:Arial;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;On &lt;/span&gt;&lt;span style=&quot;font-family:Arial;font-weight:normal;font-style:normal;color:#ff0098;&quot;&gt;Tuesday&lt;/span&gt;&lt;span style=&quot;font-family:Arial;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;, it received &lt;/span&gt;&lt;span style=&quot;font-family:Arial;font-weight:normal;font-style:normal;color:#ff0098;&quot;&gt;500 books&lt;/span&gt;&lt;span style=&quot;font-family:Arial;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;.&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="38" width="550" x="496" y="577" as="geometry" />
+        <mxCell id="c88" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Arial;fontSize=23;fontColor=#000000;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;&quot;&gt;&lt;span style=&quot;font-family:Arial;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;On &lt;/span&gt;&lt;span style=&quot;font-family:Arial;font-weight:normal;font-style:normal;color:#ff0098;&quot;&gt;Tuesday&lt;/span&gt;&lt;span style=&quot;font-family:Arial;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;, the library received &lt;/span&gt;&lt;span style=&quot;font-family:Arial;font-weight:normal;font-style:normal;color:#ff0098;&quot;&gt;500 books&lt;/span&gt;&lt;span style=&quot;font-family:Arial;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26.68" width="455.296" x="511" y="584.3" as="geometry" />
         </mxCell>
-        <mxCell id="c89" parent="1" style="html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Arial;fontSize=32;fontColor=#000000;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;font-size:32px;&quot;&gt;&lt;span style=&quot;font-family:Arial;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;The books came &lt;/span&gt;&lt;span style=&quot;font-family:Arial;font-weight:normal;font-style:normal;color:#00bd10;&quot;&gt;from a university&lt;/span&gt;&lt;span style=&quot;font-family:Arial;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;.&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="38" width="550" x="496" y="620" as="geometry" />
+        <mxCell id="c89" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Arial;fontSize=23;fontColor=#000000;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;&quot;&gt;&lt;span style=&quot;font-family:Arial;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;The books came &lt;/span&gt;&lt;span style=&quot;font-family:Arial;font-weight:normal;font-style:normal;color:#00bd10;&quot;&gt;from a university&lt;/span&gt;&lt;span style=&quot;font-family:Arial;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26.68" width="355.525" x="511" y="618.3" as="geometry" />
         </mxCell>
-        <mxCell id="c90" parent="1" style="html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Arial;fontSize=31;fontColor=#008eff;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;font-size:31px;&quot;&gt;&lt;span style=&quot;font-family:Arial;font-weight:normal;font-style:normal;color:#008eff;&quot;&gt;Cataloguing happened before sorting&lt;/span&gt;&lt;span style=&quot;font-family:Arial;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;.&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="38" width="550" x="496" y="663" as="geometry" />
-        </mxCell>
-        <mxCell id="delivery_cataloguing" parent="c101" style="html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Comic Sans MS;fontSize=30;fontColor=#000000;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;font-family:Comic Sans MS;font-size:30px;color:#000000;font-weight:normal;&quot;&gt;Cataloguing:&lt;/div&gt;" vertex="1">
-          <mxGeometry height="34.8" width="334" x="16" y="141" as="geometry" />
-        </mxCell>
-        <mxCell id="delivery_wednesday" parent="c101" style="html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Comic Sans MS;fontSize=30;fontColor=#000000;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;font-family:Comic Sans MS;font-size:30px;color:#000000;font-weight:normal;&quot;&gt;Wednesday.&lt;/div&gt;" vertex="1">
-          <mxGeometry height="34.8" width="334" x="16" y="172" as="geometry" />
+        <mxCell id="c90" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;overflow=visible;spacing=0;fontFamily=Arial;fontSize=23;fontColor=#008eff;rotation=0;" value="&lt;div style=&quot;white-space:nowrap;line-height:1;&quot;&gt;&lt;span style=&quot;font-family:Arial;font-weight:normal;font-style:normal;color:#008eff;&quot;&gt;Cataloguing happened before sorting&lt;/span&gt;&lt;span style=&quot;font-family:Arial;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26.68" width="388.902" x="511" y="653.3" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

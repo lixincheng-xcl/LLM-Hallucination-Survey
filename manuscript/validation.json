@@ -23,9 +23,9 @@
   "undefined_citations_or_references": 0,
   "figure1_placement": {
     "x_pt": 306.142,
-    "y_pt": 474.787,
-    "width_pt": 218.2581312,
-    "height_pt": 147.19416
+    "y_pt": 478.873,
+    "width_pt": 218.2554753064,
+    "height_pt": 143.10744
   },
   "figure1_proportional_single_column": true,
   "github_link_only_in_abstract_final_sentence": true,
@@ -37,7 +37,7 @@
   "literature_snapshot": "2026-09-15",
   "overfull_boxes": 0,
   "user_figure_hashes": "all match manifest",
-  "pdf_sha256": "daa9c76d0fd5fab2aab749b9e1dfdb8cf0a8c0916810c53707218bbbef1ca66c",
+  "pdf_sha256": "7dd4e43a6717586603617430c5de1f026d3e45d08124fb433bf2b54fcbb26ab9",
   "compiler": "pdfTeX / BibTeX, TeX Live 2026; unmodified supplied ACL style",
   "checks": "Structural/citation checks; visual review is recorded separately."
 }
