@@ -1,4 +1,4 @@
-# Final manuscript validation — 4 October 2026
+# Final manuscript validation — 5 October 2026
 
 ## Delivered scope
 
@@ -68,3 +68,7 @@ The original TruthfulQA protocol now distinguishes generation, MC1 accuracy, and
 The main paper now includes a compact method-comparison table derived from the full appendix resource table. One within-study Llama 65B biography comparison from CoVe reports both FActScore (55.9 to 71.4) and mean fact count (16.6 to 12.3), without treating it as a causal length ablation. Section 4 explains metric choice and the common reference-frame axis behind both branches of Figure 3. The introduction states representative-selection criteria; Appendix A describes explicit coding choices without claiming complete reproducibility. Repeated prose was condensed to retain seven main pages, with no change to ACL body font size or margins.
 
 Figures 1 and 2 have revised native draw.io sources recovered from the supplied PDFs. Their natural crop dimensions preserve proportional placement while reducing unused space. Figure 1 uses shorter source-card wording with the same facts and error relations. Figure 2 retains all 58 citation instances and 55 distinct citation labels; method names and author-year labels no longer split across lines.
+
+## ACL table-caption placement (5 October 2026)
+
+All eight table captions now follow their table bodies, consistent with the supplied and official ACL template examples. Table 1 retains its explanatory note between the table body and caption. Caption wording, labels, body content, numbering, and ACL caption typography are unchanged. The main tables remain on pages 4 and 6; appendix Tables 3–8 remain on pages 15–18. The paper still has seven main pages and eighteen total pages, with no unresolved references or overfull boxes. The validator now checks caption and label placement for every table.

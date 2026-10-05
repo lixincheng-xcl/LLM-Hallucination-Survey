@@ -19,6 +19,7 @@
     "1": 4,
     "2": 6
   },
+  "table_captions_below_table_body": 8,
   "undefined_citations_or_references": 0,
   "figure1_placement": {
     "x_pt": 306.142,
@@ -36,7 +37,7 @@
   "literature_snapshot": "2026-09-15",
   "overfull_boxes": 0,
   "user_figure_hashes": "all match manifest",
-  "pdf_sha256": "dddb39aa57d71ad684f669a2f0a35306e73a062026da8ffe2b490730edf111e2",
+  "pdf_sha256": "daa9c76d0fd5fab2aab749b9e1dfdb8cf0a8c0916810c53707218bbbef1ca66c",
   "compiler": "pdfTeX / BibTeX, TeX Live 2026; unmodified supplied ACL style",
   "checks": "Structural/citation checks; visual review is recorded separately."
 }

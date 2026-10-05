@@ -16,8 +16,6 @@ Table~\ref{tab:benchmark-caveats} supplies the counting and interpretation detai
 \begin{table*}[tp]
 \centering\small
 \setlength{\tabcolsep}{5pt}\renewcommand{\arraystretch}{1.14}
-\caption{Evaluation units, protocols, and limitations of the benchmarks in Table~\ref{tab:hallucination-benchmarks}.}
-\label{tab:benchmark-caveats}
 \begin{tabularx}{\textwidth}{@{}p{.17\textwidth}X@{}}\toprule
 Benchmark & Unit, protocol, and limitation \\\midrule
 TruthfulQA & The original 2022 benchmark contains 817 questions. Generation measures truthfulness/informativeness; MC1 measures single-true accuracy, and MC2 normalized probability mass assigned to true answers. The \href{https://github.com/sylinrl/TruthfulQA}{official January 2025 update} introduced two-option choices and revised the question set. Report the dataset version and MC protocol separately; answer selection is not detector classification. \\
@@ -30,6 +28,8 @@ HALoGEN & The 10,923 prompts cover all nine domains, including programming. That
 FaithBench & The 750 summaries derive from 75 passages and ten models, selected using detector disagreement. This supports difficult-case detector analysis; error frequencies are conditional on selection, not population prevalence. \\
 FactBench & The 1,000-prompt snapshot uses user-derived prompts and fine-grained verification. Supported, unsupported, and undecidable units require explicit aggregation rules. A dynamic benchmark needs a fixed version for reproducible comparisons. \\
 \bottomrule\end{tabularx}
+\caption{Evaluation units, protocols, and limitations of the benchmarks in Table~\ref{tab:hallucination-benchmarks}.}
+\label{tab:benchmark-caveats}
 \end{table*}
 
 \section{Supplementary Comparative Evidence}\label{app:comparisons}
@@ -42,8 +42,6 @@ The following protocol is a synthesis of the comparisons in Sections~\ref{sec:de
 
 \begin{table*}[tp]
 \centering\small\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.14}
-\caption{Access requirements and computational resources of representative methods. Resource descriptions are qualitative and do not imply measured cost rankings.}
-\label{tab:access}
 \begin{tabularx}{\textwidth}{@{}p{.17\textwidth}p{.24\textwidth}p{.25\textwidth}X@{}}\toprule
 Family / example & Required access or supervision & Principal extra resource & Important boundary \\\midrule
 Source alignment / AlignScore & Source and output text; trained auxiliary model & Verifier inference over chunks & Auxiliary-model errors and evidence truncation \\
@@ -59,6 +57,8 @@ Representation editing / TruthX & Hidden states and learned auxiliary components
 Verification / CoVe, CRITIC & Model calls; CRITIC also needs tools & Verification and revision rounds & Isolated prompts are not independent knowledge \\
 Selective generation / SEAL & Rejection-token training and regularized decoding & Training; altered answering behavior & Lower risk must be interpreted at matched coverage \\
 \bottomrule\end{tabularx}
+\caption{Access requirements and computational resources of representative methods. Resource descriptions are qualitative and do not imply measured cost rankings.}
+\label{tab:access}
 \end{table*}
 
 \subsection{Fix the target before selecting a metric}

@@ -49,6 +49,18 @@ for expected, key in enumerate(['hallucination-benchmarks', 'method-comparison']
     assert match and int(match[1]) == expected and int(match[2]) <= 7, (key, match)
     main_table_pages[str(expected)] = int(match[2])
 
+
+# Match the supplied ACL example: caption and label follow the table body.
+table_caption_count = 0
+for source in (M/'sections').glob('*.tex'):
+    for block in re.findall(r'\\begin\{table\*?\}.*?\\end\{table\*?\}', source.read_text(), re.S):
+        caption = block.index(r'\caption{')
+        table_end = max(block.rfind(r'\end{tabularx}'), block.rfind(r'\end{tabular}'))
+        label = block.index(r'\label{tab:')
+        assert table_end >= 0 and table_end < caption < label, source
+        table_caption_count += 1
+assert table_caption_count == 8, table_caption_count
+
 # Check the placed PDF form, not just the LaTeX width declaration.
 placements = []
 def inspect_form(operator, operands, cm, tm):
@@ -99,6 +111,7 @@ report = {'status':'passed','main_pages':7,'references_start_page':8,
           'research_references':86,'design_references':2,'total_references':88,
           'figure_citation_keys_checked':55,'figure_label_mismatches':0,
           'figures_on_pages':fig_pages,'main_tables_on_pages':main_table_pages,
+          'table_captions_below_table_body':table_caption_count,
           'undefined_citations_or_references':0,
           'figure1_placement':fig1,'figure1_proportional_single_column':True,
           'github_link_only_in_abstract_final_sentence':True,
