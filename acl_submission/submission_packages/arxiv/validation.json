@@ -1,0 +1,18 @@
+{
+  "venue": "arxiv",
+  "pdf": "arXiv_Paper.pdf",
+  "source_zip": "arXiv_Source.zip",
+  "main_pages": 8,
+  "total_pages": 23,
+  "references": 92,
+  "figure_labels_checked": 55,
+  "single_explicit_entry": "main.tex",
+  "compiled_bibliography_included": true,
+  "frozen_figure_pdfs_unchanged": true,
+  "all_pages_render_identical_to_reviewed_version": true,
+  "local_compiler": "pdfTeX/BibTeX, TeX Live 2026",
+  "platform_processing": "not performed",
+  "pdf_sha256": "689e2aab13f895b781d06098257d3989020bdc63bb02401b478d14a756c3a1d8",
+  "source_zip_sha256": "2de32f436be297f0c09f8b3bb6ef6577a27a97a9517d523ea91c11d136209204",
+  "fresh_zip_compile_without_bibtex": "passed"
+}

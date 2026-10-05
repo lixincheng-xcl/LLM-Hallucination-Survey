@@ -1,0 +1,12 @@
+arXiv 署名预印本投稿文件
+
+1. 上传 arXiv_Source.zip；主文件选择 main.tex，编译器选择 pdfLaTeX。
+2. arXiv_Paper.pdf 是本地编译的对照预览，不放入源码包。
+3. metadata.txt 提供可复制的题目、作者和摘要。分类建议 cs.CL。
+4. 源码包包含主文件、章节、四张最终 PDF 图、ACL 样式、BibTeX 和已生成的 main.bbl；只有一个 documentclass 入口，没有匿名版切换条件。
+5. 已在两个干净解压目录之一用 pdfLaTeX 连续编译，不依赖重新运行 BibTeX。与审核过的署名版本逐页渲染一致。
+6. 本地验证使用 TeX Live 2026，不等于已经通过 arXiv 服务器处理；上传后仍应检查平台生成 PDF。
+7. 包内不填造 journal reference、DOI、arXiv ID 或录用信息。尚未执行上传、发布、许可选择或推荐人流程。
+
+正文 8 页，总计 23 页；四张最终图和论文内容保持不变。
+官方文件要求：https://info.arxiv.org/help/submit_tex.html

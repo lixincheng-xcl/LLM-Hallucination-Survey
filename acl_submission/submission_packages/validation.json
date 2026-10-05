@@ -1,0 +1,38 @@
+[
+  {
+    "venue": "arxiv",
+    "pdf": "arXiv_Paper.pdf",
+    "source_zip": "arXiv_Source.zip",
+    "main_pages": 8,
+    "total_pages": 23,
+    "references": 92,
+    "figure_labels_checked": 55,
+    "single_explicit_entry": "main.tex",
+    "compiled_bibliography_included": true,
+    "frozen_figure_pdfs_unchanged": true,
+    "all_pages_render_identical_to_reviewed_version": true,
+    "local_compiler": "pdfTeX/BibTeX, TeX Live 2026",
+    "platform_processing": "not performed",
+    "pdf_sha256": "689e2aab13f895b781d06098257d3989020bdc63bb02401b478d14a756c3a1d8",
+    "source_zip_sha256": "2de32f436be297f0c09f8b3bb6ef6577a27a97a9517d523ea91c11d136209204",
+    "fresh_zip_compile_without_bibtex": "passed"
+  },
+  {
+    "venue": "acl_arr",
+    "pdf": "ACL_ARR_Anonymous.pdf",
+    "source_zip": "ACL_ARR_Anonymous_Source.zip",
+    "main_pages": 8,
+    "total_pages": 23,
+    "references": 92,
+    "figure_labels_checked": 55,
+    "single_explicit_entry": "main.tex",
+    "compiled_bibliography_included": true,
+    "frozen_figure_pdfs_unchanged": true,
+    "all_pages_render_identical_to_reviewed_version": true,
+    "local_compiler": "pdfTeX/BibTeX, TeX Live 2026",
+    "platform_processing": "not performed",
+    "pdf_sha256": "5782c53c32e8a0483bb504d72ace834fa1cbcbfec21e81c96cc00ae7191e3bea",
+    "source_zip_sha256": "4cb6804444c563de8a01460672b9e0f3478f919a740d05f6fe8953bb60aaba59",
+    "fresh_zip_compile_without_bibtex": "passed"
+  }
+]

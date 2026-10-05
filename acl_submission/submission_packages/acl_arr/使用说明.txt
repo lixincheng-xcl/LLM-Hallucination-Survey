@@ -1,0 +1,11 @@
+ACL / ARR 匿名评审投稿文件
+
+1. 在 ARR 的 Paper PDF 栏上传 ACL_ARR_Anonymous.pdf。
+2. 在补充材料栏上传 ACL_ARR_Anonymous_Supplement.zip；其中是匿名化审计记录、协议和原文定位。
+3. ACL_ARR_Anonymous_Source.zip 是可编辑与复编译源码，主文件只有 main.tex；不需要把它与 PDF 合并。若系统没有要求源码，可留作备份。
+4. submission_form_notes.txt 是作者填写后台表单时使用的提示，含作者身份信息；不要把这个文件或整个 acl_arr 文件夹当作匿名补充材料上传。
+5. 正文 8 页，总计 23 页（含 Limitations、伦理说明、参考文献和附录），保留评审行号，四张最终图不变。
+6. 匿名 PDF、源码和补充材料已查验姓名、学校、邮箱、个人仓库标识和本机路径。主文件不包含署名分支。
+7. 作者身份、ORCID、审稿服务安排、利益冲突、预印本状态和最终声明仍在正式表单中由作者确认。未向 ARR / ACL 提交。
+
+官方要求：https://aclrollingreview.org/cfp

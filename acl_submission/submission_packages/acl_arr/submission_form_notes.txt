@@ -1,0 +1,15 @@
+Author-side form notes — do not upload as anonymous supplementary material
+
+Title: When Do Hallucination Improvements Compose? A Survey of Detection, Evaluation, and Mitigation in LLMs
+Paper type: Long
+Contribution type (recommended): Surveys
+Area (recommended): Resources and Evaluation
+Author: Xincheng Li
+Affiliation: School of Computer Science, University of Auckland
+Email: xli798@aucklanduni.ac.nz
+ORCID / OpenReview profile / conflicts / service contributor: confirm in the live form
+Preprint status: disclose the existing public GitHub manuscript and any subsequent arXiv posting accurately
+Responsible NLP and AI assistance: use the prepared response draft, then confirm against the live questions
+
+Abstract:
+Hallucinations undermine the reliable use of large language models (LLMs), motivating methods that detect errors, evaluate factuality, and intervene in generation. Yet improvements in these components do not automatically establish that a combined system produces more reliable, useful answers. This survey examines the compatibility of their evidence. We first distinguish world factuality from source faithfulness and organize detection and mitigation by the information they use and the stage at which they operate. We then review benchmark targets and conduct a source-linked documentary audit of representative methods. The comparison shows why reported safeguards must be interpreted at their tested scope: fact counts do not measure required information, separate verification prompts do not establish independent judgment, and component evaluations need not characterize errors after intervention. We synthesize these distinctions into compatibility conditions covering reference frames, information retention, feedback-evaluation dependence, and residual-error validation, with computational access as a practical constraint. Finally, we outline prospective tests for detector-intervention combinations and identify the limits of the available evidence. The accompanying materials provide the extraction protocol and source-linked evidence records.

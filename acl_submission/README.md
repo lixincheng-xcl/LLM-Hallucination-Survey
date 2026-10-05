@@ -4,6 +4,10 @@
 
 Prepared 5 October 2026. This is a revised research draft, not a submitted or accepted paper. The original seven-page coursework release remains unchanged in `../manuscript/`.
 
+## Destination-specific submission packages
+
+Use the [separate arXiv and ACL/ARR packages](submission_packages/README.md) for uploading. Each source archive has exactly one explicit `main.tex` entry and a compiled bibliography; no anonymous/public switch is needed. The earlier dual-version Overleaf package below remains an editable master.
+
 ## Files
 
 - [Anonymous review PDF](release/ACL_Review_Anonymous.pdf)
